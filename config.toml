@@ -13,5 +13,5 @@ DefaultContentLanguage = "ja"
     weight = 1
   [languages.en]
     title = "DeFiGeek Community"
-    languageName = "English"
+    languageName = "EN"
     weight = 2
