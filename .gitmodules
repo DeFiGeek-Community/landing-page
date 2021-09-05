@@ -1,0 +1,3 @@
+[submodule "themes/azimuth-hugo"]
+	path = themes/azimuth-hugo
+	url = https://github.com/stackbit-themes/azimuth-hugo.git
