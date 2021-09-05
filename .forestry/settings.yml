@@ -11,7 +11,7 @@ sections:
   label: News
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: heading
   label: website
 - type: directory
@@ -19,9 +19,9 @@ sections:
   label: Pages
   create: documents
   match: "*"
-  new_doc_ext: ".md"
-upload_dir: static/uploads
-public_path: "/uploads"
+  new_doc_ext: md
+upload_dir: static/images
+public_path: "/public"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
