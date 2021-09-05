@@ -5,13 +5,11 @@ sections:
     type: section_hero
     image: images/hero.png
     image_alt: App preview
-    title: This Is A Big Hero Headline
+    title: DeFiGeek Community
     content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site.
     actions:
       - label: Learn More
-        url: /features
+        url: en/features
         style: primary
   - section_id: features
     type: section_features
@@ -30,7 +28,7 @@ sections:
           consequat ex.
         actions:
           - label: Learn More
-            url: /features
+            url: en/features
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -44,7 +42,7 @@ sections:
           auctor.
         actions:
           - label: Learn More
-            url: /features
+            url: en/features
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -58,7 +56,7 @@ sections:
           amet nec urna.
         actions:
           - label: Learn More
-            url: /features
+            url: en/features
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -96,7 +94,7 @@ sections:
     subtitle: This is an optional description for the call to action block.
     actions:
       - label: Get Started
-        url: /signup
+        url: en/signup
         style: primary
   - section_id: recent-posts
     type: section_posts
