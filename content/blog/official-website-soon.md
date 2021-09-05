@@ -1,30 +1,26 @@
 ---
-title: Release Notes - Azimuth Improvements and New Integrations
+title: オフィシャルサイト構築中！
 subtitle: >-
-  Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa
-  massa primis.
-author: data/authors/john-doe.json
+  プロダクトも財務も広報もみんなすごいよ！
 excerpt: >-
   Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan
   sapien blandit ac amet faucibus aliquet placerat commodo.
 date: '2017-03-26'
 thumb_image: images/1_thumb.jpg
 seo:
-  title: Release Notes - Azimuth Improvements and New Integrations
+  title: オフィシャルサイト構築中！
   description: >-
-    Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa
-    massa primis.
+    プロダクトも財務も広報もみんなすごいよ！
   extra:
     - name: 'og:type'
       value: article
       keyName: property
     - name: 'og:title'
-      value: Release Notes - Azimuth Improvements and New Integrations
+      value: オフィシャルサイト構築中！
       keyName: property
     - name: 'og:description'
       value: >-
-        Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum
-        massa massa primis.
+        プロダクトも財務も広報もみんなすごいよ！
       keyName: property
     - name: 'og:image'
       value: images/1.jpg
@@ -33,11 +29,10 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Release Notes - Azimuth Improvements and New Integrations
+      value: オフィシャルサイト構築中！
     - name: 'twitter:description'
       value: >-
-        Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum
-        massa massa primis.
+        プロダクトも財務も広報もみんなすごいよ！
     - name: 'twitter:image'
       value: images/1.jpg
       relativeUrl: true
