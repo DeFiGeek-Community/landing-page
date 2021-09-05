@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ✨ Azimuth - Hugo ✨
 
 This is a [Hugo](https://gohugo.io) theme using Git as a CMS. It was created with [Stackbit](https://www.stackbit.com?utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) in under a minute.
@@ -67,3 +68,6 @@ If you need a hand, make sure to check the [Stackbit support page](https://stack
 ## Colophon
 
 Generated at `2021-07-13T20:45:05.670Z` by Stackbit version `0.3.53`.
+=======
+# dfgc-proto5
+>>>>>>> origin/main
