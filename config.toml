@@ -1,4 +1,17 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = azimuth-hugo
+baseURL = 'http://dfgc.xyz/'
+languageCode = 'ja-JP'
+title = 'DeFiGeek Community'
+theme = "azimuth-hugo"
+
+# language
+DefaultContentLanguage = "ja"
+
+[languages]
+  [languages.ja]
+    title = "DeFiGeek コミュニティ"
+    languageName = "JP"
+    weight = 1
+  [languages.en]
+    title = "DeFiGeek Community"
+    languageName = "English"
+    weight = 2

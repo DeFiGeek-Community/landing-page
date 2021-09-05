@@ -1,0 +1,12 @@
+title: DeFiGeek Community
+baseURL: /
+taxonomies:
+  stub: stub
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
