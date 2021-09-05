@@ -76,7 +76,7 @@
                         "url": "https://discord.com/FQYXqVBEnh",
                         "style": "link",
                         "has_icon": true,
-                        "icon": "linkedin",
+                        "icon": "arrow-right",
                         "icon_position": "left"
                     },
                     {
@@ -91,7 +91,7 @@
                         "label": "フォーラム",
                         "url": "https://vote.defigeek.xyz/#/",
                         "style": "link",
-                        "has_icon": true,
+                        "has_icon": false,
                         "icon": "",
                         "icon_position": "left"
                     }
