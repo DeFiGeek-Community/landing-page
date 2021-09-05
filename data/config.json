@@ -86,6 +86,14 @@
                         "has_icon": true,
                         "icon": "github",
                         "icon_position": "left"
+                    },
+                    {
+                        "label": "フォーラム",
+                        "url": "https://vote.defigeek.xyz/#/",
+                        "style": "link",
+                        "has_icon": true,
+                        "icon": "",
+                        "icon_position": "left"
                     }
                 ]
             },
