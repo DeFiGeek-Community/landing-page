@@ -18,9 +18,9 @@
                 "style": "link"
             },
             {
-                "label": "Sign Up",
-                "url": "/signup",
-                "style": "primary"
+                "label": "English",
+                "url": "/en",
+                "style": "secondary"
             }
         ]
     },
