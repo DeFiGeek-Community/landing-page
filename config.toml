@@ -1,4 +1,4 @@
-baseURL = 'http://dfgc.xyz/'
+baseURL = 'https://vigorous-lovelace-82290c.netlify.app/'
 languageCode = 'ja-JP'
 title = 'DeFiGeek Community'
 theme = "azimuth-hugo"
