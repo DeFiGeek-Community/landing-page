@@ -1,32 +1,45 @@
 ---
-title: Sign Up
+title: 参加する
 subtitle: >-
-  This is an optional subtitle. It can be used to describe what this page is
-  about.
+  日本を代表するDeFi Dapps開発チームに参加してみませんか？
 image: images/11.jpg
 image_alt: Office desk top view
 seo:
-  title: Sign Up
-  description: This is the sign up page
+  title: 参加する
+  description: 日本を代表するDeFi Dapps開発チームに参加してみませんか？
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Sign Up
+      value: 参加する
       keyName: property
     - name: 'og:description'
-      value: This is the sign up page
+      value: 日本を代表するDeFi Dapps開発チームに参加してみませんか？
       keyName: property
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Sign Up
+      value: 参加する
     - name: 'twitter:description'
-      value: This is the sign up page
+      value: 日本を代表するDeFi Dapps開発チームに参加してみませんか？
 layout: page
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus quis lorem malesuada luctus. Cras lacinia, eros at dapibus molestie, risus tortor pretium ligula, eu malesuada tortor eros dapibus mi. Proin laoreet efficitur suscipit. Donec molestie volutpat euismod. Nulla gravida ligula in eros facilisis, sed dignissim tellus aliquam. Etiam convallis enim nisi, at suscipit tortor pulvinar at. Nulla a interdum lacus. Sed a porttitor mi. Sed at risus eu orci ultricies mattis sed in tellus. Cras nec neque sed dui vehicula iaculis id vel ex. Phasellus non consectetur augue. Pellentesque condimentum sapien arcu, nec tempus nunc maximus eu. Duis blandit risus nulla. In dolor dui, placerat non finibus sit amet, venenatis pretium tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+## メンバー募集
 
-Nunc a lorem tellus. Aenean eu auctor purus. Cras pulvinar, nunc at sagittis dignissim, orci elit auctor leo, et consectetur est turpis a nunc. Vivamus in faucibus felis. Aenean rutrum magna at ex auctor, congue efficitur ligula feugiat. Proin a egestas arcu. Etiam feugiat turpis quis mollis pellentesque. Sed posuere luctus tortor, a eleifend augue varius sit amet. Integer ultrices neque sed quam dictum, quis vestibulum justo volutpat. Nam vitae tempus leo, ut mattis mi.
+### 開発者
+
+- スマートコントラクト
+- Web3フロントエンド
+
+## デザイナー
+
+## 財務
+
+## 広報
+
+上記に限らず様々な分野のメンバーがコントリビュータとして活動しています。詳しくはこちらのドキュメントをご覧ください。
+
+[DeFiGeekドキュメント](https://docs.defigeek.xyz)
+

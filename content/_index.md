@@ -14,18 +14,15 @@ sections:
   - section_id: features
     type: section_features
     background: gray
-    title: Features
+    title: What's DFGC
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      DeFiGeek Community (DFGC) は、DeFiを愛するユーザが集まった分散型の開発コミュニティです。
     features:
-      - title: The Best Feature of Your Services
+      - title: Dapps開発
         image: images/feature1.png
         image_alt: App preview on a phone and tablet
         content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
+          DeFiGeek Communityでは、複数の分散型金融アプリケーションの構築を進めています。
         actions:
           - label: Learn More
             url: /features
@@ -33,13 +30,11 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-      - title: Awesome Feature of Your Services
+      - title: DAO：自律分散型コミュニティ
         image: images/feature2.png
         image_alt: App users welcoming a new member
         content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
+          私たちはコミュニティとしてのあらゆる行動の合意に”投票”を使います。誰もが自由に発議でき、行動はコミュニティの合意で決まります。
         actions:
           - label: Learn More
             url: /features
@@ -47,13 +42,11 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-      - title: Cool Feature of Your Services
+      - title: DeFiサポート
         image: images/feature3.png
         image_alt: App user profile preview
         content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
+          DeFiに関する業界の正しい認識の共有、初心者DeFierの支援も私たちの活動の1つです。
         actions:
           - label: Learn More
             url: /features
@@ -61,48 +54,21 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-  - section_id: reviews
-    type: section_reviews
-    background: white
-    title: Testimonials
-    subtitle: >-
-      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales.
-    reviews:
-      - author: Eric Widget
-        avatar: images/review1.jpg
-        avatar_alt: Eric Widget's photo
-        content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Parsley Montana
-        avatar: images/review2.jpg
-        avatar_alt: Parsley Montana's photo
-        content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
-      - author: Jonquil Von Haggerston
-        avatar: images/review3.jpg
-        avatar_alt: Jonquil Von Haggerston's photo
-        content: >-
-          Integer consectetur purus neque, ac porttitor enim convallis vitae.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus.
   - section_id: call-to-action
     type: section_cta
-    title: This Is Call To Action Block!
-    subtitle: This is an optional description for the call to action block.
+    title: DeFiGeek Communityに参加しよう
+    subtitle: DeFi Dapps構築チームに参加してみませんか？ DeFiGeek Communityは、DeFiとDappsに興味のあるエンジニアを求めています。
     actions:
-      - label: Get Started
+      - label: 詳しくはこちら
         url: /signup
         style: primary
   - section_id: recent-posts
     type: section_posts
     background: gray
-    title: Latest Posts
+    title: ニュースリリース
 seo:
-  title: Stackbit Azimuth Theme
-  description: The preview of the Azimuth theme
+  title: DeFiGeek Community
+  description: 私たちはDeFi Dapps開発コミュニティです
   extra:
     - name: 'og:type'
       value: website

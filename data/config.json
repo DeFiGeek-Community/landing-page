@@ -1,30 +1,20 @@
 {
-    "title": "Azimuth",
+    "title": "DeFiGeek Community",
     "base_font": "nunito-sans",
     "palette": "blue",
     "header": {
-        "logo_img": "images/logo.svg",
+        "logo_img": "images/logo-header.png",
         "logo_img_alt": "Logo",
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Home",
-                "url": "/",
+                "label": "ドキュメント",
+                "url": "https://docs.defigeek.xyz/",
                 "style": "link"
             },
             {
-                "label": "Features",
-                "url": "/features",
-                "style": "link"
-            },
-            {
-                "label": "Pricing",
-                "url": "/pricing",
-                "style": "link"
-            },
-            {
-                "label": "Style Guide",
-                "url": "/style-guide",
+                "label": "About",
+                "url": "/about",
                 "style": "link"
             },
             {
@@ -38,52 +28,52 @@
         "sections": [
             {
                 "type": "footer_text",
-                "image": "images/logo-alt.svg",
+                "image": "images/logo-header.png",
                 "image_url": "/",
                 "image_alt": "Footer logo",
-                "content": "Stackbit theme demo"
+                "content": ""
             },
             {
                 "type": "footer_nav",
-                "title": "Company",
+                "title": "コミュニティ",
                 "nav_links": [
                     {
-                        "label": "About Us",
+                        "label": "About",
                         "url": "/about",
                         "style": "link"
                     },
                     {
-                        "label": "Blog",
+                        "label": "ニュースリリース",
                         "url": "/blog",
                         "style": "link"
                     },
                     {
-                        "label": "Sign Up",
-                        "url": "/signup",
+                        "label": "ドキュメント",
+                        "url": "https://docs.defigeek.xyz/",
                         "style": "link"
                     },
                     {
-                        "label": "Contact",
-                        "url": "/contact",
+                        "label": "メディアキット",
+                        "url": "/brand",
                         "style": "link"
                     }
                 ]
             },
             {
                 "type": "footer_nav",
-                "title": "Community",
+                "title": "参加する",
                 "nav_links": [
                     {
                         "label": "Twitter",
-                        "url": "https://twitter.com/",
+                        "url": "https://twitter.com/defigeekjapan",
                         "style": "link",
                         "has_icon": true,
                         "icon": "twitter",
                         "icon_position": "left"
                     },
                     {
-                        "label": "LinkedIn",
-                        "url": "https://www.linkedin.com/",
+                        "label": "Discord",
+                        "url": "https://discord.com/FQYXqVBEnh",
                         "style": "link",
                         "has_icon": true,
                         "icon": "linkedin",
@@ -91,7 +81,7 @@
                     },
                     {
                         "label": "GitHub",
-                        "url": "https://github.com/",
+                        "url": "https://github.com/DeFiGeek-Community/",
                         "style": "link",
                         "has_icon": true,
                         "icon": "github",
@@ -101,8 +91,8 @@
             },
             {
                 "type": "footer_form",
-                "title": "Subscribe",
-                "content": "Stay up to date with our latest developments.",
+                "title": "ニュース購読",
+                "content": "最新ニュースの配信はこちらにご登録ください。",
                 "form_id": "contactForm",
                 "hide_labels": true,
                 "form_fields": [
@@ -110,14 +100,14 @@
                         "input_type": "email",
                         "name": "email",
                         "label": "Email",
-                        "default_value": "Enter email address",
+                        "default_value": "メールアドレス",
                         "is_required": true
                     }
                 ],
                 "submit_label": "Subscribe"
             }
         ],
-        "has_nav": true,
+        "has_nav": false,
         "nav_links": [
             {
                 "label": "Terms of Service",
@@ -130,6 +120,6 @@
                 "style": "link"
             }
         ],
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=azimuth&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>."
+        "content": "&copy; DeFiGeek Community All rights reserved."
     }
 }
