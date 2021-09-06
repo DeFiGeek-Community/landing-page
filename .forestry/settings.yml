@@ -12,6 +12,8 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: md
+  templates:
+  - news_template
 - type: heading
   label: author
 - type: document
