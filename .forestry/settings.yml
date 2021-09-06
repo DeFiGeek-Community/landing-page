@@ -13,6 +13,8 @@ sections:
   match: "**/*"
   new_doc_ext: md
 - type: heading
+  label: author
+- type: heading
   label: website
 - type: directory
   path: content
@@ -20,6 +22,10 @@ sections:
   create: documents
   match: "*"
   new_doc_ext: md
+- type: document
+  path: data/authors/*
+  label: author
+  match: "**/*"
 upload_dir: static/images
 public_path: "/public"
 front_matter_path: ''
