@@ -1,18 +1,18 @@
 ---
-title: 参加する
+title: DeFiGeek Communityに参加する
 subtitle: >-
   日本を代表するDeFi Dapps開発チームに参加してみませんか？
 image: images/11.jpg
 image_alt: Office desk top view
 seo:
-  title: 参加する
+  title: DeFiGeek Communityに参加する
   description: 日本を代表するDeFi Dapps開発チームに参加してみませんか？
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: 参加する
+      value: DeFiGeek Communityに参加する
       keyName: property
     - name: 'og:description'
       value: 日本を代表するDeFi Dapps開発チームに参加してみませんか？
@@ -20,26 +20,22 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: 参加する
+      value: DeFiGeek Communityに参加する
     - name: 'twitter:description'
       value: 日本を代表するDeFi Dapps開発チームに参加してみませんか？
 layout: page
 ---
 
-## メンバー募集
+DeFiGeek Communityでは様々な分野でのコントリビュータを求めています。詳細な募集条件は [DeFiGeekドキュメント](https://docs.defigeek.xyz) を参照ください。
 
 ### 開発者
+- スマートコントラクト開発
+- Web3フロントエンド開発
 
-- スマートコントラクト
-- Web3フロントエンド
+### デザイナー
+- Webデザイン、アイコン、インフォグラフィック等
 
-## デザイナー
+### 財務
 
-## 財務
-
-## 広報
-
-上記に限らず様々な分野のメンバーがコントリビュータとして活動しています。詳しくはこちらのドキュメントをご覧ください。
-
-[DeFiGeekドキュメント](https://docs.defigeek.xyz)
+### 広報
 

@@ -1,25 +1,19 @@
 ---
-title: ブランドアセット
+title: DeFiGeek Communityブランドアセット
 sections:
-  - section_id: features
+  - section_id: brand
     type: section_content
     background: gray
     image: images/feature1.png
-    image_alt: App preview on a phone and tablet
-    title: The Best Features of Your Services
+    image_alt: DeFiGeek Community Brand Asset
+    title: DeFiGeek Communityブランドアセット
     content: >-
       ### ブランドカラー
-      編集中。
 
-      紅(RUST EFFECT)　#B52F43
-
-      CLARINET　#001C59
-
-      勿忘草(COASTAL WATERS)　#7DB9DE
-
-      CHANNEL #F2C2C2
-
-      Bleached Silk #F2F2F2
+      - 紅(KURENAI)　#B52F43
+      - CHANNEL #F2C2C2
+      - Bleached Silk #F2F2F2
+      - 編集中
       
       ### メディアキット
 
@@ -32,14 +26,14 @@ sections:
         style: primary
   - section_id: call-to-action
     type: section_cta
-    title: This Is Call to Action Block!
+    title: ご不明点はコミュニティに問い合わせください
     subtitle: This is an optional description for the call to action block.
     actions:
       - label: Get Started
         url: '#'
         style: secondary
 seo:
-  title: ブランドアセット
+  title: DeFiGeek Communityブランドアセット
   description: ロゴ、バナー、アイコンはこちらからダウンロードしてください。
   extra:
     - name: 'og:type'
@@ -49,7 +43,7 @@ seo:
       value: ブランドアセット
       keyName: property
     - name: 'og:description'
-      value: Tロゴ、バナー、アイコンはこちらからダウンロードしてください。
+      value: ロゴ、バナー、アイコンはこちらからダウンロードしてください。
       keyName: property
     - name: 'og:image'
       value: images/feature1.png

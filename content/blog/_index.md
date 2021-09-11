@@ -1,17 +1,17 @@
 ---
-title: Blog
+title: DeFiGeek Communityブログ
 seo:
-  title: Blog
-  description: This is the blog page
+  title: DeFiGeek Communityブログ
+  description: 最新のニュースリリースを掲載しています。
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Blog
+      value: DeFiGeek Communityブログ
       keyName: property
     - name: 'og:description'
-      value: This is the blog page
+      value: 最新のニュースリリースを掲載しています。
       keyName: property
     - name: 'og:image'
       value: images/1.jpg
@@ -20,9 +20,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Blog
+      value: DeFiGeek Communityブログ
     - name: 'twitter:description'
-      value: This is the blog page
+      value: 最新のニュースリリースを掲載しています。
     - name: 'twitter:image'
       value: images/1.jpg
       relativeUrl: true
