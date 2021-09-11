@@ -1,7 +1,7 @@
 ---
 title: TXJP
 subtitle: TXJPはDeFiGeek Communityのガバナンストークンです
-image:
+image: images/txjp-image.webp
 image_alt:
 seo:
   title: TXJP
