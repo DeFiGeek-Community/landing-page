@@ -88,10 +88,10 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Azimuth Theme
+      value: DeFiGeek Community
       keyName: property
     - name: 'og:description'
-      value: The preview of the Azimuth theme
+      value: 私たちはDeFi Dapps開発コミュニティです
       keyName: property
     - name: 'og:image'
       value: images/hero.png
