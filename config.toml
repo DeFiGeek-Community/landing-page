@@ -1,4 +1,4 @@
-baseURL = 'https://nifty-ptolemy-f6e085.netlify.app/'
+baseURL = 'https://dfgc-proto.netlify.app/'
 languageCode = 'ja-JP'
 title = 'DeFiGeek Community'
 theme = "azimuth-hugo"
