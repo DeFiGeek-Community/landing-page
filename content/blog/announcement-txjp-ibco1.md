@@ -4,10 +4,10 @@ subtitle:
 author: data/authors/jane-doe.json
 excerpt: 
 date: '2021-06-10'
-thumb_image: images/3_thumb.jpg
-thumb_image_alt: A group of people working in a cafe
-image: images/3.jpg
-image_alt: A group of people working in a cafe
+thumb_image: images/txjp-ibco-day1.webp
+thumb_image_alt: 
+image: 
+image_alt: 
 seo:
   title: 【コミュニティメンバー限定】寄付イベントとTXJPトークンユーティリティのお知らせ
   description: 

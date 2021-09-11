@@ -1,8 +1,8 @@
 ---
 title: TXJP
-subtitle:
-image: images/about.jpg
-image_alt: Team members in a conference room
+subtitle: TXJPはDeFiGeek Communityのガバナンストークンです
+image:
+image_alt:
 seo:
   title: TXJP
   description:
@@ -17,7 +17,7 @@ seo:
       value: 
       keyName: property
     - name: 'og:image'
-      value: images/about.jpg
+      value:
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -27,7 +27,7 @@ seo:
     - name: 'twitter:description'
       value: 
     - name: 'twitter:image'
-      value: images/about.jpg
+      value:
       relativeUrl: true
 layout: page
 ---
@@ -37,7 +37,8 @@ layout: page
 - 総発行数210,000TXJP　小数点以下８桁
 - コントラクトアドレス　0x961dd84059505d59f82ce4fb87d3c09bec65301d
 
-![](images/txjp-allocation.webp TXJPアロケーション)
+![](/images/txjp-allocation.webp "TXJPアロケーション")
+
 
 ### TXJPホルダー特典
 
@@ -68,9 +69,13 @@ layout: page
 ### TXJPユーティリティ拡張計画
 
 - ガバナンス機能強化
+
 - 基金管理DAOフォーマット導入
 - フェーズ２~３寄付イベントによる流動性と資本増強、それに伴うTXJP価格上昇
 - 複数DEXでのマーケット稼働（CoinGecko等のトラッキングサイトへ登録申請）
 - Balancer v2 80:20プール化とUniswap v3 10%~10000％価格プール化
 - レンディングDapp等の担保化
 
+
+
+Latest Update 2021.06.10

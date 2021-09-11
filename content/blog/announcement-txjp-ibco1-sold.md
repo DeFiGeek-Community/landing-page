@@ -4,10 +4,10 @@ subtitle:
 author: data/authors/jane-doe.json
 excerpt: 
 date: '2021-07-15'
-thumb_image: images/3_thumb.jpg
-thumb_image_alt: A group of people working in a cafe
-image: images/3.jpg
-image_alt: A group of people working in a cafe
+thumb_image: images/txjp-ibco-day1.webp
+thumb_image_alt:
+image:
+image_alt:
 seo:
   title: DeFiGeek Community JAPAN寄付イベント結果発表☆
   description: 
@@ -42,17 +42,28 @@ layout: post
 
 
 一日目
-![](images/txjp-ibco-day1.webp)
+
+![](/images/txjp-ibco-day1.webp)
+
 二日目
-![](images/txjp-ibco-day2.webp)
+
+![](/images/txjp-ibco-day2.webp)
+
 三日目
-![](images/txjp-ibco-day3.webp)
+
+![](/images/txjp-ibco-day3.webp)
+
 四日目
-![](images/txjp-ibco-day4.webp)
+
+![](/images/txjp-ibco-day4.webp)
+
 最終日
-![](images/txjp-ibco-day5.webp)
+
+![](/images/txjp-ibco-day5.webp)
+
 最終結果
-![](images/txjp-ibco-sold.webp)
+
+![](/images/txjp-ibco-sold.webp)
 
 
 ** 総寄付ETH　「525.99149899ETH」**
