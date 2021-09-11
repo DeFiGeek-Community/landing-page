@@ -3,7 +3,7 @@
     "base_font": "nunito-sans",
     "palette": "blue",
     "header": {
-        "logo_img": "images/logo-header.png",
+        "logo_img": "images/logo-header.webp",
         "logo_img_alt": "Logo",
         "has_nav": true,
         "nav_links": [
@@ -33,7 +33,7 @@
         "sections": [
             {
                 "type": "footer_text",
-                "image": "images/logo-header.png",
+                "image": "images/logo-header.webp",
                 "image_url": "/",
                 "image_alt": "Footer logo",
                 "content": ""
