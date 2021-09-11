@@ -100,9 +100,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Azimuth Theme
+      value: DeFiGeek Community
     - name: 'twitter:description'
-      value: The preview of the Azimuth theme
+      value: 私たちはDeFi Dapps開発コミュニティです
     - name: 'twitter:image'
       value: images/hero.png
       relativeUrl: true
