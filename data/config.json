@@ -18,6 +18,11 @@
                 "style": "link"
             },
             {
+                "label": "TXJP",
+                "url": "/txjp",
+                "style": "link"
+            },
+            {
                 "label": "English",
                 "url": "/en",
                 "style": "secondary"

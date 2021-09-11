@@ -1,5 +1,5 @@
 ---
-title: DeFiGeek Communityに参加する
+title: 参加する
 subtitle: >-
   日本を代表するDeFi Dapps開発チームに参加してみませんか？
 image: images/11.jpg
