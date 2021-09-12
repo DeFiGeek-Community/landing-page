@@ -77,7 +77,7 @@ seo:
       value: DeFiGeek Community
       keyName: property
     - name: 'og:description'
-      value: DeFiGeek Communityランディングページ
+      value: DeFiGeek Communityオフィシャルサイト
       keyName: property
     - name: 'og:image'
       value: images/hero.png

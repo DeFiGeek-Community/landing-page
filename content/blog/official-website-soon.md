@@ -5,6 +5,7 @@ subtitle: >-
 excerpt: 
 date: '2017-03-26'
 thumb_image: images/1_thumb.jpg
+tags: ""
 seo:
   title: オフィシャルサイト構築中！
   description: >-
