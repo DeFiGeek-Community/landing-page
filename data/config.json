@@ -8,7 +8,7 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "ドキュメント",
+                "label": "Docs",
                 "url": "https://docs.defigeek.xyz/",
                 "style": "link"
             },
