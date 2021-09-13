@@ -6,11 +6,11 @@ sections:
     image: images/hero.png
     image_alt: App preview
     title: DeFiGeek Community
-    content: >-
-    actions:
-      - label: Learn More
-        url: /features
-        style: primary
+#    content: >-
+#    actions:
+#      - label: Learn More
+#        url: /features
+#        style: primary
   - section_id: features
     type: section_features
     background: gray
@@ -48,8 +48,8 @@ sections:
         content: >-
           DeFiに関する業界の正しい認識の共有、初心者DeFierの支援も私たちの活動の1つです。
         actions:
-          - label: Discord
-            url: /features
+          - label: Discordに参加する
+            url: https://discord.gg/FQYXqVBEnh
             style: secondary
             has_icon: true
             icon: discord
