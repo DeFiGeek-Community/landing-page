@@ -23,6 +23,7 @@ sections:
         image_alt: App preview on a phone and tablet
         content: >-
           DeFiGeek Communityでは、複数の分散型金融アプリケーションの構築を進めています。
+        <!--
         actions:
           - label: Learn More
             url: /features
@@ -30,11 +31,13 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
+        -->
       - title: DAO：自律分散型コミュニティ
         image: images/feature2.png
         image_alt: App users welcoming a new member
         content: >-
           私たちはコミュニティとしてのあらゆる行動の合意に”投票”を使います。誰もが自由に発議でき、行動はコミュニティの合意で決まります。
+        <!--
         actions:
           - label: Learn More
             url: /features
@@ -42,18 +45,19 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
+        -->
       - title: DeFiサポート
         image: images/feature3.png
         image_alt: App user profile preview
         content: >-
           DeFiに関する業界の正しい認識の共有、初心者DeFierの支援も私たちの活動の1つです。
         actions:
-          - label: Learn More
+          - label: Discord
             url: /features
             style: secondary
             has_icon: true
-            icon: arrow-right
-            icon_position: right
+            icon: discord
+            icon_position: left
   - section_id: call-to-action
     type: section_cta
     title: DeFiGeek Communityに参加しよう
