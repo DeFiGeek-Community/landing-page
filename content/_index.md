@@ -66,6 +66,10 @@ sections:
     type: section_posts
     background: gray
     title: ニュースリリース
+    actions:
+      - label: すべて見る
+        url: /blog
+        style: primary
 seo:
   title: DeFiGeek Community
   description: 私たちはDeFi Dapps開発コミュニティです
