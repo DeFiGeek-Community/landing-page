@@ -5,9 +5,9 @@ author: data/authors/jane-doe.json
 excerpt: >-
   各種Dappやツールのリリースと分散的運営体制、トークンディストリビューションと分権化を進め、コミュニティメンバーはDeFi環境から最大の恩恵を受けるポジションを目指します。
 date: '2021-03-06'
-thumb_image: images/3_thumb.jpg
+thumb_image: images/dfgc-card-white.webp
 thumb_image_alt: A group of people working in a cafe
-image: images/3.jpg
+image: 
 image_alt: A group of people working in a cafe
 seo:
   title: DeFiGeek Community JAPANの今後の展開
@@ -25,7 +25,7 @@ seo:
         各種Dappやツールのリリースと分散的運営体制、トークンディストリビューションと分権化を進め、コミュニティメンバーはDeFi環境から最大の恩恵を受けるポジションを目指します。
       keyName: property
     - name: 'og:image'
-      value: images/3.jpg
+      value: images/dfgc-card-white.webp
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -36,7 +36,7 @@ seo:
       value: >-
         各種Dappやツールのリリースと分散的運営体制、トークンディストリビューションと分権化を進め、コミュニティメンバーはDeFi環境から最大の恩恵を受けるポジションを目指します。
     - name: 'twitter:image'
-      value: images/3.jpg
+      value: images/dfgc-card-white.webp
       relativeUrl: true
 layout: post
 ---

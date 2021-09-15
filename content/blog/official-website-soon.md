@@ -3,8 +3,8 @@ title: オフィシャルサイト構築中！
 subtitle: >-
   プロダクトも財務も広報もみんなすごいよ！
 excerpt: 
-date: '2017-03-26'
-thumb_image: images/1_thumb.jpg
+date: '2021-09-15'
+thumb_image: images/dfgc-card-coming.webp
 tags: ""
 seo:
   title: オフィシャルサイト構築中！
@@ -22,7 +22,7 @@ seo:
         プロダクトも財務も広報もみんなすごいよ！
       keyName: property
     - name: 'og:image'
-      value: images/1.jpg
+      value: images/dfgc-card-coming.webp
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -33,9 +33,11 @@ seo:
       value: >-
         プロダクトも財務も広報もみんなすごいよ！
     - name: 'twitter:image'
-      value: images/1.jpg
+      value: images/dfgc-card-coming.webp
       relativeUrl: true
 layout: post
 ---
+
+![](/images/dfgc-card-coming.webp)
 
 Sooooon...
