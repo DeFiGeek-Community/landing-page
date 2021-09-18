@@ -19,14 +19,14 @@ DFGCオフィシャルサイトフェーズ１
 ![](/static/images/publish-flow-chart.webp)
 
 #### Github構成
-    - ブランチは、preview → main → gh-pages の３段構成
-    - preview   ライターが投稿する場所。プレビュー用。
-    - main  サイト構成ファイルの最新版がある場所
-    - gh-pages  ウェブ公開版。 /public のみ格納。
+- ブランチは、preview → main → gh-pages の３段構成
+- preview   ライターが投稿する場所。プレビュー用。
+- main  サイト構成ファイルの最新版がある場所
+- gh-pages  ウェブ公開版。 `/public` のみ格納。
 
 #### ツール
-    - Forestry　　ライターを登録。5名まで？ Adminアカウントをどれを使うか。
-    - Netlify   Adminアカウントをどれを使うか。
+- Forestry　　ライターを登録。5名まで？ Adminアカウントをどれを使うか。
+- Netlify   Adminアカウントをどれを使うか。
 
 ###  投稿フロー
 
