@@ -22,7 +22,7 @@ DFGCオフィシャルサイトフェーズ１
     - ブランチは、preview → main → gh-pages の３段構成
     - preview   ライターが投稿する場所。プレビュー用。
     - main  サイト構成ファイルの最新版がある場所
-    - gh-pages  ウェブ公開版。`/public`のみ格納。
+    - gh-pages  ウェブ公開版。 /public のみ格納。
 
 #### ツール
     - Forestry　　ライターを登録。5名まで？ Adminアカウントをどれを使うか。
@@ -31,12 +31,12 @@ DFGCオフィシャルサイトフェーズ１
 ###  投稿フロー
 
 - For ライター
-    1. ブログ、WEBページを書く。Netlifyでプレビューを見ながら編集
-    2. 公開できる状態になったらGithubでPRする
+    - ブログ、WEBページを書く。Netlifyでプレビューを見ながら編集
+    - 公開できる状態になったらGithubでPRする
 - For レビュワー
-    3. PRの内容を確認してマージ。mainブランチに適用
+    - PRの内容を確認してマージ。mainブランチに適用
 - 自動
-    4. main → gh-pages はGithub Actionで`/public`を自動生成
+    - main → gh-pages はGithub Actionで`/public`を自動生成
 
 - For デザイナー
     - 新たに画像（svg, webb）をブランドアセットに載せるときは、WEB担当に言うか、自分で`/brand_asset`に置く。
