@@ -11,9 +11,6 @@ sections:
       ### ブランドカラー
 
       - 紅(KURENAI)　#B52F43
-      - CHANNEL #F2C2C2
-      - Bleached Silk #F2F2F2
-      - 編集中
       
       ### メディアキット
 
@@ -26,12 +23,15 @@ sections:
         style: primary
   - section_id: call-to-action
     type: section_cta
-    title: ご不明点はコミュニティに問い合わせください
+    title: ご不明点はDiscordからコミュニティに問い合わせください
     subtitle: This is an optional description for the call to action block.
     actions:
-      - label: Get Started
-        url: '#'
+      - label: Discord
+        url: https://discord.gg/FQYXqVBEnh
         style: secondary
+        has_icon: true
+        icon: discord
+        icon_position: left
 seo:
   title: DeFiGeek Communityブランドアセット
   description: ロゴ、バナー、アイコンはこちらからダウンロードしてください。
