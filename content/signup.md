@@ -2,7 +2,7 @@
 title: 参加する
 subtitle: >-
   日本を代表するDeFi Dapps開発チームに参加してみませんか？
-image: images/DFGC_logo_banner.png
+image: images/DFGC_logo_banner.webp
 image_alt: Office desk top view
 seo:
   title: DeFiGeek Communityに参加する
@@ -18,7 +18,7 @@ seo:
       value: 日本を代表するDeFi Dapps開発チームに参加してみませんか？
       keyName: property
     - name: 'og:image'
-      value: https://dfgc.xyz/images/DFGC_logo_banner.png
+      value: https://dfgc.xyz/images/DFGC_logo_banner.webp
       keyName: property
     - name: 'twitter:card'
       value: summary_large_image
