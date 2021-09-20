@@ -1,14 +1,12 @@
 ---
 title: DeFiGeek Community JAPANの今後の展開
 subtitle: 2021年のロードマップ
-author: data/authors/jane-doe.json
 excerpt: >-
   各種Dappやツールのリリースと分散的運営体制、トークンディストリビューションと分権化を進め、コミュニティメンバーはDeFi環境から最大の恩恵を受けるポジションを目指します。
 date: '2021-03-06'
-thumb_image: images/dfgc-card-white.webp
-thumb_image_alt: A group of people working in a cafe
-image: 
-image_alt: A group of people working in a cafe
+author: data/authors/jane-doe.json
+thumb_image: images/DFGC_logo_banner02.png
+image: images/DFGC_logo_banner02.png
 seo:
   title: DeFiGeek Community JAPANの今後の展開
   description: >-
@@ -25,19 +23,11 @@ seo:
         各種Dappやツールのリリースと分散的運営体制、トークンディストリビューションと分権化を進め、コミュニティメンバーはDeFi環境から最大の恩恵を受けるポジションを目指します。
       keyName: property
     - name: 'og:image'
-      value: images/dfgc-card-white.webp
+      value: https://dfgc.xyz/images/DFGC_logo_banner02.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
-    - name: 'twitter:title'
-      value: DeFiGeek Community JAPANの今後の展開
-    - name: 'twitter:description'
-      value: >-
-        各種Dappやツールのリリースと分散的運営体制、トークンディストリビューションと分権化を進め、コミュニティメンバーはDeFi環境から最大の恩恵を受けるポジションを目指します。
-    - name: 'twitter:image'
-      value: images/dfgc-card-white.webp
-      relativeUrl: true
 layout: post
 ---
 

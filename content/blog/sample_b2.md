@@ -5,6 +5,7 @@ subtitle: >-
 excerpt:  >-
   ついに今を学習心もぼんやりそのお話したないほどになってくれますへも衰弱思っうたから、ずいぶんにはきましましょうな。一つになれらし方はほとんど時分を大分べきでなけれ。
 date: '2000-09-20'
+author: data/authors/john-doe.json
 thumb_image: images/DFGC_logo_banner02_black.png
 thumb_image_alt:
 image: images/DFGC_logo_banner02_black.png

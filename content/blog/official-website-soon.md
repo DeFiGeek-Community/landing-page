@@ -4,6 +4,7 @@ subtitle: >-
   プロダクトも財務も広報もみんなすごいよ！
 excerpt: 
 date: '2021-09-15'
+author: data/authors/john-doe.json
 thumb_image: images/dfgc-card-coming.webp
 tags: ""
 seo:
