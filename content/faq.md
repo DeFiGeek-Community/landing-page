@@ -30,6 +30,6 @@ seo:
       value: よくある質問
       keyName: property
     - name: 'twitter:card'
-      value: summary_large_image
+      value: summary
 layout: landing
 ---

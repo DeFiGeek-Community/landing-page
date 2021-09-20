@@ -17,11 +17,11 @@ seo:
       value: 
       keyName: property
     - name: 'og:image'
-      value: https://dfgc.xyz/images/txjp_alpha.webp
+      value: https://dfgc.xyz/images/DFGC_logo_banner02.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
-      value: summary_large_image
+      value: summary
 layout: page
 ---
 

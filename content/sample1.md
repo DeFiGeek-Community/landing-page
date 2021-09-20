@@ -21,7 +21,7 @@ seo:
       value: https://dfhc.xyz/images/DFGC_logo_banner_black.webp
       keyName: property
     - name: 'twitter:card'
-      value: summary_large_image
+      value: summary
 layout: page
 ---
 

@@ -18,10 +18,10 @@ seo:
       value: 日本を代表するDeFi Dapps開発チームに参加してみませんか？
       keyName: property
     - name: 'og:image'
-      value: https://dfgc.xyz/images/DFGC_logo_banner.webp
+      value: https://dfgc.xyz/images/DFGC_logo_banner02.png
       keyName: property
     - name: 'twitter:card'
-      value: summary_large_image
+      value: summary
 layout: page
 ---
 

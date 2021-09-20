@@ -68,13 +68,13 @@ sections:
     title: ニュースリリース
 seo:
   title: DeFiGeek Community
-  description: 私たちはDeFi Dapps開発コミュニティです 
+  description: 私たちはDeFi Dapps開発コミュニティです
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: DeFiGeek Communityオフィシャルサイト
+      value: DeFiGeek Community
       keyName: property
     - name: 'og:description'
       value: 
