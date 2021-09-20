@@ -14,17 +14,9 @@ seo:
       value: 最新のニュースリリースを掲載しています。
       keyName: property
     - name: 'og:image'
-      value: images/1.jpg
+      value: https://dfgc.xyz/images/DFGC_logo_banner02.png
       keyName: property
-      relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
-    - name: 'twitter:title'
-      value: DeFiGeek Communityブログ
-    - name: 'twitter:description'
-      value: 最新のニュースリリースを掲載しています。
-    - name: 'twitter:image'
-      value: images/1.jpg
-      relativeUrl: true
 layout: blog
 ---

@@ -2,27 +2,34 @@
 title: サンプルページ
 subtitle: >-
   これはサンプルページです。
-image: images/DFGC_logo_banner_black.webp
-image_alt: DeFiGeek Logo Banner Black
+excerpt: 
+date: '2000-09-20'
+thumb_image: images/DFGC_logo_banner02_black.png
+thumb_image_alt:
+image: images/DFGC_logo_banner02_black.png
+image_alt:
+tags: ""
 seo:
   title: サンプルページ
-  description: これはサンプルページです。
+  description: >-
+    これはサンプルページです。
   extra:
     - name: 'og:type'
-      value: website
+      value: article
       keyName: property
     - name: 'og:title'
       value: サンプルページ
       keyName: property
     - name: 'og:description'
-      value: これはサンプルページです。
+      value: >-
+        これはサンプルページです。
       keyName: property
     - name: 'og:image'
-      value: https://dfhc.xyz/images/DFGC_logo_banner_black.webp
+      value: https://dfgc.xyz/images/DFGC_logo_banner02_black.png
       keyName: property
     - name: 'twitter:card'
       value: summary_large_image
-layout: page
+layout: post
 ---
 
 # 見出し1
@@ -101,3 +108,6 @@ body {
     </tr>
   </tfoot>
 </table>
+
+
+

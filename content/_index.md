@@ -84,17 +84,10 @@ seo:
       value: DeFiGeek Communityオフィシャルサイト
       keyName: property
     - name: 'og:image'
-      value: images/hero.png
+      value: https://dfgc.xyz/images/DFGC_logo_banner02.png
       keyName: property
-      relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: DeFiGeek Community
-    - name: 'twitter:description'
-      value: DeFiGeek Communityランディングページ
-    - name: 'twitter:image'
-      value: images/hero.png
-      relativeUrl: true
 layout: landing
 ---
