@@ -2,7 +2,7 @@
 title: About Us
 subtitle: >-
   私たちはDeFi Dapps開発コミュニティです
-image: images/DFGC_logo_banner_black_twitter.png
+image: images/DFGC_logo_banner_black.png
 image_alt: Team members in a conference room
 seo:
   title: About Us
@@ -18,14 +18,10 @@ seo:
       value: 私たちはDeFi Dapps開発コミュニティです
       keyName: property
     - name: 'og:image'
-      value: https://dfgc.xyz/images/DFGC_logo_banner_black_twitter.png
+      value: https://dfgc.xyz/images/DFGC_logo_banner_black.png
       keyName: property
     - name: 'twitter:card'
       value: summary_large_image
-    - name: 'twitter:title'
-      value: About Us
-    - name: 'twitter:description'
-      value: 私たちはDeFi Dapps開発コミュニティです
 layout: page
 ---
 
