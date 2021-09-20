@@ -14,17 +14,17 @@ sections:
       
       ### メディアキット
 
-      ロゴ、バナー、アイコンは下記よりダウンロードしてください。
+      ロゴ、バナー、アイコン等のコンテンツは下記よりダウンロードすることが可能です。
 
-      当コミュニティのロゴ、アイコンについて、縦横比、色彩もしくはフォントを改変すること、その他シンボルに追加したり除去することを禁止します。
+      当コミュニティのロゴ、アイコン等のコンテンツについて、縦横比、色彩もしくはフォントを改変すること、その他シンボルに追加したり除去することを禁止します。
     actions:
       - label: ダウンロード
         url: '#'
-        style: primary
+        style: secondary
   - section_id: call-to-action
     type: section_cta
-    title: ご不明点はDiscordからコミュニティに問い合わせください
-    subtitle: This is an optional description for the call to action block.
+    title: ご不明点はDiscordにてコミュニティに問い合わせください
+    subtitle: 
     actions:
       - label: Discord
         url: https://discord.gg/FQYXqVBEnh
@@ -34,7 +34,7 @@ sections:
         icon_position: left
 seo:
   title: ブランドアセット
-  description: ロゴ、バナー、アイコンはこちらからダウンロードしてください。
+  description: ロゴ、バナー等のコンテンツはこちらからダウンロードしてください。
   extra:
     - name: 'og:type'
       value: website
@@ -43,20 +43,12 @@ seo:
       value: ブランドアセット
       keyName: property
     - name: 'og:description'
-      value: ロゴ、バナー、アイコンはこちらからダウンロードしてください。
+      value: ロゴ、バナー等のコンテンツはこちらからダウンロードしてください。
       keyName: property
     - name: 'og:image'
-      value: images/feature1.png
+      value: https://dfgc.xyz/images/DFGC_logo_banner02.png
       keyName: property
-      relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
-    - name: 'twitter:title'
-      value: ブランドアセット
-    - name: 'twitter:description'
-      value: ロゴ、バナー、アイコンはこちらからダウンロードしてください。
-    - name: 'twitter:image'
-      value: images/feature1.png
-      relativeUrl: true
 layout: landing
 ---
