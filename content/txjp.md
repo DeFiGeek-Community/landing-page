@@ -1,7 +1,7 @@
 ---
 title: TXJP
 subtitle: TXJPはDeFiGeek Communityのガバナンストークンです
-image: images/txjp-image.webp
+image: images/txjp_alpha.webp
 image_alt:
 seo:
   title: TXJP
@@ -17,18 +17,11 @@ seo:
       value: 
       keyName: property
     - name: 'og:image'
-      value:
+      value: https://dfgc.xyz/images/txjp_alpha.webp
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
-    - name: 'twitter:title'
-      value: TXJP
-    - name: 'twitter:description'
-      value: 
-    - name: 'twitter:image'
-      value:
-      relativeUrl: true
 layout: page
 ---
 

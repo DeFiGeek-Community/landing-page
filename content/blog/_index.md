@@ -1,17 +1,17 @@
 ---
-title: DeFiGeek Communityブログ
+title: ニュースリリース
 seo:
-  title: DeFiGeek Communityブログ
-  description: 最新のニュースリリースを掲載しています。
+  title: ニュースリリース
+  description: DeFiGeek Communityのニュースリリースや解説ブログを掲載しています。
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: DeFiGeek Communityブログ
+      value: ニュースリリース
       keyName: property
     - name: 'og:description'
-      value: 最新のニュースリリースを掲載しています。
+      value: DeFiGeek Communityのニュースリリースや解説ブログを掲載しています。
       keyName: property
     - name: 'og:image'
       value: https://dfgc.xyz/images/DFGC_logo_banner02.png

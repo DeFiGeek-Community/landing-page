@@ -31,9 +31,5 @@ seo:
       keyName: property
     - name: 'twitter:card'
       value: summary_large_image
-    - name: 'twitter:title'
-      value:  FAQ
-    - name: 'twitter:description'
-      value: よくある質問
 layout: landing
 ---
