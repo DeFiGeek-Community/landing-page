@@ -2,7 +2,8 @@
 title: サンプルページ
 subtitle: >-
   これはサンプルページです。
-excerpt: 
+excerpt: >-
+  ついに今を学習心もぼんやりそのお話したないほどになってくれますへも衰弱思っうたから、ずいぶんにはきましましょうな。一つになれらし方はほとんど時分を大分べきでなけれ。
 date: '2000-09-20'
 thumb_image: images/DFGC_logo_banner02.png
 thumb_image_alt:
