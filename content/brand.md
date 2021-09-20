@@ -33,7 +33,7 @@ sections:
         icon: discord
         icon_position: left
 seo:
-  title: DeFiGeek Communityブランドアセット
+  title: ブランドアセット
   description: ロゴ、バナー、アイコンはこちらからダウンロードしてください。
   extra:
     - name: 'og:type'
