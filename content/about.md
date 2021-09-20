@@ -20,7 +20,6 @@ seo:
     - name: 'og:image'
       value: https://dfgc.xyz/images/DFGC_logo_banner_black_twitter.png
       keyName: property
-      relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'

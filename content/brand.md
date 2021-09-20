@@ -1,12 +1,12 @@
 ---
-title: ブランドアセット
+title: DeFiGeek Communityブランドアセット
 sections:
   - section_id: brand
     type: section_content
     background: gray
     image: images/feature1.png
-    image_alt: DeFiGeek Community Brand Asset
-    title: DeFiGeek Communityブランドアセット
+    image_alt: DeFiGeek Community Brand Assets
+    title: ブランドアセット
     content: >-
       ### ブランドカラー
 
