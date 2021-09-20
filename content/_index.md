@@ -78,16 +78,15 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: DeFiGeek Community
+      value: DeFiGeek Communityオフィシャルサイト
       keyName: property
     - name: 'og:description'
-      value: DeFiGeek Communityオフィシャルサイト
+      value: 
       keyName: property
     - name: 'og:image'
       value: https://dfgc.xyz/images/DFGC_logo_banner02.png
       keyName: property
     - name: 'twitter:card'
       value: summary_large_image
-    - name: 'twitter:title'
 layout: landing
 ---

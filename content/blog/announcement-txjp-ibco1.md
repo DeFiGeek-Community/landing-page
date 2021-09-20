@@ -4,9 +4,9 @@ subtitle:
 author: data/authors/jane-doe.json
 excerpt: 
 date: '2021-06-10'
-thumb_image: images/txjp-ibco-day1.webp
+thumb_image: images/DFGC_logo_banner02.png
 thumb_image_alt: 
-image: 
+image: images/DFGC_logo_banner02.png
 image_alt: 
 seo:
   title: 【コミュニティメンバー限定】寄付イベントとTXJPトークンユーティリティのお知らせ
@@ -22,18 +22,11 @@ seo:
       value: 
       keyName: property
     - name: 'og:image'
-      value: images/3.jpg
+      value: https://dfgc.xyz/images/DFGC_logo_banner02.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
-    - name: 'twitter:title'
-      value: 【コミュニティメンバー限定】寄付イベントとTXJPトークンユーティリティのお知らせ
-    - name: 'twitter:description'
-      value: 
-    - name: 'twitter:image'
-      value: images/3.jpg
-      relativeUrl: true
 layout: post
 ---
 
