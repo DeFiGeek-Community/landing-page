@@ -1,10 +1,10 @@
 ---
 title: DeFiGeek Community JAPANの今後の展開
 subtitle: 2021年のロードマップ
+author: data/authors/hiyoko.json
 excerpt: >-
   各種Dappやツールのリリースと分散的運営体制、トークンディストリビューションと分権化を進め、コミュニティメンバーはDeFi環境から最大の恩恵を受けるポジションを目指します。
 date: '2021-03-06'
-author: data/authors/jane-doe.json
 thumb_image: images/DFGC_logo_banner02.png
 image: images/DFGC_logo_banner02.png
 seo:

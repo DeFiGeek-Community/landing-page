@@ -1,7 +1,7 @@
 ---
 title: DeFiGeek Community JAPAN寄付イベント結果発表☆
 subtitle: 
-author: data/authors/jane-doe.json
+author: data/authors/hiyoko.json
 excerpt: 
 date: '2021-07-15'
 thumb_image: images/txjp-ibco-day1.webp
