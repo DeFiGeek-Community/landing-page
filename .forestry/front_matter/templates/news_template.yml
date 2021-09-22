@@ -17,41 +17,52 @@ fields:
 - type: datetime
   name: date
   label: 日付
+- name: tags
+  type: text
+  config:
+    required: false
+  label: タグ（財務レポート etc.）
 - type: file
   name: thumb_image
   label: サムネイル画像
-- type: text
-  name: thumb_image_alt
-  label: thumb_image_alt
+  config:
+    maxSize: 
+  default: "/images/DFGC_logo_banner.webp"
+  hidden: true
 - type: file
   name: image
-  label: 画像
-- type: text
-  name: image_alt
-  label: image_alt
+  label: 画像（ブログのタイトル下に表示される）
+  default: "/images/DFGC_logo_banner.webp"
+  hidden: true
 - type: field_group
   name: seo
-  label: seo
   fields:
   - type: text
     name: title
-    label: title
+    label: タイトル
   - type: text
     name: description
-    label: description
+    label: 説明文（なしでもOK）
   - type: field_group_list
     name: extra
-    label: extra
     fields:
     - type: text
       name: name
-      label: name
+      label: name 'og:type'
+      description: "'og:type'"
     - type: text
       name: value
-      label: value
+      label: value 'og:type'
+      description: article
     - type: text
       name: keyName
-      label: keyName
-- type: text
-  name: layout
+      label: keyName 'og:type'
+    label: SNS共有の表示内容
+  label: "「共有」される表示内容をカスタマイズ"
+- name: layout
+  type: text
+  config:
+    required: false
   label: layout
+  description: post
+  hidden: true
