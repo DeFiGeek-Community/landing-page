@@ -13,7 +13,7 @@ sections:
   match: "**/*"
   new_doc_ext: md
   templates:
-  - news_template
+  - official-announce-template
 - type: heading
   label: author
 - type: document
