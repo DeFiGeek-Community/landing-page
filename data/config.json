@@ -2,7 +2,7 @@
     "title": "DeFiGeek Community",
     "base_font": "nunito-sans",
     "palette": "blue",
-    "favicon": "/",
+    "favicon": "favicon.ico",
     "header": {
         "logo_img": "images/DFGC_logo_lockup.svg",
         "logo_img_alt": "Logo",
