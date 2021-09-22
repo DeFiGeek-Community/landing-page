@@ -68,7 +68,7 @@ sections:
     title: ニュースリリース
 seo:
   title: DeFiGeek Community
-  description: 私たちはDeFi Dapps開発コミュニティです
+  description: DeFiGeek CommunityはDeFiを愛するユーザが集まった分散型の開発コミュニティです。
   extra:
     - name: 'og:type'
       value: website
@@ -77,7 +77,7 @@ seo:
       value: DeFiGeek Community
       keyName: property
     - name: 'og:description'
-      value: 
+      value: DeFiGeek CommunityはDeFiを愛するユーザが集まった分散型の開発コミュニティです。
       keyName: property
     - name: 'og:image'
       value: https://dfgc.xyz/images/DFGC_logo_banner02.png
