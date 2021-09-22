@@ -4,44 +4,49 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: タイトル
 - type: text
   name: subtitle
-  label: subtitle
+  label: サブタイトル
 - type: text
   name: excerpt
-  label: excerpt
+  label: 簡単な説明（任意）
 - type: datetime
   name: date
-  label: date
+  label: 日付
 - type: text
   name: author
   label: author
+  hidden: true
 - type: file
   name: thumb_image
-  label: thumb_image
+  label: サムネイル画像
+  default: "/images/DFGC_logo_banner.webp"
 - type: text
   name: thumb_image_alt
   label: thumb_image_alt
+  hidden: true
 - type: file
   name: image
-  label: image
+  label: 画像（タイトルの下に表示）
+  default: "/images/DFGC_logo_banner.webp"
 - type: text
   name: image_alt
   label: image_alt
+  hidden: true
 - type: text
   name: tags
-  label: tags
+  label: タグ（任意）
 - type: field_group
   name: seo
   label: seo
   fields:
   - type: text
     name: title
-    label: title
+    label: タイトル
   - type: text
     name: description
-    label: description
+    label: 簡単な説明
   - type: field_group_list
     name: extra
     label: extra
@@ -58,3 +63,4 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
