@@ -22,18 +22,10 @@ seo:
       value: 
       keyName: property
     - name: 'og:image'
-      value: images/3.jpg
+      value: https://dfgc.xyz/images/DFGC_logo_banner02.png
       keyName: property
-      relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
-    - name: 'twitter:title'
-      value: DeFiGeek Community JAPAN寄付イベント結果発表☆
-    - name: 'twitter:description'
-      value: 
-    - name: 'twitter:image'
-      value: images/3.jpg
-      relativeUrl: true
 layout: post
 ---
 
