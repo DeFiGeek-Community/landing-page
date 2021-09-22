@@ -1,7 +1,7 @@
 ---
 title: 【コミュニティメンバー限定】寄付イベントとTXJPトークンユーティリティのお知らせ
 subtitle: 
-author: data/authors/hiyoko.json
+author: data/authors/jane-doe.json
 excerpt: 
 date: '2021-06-10'
 thumb_image: images/DFGC_logo_banner02.png

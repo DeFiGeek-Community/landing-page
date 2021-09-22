@@ -3,7 +3,7 @@ title: オフィシャルサイト構築中！
 subtitle: >-
   プロダクトも財務も広報もみんなすごいよ！
 excerpt: 
-author: data/authors/paru.json
+author: data/authors/jane-doe.json
 date: '2021-09-15'
 thumb_image: images/dfgc-card-coming.webp
 tags: ""
