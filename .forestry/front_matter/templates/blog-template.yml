@@ -38,6 +38,7 @@ fields:
 - type: text
   name: tags
   label: タグ（任意）
+  default: コミュニティブログ
 - type: field_group
   name: seo
   label: seo
