@@ -15,23 +15,23 @@ description = ""
 title = "DeFiGeek財務レポート"
 [[seo.extra]]
 keyName = "property"
-name = "'og:type'"
+name = "og:type"
 value = "article"
 [[seo.extra]]
 keyName = "property"
-name = "'og:title'"
+name = "og:title"
 value = "DeFiGeek財務レポート"
 [[seo.extra]]
 keyName = "property"
-name = "'og:description'"
+name = "og:description"
 value = ""
 [[seo.extra]]
 keyName = "property"
-name = "'og:image'"
+name = "og:image"
 value = "https://dfgc.xyz/images/blog/DFGC_logo_banner02.png"
 [[seo.extra]]
 keyName = "summary_large_image"
-name = "'twitter:card'"
+name = "twitter:card"
 value = ""
 
 +++
