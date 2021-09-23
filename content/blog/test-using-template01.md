@@ -1,7 +1,7 @@
 +++
 author = ""
 date = 2021-04-12T15:00:00Z
-excerpt = ""
+excerpt = "テンプレートを用いた投稿テスト。デフォルトの画像設定、Markdownが効いているかどうか、画像挿入と格納先Dir、ファイル名、OGPを確認する。"
 image = "/images/DFGC_logo_banner_black.webp"
 image_alt = ""
 layout = "post"
@@ -11,9 +11,9 @@ thumb_image = "/images/DFGC_logo_banner_black.webp"
 thumb_image_alt = ""
 title = "テンプレート投稿テスト（Blog）"
 [seo]
-description = ""
+description = "これはテンプレートを用いた投稿のテストです。"
 extra = []
-title = ""
+title = "テンプレート投稿テスト"
 
 +++
 \## 見出し2

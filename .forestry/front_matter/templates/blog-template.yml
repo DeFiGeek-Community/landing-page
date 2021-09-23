@@ -67,4 +67,4 @@ fields:
   hidden: true
   default: post
 pages:
-- content/blog/blog.md
+- content/blog/test-using-template01.md
