@@ -13,12 +13,6 @@ sections:
   match: "**/*"
   new_doc_ext: md
 - type: heading
-  label: author
-- type: document
-  path: data/authors/*
-  label: author
-  read_only: true
-- type: heading
   label: website
 - type: directory
   path: content
