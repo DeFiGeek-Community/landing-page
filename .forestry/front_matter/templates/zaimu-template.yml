@@ -35,6 +35,7 @@ fields:
 - type: text
   name: image_alt
   label: image_alt
+  hidden: true
 - type: text
   name: tags
   label: タグ（任意）
