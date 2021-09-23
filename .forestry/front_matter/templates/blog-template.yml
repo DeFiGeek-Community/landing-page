@@ -65,3 +65,4 @@ fields:
   name: layout
   label: layout
   hidden: true
+  default: post

@@ -1,11 +1,11 @@
 ---
-label: Official Announce Template
+label: Zaimu Template
 hide_body: false
-display_field: title
 fields:
 - type: text
   name: title
   label: タイトル
+  default: 20xx年x月度 月次財務報告
 - type: text
   name: subtitle
   label: サブタイトル
@@ -29,25 +29,25 @@ fields:
   hidden: true
 - type: file
   name: image
-  label: 画像（タイトルの下に表示）
+  label: 画像（タイトルの下に表示される）
   default: "/images/DFGC_logo_banner.webp"
 - type: text
   name: image_alt
   label: image_alt
-  hidden: true
 - type: text
   name: tags
   label: タグ（任意）
+  default: 財務レポート
 - type: field_group
   name: seo
   label: seo
   fields:
   - type: text
     name: title
-    label: タイトル
+    label: title
   - type: text
     name: description
-    label: 簡単な説明
+    label: description
   - type: field_group_list
     name: extra
     label: extra
