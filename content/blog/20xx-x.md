@@ -1,6 +1,6 @@
 +++
 author = ""
-date = ""
+date = 2021-09-22T15:00:00Z
 excerpt = ""
 image = "/images/blog/DFGC_logo_banner.webp"
 image_alt = ""
