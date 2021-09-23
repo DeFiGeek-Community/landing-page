@@ -58,28 +58,69 @@ fields:
     - type: text
       name: name
       label: name
-      default: og:type
-    - type: text
-      name: value
-      label: value
-      default: article
-    - type: text
-      name: keyName
-      label: keyName
-      default: property
-    fields:
-    - type: text
-      name: name
-      label: name
       default: og:title
     - type: text
       name: value
       label: value
-      default:  DFGC月次レポート
+      default: DFGC月次レポート
     - type: text
       name: keyName
       label: keyName
       default: property
+- name: seo_extra
+  type: field_group_list
+  fields:
+  - name: field1
+    type: field_group
+    config: {}
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: name
+      default: og:type
+    - name: value
+      type: text
+      config:
+        required: false
+      label: value
+      default: article
+    - name: keyName
+      type: text
+      config:
+        required: false
+      label: keyName
+      default: property
+    label: field1
+  - name: field2
+    type: field_group
+    config: {}
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: name
+      default: og:title
+    - name: value
+      type: text
+      config:
+        required: false
+      label: value
+      default: DFGC月次レポート
+    - name: keyName
+      type: text
+      config:
+        required: false
+      label: keyName
+      default: property
+    label: field2
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: seo.extra
 - type: text
   name: layout
   label: layout
