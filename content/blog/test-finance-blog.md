@@ -12,8 +12,27 @@ thumb_image_alt = ""
 title = "20xx年x月度 月次財務報告"
 [seo]
 description = ""
-extra = []
-title = ""
+title = "DeFiGeek財務レポート"
+[[seo.extra]]
+keyName = "property"
+name = "'og:type'"
+value = "article"
+[[seo.extra]]
+keyName = "property"
+name = "'og:title'"
+value = "DeFiGeek財務レポート"
+[[seo.extra]]
+keyName = "property"
+name = "'og:description'"
+value = ""
+[[seo.extra]]
+keyName = "property"
+name = "'og:image'"
+value = "https://dfgc.xyz/images/blog/DFGC_logo_banner02.png"
+[[seo.extra]]
+keyName = "summary_large_image"
+name = "'twitter:card'"
+value = ""
 
 +++
 ## 重要指標
