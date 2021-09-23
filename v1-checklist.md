@@ -30,12 +30,14 @@
 - [ ] image変更。about, signup
 
 ###  4. ブログ投稿フロー
-- [ ] テンプレート投稿
-- [ ] ファイル名
+- [x] テンプレート投稿
+- [x] ファイル名 - 自動生成される。変更は右上。後で変更も可能
 - [x] デフォルト画像挿入
-- [ ] Markdownが効いているか
-- [x] 画像アップロード、画像ファイル格納先
+- [x] Markdownが効いているか　- 手入力では`<p>`で囲われて効かない。GUIで選択すること。
+- [x] 画像アップロード、画像ファイル格納先を`images/blog`に。
 - [ ] OGP
+- その他の注意事項
+    - 日付入力は必須。日付を入れないと「0001年1月1日」になる。
 
 ###  5. OGPチェック
 - [Twitter Card Validator](https://cards-dev.twitter.com/validator)と[OGP確認](https://rakko.tools/tools/9/)でチェック

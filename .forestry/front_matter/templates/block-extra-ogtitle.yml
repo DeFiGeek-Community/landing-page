@@ -1,5 +1,5 @@
 ---
-label: Block extra ogtype
+label: Block extra ogtitle
 hide_body: true
 fields:
 - name: extra
@@ -10,13 +10,13 @@ fields:
     config:
       required: false
     label: name
-    default: og:type
+    default: og:title
   - name: value
     type: text
     config:
       required: false
     label: value
-    default: article
+    default: DFGC財務レポート
   - name: keyName
     type: text
     config:
@@ -27,4 +27,4 @@ fields:
     min: 
     max: 
     labelField: 
-  label: extra og:type
+  label: extra ogtitle
