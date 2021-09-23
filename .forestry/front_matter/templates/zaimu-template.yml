@@ -9,6 +9,7 @@ fields:
 - type: text
   name: subtitle
   label: サブタイトル
+  default: x月＝2021年x月1日 00:00～x月31日 23:59（日本時間）
 - type: text
   name: excerpt
   label: 簡単な説明（ブログ一覧の画面で表示される）
