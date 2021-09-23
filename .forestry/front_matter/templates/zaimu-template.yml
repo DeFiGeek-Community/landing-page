@@ -51,15 +51,6 @@ fields:
   - type: text
     name: description
     label: description
-  - name: extra
-    type: blocks
-    label: extra zaimu
-    template_types:
-    - block-extra-ogtype
-    - block-extra-ogtitle
-    config:
-      min: 
-      max: 
 - type: text
   name: layout
   label: layout
