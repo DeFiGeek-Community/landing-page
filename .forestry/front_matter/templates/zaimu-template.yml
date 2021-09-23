@@ -47,6 +47,7 @@ fields:
   - type: text
     name: title
     label: title
+    default: DFGC財務レポート
   - type: text
     name: description
     label: description
@@ -57,12 +58,17 @@ fields:
     - type: text
       name: name
       label: name
+      default: og:type
     - type: text
       name: value
       label: value
+      default: article
     - type: text
       name: keyName
       label: keyName
+      default: property
+    config:
+      labelField: name
 - type: text
   name: layout
   label: layout
