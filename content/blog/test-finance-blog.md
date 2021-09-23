@@ -9,7 +9,7 @@ subtitle = "8月＝2021年8月1日 00:00～8月31日 23:59（日本時間）"
 tags = "財務レポート"
 thumb_image = "/images/blog/DFGC_logo_banner.webp"
 thumb_image_alt = ""
-title = "2021年x月度 月次財務報告"
+title = "2021年15月度 月次財務報告"
 [seo]
 description = ""
 title = "DeFiGeek財務レポート"
@@ -28,7 +28,7 @@ value = ""
 [[seo.extra]]
 keyName = "property"
 name = "og:image"
-value = "https://dfgc.xyz/images/blog/DFGC_logo_banner.png"
+value = "https://dfgc.xyz/images/blog/DFGC_logo_banner.webp"
 [[seo.extra]]
 keyName = ""
 name = "twitter:card"
