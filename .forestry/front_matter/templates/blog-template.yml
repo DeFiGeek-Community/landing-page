@@ -11,7 +11,7 @@ fields:
   label: サブタイトル
 - type: text
   name: excerpt
-  label: 簡単な説明（任意）
+  label: 簡単な説明（ブログ一覧の画面で表示される）
 - type: datetime
   name: date
   label: 日付
