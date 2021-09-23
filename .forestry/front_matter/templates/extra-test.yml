@@ -1,4 +1,30 @@
 ---
 label: extra test
 hide_body: true
-fields: []
+fields:
+- name: extra
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: name
+    default: og:type
+  - name: value
+    type: text
+    config:
+      required: false
+    label: value
+    default: article
+  - name: keyName
+    type: text
+    config:
+      required: false
+    label: keyName
+    default: property
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: extra og:type

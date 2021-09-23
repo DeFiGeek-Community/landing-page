@@ -45,6 +45,14 @@ fields:
   - type: text
     name: description
     label: description
+  - name: extra_og_type
+    type: blocks
+    label: extra og:type
+    template_types:
+    - extra-test
+    config:
+      min: 
+      max: 
   - type: field_group_list
     name: extra
     label: extra
