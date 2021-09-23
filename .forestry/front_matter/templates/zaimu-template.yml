@@ -51,12 +51,12 @@ fields:
   - type: text
     name: description
     label: description
-  - name: extra_ogtype
+  - name: extra
     type: blocks
-    label: extra
+    label: extra zaimu
     template_types:
     - block-extra-ogtype
-    - block-extra-ogtype
+    - block-extra-ogtitle
     config:
       min: 
       max: 
