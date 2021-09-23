@@ -1,5 +1,5 @@
 ---
-label: Block extra og:type
+label: Block extra ogtype
 hide_body: true
 fields:
 - name: extra
