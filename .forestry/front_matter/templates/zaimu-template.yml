@@ -51,24 +51,22 @@ fields:
   - type: text
     name: description
     label: description
-  - type: field_group_list
-    name: extra
-    label: extra
-    fields:
-    - type: text
-      name: name
-      label: name
-      default: og:type
-    - type: text
-      name: value
-      label: value
-      default: article
-    - type: text
-      name: keyName
-      label: keyName
-      default: property
+  - name: extra_ogtype
+    type: blocks
+    label: extra ogtype
+    template_types:
+    - block-extra-ogtype
     config:
-      labelField: name
+      min: 
+      max: 
+  - name: extra_ogtitle
+    type: blocks
+    label: extra ogtitle
+    template_types:
+    - block-extra-ogtitle
+    config:
+      min: 
+      max: 
 - type: text
   name: layout
   label: layout
