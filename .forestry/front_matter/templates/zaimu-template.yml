@@ -53,17 +53,10 @@ fields:
     label: description
   - name: extra_ogtype
     type: blocks
-    label: extra ogtype
+    label: extra
     template_types:
     - block-extra-ogtype
-    config:
-      min: 
-      max: 
-  - name: extra_ogtitle
-    type: blocks
-    label: extra ogtitle
-    template_types:
-    - block-extra-ogtitle
+    - block-extra-ogtype
     config:
       min: 
       max: 
