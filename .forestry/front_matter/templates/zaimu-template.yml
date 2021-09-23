@@ -67,4 +67,4 @@ fields:
   hidden: true
   default: post
 pages:
-- content/blog/20xx-x.md
+- content/blog/test-finance-blog.md
