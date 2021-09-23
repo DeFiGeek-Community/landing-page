@@ -55,52 +55,21 @@ fields:
     name: extra
     label: extra
     fields:
-    - name: field1
-      type: field_group
-      config: {}
-      fields:
-      - name: name
-        type: text
-        config:
-          required: false
-        label: name
-        default: og:type
-      - name: value
-        type: text
-        config:
-          required: false
-        label: value
-        default: article
-      - name: keyName
-        type: text
-        config:
-          required: false
-        label: keyName
-        default: property
-      label: field1
-    - name: field2
-      type: field_group
-      config: {}
-      fields:
-      - name: name
-        type: text
-        config:
-          required: false
-        label: name
-        default: og:title
-      - name: value
-        type: text
-        config:
-          required: false
-        label: value
-        default: DFGC月次レポート
-      - name: keyName
-        type: text
-        config:
-          required: false
-        label: keyName
-        default: property
-      label: field2
+    - name: name
+      type: text
+      config:
+        required: false
+      label: name
+    - name: value
+      type: text
+      config:
+        required: false
+      label: value
+    - name: keyName
+      type: text
+      config:
+        required: false
+      label: keyName
 - type: text
   name: layout
   label: layout
