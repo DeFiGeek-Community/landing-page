@@ -4,9 +4,9 @@ subtitle:
 author: data/authors/jane-doe.json
 excerpt: 
 date: '2021-06-10'
-thumb_image: images/DFGC_logo_banner02.png
+thumb_image: images/blog/DFGC_logo_banner02.png
 thumb_image_alt: 
-image: images/DFGC_logo_banner02.png
+image: images/blog/DFGC_logo_banner02.png
 image_alt: 
 seo:
   title: 【コミュニティメンバー限定】寄付イベントとTXJPトークンユーティリティのお知らせ

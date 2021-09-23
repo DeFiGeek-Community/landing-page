@@ -4,7 +4,7 @@ subtitle:
 excerpt: 
 author: data/authors/jane-doe.json
 date: '2021-07-15'
-thumb_image: images/txjp-ibco-day1.webp
+thumb_image: images/blog/txjp-ibco-day1.webp
 thumb_image_alt:
 image:
 image_alt:
@@ -35,27 +35,27 @@ layout: post
 
 一日目
 
-![](/images/txjp-ibco-day1.webp)
+![](/images/blog/txjp-ibco-day1.webp)
 
 二日目
 
-![](/images/txjp-ibco-day2.webp)
+![](/images/blog/txjp-ibco-day2.webp)
 
 三日目
 
-![](/images/txjp-ibco-day3.webp)
+![](/images/blog/txjp-ibco-day3.webp)
 
 四日目
 
-![](/images/txjp-ibco-day4.webp)
+![](/images/blog/txjp-ibco-day4.webp)
 
 最終日
 
-![](/images/txjp-ibco-day5.webp)
+![](/images/blog/txjp-ibco-day5.webp)
 
 最終結果
 
-![](/images/txjp-ibco-sold.webp)
+![](/images/blog/txjp-ibco-sold.webp)
 
 
 ** 総寄付ETH　「525.99149899ETH」**

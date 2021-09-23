@@ -5,7 +5,7 @@ subtitle: >-
 excerpt: 
 author: data/authors/jane-doe.json
 date: '2021-09-15'
-thumb_image: images/dfgc-card-coming.webp
+thumb_image: images/blog/dfgc-card-coming.webp
 tags: ""
 seo:
   title: オフィシャルサイト構築中！
@@ -23,7 +23,7 @@ seo:
         プロダクトも財務も広報もみんなすごいよ！
       keyName: property
     - name: 'og:image'
-      value: images/dfgc-card-coming.webp
+      value: images/blog/dfgc-card-coming.webp
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -34,11 +34,11 @@ seo:
       value: >-
         プロダクトも財務も広報もみんなすごいよ！
     - name: 'twitter:image'
-      value: images/dfgc-card-coming.webp
+      value: images/blog/dfgc-card-coming.webp
       relativeUrl: true
 layout: post
 ---
 
-![](/images/dfgc-card-coming.webp)
+![](/images/blog/dfgc-card-coming.webp)
 
 Sooooon...

@@ -29,16 +29,26 @@
 - [ ] ブランドアセットページのレイアウト変更
 - [ ] image変更。about, signup
 
-###  4. OGPチェック
+###  4. ブログ投稿フロー
+- [ ] テンプレート投稿
+- [ ] ファイル名
+- [x] デフォルト画像挿入
+- [ ] Markdownが効いているか
+- [x] 画像アップロード、画像ファイル格納先
+- [ ] OGP
+
+###  5. OGPチェック
+- [Twitter Card Validator](https://cards-dev.twitter.com/validator)と[OGP確認](https://rakko.tools/tools/9/)でチェック
 - [ ] landing
 - [ ] about
 - [ ] txjp
 - [ ] brand
 - [ ] signup
 - [ ] blog
-- [ ] blog-post
+- [ ] blog-post-official
+- [ ] blog-post-writer
 
-### 5. インフラ準備
+### 6. インフラ準備
 - [x] defigeek.xyzリポジトリ作成
 - [ ] 初回push & ブランチ
 - [ ] ツール連携（Netlify、Forestry）
@@ -48,4 +58,4 @@
 - [ ] 1ステップPRテスト
 - [ ] カスタムドメイン設定
 - [ ] `CNAME`で切替
-
+- [ ] baseurlと

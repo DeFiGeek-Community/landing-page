@@ -2,12 +2,12 @@
 author = ""
 date = 2021-04-12T15:00:00Z
 excerpt = "テンプレートを用いた投稿テスト。デフォルトの画像設定、Markdownが効いているかどうか、画像挿入と格納先Dir、ファイル名、OGPを確認する。"
-image = "/images/DFGC_logo_banner_black.webp"
+image = "/images/blog/DFGC_logo_banner_black.webp"
 image_alt = ""
 layout = "post"
 subtitle = "これはテンプレート投稿のテスト用です。"
 tags = ""
-thumb_image = "/images/DFGC_logo_banner_black.webp"
+thumb_image = "/images/blog/DFGC_logo_banner_black.webp"
 thumb_image_alt = ""
 title = "テンプレート投稿テスト（Blog）"
 [seo]
