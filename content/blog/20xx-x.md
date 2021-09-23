@@ -1,7 +1,6 @@
 +++
 author = ""
 date = ""
-draft = true
 excerpt = ""
 image = "/images/blog/DFGC_logo_banner.webp"
 image_alt = ""

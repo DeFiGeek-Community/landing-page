@@ -23,7 +23,6 @@ sections:
 - type: document
   path: content/faq.md
   label: FAQ
-  match: "**/*"
 upload_dir: static/images/blog
 public_path: "/images/blog"
 front_matter_path: ''
