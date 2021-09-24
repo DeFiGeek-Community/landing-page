@@ -14,12 +14,6 @@ sections:
   new_doc_ext: md
 - type: heading
   label: website
-- type: directory
-  path: content
-  label: Pages
-  create: documents
-  match: "*"
-  new_doc_ext: md
 - type: document
   path: content/faq.md
   label: FAQ
