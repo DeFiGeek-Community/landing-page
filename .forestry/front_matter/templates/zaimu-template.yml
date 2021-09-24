@@ -82,4 +82,5 @@ fields:
   default: post
 pages:
 - content/blog/2021-17.md
+- content/blog/2021-19.md
 - content/blog/test-finance-blog.md
