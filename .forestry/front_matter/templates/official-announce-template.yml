@@ -39,6 +39,7 @@ fields:
   name: tags
   label: タグ（任意）
   default: オフィシャルアナウンス
+  hidden: true
 - type: field_group
   name: seo
   label: seo
@@ -46,9 +47,11 @@ fields:
   - type: text
     name: title
     label: タイトル
+    hidden: true
   - type: text
     name: description
     label: 簡単な説明
+    hidden: true
   - type: field_group_list
     name: extra
     label: extra
@@ -60,7 +63,7 @@ fields:
     - type: text
       name: value
       label: value
-      default: https://dfgc.xyz/images/DFGC_logo_banner_black.webp
+      default: https://dfgc.xyz/images/DFGC_logo_banner.webp
     - type: text
       name: keyName
       label: keyName
