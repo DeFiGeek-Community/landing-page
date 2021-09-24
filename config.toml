@@ -8,7 +8,7 @@ DefaultContentLanguage = "ja"
 
 [languages]
   [languages.ja]
-    title = "DeFiGeek コミュニティ"
+    title = "DeFiGeek Community"
     languageName = "JP"
     weight = 1
   [languages.en]
