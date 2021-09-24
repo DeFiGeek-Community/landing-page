@@ -60,16 +60,19 @@ fields:
       config:
         required: false
       label: name
+      default: og:image
     - name: value
       type: text
       config:
         required: false
       label: value
+      default: https://dfgc.xyz/images/DFGC_logo_banner.webp
     - name: keyName
       type: text
       config:
         required: false
       label: keyName
+      default: property
 - type: text
   name: layout
   label: layout
