@@ -56,12 +56,15 @@ fields:
     - type: text
       name: name
       label: name
+      default: og:image
     - type: text
       name: value
       label: value
+      default: https://dfgc.xyz/images/DFGC_logo_banner_black.webp
     - type: text
       name: keyName
       label: keyName
+      default: property
 - type: text
   name: layout
   label: layout
