@@ -40,6 +40,7 @@ fields:
   name: tags
   label: タグ（任意）
   default: 財務レポート
+  hidden: true
 - type: field_group
   name: seo
   label: seo
@@ -48,13 +49,14 @@ fields:
     name: title
     label: title
     default: DFGC財務レポート
+    hidden: true
   - type: text
     name: description
     label: description
     default: ''
+    hidden: true
   - name: extra
-    type: field_group
-    config: {}
+    type: field_group_list
     fields:
     - name: name
       type: text
@@ -74,6 +76,10 @@ fields:
         required: false
       label: keyName
       default: property
+    config:
+      min: 
+      max: 
+      labelField: 
     label: extra
 - type: text
   name: layout
