@@ -45,19 +45,36 @@ fields:
   label: seo
   fields:
   - type: text
-    name: name
-    label: name
-    default: og:image
+    name: title
+    label: title
+    default: ''
   - type: text
-    name: value
-    label: value
-    default: https://dfgc.xyz/images/DFGC_logo_banner.webp
-  - name: keyName
-    type: text
-    config:
-      required: false
-    label: keyName
-    default: property
+    name: description
+    label: description
+    default: ''
+  - name: extra
+    type: field_group
+    config: {}
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: name
+      default: og:image
+    - name: value
+      type: text
+      config:
+        required: false
+      label: value
+      default: https://dfgc.xyz/images/DFGC_logo_banner.webp
+    - name: keyName
+      type: text
+      config:
+        required: false
+      label: keyName
+      default: property
+    label: extra
 - type: text
   name: layout
   label: layout
