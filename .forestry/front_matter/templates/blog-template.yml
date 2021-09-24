@@ -49,22 +49,6 @@ fields:
   - type: text
     name: description
     label: 簡単な説明
-  - type: field_group_list
-    name: extra
-    label: extra
-    fields:
-    - type: text
-      name: name
-      label: name
-      default: og:image
-    - type: text
-      name: value
-      label: value
-      default: https://dfgc.xyz/images/DFGC_logo_banner.webp
-    - type: text
-      name: keyName
-      label: keyName
-      default: property
 - type: text
   name: layout
   label: layout
