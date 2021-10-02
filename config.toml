@@ -1,7 +1,7 @@
 baseURL = '/'
 languageCode = 'ja-JP'
 title = 'DeFiGeek Community'
-theme = "azimuth-hugo"
+theme = ""
 
 # language
 DefaultContentLanguage = "ja"
