@@ -48,7 +48,7 @@ fields:
   - type: text
     name: title
     label: title
-    default: DFGC財務レポート
+    default: ''
     hidden: true
   - type: text
     name: description
