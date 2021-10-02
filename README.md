@@ -61,13 +61,14 @@ DFGCオフィシャルサイトフェーズ１
 2. 環境構築
     - 初回ミラーpush
     - 動作確認と調整
-    - Github Pages設定
-    - ツール連携（Netlify、Forestry）
-    - Github Action設定 ＆ セキュリティキー登録
+    - Github Pages設定　👉xxx.github.ioテスト
+    - Github Action設定　👉単体動作テスト
+    - Previewブランチ作成　　👉PRテスト
+    - ツール連携（Netlify、Forestry）　👉連携テスト
     - ※いまは個人レポで扱っていてProjectでの挙動がどうなるかは未知のため検証しながら。
 3. DNS設定
-    - Aレコード　`defigeek.xyz`と[GithubのIP](https://docs.github.com/ja/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
-    - ALIAS　`www.defigeek.xyz`のリダイレクト
+    - ALIAS  `defigeek.xyz`
+    - CNAME  `www.defigeek.xyz`
 4. 正式リリース
     - カスタムドメイン設定
     - 切替タイミングは`/static`に`CNAME`を置いてPRマージするとき
