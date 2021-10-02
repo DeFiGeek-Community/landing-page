@@ -3,86 +3,72 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    image: images/hero.png
+    image: images/hero-hanabi.webp
     image_alt: App preview
     title: DeFiGeek Community
-    content: >-
-    actions:
-      - label: Learn More
-        url: en/features
-        style: primary
+#    content: >-
+#    actions:
+#      - label: Learn More
+#        url: /features
+#        style: primary
   - section_id: features
     type: section_features
     background: gray
     title: What's DFGC
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      DeFiGeek Community (DFGC) は、DeFiを愛するユーザが集まった分散型の開発コミュニティです。
     features:
-      - title: The Best Feature of Your Services
-        image: images/feature1.png
-        image_alt: App preview on a phone and tablet
+      - title: Dapps開発
+        image: images/feature-dapps.webp
+        image_alt: dapps
         content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
+          DeFiGeek Communityでは、複数の分散型金融アプリケーションの構築を進めています。
+#        actions:
+#          - label: Learn More
+#            url: /features
+#            style: secondary
+#            has_icon: true
+#            icon: arrow-right
+#            icon_position: right
+      - title: DAO：自律分散型コミュニティ
+        image: images/feature-dao.webp
+        image_alt: dao
+        content: >-
+          私たちはコミュニティとしてのあらゆる行動の合意に”投票”を使います。誰もが自由に発議でき、行動はコミュニティの合意で決まります。
+#        actions:
+#          - label: Learn More
+#            url: /features
+#            style: secondary
+#            has_icon: true
+#            icon: arrow-right
+#            icon_position: right
+      - title: DeFiサポート
+        image: images/feature-defi-support.png
+        image_alt: support
+        content: >-
+          DeFiに関する業界の正しい認識の共有、初心者DeFierの支援も私たちの活動の1つです。
         actions:
-          - label: Learn More
-            url: en/features
+          - label: Discordに参加する
+            url: https://discord.gg/FQYXqVBEnh
             style: secondary
             has_icon: true
-            icon: arrow-right
-            icon_position: right
-      - title: Awesome Feature of Your Services
-        image: images/feature2.png
-        image_alt: App users welcoming a new member
-        content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
-        actions:
-          - label: Learn More
-            url: en/features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-      - title: Cool Feature of Your Services
-        image: images/feature3.png
-        image_alt: App user profile preview
-        content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
-        actions:
-          - label: Learn More
-            url: en/features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-  - section_id: reviews
-    type: section_reviews
-    background: white
-    title: Testimonials
-    subtitle: >-
-      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales.
+            icon: discord
+            icon_position: left
   - section_id: call-to-action
     type: section_cta
-    title: This Is Call To Action Block!
-    subtitle: This is an optional description for the call to action block.
+    title: DeFiGeek Communityに参加しよう
+    subtitle: DeFi Dapps構築チームに参加してみませんか？ DeFiGeek Communityは、DeFiとDappsに興味のあるエンジニアを求めています。
     actions:
-      - label: Get Started
-        url: en/signup
+      - label: 詳しくはこちら
+        url: /signup
         style: primary
   - section_id: recent-posts
     type: section_posts
     background: gray
-    title: Latest Posts
+    title: ニュースリリース
 seo:
   title: DeFiGeek Community
-  description: 私たちはDeFi Dapps開発コミュニティです
+  description: DeFiGeek CommunityはDeFiを愛するユーザが集まった分散型の開発コミュニティです。
   extra:
     - name: 'og:type'
       value: website
@@ -91,20 +77,12 @@ seo:
       value: DeFiGeek Community
       keyName: property
     - name: 'og:description'
-      value: 私たちはDeFi Dapps開発コミュニティです
+      value: DeFiGeek CommunityはDeFiを愛するユーザが集まった分散型の開発コミュニティです。
       keyName: property
     - name: 'og:image'
-      value: images/hero.png
+      value: https://dfgc.xyz/images/DFGC_logo_banner02.png
       keyName: property
-      relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
-    - name: 'twitter:title'
-      value: DeFiGeek Community
-    - name: 'twitter:description'
-      value: 私たちはDeFi Dapps開発コミュニティです
-    - name: 'twitter:image'
-      value: images/hero.png
-      relativeUrl: true
 layout: landing
 ---

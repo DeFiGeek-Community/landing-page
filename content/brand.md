@@ -4,7 +4,7 @@ sections:
   - section_id: brand
     type: section_content
     background: gray
-    image: images/feature1.png
+    image: images/brand_color_icons.webp
     image_alt: DeFiGeek Community Brand Assets
     title: ブランドアセット
     content: >-
@@ -12,15 +12,41 @@ sections:
 
       - 紅(KURENAI)　#B52F43
       
-      ### メディアキット
-
-      ロゴ、バナー、アイコン等のコンテンツは下記よりダウンロードすることが可能です。
-
-      当コミュニティのロゴ、アイコン等のコンテンツについて、縦横比、色彩もしくはフォントを改変すること、その他シンボルに追加したり除去することを禁止します。
     actions:
       - label: ダウンロード
         url: '#'
         style: secondary
+  - section_id: assets
+    type: section_pricing
+    background: gray
+    title: メディアキット
+    subtitle: ロゴ、バナー、アイコン等のコンテンツは下記よりダウンロードすることが可能です。
+    pricing_plans:
+      - title: アイコン
+        subtitle: Icon, App Icon, Favicon
+        details: |-
+          イメージ図
+        actions:
+          - label: ダウンロード
+            url: '#'
+            style: secondary
+      - title: ロゴ
+        subtitle: 紅、ブラック
+        details: |-
+          イメージ図
+        highlight: true
+        actions:
+          - label: ダウンロード
+            url: '#'
+            style: secondary
+      - title: バナー
+        subtitle: 1500x500 px
+        details: |-
+          イメージ図
+        actions:
+          - label: バナー一覧
+            url: '#'
+            style: secondary
   - section_id: call-to-action
     type: section_cta
     title: ご不明点はDiscordにてコミュニティに問い合わせください

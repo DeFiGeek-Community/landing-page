@@ -25,7 +25,7 @@
             },
             {
                 "label": "English",
-                "url": "/en",
+                "url": "/",
                 "style": "secondary"
             }
         ]
@@ -102,23 +102,6 @@
                         "icon_position": "left"
                     }
                 ]
-            },
-            {
-                "type": "footer_form",
-                "title": "ニュース購読",
-                "content": "最新ニュースの配信はこちらにご登録ください。",
-                "form_id": "contactForm",
-                "hide_labels": true,
-                "form_fields": [
-                    {
-                        "input_type": "email",
-                        "name": "email",
-                        "label": "Email",
-                        "default_value": "メールアドレス",
-                        "is_required": true
-                    }
-                ],
-                "submit_label": "Subscribe"
             }
         ],
         "has_nav": false,
