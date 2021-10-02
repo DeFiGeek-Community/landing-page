@@ -87,6 +87,4 @@ fields:
   hidden: true
   default: post
 pages:
-- content/blog/2021-17.md
 - content/blog/monthly-2021-20.md
-- content/blog/test-finance-blog.md

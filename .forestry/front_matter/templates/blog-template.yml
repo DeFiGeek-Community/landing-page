@@ -83,6 +83,3 @@ fields:
   label: layout
   hidden: true
   default: post
-pages:
-- content/blog/forestry.md
-- content/blog/test-using-template01.md
