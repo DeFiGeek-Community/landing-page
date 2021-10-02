@@ -11,11 +11,7 @@ sections:
       ### ブランドカラー
 
       - 紅(KURENAI)　#B52F43
-      
-    actions:
-      - label: ダウンロード
-        url: '#'
-        style: secondary
+
   - section_id: assets
     type: section_pricing
     background: gray
@@ -34,7 +30,6 @@ sections:
         subtitle: 紅、ブラック
         details: |-
           イメージ図
-        highlight: true
         actions:
           - label: ダウンロード
             url: '#'
