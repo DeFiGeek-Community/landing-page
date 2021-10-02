@@ -8,23 +8,15 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Blog
+      value: DFGC Blog
       keyName: property
     - name: 'og:description'
-      value: This is the blog page
+      value: DeFiGeek Community Official Blog
       keyName: property
     - name: 'og:image'
-      value: images/1.jpg
+      value: https://dfgc.xyz/images/DFGC_logo_banner02.png
       keyName: property
-      relativeUrl: true
     - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: Blog
-    - name: 'twitter:description'
-      value: This is the blog page
-    - name: 'twitter:image'
-      value: images/1.jpg
-      relativeUrl: true
+      value: summary
 layout: blog
 ---
