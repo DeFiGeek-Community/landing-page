@@ -24,10 +24,10 @@
 
 ###  3. 各種調整（いくつかリリース後でもOK）
 - [ ] 多言語化のconfig変更（ヘッダー、フッター）
-- [ ] ブログ投稿フロー
+- [x] ブログ投稿フロー
 - [x] ファビコン
-- [ ] ブランドアセットページのレイアウト変更
-- [ ] image変更。about, signup
+- [x] ブランドアセットページのレイアウト変更
+- [x] image変更。about, signup
 
 ###  4. ブログ投稿フロー
 - [x] テンプレート投稿
@@ -35,7 +35,7 @@
 - [x] デフォルト画像挿入
 - [x] Markdownが効いているか　- 手入力では`<p>`で囲われて効かない。GUIで選択すること。
 - [x] 画像アップロード、画像ファイル格納先を`images/blog`に。
-- [ ] OGP
+- [x] OGP
 - その他の注意事項
     - 日付入力は必須。日付を入れないと「0001年1月1日」になる。
 
@@ -52,12 +52,13 @@
 
 ### 6. インフラ準備
 - [x] defigeek.xyzリポジトリ作成
-- [ ] 初回push & ブランチ
-- [ ] ツール連携（Netlify、Forestry）
-- [ ] Github Pages設定
-- [ ] DNS設定
-- [ ] Github Action設定
+- [x] 初回push & ブランチ
+- [x] ツール連携（Netlify） 👉https://dfgc-preview.netlify.app/
+- [x] Github Pages設定
+- [x] Github Action設定
+- [ ] ツール連携（Forestry）
 - [ ] 1ステップPRテスト
+- [ ] DNS設定
 - [ ] カスタムドメイン設定
 - [ ] `CNAME`で切替
-- [ ] baseurlと
+- [ ] `config.toml`の`baseurl`を変更

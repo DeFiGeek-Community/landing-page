@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://dfgc-preview.netlify.app/'
 languageCode = 'ja-JP'
 title = 'DeFiGeek Community'
 # theme = ""

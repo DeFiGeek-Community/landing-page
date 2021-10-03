@@ -1,4 +1,4 @@
-# ✨ dfgc-proto ✨
+# ✨ defigeek.xyz ✨
 
 DFGCオフィシャルサイトフェーズ１
 
