@@ -1,5 +1,5 @@
 ---
-title: DeFiGeek Communityブランドアセット
+title: ブランドアセット
 sections:
   - section_id: brand
     type: section_content
