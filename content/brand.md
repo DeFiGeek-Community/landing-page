@@ -10,7 +10,7 @@ sections:
     content: >-
       ### ブランドカラー
 
-      - 紅(KURENAI)　#B52F43
+      - 紅(KURENAI, BENI)　#C41A41
 
   - section_id: assets
     type: section_pricing
