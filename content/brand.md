@@ -21,7 +21,7 @@ sections:
       - title: アイコン
         subtitle: Icon, App Icon, Favicon
         details: |-
-          イメージ図
+          ![](/images/brand_assets_icon.webp)
         actions:
           - label: ダウンロード
             url: '#'
@@ -29,7 +29,7 @@ sections:
       - title: ロゴ
         subtitle: 紅、ブラック
         details: |-
-          イメージ図
+          ![](/images/brand_assets_logo.webp)
         actions:
           - label: ダウンロード
             url: '#'
@@ -37,10 +37,10 @@ sections:
       - title: バナー
         subtitle: 1500x500 px
         details: |-
-          イメージ図
+          ![](/images/brand_assets_banner.webp)
         actions:
           - label: バナー一覧
-            url: '#'
+            url: '/brand_assets_banner'
             style: secondary
   - section_id: call-to-action
     type: section_cta
