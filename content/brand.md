@@ -44,7 +44,7 @@ sections:
             style: secondary
   - section_id: call-to-action
     type: section_cta
-    title: ご不明点はDiscordにてコミュニティに問い合わせください
+    title: ご不明点はコミュニティに問い合わせください
     subtitle: 
     actions:
       - label: Discord
