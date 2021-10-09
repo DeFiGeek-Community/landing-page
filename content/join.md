@@ -1,12 +1,12 @@
 ---
 title: 参加する
 subtitle: >-
-  日本を代表するDeFi Dapps開発チームに参加してみませんか？
+  DeFi Dapps開発と成功には多様なスキルと人材が必要です。オープンソース型コミュニティでDeFi Dappsに携わってみませんか？
 image: images/DFGC_logo_banner.webp
 image_alt: DeFiGeek Logo Banner
 seo:
   title: DeFiGeek Communityに参加する
-  description: 日本を代表するDeFi Dapps開発チームに参加してみませんか？
+  description: DeFi Dapps開発と成功には多様なスキルと人材が必要です。オープンソース型コミュニティでDeFi Dappsに携わってみませんか？
   extra:
     - name: 'og:type'
       value: website
@@ -15,7 +15,7 @@ seo:
       value: DeFiGeek Communityに参加する
       keyName: property
     - name: 'og:description'
-      value: 日本を代表するDeFi Dapps開発チームに参加してみませんか？
+      value: DeFi Dapps開発と成功には多様なスキルと人材が必要です。オープンソース型コミュニティでDeFi Dappsに携わってみませんか？
       keyName: property
     - name: 'og:image'
       value: https://dfgc.xyz/images/DFGC_logo_banner02.png
@@ -25,7 +25,7 @@ seo:
 layout: page
 ---
 
-DeFiGeek Communityでは様々な分野でのコントリビュータを求めています。詳細な募集条件は [DeFiGeekドキュメント](https://docs.defigeek.xyz) を参照ください。
+DeFiGeek Communityでは様々な分野でのコントリビュータを求めています。
 
 ### 開発者
 - スマートコントラクト開発
@@ -44,4 +44,4 @@ DeFiGeek Communityでは様々な分野でのコントリビュータを求め�
 - ガイドブック作成
 - 記事執筆
 
-コミュニティでは、上記の分野で細かなタスクまで分けて公募を行っています。メンバーの一部として貢献できるものがあれば自由にご参加ください。詳細はDiscordの「タスク部屋」をご覧ください。
+コミュニティの成長と成功のためのアクションアイテムを「タスク」と呼んでいます。メンバーは、作成されているタスクに名乗り上げて着手するほか、提案することも期待されています。詳細はDiscord にご参加ください。
