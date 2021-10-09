@@ -60,7 +60,7 @@ sections:
     subtitle: DeFi Dapps構築チームに参加してみませんか？ DeFiGeek Communityは、DeFiとDappsに興味のあるエンジニアを求めています。
     actions:
       - label: 詳しくはこちら
-        url: /signup
+        url: /join
         style: primary
   - section_id: recent-posts
     type: section_posts
