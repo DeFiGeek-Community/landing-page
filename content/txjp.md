@@ -27,7 +27,7 @@ layout: page
 
 ### TXJPの分布
 
-- 総発行数　210,000TXJP　小数点以下８桁
+- 総発行数　210,000TXJP　小数点以下8桁
 
 - コントラクトアドレス　[0x961dd84059505d59f82ce4fb87d3c09bec65301d](https://etherscan.io/token/0x961dd84059505d59f82ce4fb87d3c09bec65301d)
 
@@ -53,11 +53,7 @@ layout: page
 
 2. コミュニティメンバーの提案とTXJPホルダーによる議決によって、ファンドの運用は管理されます。
 
-- コミュニティファンドコントラクトアドレス [0x24Dd242c3c4061b1fCaA5119af608B56afBaEA95](https://etherscan.io/address/0x24Dd242c3c4061b1fCaA5119af608B56afBaEA95)
-
-- 過去の寄付及び運用から、400万円以上の資金を保有しています。
-
-- 寄付イベントで集まった資金もこれに合算され、コミュニティガバナンスによって積極的に運用されます。
+- コミュニティファンドコントラクトアドレス [0x24Dd242c3c4061b1fCaA5119af608B56afBaEA95](https://etherscan.io/address/0x24Dd242c3c4061b1fCaA5119af608B56afBaEA95) defigeek.eth
 
 
 ### TXJPユーティリティ拡張計画
