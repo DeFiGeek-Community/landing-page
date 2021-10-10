@@ -24,9 +24,10 @@
                 "style": "link"
             },
             {
-                "label": "English",
-                "url": "/",
-                "style": "secondary"
+                "label": "EN",
+                "url": "/en",
+                "has_icon": true,
+                "icon": "earth"
             }
         ]
     },
