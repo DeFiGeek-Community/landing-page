@@ -4,7 +4,7 @@
     "palette": "blue",
     "favicon": "favicon.ico",
     "header": {
-        "logo_img": "images/DFGC_logo_lockup.svg",
+        "logo_img": "images/DFGC_logo_lockup.webp",
         "logo_img_alt": "Logo",
         "has_nav": true,
         "nav_links": [
@@ -24,9 +24,10 @@
                 "style": "link"
             },
             {
-                "label": "English",
-                "url": "/",
-                "style": "secondary"
+                "label": "EN",
+                "url": "/en",
+                "has_icon": true,
+                "icon": "earth"
             }
         ]
     },
@@ -34,7 +35,7 @@
         "sections": [
             {
                 "type": "footer_text",
-                "image": "images/DFGC_logo_lockup.svg",
+                "image": "images/DFGC_logo_lockup.webp",
                 "image_url": "/",
                 "image_alt": "Footer logo",
                 "content": ""
