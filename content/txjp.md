@@ -69,11 +69,16 @@ layout: page
 
 ### TXJPの入手方法
 
-TXJPは、寄付イベントを除き、以下の公開市場で入手することができます。
+- DFGCでの貢献
+    - 割当ての"コミュニティトレジャー"から貢献に応じて割当てされます
+    - コントリビュートについてはこちらを参照ください。[参加する](./join)
+- 寄付イベント
 
-- [Uniswap](https://app.uniswap.org/#/)
-- [Balancer](https://app.balancer.fi/#/)
-- [1inchExchange](https://app.1inch.io/#/)
+また、以下の公開市場でも入手することができます。
+
+ - [Uniswap](https://app.uniswap.org/#/)
+ - [Balancer](https://app.balancer.fi/#/)
+ - [1inchExchange](https://app.1inch.io/#/)
 
 トークン選択画面でTXJPコントラクトアドレス（0x961dd84059505d59f82ce4fb87d3c09bec65301d）を入力することで表示されます。
 
