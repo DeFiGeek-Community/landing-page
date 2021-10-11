@@ -9,19 +9,20 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Docs",
-                "url": "https://docs.defigeek.xyz/",
-                "style": "link"
+                "label": "About",
+                "url": "/about"
             },
             {
-                "label": "About",
-                "url": "/about",
-                "style": "link"
+                "label": "ドキュメント",
+                "url": "https://docs.defigeek.xyz/"
+            },
+            {
+                "label": "参加する",
+                "url": "/join"
             },
             {
                 "label": "TXJP",
-                "url": "/txjp",
-                "style": "link"
+                "url": "/txjp"
             },
             {
                 "label": "EN",
@@ -37,8 +38,7 @@
                 "type": "footer_text",
                 "image": "images/DFGC_logo_lockup.webp",
                 "image_url": "/",
-                "image_alt": "Footer logo",
-                "content": ""
+                "image_alt": "Footer logo"
             },
             {
                 "type": "footer_nav",
@@ -46,23 +46,19 @@
                 "nav_links": [
                     {
                         "label": "About",
-                        "url": "/about",
-                        "style": "link"
+                        "url": "/about"
                     },
                     {
                         "label": "ニュースリリース",
-                        "url": "/blog",
-                        "style": "link"
+                        "url": "/blog"
                     },
                     {
                         "label": "ドキュメント",
-                        "url": "https://docs.defigeek.xyz/",
-                        "style": "link"
+                        "url": "https://docs.defigeek.xyz/"
                     },
                     {
                         "label": "メディアキット",
-                        "url": "/brand",
-                        "style": "link"
+                        "url": "/brand"
                     }
                 ]
             },
@@ -73,7 +69,6 @@
                     {
                         "label": "Twitter",
                         "url": "https://twitter.com/defigeekjapan",
-                        "style": "link",
                         "has_icon": true,
                         "icon": "twitter",
                         "icon_position": "left"
@@ -81,7 +76,6 @@
                     {
                         "label": "Discord",
                         "url": "https://discord.gg/FQYXqVBEnh",
-                        "style": "link",
                         "has_icon": true,
                         "icon": "discord",
                         "icon_position": "left"
@@ -89,18 +83,37 @@
                     {
                         "label": "GitHub",
                         "url": "https://github.com/DeFiGeek-Community/",
-                        "style": "link",
                         "has_icon": true,
                         "icon": "github",
                         "icon_position": "left"
                     },
                     {
-                        "label": "フォーラム",
-                        "url": "https://gov.defigeek.xyz/#/",
-                        "style": "link",
+                        "label": "参加する",
+                        "url": "/join",
                         "has_icon": false,
                         "icon": "",
                         "icon_position": "left"
+                    }
+                ]
+            },
+            {
+                "type": "footer_nav",
+                "title": "投票",
+                "nav_links": [
+                    {
+                        "label": "投票所",
+                        "url": "https://snapshot.org/#/defigeek.eth",
+                        "has_icon": false
+                    },
+                    {
+                        "label": "フォーラム",
+                        "url": "https://gov.defigeek.xyz/#/",
+                        "has_icon": false
+                    },
+                    {
+                        "label": "TXJP",
+                        "url": "/txjp",
+                        "has_icon": false
                     }
                 ]
             }
@@ -109,12 +122,12 @@
         "nav_links": [
             {
                 "label": "Terms of Service",
-                "url": "/terms-of-service",
+                "url": "#",
                 "style": "link"
             },
             {
                 "label": "Privacy Policy",
-                "url": "/privacy-policy",
+                "url": "#",
                 "style": "link"
             }
         ],
