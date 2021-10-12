@@ -30,11 +30,18 @@ layout: page
 - 総発行数　210,000TXJP　小数点以下8桁
 - コントラクトアドレス　[0x961dd84059505d59f82ce4fb87d3c09bec65301d](https://etherscan.io/token/0x961dd84059505d59f82ce4fb87d3c09bec65301d)
 
-![](/images/txjp-allocation.webp "TXJPアロケーション")
+![](/images/txjp_allocation.png "TXJPアロケーション")
+
+![](/images/txjp_allocation_pie.png "TXJPアロケーション")
 
 - TXJPトークンとは、DeFiGeek Community(DFGC)のガバナンストークンです。
 - TXJPファンドという名称で運用を行っています。
 - TXJPファンドは、DFGCで開発するDappとツールのシード投資家です。
+
+:::note info
+インフォメーション
+infoは省略可能です。
+:::
 
 ### TXJPホルダー特典
 
@@ -70,8 +77,8 @@ layout: page
 ### TXJPの入手方法
 
 - DFGCでの貢献
-    - 割当ての"コミュニティトレジャー"から貢献に応じて割当てされます
-    - コントリビュートについてはこちらを参照ください。[参加する](./join)
+    - コミュニティトレジャリーから貢献に応じて割当てされます
+    - コントリビュートについては[こちら](/join)を参照ください
 - 寄付イベント
 
 また、以下の公開市場でも入手することができます。
