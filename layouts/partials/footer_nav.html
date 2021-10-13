@@ -1,13 +1,15 @@
 {{ $section := .section }}
 <section class="cell widget widget-nav">
   {{ if $section.title }}
-  <h2 class="widget-title">{{ $section.title }}</h2>
+  <h2 class="widget-title">
+    {{ if eq .Site.Language.Lang "en" }}{{ $section.title_en }}{{ else }}{{ $section.title }}{{ end }}
+  </h2>
   {{ end }}
   {{ if $section.nav_links }}
   <ul class="menu">
     {{ range $action := $section.nav_links }}
     <li class="menu-item">
-      {{ $include_dict := dict "action" $action }}
+      {{ $include_dict := dict "action" $action "Site" $.Site }}
       {{ partial "action.html" $include_dict }}
     </li>
     {{ end }}

@@ -10,5 +10,7 @@
     {{ $include_dict := dict "icon" $action_icon }}
     {{ partial "icon.html" $include_dict }}
   {{ end }}
-  <span {{ if eq $action_icon_pos "right" }}class="order-first"{{ end }}>{{ $action.label }}</span>
+  <span {{ if eq $action_icon_pos "right" }}class="order-first"{{ end }}>
+    {{ if eq .Site.Language.Lang "en" }}{{ $action.label_en }}{{ else }}{{ $action.label }}{{ end }}
+  </span>
 </a>
