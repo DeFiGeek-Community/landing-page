@@ -21,7 +21,7 @@
               {{ $action_url := trim $action.url "/" }}
               {{ $action_style := $action.style | default "link" }}
               <li class="menu-item{{ if eq $page_url $action_url }} current-menu-item{{ end }}{{ if ne $action_style "link" }} menu-button{{ end }}">
-                {{ $include_dict := dict "action" $action }}
+                {{ $include_dict := dict "action" $action "Site" $.Site }}
                 {{ partial "action.html" $include_dict }}
               </li>
             {{ end }}
