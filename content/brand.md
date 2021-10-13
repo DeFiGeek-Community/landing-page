@@ -24,7 +24,7 @@ sections:
           ![](/images/brand_assets_icon.webp)
         actions:
           - label: ダウンロード
-            url: '#'
+            url: '/brand_assets/icon.zip'
             style: secondary
       - title: ロゴ
         subtitle: 紅、ブラック
@@ -32,7 +32,7 @@ sections:
           ![](/images/brand_assets_logo.webp)
         actions:
           - label: ダウンロード
-            url: '#'
+            url: '/brand_assets/icon.zip'
             style: secondary
       - title: バナー
         subtitle: 1500x500 px
