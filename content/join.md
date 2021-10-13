@@ -4,6 +4,13 @@ subtitle: >-
   DeFi Dapps開発と成功には多様なスキルと人材が必要です。オープンソース型コミュニティでDeFi Dappsに携わってみませんか？
 image: images/DFGC_logo_banner.webp
 image_alt: DeFiGeek Logo Banner
+actions:
+  - label: Discordに参加
+    url: https://discord.gg/FQYXqVBEnh
+    style: primary
+    has_icon: true
+    icon: discord
+    icon_position: left
 seo:
   title: DeFiGeek Communityに参加する
   description: DeFi Dapps開発と成功には多様なスキルと人材が必要です。オープンソース型コミュニティでDeFi Dappsに携わってみませんか？
