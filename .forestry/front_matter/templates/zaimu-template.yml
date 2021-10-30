@@ -87,5 +87,4 @@ fields:
   hidden: true
   default: post
 pages:
-- content/blog/2021-9-copy.md
 - content/blog/monthly-2021-09.md

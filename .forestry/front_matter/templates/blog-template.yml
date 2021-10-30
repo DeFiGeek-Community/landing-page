@@ -83,5 +83,4 @@ fields:
   label: layout
   hidden: true
   default: post
-pages:
-- content/blog/テストしている.md
+
