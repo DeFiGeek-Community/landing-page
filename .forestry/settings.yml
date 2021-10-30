@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/faq.md
   label: FAQ
-  match: "**/*"
 - type: heading
   label: NEWS
 - type: directory
@@ -15,11 +14,11 @@ sections:
   label: News
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: heading
   label: WEBSITE
-upload_dir: static/uploads
-public_path: "/uploads"
+upload_dir: static/images/blog
+public_path: "/images/blog"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
