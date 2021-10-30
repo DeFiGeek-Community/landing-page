@@ -3,22 +3,9 @@ new_page_extension: md
 auto_deploy: false
 admin_path: ''
 webhook_url: 
-sections:
-- type: heading
-  label: news
-- type: directory
-  path: content/blog
-  label: News
-  create: documents
-  match: "**/*"
-  new_doc_ext: md
-- type: heading
-  label: website
-- type: document
-  path: content/faq.md
-  label: FAQ
-upload_dir: static/images/blog
-public_path: "/images/blog"
+sections: 
+upload_dir: static/uploads
+public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
