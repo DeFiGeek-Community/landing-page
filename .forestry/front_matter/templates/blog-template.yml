@@ -1,0 +1,87 @@
+---
+label: Blog Template
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: title
+  label: タイトル
+- type: text
+  name: subtitle
+  label: サブタイトル
+- type: text
+  name: excerpt
+  label: 簡単な説明（ブログ一覧の画面で表示される）
+- type: datetime
+  name: date
+  label: 日付
+- type: text
+  name: author
+  label: author
+  hidden: true
+- type: file
+  name: thumb_image
+  label: サムネイル画像
+  default: "/images/blog/DFGC_logo_banner_black.webp"
+- type: text
+  name: thumb_image_alt
+  label: thumb_image_alt
+  hidden: true
+- type: file
+  name: image
+  label: 画像（タイトルの下に表示）
+  default: "/images/blog/DFGC_logo_banner_black.webp"
+- type: text
+  name: image_alt
+  label: image_alt
+  hidden: true
+- type: text
+  name: tags
+  label: タグ（任意）
+  default: コミュニティブログ
+  hidden: true
+- type: field_group
+  name: seo
+  label: seo
+  fields:
+  - type: text
+    name: title
+    label: タイトル
+    hidden: true
+  - type: text
+    name: description
+    label: 簡単な説明
+    hidden: true
+  - name: extra
+    type: field_group_list
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: name
+      default: og:image
+    - name: value
+      type: text
+      config:
+        required: false
+      label: value
+      default: https://dfgc.xyz/images/DFGC_logo_banner_black.webp
+    - name: keyName
+      type: text
+      config:
+        required: false
+      label: keyName
+      default: property
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: extra
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  default: post
+pages:
+- content/blog/テストしている.md
