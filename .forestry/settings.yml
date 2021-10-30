@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: content/faq.md
-  label: FAQ
 - type: heading
   label: NEWS
 - type: directory
@@ -17,6 +14,9 @@ sections:
   new_doc_ext: md
 - type: heading
   label: WEBSITE
+- type: document
+  path: content/faq.md
+  label: FAQ
 upload_dir: static/images/blog
 public_path: "/images/blog"
 front_matter_path: ''
