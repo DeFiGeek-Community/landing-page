@@ -10,7 +10,7 @@ sections:
     content: >-
       ### ブランドカラー
 
-      - 紅(KURENAI, BENI)　#C41A41
+      紅(KURENAI, BENI)　#C41A41
 
   - section_id: assets
     type: section_pricing
@@ -42,6 +42,19 @@ sections:
           - label: バナー一覧
             url: '/brand_assets_banner'
             style: secondary
+
+  - section_id: guideline
+    type: section_content
+    background: gray
+    title: 
+    subtitle: 
+    content: >-
+      ##### 注意事項
+        - 当コミュニティのロゴ、アイコンについて、縦横比、色彩もしくはフォントを改変すること、その他シンボルに追加したり除去することを禁止します。
+        - 本サイト内のコンテンツの著作権は、特別に記載のあるものを除き、当コミュニティに帰属します。
+        - コンテンツを許諾無く無断で使用・複製・改変・公開及び領布することを一切禁止します。
+        - ガイドラインの不明点やご質問は、以下のDiscord窓口からお問い合わせください。
+
   - section_id: call-to-action
     type: section_cta
     title: ご不明点はコミュニティに問い合わせください
