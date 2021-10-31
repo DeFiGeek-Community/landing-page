@@ -19,6 +19,12 @@
       <div class="post-content">
         {{ .Content }}
       </div>
+      {{ if .Params.actions }}
+      <div class="block-buttons">
+        {{ $include_dict := dict "actions" $.Params.actions }}
+        {{ partial "cta_buttons.html" $include_dict }}
+      </div>
+      {{ end }}
     </article><!-- .post -->
   </div><!-- .inner-medium -->
 </div><!-- .outer-->
