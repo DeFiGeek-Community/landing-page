@@ -1,7 +1,6 @@
 +++
 author = ""
 date = 2021-11-04T15:00:00Z
-draft = true
 excerpt = ""
 image = "/images/blog/dfgc-fuse-pool-102.webp"
 image_alt = ""
