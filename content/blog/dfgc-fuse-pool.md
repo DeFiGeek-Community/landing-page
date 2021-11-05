@@ -9,7 +9,7 @@ subtitle = ""
 tags = "オフィシャルアナウンス"
 thumb_image = "/images/blog/dfgc-fuse-pool-102.webp"
 thumb_image_alt = ""
-title = "DFGC Fuseプールを開設"
+title = "DFGC Fuseプール開設"
 [seo]
 description = ""
 title = ""
