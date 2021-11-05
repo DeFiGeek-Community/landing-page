@@ -43,13 +43,13 @@ DFGC Fuseプールの大きな特徴がTXJPディストリビューションで�
 * TXJPディストリビューション
   * 配布開始日は未定です。当コミュニティのDiscord, Twitterにて最新情報をご確認ください。
 * 手順
-  * 貸出、借入の手順につきましては[コミュニティガイド](https://docs.defigeek.xyz)をご確認ください。
+  * 貸出、借入の手順につきましては[コミュニティガイド](https://docs.defigeek.xyz/dfgc-fuse-pool)をご確認ください。
 
 ※ 上記は本記事投稿時点の情報です。提供内容は、流動性の状況、市況、セキュリティを考慮して随時変更される場合があります。
 
 ##### 関連リンク
 
-コミュニティガイド: [https://docs.defigeek.xyz](https://docs.defigeek.xyz)
+コミュニティガイド: [https://docs.defigeek.xyz/dfgc-fuse-pool](https://docs.defigeek.xyz/dfgc-fuse-pool)
 
 Discord: [http://discord.gg/FQYXqVBEnh](http://discord.gg/FQYXqVBEnh)
 
