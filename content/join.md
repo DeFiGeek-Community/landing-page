@@ -1,7 +1,7 @@
 ---
 title: 参加する
 subtitle: >-
-  DeFi Dapps開発と成功には多様なスキルと人材が必要です。オープンソース型コミュニティでDeFi Dappsに携わってみませんか？
+  DeFi Dapp開発と成功には多様なスキルと人材が必要です。オープンソース型コミュニティでDeFi Dappに携わってみませんか？
 image: images/DFGC_logo_banner.webp
 image_alt: DeFiGeek Logo Banner
 actions:
@@ -13,7 +13,7 @@ actions:
     icon_position: left
 seo:
   title: DeFiGeek Communityに参加する
-  description: DeFi Dapps開発と成功には多様なスキルと人材が必要です。オープンソース型コミュニティでDeFi Dappsに携わってみませんか？
+  description: DeFi Dapp開発と成功には多様なスキルと人材が必要です。オープンソース型コミュニティでDeFi Dappに携わってみませんか？
   extra:
     - name: 'og:type'
       value: website
@@ -22,7 +22,7 @@ seo:
       value: DeFiGeek Communityに参加する
       keyName: property
     - name: 'og:description'
-      value: DeFi Dapps開発と成功には多様なスキルと人材が必要です。オープンソース型コミュニティでDeFi Dappsに携わってみませんか？
+      value: DeFi Dapp開発と成功には多様なスキルと人材が必要です。オープンソース型コミュニティでDeFi Dappに携わってみませんか？
       keyName: property
     - name: 'og:image'
       value: https://dfgc.xyz/images/DFGC_logo_banner02.png
@@ -33,7 +33,7 @@ layout: page
 ---
 
 DeFiGeek Communityでは様々な分野でのコントリビュータを求めています。  
-以下は一例でこれに限りません。 DeFi Dapps開発と成功には多様なスキルと人材が必要です。
+以下は一例でこれに限りません。 DeFi Dapp開発と成功には多様なスキルと人材が必要です。
 
 ### 開発者
 - スマートコントラクト開発

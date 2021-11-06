@@ -16,13 +16,13 @@ sections:
     background: gray
     title: What's DFGC
     subtitle: >-
-      DeFiGeek Community(DFGC)とは、Web3時代に資するDeFi Dappとミドルウェアを開発するオープンコミュニティです。
+      DeFiGeek Community (DFGC)とは、Web3時代に資するDeFi Dappとミドルウェアを開発するオープンコミュニティです。
     features:
       - title: Dapp開発
         image: images/feature-dapps.webp
         image_alt: dapps
         content: >-
-          DFGCは複数のDappを開発・構想しています。 第一弾はJPYにペッグした仮想通貨担保型ステーブルコイン生成Dappの Yamato Protocol です。
+          DFGCは複数のDappを開発・構想しています。 第一弾はJPYにペッグした暗号資産担保型ステーブルコイン生成Dappの Yamato Protocol です。
 #        actions:
 #          - label: Learn More
 #            url: /features
@@ -34,7 +34,7 @@ sections:
         image: images/feature-dao.webp
         image_alt: dao
         content: >-
-          DFGCはDAO（自律分散型組織）を目指しています。フラットで持続可能な集団となるべく、役割分担とその流動性を高め、権限を排除する努力を行っており、各メンバーの主体性とリーダーシップを歓迎しています。例えば、コミュニティの合意形成の確認として投票を日頃から行っています。
+          DFGCはDAO （自律分散型組織）を目指しています。フラットで持続可能な集団となるべく、役割分担とその流動性を高め、権限を排除する努力を行っており、各メンバーの主体性とリーダーシップを歓迎しています。例えば、コミュニティの合意形成の確認として投票を日頃から行っています。
 #        actions:
 #          - label: Learn More
 #            url: /features
@@ -68,7 +68,7 @@ sections:
     title: ニュースリリース
 seo:
   title: DeFiGeek Community
-  description: DeFiGeek Community(DFGC)とは、Web3時代に資するDeFi Dappとミドルウェアを開発するオープンコミュニティです。
+  description: DeFiGeek Community (DFGC)とは、Web3時代に資するDeFi Dappとミドルウェアを開発するオープンコミュニティです。
   extra:
     - name: 'og:type'
       value: website
@@ -77,7 +77,7 @@ seo:
       value: DeFiGeek Community
       keyName: property
     - name: 'og:description'
-      value: DeFiGeek Community(DFGC)とは、Web3時代に資するDeFi Dappとミドルウェアを開発するオープンコミュニティです。
+      value: DeFiGeek Community (DFGC)とは、Web3時代に資するDeFi Dappとミドルウェアを開発するオープンコミュニティです。
       keyName: property
     - name: 'og:image'
       value: https://dfgc.xyz/images/DFGC_logo_banner02.png
