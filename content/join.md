@@ -25,7 +25,7 @@ seo:
       value: DeFi Dapp開発と成功には多様なスキルと人材が必要です。オープンソース型コミュニティでDeFi Dappに携わってみませんか？
       keyName: property
     - name: 'og:image'
-      value: https://dfgc.xyz/images/DFGC_logo_banner02.png
+      value: https://defigeek.xyz/images/DFGC_logo_banner02.png
       keyName: property
     - name: 'twitter:card'
       value: summary

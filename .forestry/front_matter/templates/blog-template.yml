@@ -66,7 +66,7 @@ fields:
       config:
         required: false
       label: value
-      default: https://dfgc.xyz/images/DFGC_logo_banner_black.webp
+      default: https://defigeek.xyz/images/DFGC_logo_banner_black.webp
     - name: keyName
       type: text
       config:

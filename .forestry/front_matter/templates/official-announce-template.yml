@@ -63,7 +63,7 @@ fields:
     - type: text
       name: value
       label: value
-      default: https://dfgc.xyz/images/DFGC_logo_banner.webp
+      default: https://defigeek.xyz/images/DFGC_logo_banner.webp
     - type: text
       name: keyName
       label: keyName
