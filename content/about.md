@@ -1,12 +1,12 @@
 ---
 title: About Us
 subtitle: >-
-  私たちはDeFi Dapps開発コミュニティです
+  私たちはDeFi Dapp開発コミュニティです
 image: images/DFGC_logo_banner02.png
 image_alt: DeFiGeek Logo Banner
 seo:
   title: About Us
-  description: 私たちはDeFi Dapps開発コミュニティです
+  description: 私たちはDeFi Dapp開発コミュニティです
   extra:
     - name: 'og:type'
       value: website
@@ -15,7 +15,7 @@ seo:
       value: About Us
       keyName: property
     - name: 'og:description'
-      value: 私たちはDeFi Dapps開発コミュニティです
+      value: 私たちはDeFi Dapp開発コミュニティです
       keyName: property
     - name: 'og:image'
       value: https://dfgc.xyz/images/DFGC_logo_banner02.png
@@ -25,10 +25,10 @@ seo:
 layout: page
 ---
 
-DeFiGeek Community(DFGC)とは、2021年2月に発足したWeb3.0時代に資するDeFi Dappとミドルウェアを開発するオープンコミュニティです。
+DeFiGeek Community(DFGC)とは、2021年2月に発足したWeb3時代に資するDeFi Dappとミドルウェアを開発するオープンコミュニティです。
 また、DFGCは開発者のみのコミュニティではありません。DeFier向けに業界の正しい認識の共有をする集会所のように育っていきたく、これらに関心があるメンバーも歓迎しています。
 
-開発プロジェクト第一弾は、JPYにペッグした仮想通貨担保型ステーブルコイン生成Dappの Yamato Protocol です。
+開発プロジェクト第一弾は、JPYにペッグした暗号資産担保型ステーブルコイン生成Dappの Yamato Protocol です。
 第二弾は、P2Pool Lending Dapp の Yorozu が計画されています。
 これに限らず、トークン取り回しの拡張ツールやNFTプラットフォームの構想が行われています。
 
@@ -49,33 +49,10 @@ DFGCは、DAO（自律分散型組織）を目指しています。この特徴�
 DFGCは多くのコミュニティにある単一のプロジェクト・ソリューションのみを取り扱っているわけではありません。Web3時代実現に必要であろうプロダクトについて経験豊富なメンバーと共に常に模索し、プロジェクトを立上げ開発を進めています。
 
 - Yamato Protocol
-  - JPYにペッグした仮想通貨担保型ステーブルコイン生成Dapp
+  - JPYにペッグした暗号資産担保型ステーブルコイン生成Dapp
   - DFGC最初のDappでテストネットローンチに向けて開発中
 - Yorozu
   - P2Pool Lending Dapp
 
 プロダクト開発だけでなく、コミュニティを形成するのに必要なルールやガバナンスフローといった事項にも日々取り組んでいます。
-
-
-### ミッション・行動規範
-
-ミッション：
-1. DeFi Dappとミドルウェアをリリースし続けます。
-2. 循環型経済を拡大させ続けます。
-3. 物理的、地理的制約を超えて、コミュニティを拡大します。
-4. Webとリアルの経済的導線を拡大します。
-5. Web経済の自立を目指します。
-
-
-行動規範と価値観：
-1. 持続可能性に重きを置き、永続性を優先します。
-2. 匿名性とプライバシーを優先します。
-3. 成果主義が評価の基本です。
-4. 経済優位性は立場の優位性ではありません。
-5. 主体性とリーダーシップが歓迎されます。
-6. 権限や権利、特権は、可能な限り排除するか分散させます。
-7. すべての人に公平な発言権と決定権があります。
-8. 発言権と決定権は権利と責任です。力ではありません。
-9. 役割の違いはあれども、立場に上下や優劣はありません。
-10. 活動に義務はなく、主体性に委ねられます。
 

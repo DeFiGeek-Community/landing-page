@@ -10,13 +10,13 @@ sections:
     content: >-
       ### ブランドカラー
 
-      - 紅(KURENAI, BENI)　#C41A41
+      紅(KURENAI, BENI)　#C41A41
 
   - section_id: assets
     type: section_pricing
     background: gray
     title: メディアキット
-    subtitle: ロゴ、バナー、アイコン等のコンテンツは下記よりダウンロードすることが可能です。
+    subtitle: ロゴ、バナー、アイコン等のコンテンツは下記よりダウンロードできます。
     pricing_plans:
       - title: アイコン
         subtitle: Icon, App Icon, Favicon
@@ -42,6 +42,19 @@ sections:
           - label: バナー一覧
             url: '/brand_assets_banner'
             style: secondary
+
+  - section_id: guideline
+    type: section_content
+    background: gray
+    title: 
+    subtitle: 
+    content: >-
+      ##### 注意事項
+        - 当コミュニティのロゴ・アイコンについて、縦横比、色彩もしくはフォントを改変すること、その他シンボルに追加したり除去することを禁止します。
+        - 当サイトのコンテンツの著作権は、特記があるものを除き、当コミュニティに帰属します。
+        - コンテンツの無断使用・複製・改変・公開・領布を禁じます。
+        - ガイドラインの不明点やご質問は、以下のDiscord窓口からお問い合わせください。
+
   - section_id: call-to-action
     type: section_cta
     title: ご不明点はコミュニティに問い合わせください

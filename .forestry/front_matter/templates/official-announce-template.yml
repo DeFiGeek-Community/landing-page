@@ -73,3 +73,5 @@ fields:
   label: layout
   hidden: true
   default: post
+pages:
+- content/blog/dfgc-fuse-pool.md
