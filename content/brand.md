@@ -16,7 +16,7 @@ sections:
     type: section_pricing
     background: gray
     title: メディアキット
-    subtitle: ロゴ、バナー、アイコン等のコンテンツは下記よりダウンロードすることができます。
+    subtitle: ロゴ、バナー、アイコン等のコンテンツは下記よりダウンロードできます。
     pricing_plans:
       - title: アイコン
         subtitle: Icon, App Icon, Favicon
