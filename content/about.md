@@ -1,12 +1,12 @@
 ---
 title: About Us
 subtitle: >-
-  私たちはDeFi Dapps開発コミュニティです
+  私たちはDeFi Dapp開発コミュニティです
 image: images/DFGC_logo_banner02.png
 image_alt: DeFiGeek Logo Banner
 seo:
   title: About Us
-  description: 私たちはDeFi Dapps開発コミュニティです
+  description: 私たちはDeFi Dapp開発コミュニティです
   extra:
     - name: 'og:type'
       value: website
@@ -15,7 +15,7 @@ seo:
       value: About Us
       keyName: property
     - name: 'og:description'
-      value: 私たちはDeFi Dapps開発コミュニティです
+      value: 私たちはDeFi Dapp開発コミュニティです
       keyName: property
     - name: 'og:image'
       value: https://dfgc.xyz/images/DFGC_logo_banner02.png
