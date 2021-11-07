@@ -18,7 +18,7 @@ seo:
       value: 私たちはDeFi Dapp開発コミュニティです
       keyName: property
     - name: 'og:image'
-      value: https://dfgc.xyz/images/DFGC_logo_banner02.png
+      value: https://defigeek.xyz/images/DFGC_logo_banner02.png
       keyName: property
     - name: 'twitter:card'
       value: summary

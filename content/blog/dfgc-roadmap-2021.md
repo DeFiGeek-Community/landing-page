@@ -23,7 +23,7 @@ seo:
         各種Dappやツールのリリースと分散的運営体制、トークンディストリビューションと分権化を進め、コミュニティメンバーはDeFi環境から最大の恩恵を受けるポジションを目指します。
       keyName: property
     - name: 'og:image'
-      value: https://dfgc.xyz/images/DFGC_logo_banner02.png
+      value: https://defigeek.xyz/images/DFGC_logo_banner02.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'

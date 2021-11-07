@@ -16,7 +16,7 @@ title = ""
 [[seo.extra]]
 keyName = "property"
 name = "og:image"
-value = "https://dfgc.xyz/images/DFGC_logo_banner.webp"
+value = "https://defigeek.xyz/images/DFGC_logo_banner.webp"
 
 +++
 DeFiGeek Community (DFGC) は、FuseプラットフォームにてTXJPを用いたプライベートレンディングプールを開設します。
