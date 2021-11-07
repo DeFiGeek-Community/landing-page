@@ -41,14 +41,14 @@
 
 ###  5. OGPチェック
 - [Twitter Card Validator](https://cards-dev.twitter.com/validator)と[OGP確認](https://rakko.tools/tools/9/)でチェック
-- [ ] landing
-- [ ] about
-- [ ] txjp
-- [ ] brand
-- [ ] join
-- [ ] blog
-- [ ] blog-post-official
-- [ ] blog-post-writer
+- [x] landing
+- [x] about
+- [x] txjp ※relativeURLを削除
+- [x] brand
+- [x] join
+- [x] blog
+- [x] blog-post-official
+- [x] blog-post-writer
 
 ### 6. インフラ準備
 - [x] defigeek.xyzリポジトリ作成

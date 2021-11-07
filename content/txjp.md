@@ -19,7 +19,6 @@ seo:
     - name: 'og:image'
       value: https://defigeek.xyz/images/DFGC_logo_banner02.png
       keyName: property
-      relativeUrl: true
     - name: 'twitter:card'
       value: summary
 layout: page
