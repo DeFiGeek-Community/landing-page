@@ -66,6 +66,10 @@ sections:
     type: section_posts
     background: gray
     title: ニュースリリース
+    actions:
+      - label: もっと見る
+        url: /blog
+        style: secondary
 seo:
   title: DeFiGeek Community
   description: DeFiGeek Community (DFGC)とは、Web3時代に資するDeFi Dappとミドルウェアを開発するオープンコミュニティです。
