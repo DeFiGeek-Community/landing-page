@@ -36,5 +36,11 @@
       </article>
       {{ end }}
     </div>
+    {{ if $section.actions }}
+    <div class="block-buttons">
+      {{ $include_dict := dict "actions" $section.actions }}
+      {{ partial "cta_buttons.html" $include_dict }}
+    </div>
+    {{ end }}
   </div>
 </section><!-- .block -->
