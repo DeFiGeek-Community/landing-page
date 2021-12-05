@@ -32,7 +32,7 @@ sections:
           ![](/images/brand_assets_logo.webp)
         actions:
           - label: ダウンロード
-            url: '/brand_assets/icon.zip'
+            url: '/brand_assets/logo.zip'
             style: secondary
       - title: バナー
         subtitle: 1500x500 px
