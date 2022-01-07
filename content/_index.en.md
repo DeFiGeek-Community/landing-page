@@ -48,7 +48,7 @@ sections:
         content: >-
          DFGC is not a community just for developers. This is an open community for DeFiers, and anyone interested in DeFi is welcome to join here and learn from others.
         actions:
-          - label: Discordに参加する
+          - label: Join Discord
             url: https://discord.gg/FQYXqVBEnh
             style: secondary
             has_icon: true
