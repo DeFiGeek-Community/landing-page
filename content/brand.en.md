@@ -16,7 +16,7 @@ sections:
     type: section_pricing
     background: gray
     title: Media Kit
-    subtitle: You can get logo, banners and icons.
+    subtitle: You can get logos, banners and icons.
     pricing_plans:
       - title: Icon
         subtitle: Icon, App Icon, Favicon
@@ -50,10 +50,10 @@ sections:
     subtitle: 
     content: >-
       ##### NOTICE
-        - Do not change ratio, color, font and any changes about materials.
-        - All rights reserved. You may not copy, changing, distribute without permission.
-        - We have all copyright in this site contents, expect that special notice.
-        - If you have any questions, Please contact us on Discord.
+        - You may not alter our logos or icons in any manner, including changing the proportion, color, font, or adding or removing any element(s) to or from the logos and icons.
+        - The entire content of this website are owned by our community unless otherwise noted.
+        - Do not copy, alter ,edit, reproduce or redistribute the content of this site without permission.
+        - Please contact us via Discord about these guidelines.
 
   - section_id: call-to-action
     type: section_cta

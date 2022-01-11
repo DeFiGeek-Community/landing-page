@@ -1,7 +1,7 @@
 ---
 title: Join
 subtitle: >-
-  What is need to success DeFi Dapp? We need members who diverse skills and talent. Would you like to get involved in DeFi Dapp development?
+  Whether you are a developer or not, you can contribute to DFGC. There are many ways that you can contribute your ideas and talents to our successful development.We are always open to new suggestions or better ways of doing things.
 image: images/DFGC_logo_banner.webp
 image_alt: DeFiGeek Logo Banner
 actions:
@@ -13,7 +13,7 @@ actions:
     icon_position: left
 seo:
   title: Join DeFiGeek Community
-  description: What is need to success DeFi Dapp? We need members who diverse skills and talent. Would you like to get involved in DeFi Dapp development?
+  description: Whether you are a developer or not, you can contribute to DFGC. There are many ways that you can contribute your ideas and talents to our successful development.We are always open to new suggestions or better ways of doing things.
   extra:
     - name: 'og:type'
       value: website
@@ -22,7 +22,7 @@ seo:
       value: Join DeFiGeek Community
       keyName: property
     - name: 'og:description'
-      value: What is need to success DeFi Dapp? We need members who diverse skills and talent. Would you like to get involved in DeFi Dapp development?
+      value: Whether you are a developer or not, you can contribute to DFGC. There are many ways that you can contribute your ideas and talents to our successful development.We are always open to new suggestions or better ways of doing things.
       keyName: property
     - name: 'og:image'
       value: https://defigeek.xyz/images/DFGC_logo_banner02.png
@@ -32,7 +32,7 @@ seo:
 layout: page
 ---
 
-The DeFiGeek Community wants contributors in many areas. For examples.
+The DeFiGeek Community is looking for contributors in a various fields.
 
 ### Developer team
 - Smart contract (Solidity)
