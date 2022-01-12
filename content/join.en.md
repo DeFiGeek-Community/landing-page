@@ -54,4 +54,4 @@ The DeFiGeek Community is looking for contributors in a various fields.
 - Review monthly finance report
 - Treasury management
 
-We define "task" as items we need to improve for growing our community. Every member can propose the task and raise hands to commit proposed tasks. Also, every one are expected to propose task for the community.
+We define "Tasks" as items we need to improve for growing our community. Any member can propose new Tasks and also raise their hand to commit to them. For more information, please contact us on Discord.
