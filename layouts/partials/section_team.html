@@ -1,0 +1,36 @@
+{{ $section := .section }}
+<section id="{{ $section.section_id }}" class="block team-block bg-{{ $section.background }} outer">
+  <div class="block-header inner-small">
+    {{ if $section.title }}
+    <h2 class="block-title">{{ $section.title }}</h2>
+    {{ end }}
+    {{ if $section.subtitle }}
+    <p class="block-subtitle">
+      {{ $section.subtitle | safeHTML }}
+    </p>
+    {{ end }}
+  </div>
+  {{ if $section.team }}
+  <div class="inner">
+    <div class="grid">
+      {{ range $team := $section.team }}
+      <div class="cell team">
+        <div class="card">
+          <div class="team-profile">
+            {{ if $team.avatar }}
+            <img class="team-avatar" src="{{ $team.avatar | relURL }}">
+            {{ end }}
+            <div>
+              <div class="team-alias">{{ $team.alias }}</div>
+              {{ if $team.role }}
+              <div class="team-role">{{ $team.role }}</div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</section><!-- .block -->
