@@ -79,7 +79,10 @@
   }
 
   .cell {
-    text-align: left;
+    text-align: center;
+    .block-copy {
+      text-align: left;
+    }
   }
 }
 
@@ -93,8 +96,11 @@
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: $container-md;
-        text-align: left;
+        text-align: center;
       }
+      .block-copy {
+        text-align: left;
+      }  
     }
   }
 
@@ -206,7 +212,6 @@
 .features-block {
   .block-header {
     .block-title {
-      text-align: center;
       &:last-child {
         margin-bottom: 1.33333em;
       }
@@ -249,21 +254,14 @@
 
 @media only screen and (min-width: 901px) {
   .pricing-block,
-  .reviews-block {
+  .reviews-block,
+  .team-block {
     .cell:first-child:nth-last-child(3),
     .cell:first-child:nth-last-child(3) ~ .cell {
       -ms-flex: 0 0 33.333%;
       flex: 0 0 33.333%;
       max-width: 33.333%;
     }
-  }
-}
-
-.team-block {
-  .cell {
-    -ms-flex: 0 0 33.333%;
-    flex: 0 0 33.333%;
-    max-width: 33.333%;
   }
 }
 
@@ -417,8 +415,8 @@
 
 .team-avatar {
   border-radius: 50%;
-  height: 75px;
-  width: 75px;
+  height: 60px;
+  width: 60px;
   margin-right: 1.09375em;
 }
 
@@ -436,7 +434,7 @@
 
 .team-role {
   color: $gray-500;
-  font-size: 0.88889rem;
+  font-size: 0.77778rem;
   line-height: 1;
   margin: 0;
 

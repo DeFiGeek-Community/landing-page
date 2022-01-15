@@ -48,43 +48,55 @@ sections:
       - alias: cryptochick
         avatar: https://avatars.githubusercontent.com/u/78299521?v=4
         role: 管理人
-        url: 
+        url: https://github.com/cryptohiyoko
       - alias: 0xMotoko
         avatar: https://avatars.githubusercontent.com/u/83639348?v=4
         role: 開発リーダー
+        url: https://github.com/0xMotoko
       - alias: 0xTeaTwo
         avatar: https://avatars.githubusercontent.com/u/83848415?v=4
         role: 開発リーダー
+        url: https://github.com/0xTwo
       - alias: dai
         avatar: https://avatars.githubusercontent.com/u/78298805?v=4
         role: 開発部
+        url: 
       - alias: somewherecat
         avatar: https://cdn.discordapp.com/avatars/813069467206680576/7e8ef1d6b3fb0d2bc8032ad7730e1997.png
         role: 開発部
+        url: 
       - alias: TypingMonkey
         avatar: https://avatars.githubusercontent.com/u/80204128?v=4
         role: 開発部
-      - alias: HAU
+        url: https://github.com/panebinese
+      - alias: Hau
         avatar: https://cdn.discordapp.com/avatars/716634375562985522/9bc72ba3ef70375685f793b198ef0a1a.png
         role: デザイン部
+        url: 
       - alias: fortune
         avatar: https://avatars.githubusercontent.com/u/81340734?v=4
         role: モデレータ, ストラテジスト
+        url: 
       - alias: take3315
         avatar: https://avatars.githubusercontent.com/u/74659639?v=4
         role: ストラテジスト
-      - alias: ゆうな
-        avatar: https://avatars.githubusercontent.com/u/826417?v=4
+        url: 
+      - alias: 猫井夕菜（ゆうな）
+        avatar: https://cdn.discordapp.com/avatars/479870569412689938/e7a0d22ced03b79922c9062d3eed2ff7.png
         role: モデレータ, 広報部
+        url: https://github.com/nekomatu
       - alias: NAR
         avatar: https://cdn.discordapp.com/avatars/597059337784918029/5c6130fb1d11e64c5e377c76b95ea4d8.png
         role: 広報部
+        url: 
       - alias: paru
         avatar: https://avatars.githubusercontent.com/u/31604703?v=4
         role: 広報部, 開発部
+        url: https://github.com/haruketh
       - alias: crytakepto
         avatar: https://avatars.githubusercontent.com/u/86736890?v=4
         role: 財務部
+        url: 
 seo:
   title: About Us
   description: 私たちはDeFi Dapp開発コミュニティです
