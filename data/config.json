@@ -30,7 +30,7 @@
             },
             {
                 "label": "EN",
-                "url": "#",
+                "url": "/en",
                 "has_icon": true,
                 "icon": "earth"
             }
@@ -40,7 +40,7 @@
         "sections": [
             {
                 "type": "footer_text",
-                "image": "images/DFGC_logo_lockup.webp",
+                "image": "images/DFGC_logo_lockup_white.webp",
                 "image_url": "/",
                 "image_alt": "Footer logo"
             },

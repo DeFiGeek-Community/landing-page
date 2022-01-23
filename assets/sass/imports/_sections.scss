@@ -79,7 +79,10 @@
   }
 
   .cell {
-    text-align: left;
+    text-align: center;
+    .block-copy {
+      text-align: left;
+    }
   }
 }
 
@@ -93,8 +96,11 @@
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: $container-md;
-        text-align: left;
+        text-align: center;
       }
+      .block-copy {
+        text-align: left;
+      }  
     }
   }
 
@@ -227,9 +233,10 @@
   }
 }
 
-// Pricing, reviews blocks
+// Pricing, reviews, team blocks
 .pricing-block,
-.reviews-block {
+.reviews-block,
+.team-block {
   .grid {
     -ms-flex-pack: center;
     justify-content: center;
@@ -237,7 +244,7 @@
 
   .cell {
     margin: 0 0 1.66667em;
-    max-width: 450px;
+    max-width: 350px;
   }
 
   .card {
@@ -247,7 +254,8 @@
 
 @media only screen and (min-width: 901px) {
   .pricing-block,
-  .reviews-block {
+  .reviews-block,
+  .team-block {
     .cell:first-child:nth-last-child(3),
     .cell:first-child:nth-last-child(3) ~ .cell {
       -ms-flex: 0 0 33.333%;
@@ -380,6 +388,54 @@
   font-size: inherit;
   font-weight: bold;
   line-height: 1.4;
+  margin: 0;
+
+  .font-fira-sans & {
+    font-weight: 600;
+  }
+}
+
+.team {
+  border: 0;
+  color: $gray-600;
+  font-size: 0.88889em;
+  line-height: 1.66667;
+
+  .card {
+    padding: 1.2em;
+  }
+}
+
+.team-profile {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team-avatar {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin-right: 1.09375em;
+}
+
+.team-alias {
+  color: $gray-700;
+  font-size: 1.22222em;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 0.22222em;
+
+  .font-fira-sans & {
+    font-weight: 600;
+  }
+}
+
+.team-role {
+  color: $gray-500;
+  font-size: 0.77778rem;
+  line-height: 1;
   margin: 0;
 
   .font-fira-sans & {
