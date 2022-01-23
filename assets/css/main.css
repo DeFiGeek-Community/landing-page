@@ -958,7 +958,12 @@ textarea {
 .text-block .cell,
 .features-block .cell,
 .cta-block .cell {
-  text-align: left; }
+  text-align: center; }
+  .hero-block .cell .block-copy,
+  .text-block .cell .block-copy,
+  .features-block .cell .block-copy,
+  .cta-block .cell .block-copy {
+    text-align: left; }
 
 @media only screen and (min-width: 801px) {
   .hero-block .cell:only-child,
@@ -968,6 +973,11 @@ textarea {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 750px;
+    text-align: center; }
+  .hero-block .cell .block-copy,
+  .text-block .cell .block-copy,
+  .features-block .cell .block-copy,
+  .cta-block .cell .block-copy {
     text-align: left; }
   .hero-block .cell:only-child .underline:after,
   .text-block .cell:only-child .underline:after,
@@ -1044,24 +1054,29 @@ textarea {
     margin-bottom: 0; }
 
 .pricing-block .grid,
-.reviews-block .grid {
+.reviews-block .grid,
+.team-block .grid {
   -ms-flex-pack: center;
   justify-content: center; }
 
 .pricing-block .cell,
-.reviews-block .cell {
+.reviews-block .cell,
+.team-block .cell {
   margin: 0 0 1.66667em;
-  max-width: 450px; }
+  max-width: 350px; }
 
 .pricing-block .card,
-.reviews-block .card {
+.reviews-block .card,
+.team-block .card {
   height: 100%; }
 
 @media only screen and (min-width: 901px) {
   .pricing-block .cell:first-child:nth-last-child(3),
   .pricing-block .cell:first-child:nth-last-child(3) ~ .cell,
   .reviews-block .cell:first-child:nth-last-child(3),
-  .reviews-block .cell:first-child:nth-last-child(3) ~ .cell {
+  .reviews-block .cell:first-child:nth-last-child(3) ~ .cell,
+  .team-block .cell:first-child:nth-last-child(3),
+  .team-block .cell:first-child:nth-last-child(3) ~ .cell {
     -ms-flex: 0 0 33.333%;
     flex: 0 0 33.333%;
     max-width: 33.333%; } }
@@ -1160,6 +1175,43 @@ textarea {
   line-height: 1.4;
   margin: 0; }
   .font-fira-sans .review-author {
+    font-weight: 600; }
+
+.team {
+  border: 0;
+  color: #4c5267;
+  font-size: 0.88889em;
+  line-height: 1.66667; }
+  .team .card {
+    padding: 1.2em; }
+
+.team-profile {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex; }
+
+.team-avatar {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin-right: 1.09375em; }
+
+.team-alias {
+  color: #2c2f3b;
+  font-size: 1.22222em;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 0.22222em; }
+  .font-fira-sans .team-alias {
+    font-weight: 600; }
+
+.team-role {
+  color: #7b839e;
+  font-size: 0.77778rem;
+  line-height: 1;
+  margin: 0; }
+  .font-fira-sans .team-role {
     font-weight: 600; }
 
 .contact-block form {
@@ -1350,6 +1402,7 @@ textarea {
 
 .widget-image {
   display: block;
+  margin-right: 4.5em;
   margin-bottom: 0.75em; }
 
 .widget-title {
