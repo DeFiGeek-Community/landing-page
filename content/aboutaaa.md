@@ -53,7 +53,7 @@ sections:
         avatar: https://avatars.githubusercontent.com/u/83639348?v=4
         role: 開発リーダー
         url: https://github.com/0xMotoko
-      - alias: 0xTeaTwo
+      - alias: 0xTwo
         avatar: https://avatars.githubusercontent.com/u/83848415?v=4
         role: 開発リーダー
         url: https://github.com/0xTwo
