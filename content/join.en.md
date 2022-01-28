@@ -32,7 +32,7 @@ seo:
 layout: page
 ---
 
-The DeFiGeek Community is looking for contributors in a various fields.
+The DeFiGeek Community is looking for contributors in various fields.
 
 ### Developer team
 - Smart contract (Solidity)
