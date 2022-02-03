@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ニュースリリース on DeFiGeek Community</title><link>/blog/</link><description>Recent content in ニュースリリース on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Sun, 02 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>2021年12月度 月次財務報告</title><link>/blog/2021-12/</link><pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate><guid>/blog/2021-12/</guid><description>重要指標 （注）
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ニュースリリース on DeFiGeek Community</title><link>/blog/</link><description>Recent content in ニュースリリース on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Tue, 01 Feb 2022 15:39:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年1月度 月次財務報告</title><link>/blog/2022-1/</link><pubDate>Tue, 01 Feb 2022 15:39:00 +0000</pubDate><guid>/blog/2022-1/</guid><description>重要指標 （注）
+・純資産：月末日為替レート（$1＝¥115.44）で換算。
+・グロスバーンレート：キャッシュアウト合計（資産運用に係る収支については一時的な支出であるため除外して計算している）
+・ネットバーンレート：キャッシュフロー合計（資産運用に係る収支については一時的な支出であるため除外して計算している）
+・予測ランウェイ：総純資産/ネットバーンレートで算出。現在のキャッシュフローで純資産が何ヶ月持つかどうかを示す。
+・BPS：１トークン当たり純資産（解散価値）
+・PBR：トークン価格純資産倍率
+・キャッシュフロー：Tx発生時の時価でドルへ換算し、それらを月中平均為替レート（$1＝¥114.85)で換算。
+・各種データはzapper, zerion, DeBank, Etherscan, SnowTrace, 三菱UFJリサーチ＆コンサルティングより。
+貸借対照表 （注）
+・資産負債：月末日為替レート（$1＝¥115.44）で換算。
+・資本金：寄付イベントフェーズ１で得られた寄付金のみ2021年7月中平均為替レート（$1＝110.31）で換算し、これ以外の2018～2020年に受け取った寄付金については各寄付時の時価に2018~2020年の三年間平均為替レート（$1＝¥108.76）を乗じて換算、2021年9月以降に受け取った寄付金については各寄付時の時価に月中平均為替レートを乗じて換算している。
+・評価差額金：$TXJPについては2017年の$PAY, $ETHでの寄付イベントにて受け取った$9444.91の対価として3080.45TXJPを配布したことから1TXJP=$2.43とし、これを2017年10月から翌年5月の平均為替レート（$1=¥110.10）で換算したものを取得原価換算レート（1TXJP=¥267.54）とみなし、これと当月末時点のレート（1TXJP=¥14,265）で換算したものの差額を全部純資産直入法で計上。$ETHに関してはLP投入時の時価との差額を全部純資産直入法で計上。税効果会計は適用しない。
+（※１）Aztec zk.moneyに入金済の0.03181zkETHはETHに合算。
+（※２）金額的重要性の低い$WETH, $DAI, $USDC, $MIMO,$MCHC,$BAL,$HEX, $ALCH, $HAKKA, $OMGを合算。
+（※３）金額的重要性の低い$PAINT, $ALCH, $MCHC, $HAKKA, $WETH, $OMG, $USDT, $RPL, $SAI, $HEX, $KNC, $AMB, $PNK, $LPT, $VIUを合算。
+稼働・遊休資産割合 （注）
+・稼働資産：貸借対照表の流動資産にあるLPを合算し算出。
+・遊休資産：流動資産にあるLPを除く全てを合算したうえで流動負債の総額を差し引き算出。
+毎週日曜夜、月末23:59に集計し、集計時為替レートで換算。
+損益計算書 （注）
+・金利費用、利息収益：現状現金化の予定がないため、ともに発生主義で認識し見越計上を行うが、月初に再振替仕訳を行わず、未収未払部分の月中変動額は仮想通貨評価損益に含めて計算。
+・為替差損益：当月末為替レート（$1＝¥115.44）から前月末為替レート（$1＝¥115.02）を差し引いた値に米ドル建当月末流動資産負債合計を乗じることで算出。
+仮想通貨の評価差額の処理に関しては毎月切放方式を採用。
+アロケーション 財務活動 ※以下、本文下線部は該当するTxのURLを埋め込み済。
+・1/9 RariDFGCpoolへリワード用の300TXJPを送金し、ETH supplyにリワードの設定。
+〃　開発部Github有料アカウントリレーヤーへ0.0201ETHの支払い。
+・1/16 四半期末のTXJP buy＆poolによって14ETHをTXJPへと交換し、Balancer v2 98:2プールへ282.</description></item><item><title>2021年12月度 月次財務報告</title><link>/blog/2021-12/</link><pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate><guid>/blog/2021-12/</guid><description>重要指標 （注）
 ・純資産：月末日為替レート（$1＝¥115.02）で換算。
 ・グロスバーンレート：キャッシュアウト合計
 ・ネットバーンレート：キャッシュフロー合計
