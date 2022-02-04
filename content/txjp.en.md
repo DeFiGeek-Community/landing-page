@@ -73,7 +73,7 @@ layout: page
 
 - Contribution in DFGC
   - Paid by Community Treasury based on contribution
-  - For more information on how to contribute, see [here](/join).
+  - For more information on how to contribute, see [here](/en/join).
 - Donation Events
 
 You can also get TXJP in the following open markets.

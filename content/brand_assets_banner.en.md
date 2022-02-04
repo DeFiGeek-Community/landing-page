@@ -20,7 +20,7 @@ seo:
 layout: page
 ---
 
-You can get images directory after read the note at [BrandAsset](/brand). 
+You can get images directory after read the note at [BrandAsset](/en/brand). 
 
 ![](/brand_assets/banner/DFGC_logo_banner.png)
 
