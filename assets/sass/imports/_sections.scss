@@ -252,6 +252,23 @@
   }
 }
 
+// CoC blocks
+.coc-block {
+  .grid {
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .cell {
+    margin: 0 0 2.44444em;
+    max-width: 380px;
+  }
+
+  .card {
+    height: 100%;
+  }
+}
+
 @media only screen and (min-width: 901px) {
   .pricing-block,
   .reviews-block,
@@ -436,6 +453,40 @@
   color: $gray-500;
   font-size: 0.77778rem;
   line-height: 1;
+  margin: 0;
+
+  .font-fira-sans & {
+    font-weight: 600;
+  }
+}
+
+.coc-card {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.coc-number {
+  font-size: 2em;
+  line-height: 1.66667;
+  vertical-align: top;
+  margin-right: 0.77778em;
+}
+
+.coc-title {
+  font-size: 1.22222em;
+  line-height: 1.66667;
+  margin-bottom: 0.22222em;
+
+  .font-fira-sans & {
+    font-weight: 600;
+  }
+}
+
+.coc-content {
+  font-size: 0.88889em;
+  line-height: 1.66667;
   margin: 0;
 
   .font-fira-sans & {

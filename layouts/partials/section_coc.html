@@ -1,0 +1,29 @@
+{{ $section := .section }}
+<section id="{{ $section.section_id }}" class="block coc-block bg-{{ $section.background }} outer">
+  <div class="block-header inner-small">
+    {{ if $section.title }}
+    <h2 class="block-title">{{ $section.title }}</h2>
+    {{ end }}
+    {{ if $section.subtitle }}
+    <p class="block-subtitle">
+      {{ $section.subtitle | safeHTML }}
+    </p>
+    {{ end }}
+  </div>
+  {{ if $section.coc }}
+  <div class="inner-medium">
+    <div class="grid">
+      {{ range $coc := $section.coc }}
+      <div class="cell coc">
+        <div class="coc-card">
+          <div>
+            <div class="coc-title">{{ $coc.title }}</div>
+            <div class="coc-content">{{ $coc.content }}</div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</section><!-- .block -->

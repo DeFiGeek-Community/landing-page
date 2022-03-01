@@ -11,6 +11,11 @@
         {{ if $section.title }}
         <h2 class="block-title underline">{{ $section.title }}</h2>
         {{ end }}
+        {{ if $section.subtitle }}
+        <p class="block-subtitle">
+          {{ $section.subtitle | safeHTML }}
+        </p>
+        {{ end }}    
         <div class="block-copy">
           {{ partial "markdownify-block" $section.content }}
         </div>
