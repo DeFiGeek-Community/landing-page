@@ -1070,6 +1070,17 @@ textarea {
 .team-block .card {
   height: 100%; }
 
+.coc-block .grid {
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.coc-block .cell {
+  margin: 0 0 2.44444em;
+  max-width: 380px; }
+
+.coc-block .card {
+  height: 100%; }
+
 @media only screen and (min-width: 901px) {
   .pricing-block .cell:first-child:nth-last-child(3),
   .pricing-block .cell:first-child:nth-last-child(3) ~ .cell,
@@ -1212,6 +1223,32 @@ textarea {
   line-height: 1;
   margin: 0; }
   .font-fira-sans .team-role {
+    font-weight: 600; }
+
+.coc-card {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex; }
+
+.coc-number {
+  font-size: 2em;
+  line-height: 1.66667;
+  vertical-align: top;
+  margin-right: 0.77778em; }
+
+.coc-title {
+  font-size: 1.22222em;
+  line-height: 1.66667;
+  margin-bottom: 0.22222em; }
+  .font-fira-sans .coc-title {
+    font-weight: 600; }
+
+.coc-content {
+  font-size: 0.88889em;
+  line-height: 1.66667;
+  margin: 0; }
+  .font-fira-sans .coc-content {
     font-weight: 600; }
 
 .contact-block form {
