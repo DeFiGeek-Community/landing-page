@@ -9,7 +9,7 @@ subtitle = "初心者向け基礎解説"
 tags = "コミュニティブログ"
 thumb_image = "/images/blog/yamto_ogp.png"
 thumb_image_alt = ""
-title = "日本円等価トークン発行アプリケーション「Yamato Protocol」とは？①"
+title = "「Yamato Protocol」とは？①"
 [seo]
 description = ""
 extra = []
