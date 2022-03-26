@@ -75,4 +75,5 @@ fields:
   default: post
 pages:
 - content/blog/dfgc-fuse-pool.md
+- content/blog/yamato-protocol-3.md
 - content/blog/アルファテスト→ベータテスト移行のお知らせ.md
