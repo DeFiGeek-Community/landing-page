@@ -10,7 +10,7 @@ subtitle = "Yamato DAO Token（YMT）アロケーション"
 tags = "オフィシャルアナウンス"
 thumb_image = "/images/blog/yamto_ogp.png"
 thumb_image_alt = ""
-title = "Yamato Protocol」とは？④"
+title = "「Yamato Protocol」とは？④"
 [seo]
 description = ""
 title = ""
