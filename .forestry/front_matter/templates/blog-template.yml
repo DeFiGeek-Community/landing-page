@@ -85,4 +85,5 @@ fields:
   default: post
 pages:
 - content/blog/_index.en.md
+- content/blog/yamato-protocol-1.md
 - content/blog/yamato-protocol.md
