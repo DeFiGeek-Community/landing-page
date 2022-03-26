@@ -10,7 +10,7 @@ subtitle = "ステーブルトークン発行者のインセンティブ"
 tags = "コミュニティブログ"
 thumb_image = "/images/blog/yamto_ogp.png"
 thumb_image_alt = ""
-title = "Yamato Protocol」とは？⑤"
+title = "「Yamato Protocol」とは？⑤"
 [seo]
 description = ""
 title = ""
