@@ -1,15 +1,15 @@
 +++
 author = ""
-date = 2022-03-25T15:00:00Z
+date = 2021-09-24T15:00:00Z
 excerpt = ""
 image = "/images/blog/yamto_ogp.png"
 image_alt = ""
 layout = "post"
-subtitle = "ステーブルトークン発行者のインセンティブ"
+subtitle = ""
 tags = "コミュニティブログ"
 thumb_image = "/images/blog/yamto_ogp.png"
 thumb_image_alt = ""
-title = "「Yamato Protocol」とは？⑤"
+title = "Yamato Protocol - ステーブルトークン発行者のインセンティブ"
 [seo]
 description = ""
 title = ""
