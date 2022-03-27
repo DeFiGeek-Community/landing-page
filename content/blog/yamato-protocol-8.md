@@ -1,7 +1,6 @@
 +++
 author = ""
 date = 2022-03-25T15:00:00Z
-draft = true
 excerpt = ""
 image = "/images/blog/yamto_ogp.png"
 image_alt = ""
@@ -26,7 +25,7 @@ RinkebyTestnetにてYamato Protocol 公開テストが開始されます。
 
 [**Yamato Protocol Interface**](https://dev-app.yamato.fi/#/)
 
-※MetaMaskの**ネットワーク設定を「Rinkebyテストネットワーク」**にして下さい。
+※MetaMaskのネットワーク設定を「**Rinkebyテストネットワーク**」にして下さい。
 
 画面右上の「connect wallet」クリックにてMetaMaskを接続して下さい。（モバイル最適化はまだ行われておりません。）
 
