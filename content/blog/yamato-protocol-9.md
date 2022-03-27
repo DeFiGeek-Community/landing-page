@@ -1,15 +1,15 @@
 +++
 author = ""
-date = 2022-03-25T15:00:00Z
+date = 2021-12-09T15:00:00Z
 excerpt = ""
 image = "/images/blog/yamto_ogp.png"
 image_alt = ""
 layout = "post"
-subtitle = "アルファテスト→ベータテスト移行のお知らせ"
+subtitle = ""
 tags = "オフィシャルアナウンス"
 thumb_image = "/images/blog/yamto_ogp.png"
 thumb_image_alt = ""
-title = "「Yamato Protocol」とは？⑩"
+title = "Yamato Protocol - アルファテスト→ベータテスト移行のお知らせ"
 [seo]
 description = ""
 title = ""
