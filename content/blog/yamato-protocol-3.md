@@ -23,7 +23,7 @@ value = "https://defigeek.xyz/images/DFGC_logo_banner.webp"
 
 ### **YMTの全体分布**
 
-![初期割り当て](https://alis.to/d/api/articles_images/CryptoChick/aw5WLmlGYDDQ/d747f34e-aa43-415d-9c21-52c071094181.png?d=800x2160 "初期割り当て")  
+![初期割り当て](https://alis.to/d/api/articles_images/CryptoChick/aw5WLmlGYDDQ/d747f34e-aa43-415d-9c21-52c071094181.png?d=800x2160 "初期割り当て")
 
 #### **総発行数 10億YMT（1B YMT）**
 
@@ -65,8 +65,10 @@ CJPYのDEX流動性提供者に対するリワード予算です。配置は時�
 
 シリーズA以降参入の投資家用です。追加の資金調達と生態系の拡大予算となります。
 
-　
+#### 年次アロケーション
 
-![年次アロケーション](https://alis.to/d/api/articles_images/CryptoChick/aw5WLmlGYDDQ/eb9bd467-261b-451d-b6ef-5e8eff64243a.png?d=800x2160 "年次アロケーション")年次アロケーション
+![年次アロケーション](https://alis.to/d/api/articles_images/CryptoChick/aw5WLmlGYDDQ/eb9bd467-261b-451d-b6ef-5e8eff64243a.png?d=800x2160 "年次アロケーション")
 
-![年次10%逓減リワード25年目まで](https://alis.to/d/api/articles_images/CryptoChick/aw5WLmlGYDDQ/806c50e7-2c86-40cc-af22-73d8493e6e4a.png?d=800x2160 "年次10%逓減リワード25年目まで")年次10%逓減リワード25年目まで
+#### 年次10%逓減リワード25年目まで
+
+![年次10%逓減リワード25年目まで](https://alis.to/d/api/articles_images/CryptoChick/aw5WLmlGYDDQ/806c50e7-2c86-40cc-af22-73d8493e6e4a.png?d=800x2160 "年次10%逓減リワード25年目まで")
