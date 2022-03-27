@@ -1,15 +1,15 @@
 +++
 author = ""
-date = 2022-03-25T15:00:00Z
+date = 2021-10-28T15:00:00Z
 excerpt = ""
 image = "/images/blog/yamto_ogp.png"
 image_alt = ""
 layout = "post"
-subtitle = "FAQ：トークンアロケーション"
+subtitle = ""
 tags = "コミュニティブログ"
 thumb_image = "/images/blog/yamto_ogp.png"
 thumb_image_alt = ""
-title = "「Yamato Protocol」とは？⑧"
+title = "Yamato Protocol - FAQ：トークンアロケーション"
 [seo]
 description = ""
 title = ""
