@@ -16,7 +16,7 @@ title = ""
 [[seo.extra]]
 keyName = "property"
 name = "og:image"
-value = "https://defigeek.xyz/images/DFGC_logo_banner_black.webp"
+value = "https://defigeek.xyz/images/blog/yamto_ogp.png"
 
 +++
 FAQの3.他プロトコル比較と4.ケーススタディについて回答します。

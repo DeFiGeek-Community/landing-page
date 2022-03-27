@@ -16,7 +16,7 @@ title = ""
 [[seo.extra]]
 keyName = "property"
 name = "og:image"
-value = "https://defigeek.xyz/images/DFGC_logo_banner.webp"
+value = "https://defigeek.xyz/images/blog/yamto_ogp.png"
 
 +++
 **2021年11月4日12時～**

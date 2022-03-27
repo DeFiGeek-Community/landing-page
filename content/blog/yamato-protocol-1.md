@@ -16,7 +16,7 @@ title = ""
 [[seo.extra]]
 keyName = "property"
 name = "og:image"
-value = "https://defigeek.xyz/images/DFGC_logo_banner_black.webp"
+value = "https://defigeek.xyz/images/blog/yamto_ogp.png"
 
 +++
 **※担保率や手数料、その他の設定等はメインネットローンチまで仕様が変更になる可能性があります。変更される場合は最新の記事にて詳細を説明するとともに、公式ドキュメントにて現仕様を共有できる予定です。**

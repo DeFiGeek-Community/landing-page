@@ -16,7 +16,7 @@ title = ""
 [[seo.extra]]
 keyName = "property"
 name = "og:image"
-value = "https://defigeek.xyz/images/DFGC_logo_banner_black.webp"
+value = "https://defigeek.xyz/images/blog/yamto_ogp.png"
 
 +++
 コミュニティチャットのYamatoProtocol-AMAチャンネルにて質問がありました。
