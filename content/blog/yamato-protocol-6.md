@@ -1,15 +1,15 @@
 +++
 author = ""
-date = 2022-03-25T15:00:00Z
+date = 2021-10-22T15:00:00Z
 excerpt = ""
 image = "/images/blog/yamto_ogp.png"
 image_alt = ""
 layout = "post"
-subtitle = "FAQ：他プロトコル比較・ケーススタディ"
+subtitle = ""
 tags = "コミュニティブログ"
 thumb_image = "/images/blog/yamto_ogp.png"
 thumb_image_alt = ""
-title = "「Yamato Protocol」とは？⑦"
+title = "Yamato Protocol - FAQ：他プロトコル比較・ケーススタディ"
 [seo]
 description = ""
 title = ""
