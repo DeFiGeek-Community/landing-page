@@ -97,6 +97,10 @@ sections:
         avatar: https://avatars.githubusercontent.com/u/80204128?v=4
         role: 開発部
         url: https://github.com/panebinese
+      - alias: ハク
+        avatar: https://cdn.discordapp.com/avatars/551284380547416067/61df30752ba58a549fec0429313736bf.png?size=240
+        role: 開発部
+        url: 
       - alias: Hau
         avatar: https://cdn.discordapp.com/avatars/716634375562985522/9bc72ba3ef70375685f793b198ef0a1a.png
         role: デザイン部
@@ -113,10 +117,6 @@ sections:
         avatar: https://cdn.discordapp.com/avatars/479870569412689938/e7a0d22ced03b79922c9062d3eed2ff7.png
         role: モデレータ, 広報部
         url: 
-      - alias: NAR
-        avatar: https://cdn.discordapp.com/avatars/597059337784918029/5c6130fb1d11e64c5e377c76b95ea4d8.png
-        role: 広報部
-        url: 
       - alias: paru
         avatar: https://avatars.githubusercontent.com/u/31604703?v=4
         role: 広報部, 開発部
@@ -124,6 +124,10 @@ sections:
       - alias: Anon
         avatar: https://avatars.githubusercontent.com/u/86736890?v=4
         role: 財務部
+        url: 
+      - alias: NAR
+        avatar: https://cdn.discordapp.com/avatars/597059337784918029/5c6130fb1d11e64c5e377c76b95ea4d8.png
+        role: 
         url: 
 seo:
   title: About Us
