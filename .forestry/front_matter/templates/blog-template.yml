@@ -22,7 +22,7 @@ fields:
 - type: file
   name: thumb_image
   label: サムネイル画像
-  default: "/images/blog/DFGC_logo_banner_black.webp"
+  default: "/images/blog/DFGC_logo_banner.webp"
 - type: text
   name: thumb_image_alt
   label: thumb_image_alt
@@ -30,7 +30,7 @@ fields:
 - type: file
   name: image
   label: 画像（タイトルの下に表示）
-  default: "/images/blog/DFGC_logo_banner_black.webp"
+  default: "/images/blog/DFGC_logo_banner.webp"
 - type: text
   name: image_alt
   label: image_alt
@@ -83,3 +83,12 @@ fields:
   label: layout
   hidden: true
   default: post
+pages:
+- content/blog/_index.en.md
+- content/blog/yamato-protocol-1.md
+- content/blog/yamato-protocol-2.md
+- content/blog/yamato-protocol-4.md
+- content/blog/yamato-protocol-5.md
+- content/blog/yamato-protocol-6.md
+- content/blog/yamato-protocol-7.md
+- content/blog/yamato-protocol.md
