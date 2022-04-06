@@ -16,9 +16,11 @@
             <header class="post-header">
               <h2 class="post-title"><a href="{{ $post.URL }}">{{ $post.Params.title }}</a></h2>
             </header>
+            <!-- 概要欄は非表示
             <div class="post-excerpt">
               <p>{{ $post.Params.excerpt }}</p>
             </div>
+            -->
             {{ $include_dict := dict "page" $post "date_type" "short" }}
             {{ partial "blog_post_footer.html" $include_dict }}
           </div>
