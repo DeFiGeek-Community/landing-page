@@ -857,10 +857,10 @@ textarea {
   .post-feed .card {
     height: 100%; }
   .post-feed .post-title {
-    font-size: 1.33333em; }
+    font-size: 1.22222em; }
   .post-feed .post-meta {
     font-size: 0.77778em;
-    margin-bottom: 0.25em; }
+    margin-bottom: 0em; }
 
 .post-thumbnail {
   border-radius: 3px 3px 0 0;
@@ -871,7 +871,7 @@ textarea {
   .post-thumbnail:before {
     content: "";
     display: block;
-    padding-top: 66.666%; }
+    padding-top: 52.356%; }
   .post-thumbnail img {
     border-radius: 3px 3px 0 0;
     height: 100%;
