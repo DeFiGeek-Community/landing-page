@@ -106,6 +106,14 @@ sections:
         role: デザイン部
         url: 
       - alias: Anon
+        avatar: https://cdn.discordapp.com/avatars/380666022098894849/4e7faca113a08ed3c5f510b59335eed4.webp
+        role: デザイン部
+        url: 
+      - alias: M24
+        avatar: https://cdn.discordapp.com/avatars/347725558764929024/062514185d7766e08c6a9bb0cd3c795f.webp
+        role: デザイン部
+        url: 
+      - alias: Anon
         avatar: https://avatars.githubusercontent.com/u/81340734?v=4
         role: モデレータ, ストラテジスト
         url: 
