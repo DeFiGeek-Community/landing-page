@@ -22,7 +22,7 @@ fields:
 - type: file
   name: thumb_image
   label: サムネイル画像
-  default: "/images/blog/DFGC_logo_banner.webp"
+  default: "/images/blog/DFGC_logo_banner_black.webp"
 - type: text
   name: thumb_image_alt
   label: thumb_image_alt
@@ -30,7 +30,7 @@ fields:
 - type: file
   name: image
   label: 画像（タイトルの下に表示）
-  default: "/images/blog/DFGC_logo_banner.webp"
+  default: "/images/blog/DFGC_logo_banner_black.webp"
 - type: text
   name: image_alt
   label: image_alt
