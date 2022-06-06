@@ -68,8 +68,20 @@ sections:
         avatar: https://avatars.githubusercontent.com/u/80204128?v=4
         role: Development
         url: https://github.com/panebinese
+      - alias: Haku
+        avatar: https://cdn.discordapp.com/avatars/551284380547416067/61df30752ba58a549fec0429313736bf.png?size=240
+        role: Development
+        url: 
       - alias: Hau
         avatar: https://cdn.discordapp.com/avatars/716634375562985522/9bc72ba3ef70375685f793b198ef0a1a.png
+        role: Design
+        url: 
+      - alias: Anon
+        avatar: https://cdn.discordapp.com/avatars/380666022098894849/4e7faca113a08ed3c5f510b59335eed4.webp
+        role: Design
+        url: 
+      - alias: M24
+        avatar: https://cdn.discordapp.com/avatars/347725558764929024/062514185d7766e08c6a9bb0cd3c795f.webp
         role: Design
         url: 
       - alias: Anon
@@ -84,10 +96,6 @@ sections:
         avatar: https://cdn.discordapp.com/avatars/479870569412689938/e7a0d22ced03b79922c9062d3eed2ff7.png
         role: Moderator, PR
         url: 
-      - alias: NAR
-        avatar: https://cdn.discordapp.com/avatars/597059337784918029/5c6130fb1d11e64c5e377c76b95ea4d8.png
-        role: PR
-        url: 
       - alias: paru
         avatar: https://avatars.githubusercontent.com/u/31604703?v=4
         role: PR, Development
@@ -95,6 +103,10 @@ sections:
       - alias: crytakepto
         avatar: https://avatars.githubusercontent.com/u/86736890?v=4
         role: Finance
+        url: 
+      - alias: NAR
+        avatar: https://cdn.discordapp.com/avatars/597059337784918029/5c6130fb1d11e64c5e377c76b95ea4d8.png
+        role: 
         url: 
 seo:
   title: About Us
