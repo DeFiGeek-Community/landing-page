@@ -27,7 +27,7 @@
               <h3 class="post-title"><a href="{{ $post.URL }}">{{ $post.Params.title }}</a></h3>
             </header>
             <div class="post-excerpt">
-              <p>{{ $post.Params.excerpt }}</p>
+              <p>{{ $post.Params.subtitle }}</p>
             </div>
             {{ $include_dict := dict "page" $post "date_type" "short" }}
             {{ partial "blog_post_footer.html" $include_dict }}
