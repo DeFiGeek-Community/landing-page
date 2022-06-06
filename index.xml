@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on DeFiGeek Community</title><link>/</link><description>Recent content in Home on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Sat, 30 Apr 2022 15:39:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年4月度 月次財務報告</title><link>/blog/2022-4-1/</link><pubDate>Sat, 30 Apr 2022 15:39:00 +0000</pubDate><guid>/blog/2022-4-1/</guid><description>重要指標 （注）
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on DeFiGeek Community</title><link>/</link><description>Recent content in Home on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Tue, 31 May 2022 15:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年5月度開発活動報告</title><link>/blog/2022-5/</link><pubDate>Tue, 31 May 2022 15:00:00 +0000</pubDate><guid>/blog/2022-5/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
+本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
+Yamato Protocol Yamato Core 以下の修正をテストネットコントラクトに反映しました。
+ICR0%判定の丸め誤差の修正 償還・弁済用プールの数値誤差の修正 償還時の報酬量計算の修正 償還イベントでの償還量を正味の量に修正 償還・弁済の動作確認が完了し、従来の動作で蓄積した数値のずれも解消され、現在は担保・借入量・プールなどの数値一貫性が保たれた状態となっています。
+ここから挙動を確認し、数値一貫性のずれが発生しなければ監査・ローンチへと向かいます。
+Yamato Interface 以下の改善を施しました。
+Yamato償還ボタンの有効化 最大ガス消費量を見積もり量の3倍から1.5倍に変更 借入時の予測数値名の明瞭化 メタマスク用のトークン追加ボタン設置 微小数値の0丸め リファクタリング（1, 2） その他UIの改善を随時予定しています。
+Yamato Interface（GitHub） はOSSです。どなたでもIssueを立てることができますし、Issueの対応をすることができます。
+Yamato Interface をより良いものとするために、皆様のコミットをお待ちしております。
+今後の予定 メインネットローンチまでの予定は以下です。
+各種動作確認と数値一貫性の確認 コード監査の依頼とレビュー修正 メインネットv1ローンチ 上記と並行して担保率ブーストスコア、（veYMTブーストスコア）実装も進行させる予定です。
+Core開発スポットタスク募集 複雑なアップグレードの生産性を高めるために、hardhatのローカルネットワークにて現行バージョンのYamatoコントラクト群をデプロイするスクリプトを作成していただける方を募集しています。
+環境にサンプルpledgeを生成してアップグレード自動化スクリプトを流し込み、アップグレードが滞りなく進むことを手元で確かめるのが目的です。
+TypeScriptが使えること、EVMやRPCノードの挙動を理解していることが条件です。
+あわせてリファクタもしていただけるとありがたいです。
+期限は一ヶ月を想定しています（必達ではありません）。
+担当していただける方にはアップグレードのノウハウをマンツーマンでお教えいたします。
+興味を持たれた方はdapp開発部にてお声がけください。
+YADORI（LoyaltyNFT） コア開発 SIWE（Sign In With Ethereum）し、そのEOAが保有するNFT内のポイントの転送を行うWebアプリのプロトタイプが稼働しています。
+ログイン後にNFTを他EOAに転送することで他EOAでも２重ログインできるといった非アトミック性を抱えているため、オフチェーンでの対応を検討しています。
+PoCの次の段階としてNFT内のポイントとギフトを交換するカタログアプリの構築を想定しています。
+こちらはWeb2アプリの開発となりますので、Web2の技術をとっかかりにWeb3を学んでいきたい方にはよい題材になると思います。
+コミュニティDiscordのLoyaltyNFTプロジェクトにて参加をお待ちしております。
+NFTイメージ開発 DFGCから発行するNFTイメージの制作を進めています。
+2D画像ではなく3DCG動画の提供を予定しており、枠の形や質感、主題のバリエーションを策定中です。
+ある程度方向性が固まったら公開チャンネルでお披露目する予定ですので、楽しみにお待ちください。
+NFT画像・モデルを制作していただけるイラストレーター・デザイナーを募集しています。
+現在2名の方に参画していただいており、デザイン部ロールも付与されました。
+興味を持っていただけましたらコミュニティDiscordのNFT部にて参加表明をお願いします。
+ネーミングコンペティション LoyaltyNFTをパッケージ化する際の名称を決めるコンペティションを開催しました。</description></item><item><title>2022年4月度 月次財務報告</title><link>/blog/2022-4-1/</link><pubDate>Sat, 30 Apr 2022 15:39:00 +0000</pubDate><guid>/blog/2022-4-1/</guid><description>重要指標 （注）
 ・純資産：月末日為替レート（$1＝¥128.86）で換算。
 ・グロスバーンレート：キャッシュアウト合計（資産運用に係る収支については一時的な支出であるため除外して計算している）
 ・ネットバーンレート：キャッシュフロー合計（資産運用に係る収支については一時的な支出であるため除外して計算している）
