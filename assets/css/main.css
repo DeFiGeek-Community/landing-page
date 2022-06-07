@@ -886,7 +886,7 @@ textarea {
 
 .post-excerpt {
   font-size: 0.88889em;
-  margin-bottom: 1.25em; }
+  margin-bottom: 1em; }
 
 @media only screen and (min-width: 601px) {
   .post-feed .cell {
