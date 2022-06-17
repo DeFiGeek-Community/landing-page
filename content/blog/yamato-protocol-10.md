@@ -13,8 +13,11 @@ thumb_image_alt = ""
 title = "Yamato Protocol開発進捗"
 [seo]
 description = ""
-extra = []
 title = ""
+[[seo.extra]]
+keyName = "property"
+name = "og:image"
+value = "https://defigeek.xyz/images/DFGC_logo_banner_black.webp"
 
 +++
 [https://dev-app.yamato.fi/#/](https://dev-app.yamato.fi/#/ "https://dev-app.yamato.fi/#/")
@@ -51,8 +54,8 @@ DeFiGeek Communityは、今では5件以上の複数のDapp開発を進行する
 
 Yamato Protocolはその第一弾であり、初のDeFiGeek Communityのプロダクトです。
 
-デビューまでsoon!!です。  
-  
+デビューまでsoon!!です。
+
 関連するブログに目を通していただき、Yamato Protocolを知ってください。  
 [https://defigeek.xyz/blog/yamato-protocol/](https://defigeek.xyz/blog/yamato-protocol/ "初心者向け基礎解説")
 
@@ -74,7 +77,6 @@ Yamato Protocolはその第一弾であり、初のDeFiGeek Communityのプロ�
 
 [https://defigeek.xyz/blog/yamato-protocol-9/](https://defigeek.xyz/blog/yamato-protocol-9/ "アルファテスト→ベータテスト移行のお知らせ")
 
-  
 監査進行及び、その他の進捗を随時こちらのブログで発進していきます。  
 是非フォローをお願い致します。
 
