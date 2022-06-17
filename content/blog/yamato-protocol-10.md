@@ -82,3 +82,7 @@ Yamato Protocolはその第一弾であり、初のDeFiGeek Communityのプロ�
 招待リンクです↓
 
 [https://discord.gg/FQYXqVBEnh](https://discord.gg/FQYXqVBEnh "https://discord.gg/FQYXqVBEnh")
+
+2022\.06.17
+
+DeFiGeek Community　開発部一同
