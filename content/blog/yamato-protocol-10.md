@@ -1,7 +1,6 @@
 +++
 author = ""
 date = 2022-06-17T10:00:00Z
-draft = true
 excerpt = "2022,06,17 Yamato Protocol開発進捗"
 image = "/images/blog/yamto_ogp.png"
 image_alt = ""
@@ -17,7 +16,7 @@ title = ""
 [[seo.extra]]
 keyName = "property"
 name = "og:image"
-value = "https://defigeek.xyz/images/DFGC_logo_banner_black.webp"
+value = "https://defigeek.xyz/images/blog/yamto_ogp.png"
 
 +++
 [https://dev-app.yamato.fi/#/](https://dev-app.yamato.fi/#/ "https://dev-app.yamato.fi/#/")
@@ -85,6 +84,6 @@ Yamato Protocolはその第一弾であり、初のDeFiGeek Communityのプロ�
 
 [https://discord.gg/FQYXqVBEnh](https://discord.gg/FQYXqVBEnh "https://discord.gg/FQYXqVBEnh")
 
-2022\.06.17
+2022.06.17
 
 DeFiGeek Community　開発部一同
