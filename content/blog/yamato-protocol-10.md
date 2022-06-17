@@ -77,3 +77,8 @@ Yamato Protocolはその第一弾であり、初のDeFiGeek Communityのプロ�
   
 監査進行及び、その他の進捗を随時こちらのブログで発進していきます。  
 是非フォローをお願い致します。
+
+コミュニティチャットにも遊びに来てください。  
+招待リンクです↓
+
+[https://discord.gg/FQYXqVBEnh](https://discord.gg/FQYXqVBEnh "https://discord.gg/FQYXqVBEnh")
