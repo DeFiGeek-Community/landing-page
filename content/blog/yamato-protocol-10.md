@@ -1,6 +1,6 @@
 +++
 author = ""
-date = 2022-06-17T10:00:00Z
+date = 2022-06-16T15:00:00Z
 excerpt = "2022,06,17 Yamato Protocol開発進捗"
 image = "/images/blog/yamto_ogp.png"
 image_alt = ""
