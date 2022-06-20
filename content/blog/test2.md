@@ -10,7 +10,7 @@ subtitle = "testing"
 tags = "オフィシャルアナウンス"
 thumb_image = "/images/blog/DFGC_logo_banner.webp"
 thumb_image_alt = ""
-title = "test2"
+title = "test3"
 [seo]
 description = ""
 title = ""
