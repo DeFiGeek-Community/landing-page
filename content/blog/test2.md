@@ -1,7 +1,6 @@
 +++
 author = ""
 date = 2022-06-20T10:00:00Z
-draft = true
 excerpt = ""
 image = "/images/blog/DFGC_logo_banner.webp"
 image_alt = ""
@@ -20,6 +19,4 @@ name = "og:image"
 value = "https://defigeek.xyz/images/DFGC_logo_banner.webp"
 
 +++
-Github Actions のビルド設定にタイムゾーンを追加する。
-
-run: TZ=Asia/Tokyo hugo --minify
+forestryのタイムゾーンを GMT +9:00 に設定。
