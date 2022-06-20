@@ -20,3 +20,5 @@ value = "https://defigeek.xyz/images/DFGC_logo_banner.webp"
 
 +++
 標準設定のまま、公開日付を6/20 19時にする。
+
+date = 2022-06-20T10:00:00Z
