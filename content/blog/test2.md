@@ -20,4 +20,6 @@ name = "og:image"
 value = "https://defigeek.xyz/images/DFGC_logo_banner.webp"
 
 +++
-標準設定のまま、公開日付を6/20 19時にする。
+Github Actions のビルド設定にタイムゾーンを追加する。
+
+run: TZ=Asia/Tokyo hugo --minify
