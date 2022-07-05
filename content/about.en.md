@@ -52,24 +52,24 @@ sections:
         avatar: https://avatars.githubusercontent.com/u/83639348?v=4
         role: Development Leader
         url: https://github.com/0xMotoko
-      - alias: Anon
-        avatar: https://avatars.githubusercontent.com/u/83848415?v=4
+      - alias: Haku
+        avatar: https://cdn.discordapp.com/avatars/551284380547416067/61df30752ba58a549fec0429313736bf.png?size=240
         role: Development Leader
         url: 
       - alias: Anon
-        avatar: https://avatars.githubusercontent.com/u/78298805?v=4
+        avatar: https://avatars.githubusercontent.com/u/83848415?v=4
         role: Development
         url: 
-      - alias: somewherecat
-        avatar: https://cdn.discordapp.com/avatars/813069467206680576/7e8ef1d6b3fb0d2bc8032ad7730e1997.png
+      - alias: Anon
+        avatar: https://avatars.githubusercontent.com/u/78298805?v=4
         role: Development
         url: 
       - alias: TypingMonkey
         avatar: https://avatars.githubusercontent.com/u/80204128?v=4
         role: Development
         url: https://github.com/panebinese
-      - alias: Haku
-        avatar: https://cdn.discordapp.com/avatars/551284380547416067/61df30752ba58a549fec0429313736bf.png?size=240
+      - alias: sushi
+        avatar: https://cdn.discordapp.com/avatars/910521720216117268/9da7434dac85bcfff6a9ab4fe56a18cb.png
         role: Development
         url: 
       - alias: Hau
@@ -82,6 +82,10 @@ sections:
         url: 
       - alias: M24
         avatar: https://cdn.discordapp.com/avatars/347725558764929024/062514185d7766e08c6a9bb0cd3c795f.webp
+        role: Design
+        url: 
+      - alias: Anon
+        avatar: https://cdn.discordapp.com/avatars/804710574029275188/e3857aa25bdca8d41cc431b205bce0d5.png
         role: Design
         url: 
       - alias: Anon
@@ -103,6 +107,10 @@ sections:
       - alias: crytakepto
         avatar: https://avatars.githubusercontent.com/u/86736890?v=4
         role: Finance
+        url: 
+      - alias: somewherecat
+        avatar: https://cdn.discordapp.com/avatars/813069467206680576/7e8ef1d6b3fb0d2bc8032ad7730e1997.png
+        role: Development
         url: 
       - alias: NAR
         avatar: https://cdn.discordapp.com/avatars/597059337784918029/5c6130fb1d11e64c5e377c76b95ea4d8.png
