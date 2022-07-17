@@ -1,7 +1,6 @@
 +++
 author = ""
 date = 2022-07-16T15:00:00Z
-draft = true
 excerpt = "DeFiGeek Communityが見ているもの。"
 image = "/images/blog/DFGC_logo_banner_black.webp"
 image_alt = ""
