@@ -20,8 +20,8 @@ name = "og:image"
 value = "https://defigeek.xyz/images/DFGC_logo_banner_black.webp"
 
 +++
-![](/images/blog/縦配置ロゴ（背景透過）.png)  
-  
+![](/images/blog/縦配置ロゴ（背景透過）.png)
+
 コミュニティをリブランドしてから一年半余りが経過しようとしています。
 
 インターネットは日々進化しており、あらゆる情報が溢れているし、誰もが自由に発信できるようになっています。
