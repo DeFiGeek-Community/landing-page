@@ -112,3 +112,15 @@ Pledges where all collateral is redeemed to zero and only the CJPY obligation re
 Subrogation is performed by CJPY accumulated in Yamato.
 
 The triggering user will get 1% of the repaid amount in CJPY.
+
+#### Related Links
+
+Community Guide: [https://docs.defigeek.xyz/](https://docs.defigeek.xyz/ "https://docs.defigeek.xyz/")
+
+Discord: [http://discord.gg/FQYXqVBEnh](http://discord.gg/FQYXqVBEnh "http://discord.gg/FQYXqVBEnh")
+
+Twitter: [https://twitter.com/DeFiGeekJapan](https://twitter.com/DeFiGeekJapan "https://twitter.com/DeFiGeekJapan")
+
+***
+
+If you have any comments or questions regarding this article, please contact yamato-protocol-ama in the DeFiGeek Community via the Discord above.
