@@ -66,14 +66,14 @@ Fees are charged at the time of borrowing.
 
 The commission rate varies depending on the collateral rate after borrowing.
 
-The fee is deducted from the amount borrowed.
+The fee is deducted from the Amount of loan entered.
 
-In other words, the net proceeds = amount borrowed * (100 - commission rate) / 100.
+In other words, the net proceeds = entered amount * (100 - commission rate) / 100.
 
 The commission rate is as follows
 
-| --- | --- |
 | Guarantee rate after borrowing(%) | commission rate(%) |
+| --- | --- |
 | 130 | 4 |
 | 150 | 2 |
 | 200 | 1 |
@@ -83,7 +83,7 @@ The commission rate is as follows
 | 400 | 0.4 |
 | 500 | 0.1 |
 
-Fees are accumulated in the Yamato Protocol pool so that Redemption:Reimbursement = 8:2.
+Fees are accumulated in the Yamato Protocol pool so that Redemption : subrogation = 8 : 2.
 
 ## Redemption
 
