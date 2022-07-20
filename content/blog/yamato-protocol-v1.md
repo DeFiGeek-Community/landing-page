@@ -117,6 +117,8 @@ Yamato Protocol のプールに蓄積したCJPYによって代位弁済が行わ
 
 トリガー実行者は償還に利用されたCJPY（= 1 JPY）の1%を入手します。
 
+***
+
 #### 関連リンク
 
 コミュニティガイド: [https://docs.defigeek.xyz/](https://docs.defigeek.xyz/ "https://docs.defigeek.xyz/")
