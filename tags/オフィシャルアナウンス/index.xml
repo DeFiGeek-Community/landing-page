@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>オフィシャルアナウンス on DeFiGeek Community</title><link>/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/</link><description>Recent content in オフィシャルアナウンス on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Thu, 30 Jun 2022 15:00:00 +0000</lastBuildDate><atom:link href="/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年6月度開発活動報告</title><link>/blog/2022-6-1/</link><pubDate>Thu, 30 Jun 2022 15:00:00 +0000</pubDate><guid>/blog/2022-6-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>オフィシャルアナウンス on DeFiGeek Community</title><link>/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/</link><description>Recent content in オフィシャルアナウンス on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Tue, 19 Jul 2022 15:00:00 +0000</lastBuildDate><atom:link href="/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>Yamato Protocol V1 Overview</title><link>/blog/yamato-protocol-v1-overview/</link><pubDate>Tue, 19 Jul 2022 15:00:00 +0000</pubDate><guid>/blog/yamato-protocol-v1-overview/</guid><description>Summary Yamato Protocol is a crypto-asset overcollateralized stable coin issuance protocol.
+V1 allows the issuance of CJPY (Japanese Yen equivalent coin) using ETH as collateral.
+It has the following features
+No immediate forced liquidation No obligation to repay debt No interest rates (Fee collected at the time of borrowing) Low secured rates (minimum 130%) Functional Description Deposits and Withdrawals Deposits and withdrawals can increase or decrease the ETH balance in Pledge.</description></item><item><title>Yamato Protocol V1 概要</title><link>/blog/yamato-protocol-v1/</link><pubDate>Tue, 19 Jul 2022 15:00:00 +0000</pubDate><guid>/blog/yamato-protocol-v1/</guid><description>概要 Yamato Protocol は暗号資産過剰担保型ステーブルコイン発行プロトコルです。
+V1ではETHを担保としてCJPY（日本円と等価）を発行することができます。
+Yamato Protocol は以下の特徴があります
+強制清算なし 債務返済義務なし 金利なし（借入時手数料徴収制） 低担保率利用可能（最低130%） 機能説明 預け入れと引き出し 預け入れと引き出しではPledgeのETH残高を増減させることができます。
+PledgeとはYamato Protocol における口座のことで、アドレス毎の担保・債務を管理します。
+預け入れ 預け入れ後の担保量は0.1ETH以上であることが要求されます。
+精算によって担保量が0.1ETHを下回ることがあります。
+引き出し 引き出し後の担保量は0.1ETH以上であることが要求されます。
+ただし、借り入れがない場合の全額引き出しは可能です。
+引き出し後の担保率が130%を切るような担保量の引き出しはできません。
+借入と返済 借入と返済ではあなたのウォレットのCJPY残高を増減させることができます。
+借入 利用者は最低担保率130%でCJPYを発行することができます。
+手数料 手数料は借入時に一括で徴収されます。
+手数料率は借入後の担保率によって決まります。
+手数料は借入量から差し引かれます。
+つまり、手取り量 = 借入量 * (1 - 手数料率) となります。
+満額返済するためには外部からCJPYを調達する必要があります。
+手数料率は以下の通りです
+借入後担保率(%) 手数料率(%) 130 4 150 2 200 1 250 0.85 300 0.</description></item><item><title>2022年6月度開発活動報告</title><link>/blog/2022-6-1/</link><pubDate>Thu, 30 Jun 2022 15:00:00 +0000</pubDate><guid>/blog/2022-6-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 Yamato Protocol Yamato Core V1の動作確認が完了したため、外部チームによる監査へと進みました。
