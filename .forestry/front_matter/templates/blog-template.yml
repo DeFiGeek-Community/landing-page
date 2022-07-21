@@ -85,6 +85,7 @@ fields:
   default: post
 pages:
 - content/blog/_index.en.md
+- content/blog/defigeek-community.md
 - content/blog/yamato-protocol-1.md
 - content/blog/yamato-protocol-10.md
 - content/blog/yamato-protocol-2.md
