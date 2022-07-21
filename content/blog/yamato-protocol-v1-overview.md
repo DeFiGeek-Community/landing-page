@@ -29,14 +29,16 @@ It has the following features
 
 * No immediate forced liquidation
 * No obligation to repay debt
-* No interest rates (lump-sum fees)
+* No interest rates (Fee collected at the time of borrowing)
 * Low secured rates (minimum 130%)
 
 # Functional Description
 
 ## Deposits and Withdrawals
 
-Deposits and withdrawals can increase or decrease the amount of ETH in your Pledge on the Yamato Protocol.
+Deposits and withdrawals can increase or decrease the ETH balance in Pledge.
+
+Pledge is an account in the Yamato Protocol that manages collateral and obligations for each address.
 
 ### Deposits
 
@@ -68,7 +70,7 @@ The commission rate varies depending on the collateral rate after borrowing.
 
 The fee is deducted from the Amount of loan entered.
 
-In other words, the net proceeds = entered amount * (100 - commission rate) / 100.
+In other words, the net proceeds = entered amount * (1 - commission rate).
 
 The commission rate is as follows
 
