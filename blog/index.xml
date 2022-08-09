@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ニュースリリース on DeFiGeek Community</title><link>/blog/</link><description>Recent content in ニュースリリース on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Tue, 19 Jul 2022 15:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Yamato Protocol V1 Overview</title><link>/blog/yamato-protocol-v1-overview/</link><pubDate>Tue, 19 Jul 2022 15:00:00 +0000</pubDate><guid>/blog/yamato-protocol-v1-overview/</guid><description>Summary Yamato Protocol is a crypto-asset overcollateralized stable coin issuance protocol.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ニュースリリース on DeFiGeek Community</title><link>/blog/</link><description>Recent content in ニュースリリース on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Sun, 31 Jul 2022 15:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年7月度開発活動報告</title><link>/blog/2022-7-1/</link><pubDate>Sun, 31 Jul 2022 15:00:00 +0000</pubDate><guid>/blog/2022-7-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
+本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
+Yamato Protocol Yamato Core V1の動作確認が完了したため、外部チームによる監査へと進みました。
+1社目の一次監査レポートが到着し、開発チームで対応方針を確定させ、ソースの修正作業に入りました。
+8月中に修正したものを再レビューに提出し最終レポートを発行してもらう予定です。
+最終レポートは正式に発行され次第共有いたします。
+2社目の依頼については上記の監査結果を基に選定中です。
+依頼先の選定・バグバウンティの設置などの方針を8月中に確定する予定です。
+最終的な監査完了時期は9月～10月を想定しています。
+その他ロードマップなどについてはこちらをご確認ください。
+Yamato Interface 以下の改善を施しました。
+多言語対応（進行中） ダークモード実装（進行中） 現時点でV1に必要な機能はすべて実装済みで正常に動作することが確認されています。
+今後はV1.5、V2のための開発を進行する予定ですが、改善要望があれば検討いたします。
+Yamato Interface（GitHub） はOSSです。どなたでもIssueを立てることができますし、Issueの対応をすることができます。
+Yamato Interface をより良いものとするために、皆様のコミットをお待ちしております。
+Core開発スポットタスク募集 複雑なアップグレードの生産性を高めるために、hardhatのローカルネットワークにて現行バージョンのYamatoコントラクト群をデプロイするスクリプトを作成していただける方を募集しています。
+環境にサンプルpledgeを生成してアップグレード自動化スクリプトを流し込み、アップグレードが滞りなく進むことを手元で確かめるのが目的です。
+TypeScriptが使えること、EVMやRPCノードの挙動を理解していることが条件です。
+あわせてリファクタもしていただけるとありがたいです。
+期限は一ヶ月を想定しています（必達ではありません）。
+担当していただける方にはアップグレードのノウハウをマンツーマンでお教えいたします。
+興味を持たれた方はdapp開発部にてお声がけください。
+YADORI コア開発 SIWE（Sign In With Ethereum）し、そのEOAが保有するNFT内のポイントの転送を行うWebアプリのプロトタイプが稼働しています。
+ログイン後にNFTを他EOAに転送することで他EOAでも２重ログインできるといった非アトミック性を抱えているため、オフチェーンでの対応を検討しています。
+PoCの次の段階としてNFT内のポイントとギフトを交換するカタログアプリの構築を想定しています。
+こちらはWeb2アプリの開発となりますので、Web2の技術をとっかかりにWeb3を学んでいきたい方にはよい題材になると思います。
+コミュニティDiscordのLoyaltyNFTプロジェクトにて参加をお待ちしております。
+NFTイメージ開発 DFGCから発行するNFTイメージの制作を進めています。
+2D画像ではなく3DCG動画の提供を予定しており、枠の形や質感、主題のバリエーションを策定中です。
+ある程度方向性が固まったら公開チャンネルでお披露目する予定ですので、楽しみにお待ちください。
+NFT画像・モデルを制作していただけるイラストレーター・デザイナーを募集しています。
+興味を持っていただけましたらコミュニティDiscordのNFT部にて参加表明をお願いします。
+ロゴコンペティション ネーミングコンペティションに続いてロゴコンペティションを開催します。
+デザイン部主導でロゴを完成させる方向で動く予定ですが、ラフやモチーフの提案・議論の参加は歓迎いたします。
+YADORIロゴマークコンペティションにてご意見お待ちしております。
+WalletアバターNFT WalletアバターNFTとは、EOAの状態（ETH保有数、トランザクション発行数など）によって図柄が変化する、EOAのアイデンティティを示すNFTです。
+コア開発 サービス仕様について検討し、WalletアバターNFTにおける譲渡（≒転送）不可という仕様を撤廃しました。
+「EOAとNFTの状態を参照して図柄が変化する」というテーマを考えたとき、保有者はNFTが転送されても一意に特定でき、転送不可で二次流通できなくなるというデメリットがあるため、上記制約は不要と判断しました。
+図柄変更ロジックについて、どのようなパラメータ・閾値を設定するかを検討しています。
+実現可能性やアイデンティティたりえるかといった点を総合的に判断しながら選定を行っています。
+こちらはWeb2（＋Web3データ取得）で開発が進行しますので、開発に興味を持たれた方はコミュニティDiscordのNFT部にて参加表明をお願いします。
+NFTイメージ開発 現在はデザイン部メンバー主導で開発を行っています。
+V1で提供するモデルは</description></item><item><title>Yamato Protocol V1 Overview</title><link>/blog/yamato-protocol-v1-overview/</link><pubDate>Tue, 19 Jul 2022 15:00:00 +0000</pubDate><guid>/blog/yamato-protocol-v1-overview/</guid><description>Summary Yamato Protocol is a crypto-asset overcollateralized stable coin issuance protocol.
 V1 allows the issuance of CJPY (Japanese Yen equivalent coin) using ETH as collateral.
 It has the following features
 No immediate forced liquidation No obligation to repay debt No interest rates (Fee collected at the time of borrowing) Low secured rates (minimum 130%) Functional Description Deposits and Withdrawals Deposits and withdrawals can increase or decrease the ETH balance in Pledge.</description></item><item><title>Yamato Protocol V1 概要</title><link>/blog/yamato-protocol-v1/</link><pubDate>Tue, 19 Jul 2022 15:00:00 +0000</pubDate><guid>/blog/yamato-protocol-v1/</guid><description>概要 Yamato Protocol は暗号資産過剰担保型ステーブルコイン発行プロトコルです。
