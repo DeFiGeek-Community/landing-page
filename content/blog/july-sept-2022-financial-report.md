@@ -23,13 +23,12 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 ![](/images/blog/220901e.PNG)
 
-・Due to recent (Sept 2022) change in personnel in charge of Finance Department, there are disconnects of data, accounting treatment and accounting assumption between this report and report published in previous months. No retrospective application has been applied due to limitation of available data.
-・Gross Burn Rate: Total cash outflow (expense items: interest expense, relayers fee, labor cost, gas cost, incentives, etc.)
-・Net Burn Rate: Total Cash Flow (Gross Burn Rate + Rewards Claimed, interest earned and Airdrop received)
-・Implied Cash Runway：Total Equity / Net Burn Rate
-・Liquidating value: Total Equity minus Liabilities & DFGC's TXJP holdings (including TXJP in LPs).
-・BPS: Liquidating Value divided by the number of tokens held by users(circulating supply).
-・PBR：Multiple of token price to BPS(liq value)
+・Due to recent (Sept 2022) change in personnel in charge of Finance Department, there are disconnects of data, accounting treatment and accounting assumption between this report and report published in previous months. No retrospective application has been applied due to limitation of available data.  
+・Gross Burn Rate: Total cash outflow (expense items: interest expense, relayers fee, labor cost, gas cost, incentives, etc.)   
+・Net Burn Rate: Total Cash Flow (Gross Burn Rate + Rewards Claimed, interest earned and Airdrop received)   
+・Implied Cash Runway：Total Equity / Net Burn Rate ・Liquidating value: Total Equity minus Liabilities & DFGC's TXJP holdings (including TXJP in LPs).   
+・BPS: Liquidating Value divided by the number of tokens held by users(circulating supply).   
+・PBR：Multiple of token price to BPS(liq value)   
 ・Reference data used: [zapper](https://t.co/lzLYnn8VGj?amp=1), [zerion](https://app.zerion.io/), [DeBank](https://debank.com/), [Etherscan](https://etherscan.io/), [Dextool](https://www.dextools.io/app/ether/pair-explorer/0xa9166690c35d900a57d2ec132c58291bc0678944), [Mitsubishi UFJ Research & Consulting](http://www.murc-kawasesouba.jp/fx/lastmonth.php)
 
 # 
