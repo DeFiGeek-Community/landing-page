@@ -38,13 +38,14 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 ![](/images/blog/220905e.PNG)
 
-・The following assumptions has be used from the July-September FS in 2022
-・Fair value of assets and liabilities: Japanese yen equivalents displayed on Zerion, DeBank, and Zapper
-・Accrued interest account on liabilities is no longer in use but is included in the short-term debt borrowing amount
-・Paid-in capital 2018, market value of donations received in 2018-2020 are calculated in USD market value at the time of payment & applied average USD/JPY exchange rate for the three years 2018-2020 ($1=108.76Yen).
-・Paid-in capital 2020, applied average USD/JPY exchange rate during July 2021 ($1=110.31).
-・Paid-in capital 2022 applied mid rate of USD/JPY on each date of payment. (5th July 1$=136.14, 6th July 1$=135.69, 9th July 1$=136.06)
-・OCI is market value of TXJP held by DFGC (including TXJP in LPs).
+The following assumptions has be used from the July-September FS in 2022
+
+・Fair value of assets and liabilities: Japanese yen equivalents displayed on Zerion, DeBank, and Zapper   
+・Accrued interest account on liabilities is no longer in use but is included in the short-term debt borrowing amount   
+・Paid-in capital 2018, market value of donations received in 2018-2020 are calculated in USD market value at the time of payment & applied average USD/JPY exchange rate for the three years 2018-2020 ($1=108.76Yen).   
+・Paid-in capital 2020, applied average USD/JPY exchange rate during July 2021 ($1=110.31).   
+・Paid-in capital 2022 applied mid rate of USD/JPY on each date of payment. (5th July 1$=136.14, 6th July 1$=135.69, 9th July 1$=136.06)  
+・OCI is market value of TXJP held by DFGC (including TXJP in LPs).  
 ・Items with low values are not mark to marked but displayed continuously in "Other" current assets interest receivables.
 
 # 
@@ -79,9 +80,9 @@ Please refer to Japanese ver to see all transactions data.
 
 # Disclaimer
 
-・This report is prepared by DeFiGeek Community for the purpose of providing accounting information to ensure transparency in the use of funds.
-・This report is not intended as a solicitation to invest in tokens ($TXJP, $YMT) issued by the community.
-・The information in this article has been obtained from reliable sources, but we do not guarantee or promise its completeness, accuracy, or appropriateness. The community is not liable for any damages incurred by users of this article due to data, expressions, errors, etc. used in this article.
+・This report is prepared by DeFiGeek Community for the purpose of providing accounting information to ensure transparency in the use of funds.  
+・This report is not intended as a solicitation to invest in tokens ($TXJP, $YMT) issued by the community.  
+・The information in this article has been obtained from reliable sources, but we do not guarantee or promise its completeness, accuracy, or appropriateness. The community is not liable for any damages incurred by users of this article due to data, expressions, errors, etc. used in this article.  
 ・The financial statements and key ratios used in this article have been specially prepared by the Finance Department of the community to conform to the community's financial reporting and have not been audited by a certified public accountant or auditing firm.
 
 ***
