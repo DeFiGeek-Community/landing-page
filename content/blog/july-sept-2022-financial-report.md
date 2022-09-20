@@ -69,6 +69,20 @@ Due to incomplete data available for month-end balances of June 2022, income sta
 
 ![](/images/blog/220904e.PNG)
 
+Balancer V1: 0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f  
+Balancer V2: 0xba12222222228d8ba445958a75a0704d566bf2c8  
+Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944  
+DAO Treasury (defigeek.eth): 0x24dd242c3c4061b1fcaa5119af608b56afbaea95  
+dev.defigeek.eth  0xdc94eeeb3260d0b9bf22849e8f5d236d286cdba1  
+cofounder.defigeek.eth: 0x4534f4968006ca9eca3bac922022c7ecba066e9e
+
+Note:  
+
+・Balancer V1, V2 and Uniswap V3 LP positions are owned by DAO Treasury  (defigeek.eth).  
+・Total supply is fixed at 210,000 TXJP.  
+・Allotment for future prospective Series A, B and C (total 29,500 TXJP) have issued and been held at DAO Treasury (defigeek.eth).  
+・TXJP held at contract (0x0028a459d6705b30333e98d5bcb34dd1b21e2a89) is user’s fund in Rari’s Fuse. No Treasury fund is deposited in the pool.
+
 # 
 
 # DAO activities
