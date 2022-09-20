@@ -82,7 +82,7 @@ Note:
 ・Total supply is fixed at 210,000 TXJP.  
 ・Allotment for future prospective Series A, B and C (total 29,500 TXJP) have issued and been held at DAO Treasury (defigeek.eth).  
 ・TXJP held at contract (0x0028a459d6705b30333e98d5bcb34dd1b21e2a89) is user’s fund in Rari’s Fuse. No Treasury fund is deposited in the pool.  
-・dev.defigeek.eth belongs to development department of DFGC & cofounder.defigeek.eth belongs to cofounders of DFGC. Both of them are included in BS as long-term deposit TXJP.
+・dev.defigeek.eth belongs to development department of DFGC & cofounder.defigeek.eth belongs to cofounders of DFGC. Both of them are held at differnt wallet from DAO Treasury solely for governance purposes and are included in BS as long-term deposit TXJP.
 
 # 
 
