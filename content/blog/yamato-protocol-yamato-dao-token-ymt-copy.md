@@ -89,6 +89,6 @@ Year 1\~ Year 25
 
 **Token distribution at a diminishing rate of 10% p.a.**
 
-Table shows until 25th year for an illustration purpose. Total supply will be distributed by the 235th year.
+Table shows Users Rewards until 25th year for an illustration purpose. Total Users Rewards will be distributed by the 235th year.
 
 ![](/images/blog/usersrewards.PNG)
