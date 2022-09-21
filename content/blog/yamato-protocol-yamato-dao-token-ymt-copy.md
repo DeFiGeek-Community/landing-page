@@ -41,8 +41,9 @@ Allocation to TXJP holders, excluding TXJP LP/Reserve/Treasury accounts. This is
 
 Developers Rewards for achieving the official launch. Without the development team, the Yamato Protocol would not be available. They will lead maintenance, refactoring, version upgrades, going forward.
 
-#### **5% (50 Million YMT) - DEX LP   
-Uniswap v3 YMT-ETH Pool $0.1\~$1**
+#### **5% (50 Million YMT) - DEX LP**
+
+**Uniswap v3 YMT-ETH Pool $0.1\~$1**
 
 Lead initial liquidity. Timing of LP placement is subject to market conditions.
 
@@ -50,18 +51,21 @@ Lead initial liquidity. Timing of LP placement is subject to market conditions.
 
 Retroactive airdrop for early users who minted CJPY during v1 period. Linear vesting (for 6 months to 12 months) starting after operation is stabilized and v1.5 (veYMT system implementation) is released.
 
-#### **10% (100 million YMT) - CurveLP Rewards   
- (2% annual vesting for 5 years)**
+#### **10% (100 million YMT) - CurveLP Rewards**
+
+**(2% annual vesting for 5 years)**
 
 Rewards budget for CJPY DEX LP providers. Timing of starting LP Rewards is subject to market conditions.
 
-#### **55% (550 million YMT) - Users Rewards   
-(5.5% for Year 1. Distribution at diminishing rate of 10% each year by the 235th year.)**
+#### **55% (550 million YMT) - Users Rewards**
+
+**(5.5% for Year 1. Distribution at diminishing rate of 10% each year by the 235th year.)**
 
 This is the main reward for users who used the protocol to mint CJPY.
 
-#### **10% (100 million YMT) - Investors in Phase 2 and beyond   
-(3 years with 2-Year Cliff)**
+#### **10% (100 million YMT) - Investors in Phase 2 and beyond**
+
+**(3 years with 2-Year Cliff)**
 
 For investors at Series A and subsequent series. This is the budget for additional fundings to expand the ecosystem.
 
