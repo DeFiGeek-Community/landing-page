@@ -29,19 +29,19 @@ This article describes the overall allocation & distribution plan for YMT.
 
 #### **YMT Total Supply is fixed at 1 billion YMT**
 
-#### **5% (50 Million YMT) - DAO Treasury**
+#### **5% (50 million YMT) - DAO Treasury**
 
 The treasury fund. Yamato Protocol DAO will decide how to utilize the fund for future development.
 
-#### **5% (50 Million YMT) - Initial Investors (TXJP holders)**
+#### **5% (50 million YMT) - Initial Investors (TXJP holders)**
 
 Allocation to TXJP holders, excluding TXJP LP/Reserve/Treasury accounts. This is a reward for initial supporters. We have decided that they have been at the most risk-taking position and hence should be given a return commensurate with the risk.
 
-#### **5% (50 Million YMT) - Developers Rewards**
+#### **5% (50 million YMT) - Developers Rewards**
 
 Developers Rewards for achieving the official launch. Without the development team, the Yamato Protocol would not be available. They will lead maintenance, refactoring, version upgrades, going forward.
 
-#### **5% (50 Million YMT) - DEX LP**
+#### **5% (50 million YMT) - DEX LP**
 
 **Uniswap v3 YMT-ETH Pool $0.1\~$1**
 
