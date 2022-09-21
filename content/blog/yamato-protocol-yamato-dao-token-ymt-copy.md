@@ -1,6 +1,6 @@
 +++
 author = ""
-date = 2021-09-03T15:00:00Z
+date = 2021-09-20T15:00:00Z
 draft = true
 excerpt = ""
 image = "/images/blog/yamto_ogp.png"
@@ -10,7 +10,7 @@ subtitle = ""
 tags = "オフィシャルアナウンス"
 thumb_image = "/images/blog/yamto_ogp.png"
 thumb_image_alt = ""
-title = "Yamato Protocol - Yamato DAO Token（YMT）アロケーション-(copy)"
+title = "Yamato Protocol - Yamato DAO Token（YMT）Allocation"
 [seo]
 description = ""
 title = ""
@@ -20,59 +20,58 @@ name = "og:image"
 value = "https://defigeek.xyz/images/blog/yamto_ogp.png"
 
 +++
-**※**⚠️**記事の内容は投稿時点のものです。  
-開発中につき、担保率・手数料を含む全ての仕様はメインネットローンチまで変更になる可能性があります。正式な仕様は公式ドキュメントで公開される予定です。**
+⚠️ All specifications & figures are a plan at the time of writing and could be subject to change by the mainnet launch. Final specifications & figures will be announced on official documentations.
 
-本記事ではYMTの全体分布を説明いたします。
+This article describes the overall allocation & distribution plan for YMT.
 
-### **YMTの全体分布**
+### **YMT Token Allocation**
 
-![初期割り当て](https://alis.to/d/api/articles_images/CryptoChick/aw5WLmlGYDDQ/d747f34e-aa43-415d-9c21-52c071094181.png?d=800x2160 "初期割り当て")
+![](/images/blog/allocation-1.PNG)
 
-#### **総発行数 10億YMT（1B YMT）**
+#### **YMT Total Supply is fixed at 1 billion YMT**
 
-#### **5% 5000万YMT コミュニティトレジャリー**
+#### **5% (50 Million YMT) - DAO Treasury**
 
-Yamato Protocolに関わる全員が、その発展のために活用することができる準備資金です。
+The treasury fund. Yamato Protocol DAO will decide how to utilize the fund for future development.
 
-#### **5% 5000万YMT 初期インベスター（TXJPホルダー）**
+#### **5% (50 Million YMT) - Initial Investors (TXJP holders)**
 
-LP/予備/コミュニティアカウントを除外したTXJPホルダーへの割当
+Allocation to TXJP holders, excluding TXJP LP/Reserve/Treasury accounts. This is a reward for initial supporters. We have decided that they have been at the most risk-taking position and hence should be given a return commensurate with the risk.
 
-初期資金提供者への報酬です。最もリスクテイクした立場であり優遇されて然るべきだと判断しました。
+#### **5% (50 Million YMT) - Developers Rewards**
 
-#### **5% 5000万YMT 開発者報酬**
+Developers Rewards for achieving the official launch. Without the development team, the Yamato Protocol would not be available. They will lead maintenance, refactoring, version upgrades, going forward.
 
-ローンチ達成報酬です。
+#### **5% (50 Million YMT) - DEX LP (Uniswap v3 YMT-ETH Pool $0.1\~$1)**
 
-開発チーム無くしてYamato Protocolの実現はありません。継続的メンテナンス、リファクタリング、バージョンアップ等をリードします。
+Lead initial liquidity. Timing of LP placement is subject to market conditions.
 
-#### **5% 5000万YMT DEX LP（Uniswap v3 YMT-ETH Pool $0.1\~$1)**
+#### **5% (50 million YMT) - v1 Retroactive Airdrops**
 
-初期流動性をリードします。配置は時勢に応じて臨機応変です。
+Retroactive airdrop for early users who minted CJPY during v1 period. Linear vesting (for 6 months to 12 months) starting after operation is stabilized and v1.5 (veYMT system implementation) is released.
 
-#### **5% 5000万YMT v1遡及配布リワード**
+#### **10% (100 million YMT) - CurveLP Rewards (2% annual vesting for 5 years)**
 
-6ヵ月～安定動作を確認後、一年線形ベスティング
+Rewards budget for CJPY DEX LP providers. Timing of starting LP Rewards is subject to market conditions.
 
-v1ローンチ時点からのCJPY生成者に対するリワードです。v1.5（veYMTシステム実装）リリース時に遡及割当されます。
+#### **55% (550 million YMT) - Users Rewards (5.5% for Year 1. Distribution at diminishing rate of 10% each year by the 235th year)**
 
-#### **10% 1億YMT CurveLP用リワード（年次2%ベスティング5年間）**
+This is the main reward for users who used the protocol to mint CJPY.
 
-CJPYのDEX流動性提供者に対するリワード予算です。配置は時勢に応じて臨機応変です。
+#### **10% (100 million YMT) - Investors in Phase 2 and beyond (3 years with 2-Year Cliff)**
 
-#### **55% 5億5000万YMT 初年度5.5%スタート 年次10%逓減リワード（235年間）**
+For investors at Series A and subsequent series. This is the budget for additional fundings to expand the ecosystem.
 
-メインのユーザーリワードです。CJPY生成者に継続的に割り当てられます。
+#### **Distribution Schedule**
 
-#### **10％ 1億YMT フェーズ２以降の投資家用(クリフ2年、3年目解放)**
+Graph shows until 25th year for an illustration purpose. Total supply will be distributed by the 235th year.
 
-シリーズA以降参入の投資家用です。追加の資金調達と生態系の拡大予算となります。
+![](/images/blog/annualdistribution.PNG)
 
-#### 年次アロケーション
+#### **Users Rewards Distribution Schedule**
 
-![年次アロケーション](https://alis.to/d/api/articles_images/CryptoChick/aw5WLmlGYDDQ/eb9bd467-261b-451d-b6ef-5e8eff64243a.png?d=800x2160 "年次アロケーション")
+**Token distribution at a diminishing rate of 10% p.a.**
 
-#### 年次10%逓減リワード25年目まで
+Table shows until 25th year for an illustration purpose. Total supply will be distributed by the 235th year.
 
-![年次10%逓減リワード25年目まで](https://alis.to/d/api/articles_images/CryptoChick/aw5WLmlGYDDQ/806c50e7-2c86-40cc-af22-73d8493e6e4a.png?d=800x2160 "年次10%逓減リワード25年目まで")
+![](/images/blog/usersrewards.PNG)
