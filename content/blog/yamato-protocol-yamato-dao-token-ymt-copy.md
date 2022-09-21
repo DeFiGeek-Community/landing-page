@@ -1,7 +1,6 @@
 +++
 author = ""
 date = 2021-09-20T15:00:00Z
-draft = true
 excerpt = ""
 image = "/images/blog/yamto_ogp.png"
 image_alt = ""
