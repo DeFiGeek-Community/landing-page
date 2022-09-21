@@ -73,7 +73,17 @@ For investors at Series A and subsequent series. This is the budget for addition
 
 Graph shows until 25th year for an illustration purpose. Total supply will be distributed by the 235th year.
 
-![](/images/blog/annualdistribution.PNG)
+Year 1 \~ Year 5
+
+![](/images/blog/ymtdis3.PNG)
+
+Year 1 \~ Year 10
+
+![](/images/blog/ymtdis2.PNG)
+
+Year 1\~ Year 25
+
+![](/images/blog/ymtdis1.PNG)
 
 #### **Users Rewards Distribution Schedule**
 
