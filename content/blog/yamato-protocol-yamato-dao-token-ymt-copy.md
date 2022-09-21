@@ -59,7 +59,7 @@ Rewards budget for CJPY DEX LP providers. Timing of starting LP Rewards is subje
 
 #### **55% (550 million YMT) - Users Rewards**
 
-**(5.5% for Year 1. Distribution at diminishing rate of 10% each year by the 235th year.)**
+**(5.5% for Year 1. Distribution at diminishing rate of 10% p.a. by the 235th year.)**
 
 This is the main reward for users who used the protocol to mint CJPY.
 
