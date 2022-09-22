@@ -1,6 +1,6 @@
 +++
 author = "data/authors/jane-doe.json"
-date = 2022-09-20T17:00:00Z
+date = 2022-08-31T17:00:00Z
 excerpt = "DeFiGeek Community Japan starts publishing News and Docs in English"
 image = "images/blog/DFGC_logo_banner02.png"
 layout = "post"
