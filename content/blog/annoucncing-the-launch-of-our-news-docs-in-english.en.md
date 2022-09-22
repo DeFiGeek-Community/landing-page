@@ -41,7 +41,7 @@ Our goal is to provide English speakers an easier way to learn about DeFiGeek Co
 
 Our current and prospective members will find useful information about our Dapp development, operation and financials.
 
-We will be constantly updating our content with helpful information. 
+We will be constantly updating our content with helpful information, starting from publishing monthly financial report.
 
 For any questions, suggestions, or feedback, please join [our Discord](%22https://discord.gg/FQYXqVBEnh%22) and contact us.
 
