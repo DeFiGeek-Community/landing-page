@@ -37,8 +37,12 @@ We are delighted to officially announce the launch of News & Docs in English for
 
 **English Docs:** [**https://docs.defigeek.xyz/**](https://docs.defigeek.xyz/ "https://docs.defigeek.xyz/") **URL別途変更**
 
-Our goal is to provide English speakers an easier way to learn about DeFiGeek Community Japan. Our current and prospective members will find useful information about our Dapp development, operation and financials.
+Our goal is to provide English speakers an easier way to learn about DeFiGeek Community Japan. 
 
-We will be constantly updating our content with helpful information. For any questions, suggestions, or feedback, please join [our Discord](%22https://discord.gg/FQYXqVBEnh%22) and contact us.
+Our current and prospective members will find useful information about our Dapp development, operation and financials.
+
+We will be constantly updating our content with helpful information. 
+
+For any questions, suggestions, or feedback, please join [our Discord](%22https://discord.gg/FQYXqVBEnh%22) and contact us.
 
 Thank you
