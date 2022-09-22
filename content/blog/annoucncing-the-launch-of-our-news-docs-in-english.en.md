@@ -29,7 +29,7 @@ relativeUrl = true
 value = "https://defigeek.xyz/images/DFGC_logo_banner02.png"
 
 +++
-### Annoucncing the launch of our News & Docs in English
+### 
 
 We are delighted to officially announce the launch of News & Docs in English for global members.
 
@@ -39,6 +39,6 @@ We are delighted to officially announce the launch of News & Docs in English for
 
 Our goal is to provide English speakers an easier way to learn about DeFiGeek Community Japan. Our current and prospective members will find useful information about our Dapp development, operation and financials.
 
-We will be constantly updating our content with helpful information. For any questions, suggestions, or feedback, please join [our Discord]("https://discord.gg/FQYXqVBEnh") and contact us.
+We will be constantly updating our content with helpful information. For any questions, suggestions, or feedback, please join [our Discord](%22https://discord.gg/FQYXqVBEnh%22) and contact us.
 
 Thank you
