@@ -33,9 +33,8 @@ value = "https://defigeek.xyz/images/DFGC_logo_banner02.png"
 
 We are delighted to officially announce the launch of News & Docs in English for global members.
 
-   **English News:** [**https://defigeek.xyz/en/blog/**](https://defigeek.xyz/en/blog/ "https://defigeek.xyz/en/blog/")
-
-   **English Docs:** [**https://docs.defigeek.xyz/**](https://docs.defigeek.xyz/ "https://docs.defigeek.xyz/") **URL別途変更**
+*    **English News:** [**https://defigeek.xyz/en/blog/**](https://defigeek.xyz/en/blog/ "https://defigeek.xyz/en/blog/")
+*    **English Docs:** [**https://docs.defigeek.xyz/**](https://docs.defigeek.xyz/ "https://docs.defigeek.xyz/") **URL別途変更**
 
 Our goal is to provide English speakers an easier way to learn about DeFiGeek Community Japan. 
 
