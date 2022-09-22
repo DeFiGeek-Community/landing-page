@@ -42,6 +42,6 @@ Our current and prospective members will find useful information about our Dapp 
 
 We will be constantly updating our content with helpful information, starting from publishing monthly financial report.
 
-For any questions, suggestions, or feedback, please join [our Discord](%22https://discord.gg/FQYXqVBEnh%22) and contact us.
+For any questions, suggestions, or feedback, please join [our Discord](https://discord.gg/FQYXqVBEnh) and contact us.
 
 Thank you
