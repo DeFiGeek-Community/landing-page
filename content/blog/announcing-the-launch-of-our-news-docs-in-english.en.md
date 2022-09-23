@@ -6,7 +6,7 @@ image = "images/blog/DFGC_logo_banner02.png"
 layout = "post"
 subtitle = ""
 thumb_image = "images/blog/DFGC_logo_banner02.png"
-title = "Annoucncing the launch of our News & Docs in English"
+title = "Announcing the launch of our News & Docs in English"
 [seo]
 description = "DeFiGeek Community Japan starts publishing News and Docs in English"
 title = "Annoucncing the launch of our English News & Docs in English"
