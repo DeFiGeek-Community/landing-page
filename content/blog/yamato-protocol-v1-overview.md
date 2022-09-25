@@ -23,7 +23,7 @@ value = "https://defigeek.xyz/images/DFGC_logo_banner.webp"
 
 Yamato Protocol is a crypto-asset overcollateralized stable coin issuance protocol.
 
-V1 allows the issuance of CJPY (Japanese Yen equivalent coin) using ETH as collateral.
+V1 allows the issuance of CJPY ("Convertible JPY", Japanese Yen equivalent coin) using ETH as collateral.
 
 It has the following features
 
@@ -114,6 +114,16 @@ Pledges where all collateral is redeemed to zero and only the CJPY obligation re
 Subrogation is performed by CJPY accumulated in Yamato.
 
 The triggering user will get 1% of the repaid amount in CJPY.
+
+# What comes next?
+
+## Version 1.5
+
+Introduce governance token YMT(Yamato DAO token) & veYMT(Vote-escrowed YMT) mechanism. veYMT holders will be entitled to participate in gauge weight voting, to claim redeemed collateral (collaterals redeemed by protocol to be distributed to veYMT holders), to boost YMT farming, etc. Details will be announced in due course.
+
+## Version 2.0
+
+Introduce new “Pledge” to mint CUSD (“Convertible” USD) and CEUR(“Convertible EUR”).
 
 #### Related Links
 
