@@ -23,7 +23,7 @@ value = "https://defigeek.xyz/images/DFGC_logo_banner.webp"
 
 Yamato Protocol is a crypto-asset overcollateralized stable coin issuance protocol.
 
-V1 allows the issuance of CJPY ("Convertible JPY", a Japanese Yen equivalent coin) using ETH as collateral.
+V1 allows the issuance of CJPY (_"Convertible JPY", a_ Japanese Yen equivalent coin) using ETH as collateral.
 
 It has the following features
 
@@ -32,7 +32,7 @@ It has the following features
 * No interest rates (Fee collected at the time of borrowing)
 * Low secured rates (minimum 130%)
 
-Additional features, Governance token, vote-escrowed mechanism and Pledge for CUSD & CEUR are to come in V1.5 and V2.
+_Additional features, Governance token, vote-escrowed mechanism and Pledge for CUSD & CEUR are to come in V1.5 and V2._
 
 # Functional Description
 
@@ -117,17 +117,17 @@ Subrogation is performed by CJPY accumulated in Yamato.
 
 The triggering user will get 1% of the repaid amount in CJPY.
 
-# What comes next?
+# _What comes next?_
 
-## V1.5
+## _V1.5_
 
-Introduce governance token YMT(Yamato DAO token) & veYMT(Vote-escrowed YMT) mechanism. 
+_Introduce governance token YMT(Yamato DAO token) & veYMT(Vote-escrowed YMT) mechanism._ 
 
-veYMT holders will be entitled to participate in gauge weight voting, to claim redeemed collateral (collaterals redeemed by protocol to be distributed to veYMT holders), to boost YMT farming, etc. Details will be announced in due course.
+_veYMT holders will be entitled to participate in gauge weight voting, to claim redeemed collateral (collaterals redeemed by protocol to be distributed to veYMT holders), to boost YMT farming, etc. Details will be announced in due course._
 
-## V2
+## _V2_
 
-Introduce new “Pledge” to mint CUSD (“Convertible” USD) and CEUR(“Convertible EUR”).
+_Introduce new “Pledge” to mint CUSD (“Convertible” USD) and CEUR(“Convertible EUR”)._
 
 #### Related Links
 
