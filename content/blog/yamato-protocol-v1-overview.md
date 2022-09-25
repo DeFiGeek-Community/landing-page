@@ -119,13 +119,13 @@ The triggering user will get 1% of the repaid amount in CJPY.
 
 # What comes next?
 
-## Version 1.5
+## V1.5
 
 Introduce governance token YMT(Yamato DAO token) & veYMT(Vote-escrowed YMT) mechanism. 
 
 veYMT holders will be entitled to participate in gauge weight voting, to claim redeemed collateral (collaterals redeemed by protocol to be distributed to veYMT holders), to boost YMT farming, etc. Details will be announced in due course.
 
-## Version 2.0
+## V2
 
 Introduce new “Pledge” to mint CUSD (“Convertible” USD) and CEUR(“Convertible EUR”).
 
