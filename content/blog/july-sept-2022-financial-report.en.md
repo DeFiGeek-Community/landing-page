@@ -69,8 +69,8 @@ Due to incomplete data available for month-end balances of June 2022, income sta
 
 Balancer V1: 0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f  
 Balancer V2: 0xba12222222228d8ba445958a75a0704d566bf2c8  
-Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944  
-  
+Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
+
 Note:
 
 ・Balancer V1, V2 and Uniswap V3 LP positions are owned by DAO Treasury  (defigeek.eth).  
@@ -113,8 +113,6 @@ $TXJP(TenX Community JAPAN Token): [0x961dd84059505d59f82ce4fb87d3c09bec65301d](
 Twitter: [https://twitter.com/DeFiGeekJapan](https://twitter.com/DeFiGeekJapan "https://twitter.com/DeFiGeekJapan")
 
 Discord: [http://discord.gg/FQYXqVBEnh](http://discord.gg/FQYXqVBEnh "http://discord.gg/FQYXqVBEnh")
-
-Forum: [https://gov.defigeek.xyz/](https://gov.defigeek.xyz/ "https://gov.defigeek.xyz/")
 
 GitHub: [https://github.com/DeFiGeek-Community](https://github.com/DeFiGeek-Community "https://github.com/DeFiGeek-Community")
 
