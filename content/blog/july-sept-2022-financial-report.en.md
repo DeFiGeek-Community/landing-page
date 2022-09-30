@@ -21,7 +21,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 +++
 # Key highlights
 
-![](/images/blog/220901e-1.PNG)
+![](/images/blog/2291e.PNG)
 
 ・Due to recent (Sept 2022) change in personnel in charge of Finance Department, there are disconnects of data, accounting treatment and accounting assumption between this report and report published in previous months. No retrospective application has been applied due to limitation of available data.  
 ・Gross Burn Rate: Total cash outflow (expense items: interest expense, relayers fee, labor cost, gas cost, incentives, etc.)  
@@ -35,7 +35,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Balance sheet
 
-![](/images/blog/220905e.PNG)
+![](/images/blog/2293e.PNG)
 
 The following assumptions has be used from the July-September FS in 2022
 
@@ -53,7 +53,7 @@ The following assumptions has be used from the July-September FS in 2022
 
 #### **Compound.finance**
 
-![](/images/blog/220902e.PNG)
+![](/images/blog/2294e.PNG)
 
 # 
 
@@ -65,9 +65,7 @@ Due to incomplete data available for month-end balances of June 2022, income sta
 
 # Token holders
 
-![](/images/blog/220903e.PNG)
-
-![](/images/blog/220904e.PNG)
+![](/images/blog/2295e.PNG)
 
 Balancer V1: 0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f  
 Balancer V2: 0xba12222222228d8ba445958a75a0704d566bf2c8  
