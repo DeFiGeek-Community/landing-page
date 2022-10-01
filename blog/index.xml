@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ニュースリリース on DeFiGeek Community</title><link>/blog/</link><description>Recent content in ニュースリリース on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Wed, 31 Aug 2022 15:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年8月度開発活動報告</title><link>/blog/2022-8/</link><pubDate>Wed, 31 Aug 2022 15:00:00 +0000</pubDate><guid>/blog/2022-8/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ニュースリリース on DeFiGeek Community</title><link>/blog/</link><description>Recent content in ニュースリリース on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Fri, 30 Sep 2022 15:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年7-9月度 四半期財務報告</title><link>/blog/2022-7-9/</link><pubDate>Fri, 30 Sep 2022 15:00:00 +0000</pubDate><guid>/blog/2022-7-9/</guid><description>重要指標 キャッシュフロー （注）
+・財務部門担当者の交代により、本2022年9月版レポートとそれ以前に発行された月次レポートとの間に、データ、会計処理、会計上の前提条件の相違があります。なお、入手可能な情報に限りがあるため、遡及適用は行っていませんので、連続性の観点から前月データ、グラフ類の表示を一旦中断します。
+・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
+・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
+・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
+・BPS：解散価値÷ユーザー保有トークン数
+・PBR：トークン価格解散価値倍率
+・キャッシュフロー：Tx発生時の時価で算出
+・各種データはzapper, zerion, DeBank, Etherscan, Dextool, 三菱UFJリサーチ＆コンサルティングより。
+貸借対照表 （注）
+2022年7-9月期より以下の前提に変更
+・資産・負債時価評価： Zerion, DeBank, Zapper表示の日本円換算値を使用
+・負債、未払利息科目の利用を停止し直接借入金金額に算入
+・資本金、2018年寄付は2018～2020年に受け取った寄付金払込時の時価に2018~2020年の三年間平均為替レート（$1＝¥108.76）を乗じて換算
+・資本金、2021年寄付は2021年7月中平均為替レート（$1＝110.31）で換算
+・資本金、2022年寄付は払込日のドル仲値で換算
+・評価差額金はDFGC保有のTXJP（含むLP内のTXJP額）
+・金額的重要性の低いものは時価評価せず流動資産「その他」、未収収益「その他」に継続的に計上
+コミュニティファンド Compound利用状況 損益計算書 前月期末残高データ不備のため、7-9月分損益計算書は作成不可。10月分より損益計算書再開予定。
+アロケーション Balancer V1: 0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f
+Balancer V2: 0xba12222222228d8ba445958a75a0704d566bf2c8
+Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
+注：
+・Balancer V1, V2 および Uniswap V3 のLPはコミュニティトレジャリー (defigeek.eth)が保有。
+・総発行枚数21万枚TXJPは固定。
+・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でdefigeek.ethウォレットで保有。
+・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
+財務活動 7月1日 defigeek.eth votiumのCVXをclaim
+7月1日 defigeek.eth convexのtricrypto2LPリワードをclaim</description></item><item><title>2022年8月度開発活動報告</title><link>/blog/2022-8/</link><pubDate>Wed, 31 Aug 2022 15:00:00 +0000</pubDate><guid>/blog/2022-8/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 Yamato Protocol Yamato Core V1の動作確認が完了したため、外部チームによる監査へと進みました。
@@ -80,10 +108,7 @@ WalletアバターNFT WalletアバターNFTとは、EOAの状態（ETH保有数�
 実現可能性やアイデンティティたりえるかといった点を総合的に判断しながら選定を行っています。
 こちらはWeb2（＋Web3データ取得）で開発が進行しますので、開発に興味を持たれた方はコミュニティDiscordのNFT部にて参加表明をお願いします。
 NFTイメージ開発 現在はデザイン部メンバー主導で開発を行っています。
-V1で提供するモデルは</description></item><item><title>Yamato Protocol V1 Overview</title><link>/blog/yamato-protocol-v1-overview/</link><pubDate>Tue, 19 Jul 2022 15:00:00 +0000</pubDate><guid>/blog/yamato-protocol-v1-overview/</guid><description>Summary Yamato Protocol is a crypto-asset overcollateralized stable coin issuance protocol.
-V1 allows the issuance of CJPY (Japanese Yen equivalent coin) using ETH as collateral.
-It has the following features
-No immediate forced liquidation No obligation to repay debt No interest rates (Fee collected at the time of borrowing) Low secured rates (minimum 130%) Functional Description Deposits and Withdrawals Deposits and withdrawals can increase or decrease the ETH balance in Pledge.</description></item><item><title>Yamato Protocol V1 概要</title><link>/blog/yamato-protocol-v1/</link><pubDate>Tue, 19 Jul 2022 15:00:00 +0000</pubDate><guid>/blog/yamato-protocol-v1/</guid><description>概要 Yamato Protocol は暗号資産過剰担保型ステーブルコイン発行プロトコルです。
+V1で提供するモデルは</description></item><item><title>Yamato Protocol V1 概要</title><link>/blog/yamato-protocol-v1/</link><pubDate>Tue, 19 Jul 2022 15:00:00 +0000</pubDate><guid>/blog/yamato-protocol-v1/</guid><description>概要 Yamato Protocol は暗号資産過剰担保型ステーブルコイン発行プロトコルです。
 V1ではETHを担保としてCJPY（日本円と等価）を発行することができます。
 Yamato Protocol は以下の特徴があります
 強制清算なし 債務返済義務なし 金利なし（借入時手数料徴収制） 低担保率利用可能（最低130%） 機能説明 預け入れと引き出し 預け入れと引き出しではPledgeのETH残高を増減させることができます。

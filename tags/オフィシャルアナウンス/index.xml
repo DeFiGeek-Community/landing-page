@@ -80,10 +80,7 @@ WalletアバターNFT WalletアバターNFTとは、EOAの状態（ETH保有数�
 実現可能性やアイデンティティたりえるかといった点を総合的に判断しながら選定を行っています。
 こちらはWeb2（＋Web3データ取得）で開発が進行しますので、開発に興味を持たれた方はコミュニティDiscordのNFT部にて参加表明をお願いします。
 NFTイメージ開発 現在はデザイン部メンバー主導で開発を行っています。
-V1で提供するモデルは</description></item><item><title>Yamato Protocol V1 Overview</title><link>/blog/yamato-protocol-v1-overview/</link><pubDate>Tue, 19 Jul 2022 15:00:00 +0000</pubDate><guid>/blog/yamato-protocol-v1-overview/</guid><description>Summary Yamato Protocol is a crypto-asset overcollateralized stable coin issuance protocol.
-V1 allows the issuance of CJPY (Japanese Yen equivalent coin) using ETH as collateral.
-It has the following features
-No immediate forced liquidation No obligation to repay debt No interest rates (Fee collected at the time of borrowing) Low secured rates (minimum 130%) Functional Description Deposits and Withdrawals Deposits and withdrawals can increase or decrease the ETH balance in Pledge.</description></item><item><title>Yamato Protocol V1 概要</title><link>/blog/yamato-protocol-v1/</link><pubDate>Tue, 19 Jul 2022 15:00:00 +0000</pubDate><guid>/blog/yamato-protocol-v1/</guid><description>概要 Yamato Protocol は暗号資産過剰担保型ステーブルコイン発行プロトコルです。
+V1で提供するモデルは</description></item><item><title>Yamato Protocol V1 概要</title><link>/blog/yamato-protocol-v1/</link><pubDate>Tue, 19 Jul 2022 15:00:00 +0000</pubDate><guid>/blog/yamato-protocol-v1/</guid><description>概要 Yamato Protocol は暗号資産過剰担保型ステーブルコイン発行プロトコルです。
 V1ではETHを担保としてCJPY（日本円と等価）を発行することができます。
 Yamato Protocol は以下の特徴があります
 強制清算なし 債務返済義務なし 金利なし（借入時手数料徴収制） 低担保率利用可能（最低130%） 機能説明 預け入れと引き出し 預け入れと引き出しではPledgeのETH残高を増減させることができます。
