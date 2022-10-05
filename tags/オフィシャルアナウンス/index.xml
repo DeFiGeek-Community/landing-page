@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>オフィシャルアナウンス on DeFiGeek Community</title><link>/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/</link><description>Recent content in オフィシャルアナウンス on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Wed, 31 Aug 2022 15:00:00 +0000</lastBuildDate><atom:link href="/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年8月度開発活動報告</title><link>/blog/2022-8/</link><pubDate>Wed, 31 Aug 2022 15:00:00 +0000</pubDate><guid>/blog/2022-8/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>オフィシャルアナウンス on DeFiGeek Community</title><link>/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/</link><description>Recent content in オフィシャルアナウンス on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Fri, 30 Sep 2022 15:00:00 +0000</lastBuildDate><atom:link href="/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年9月度開発活動報告</title><link>/blog/2022-9/</link><pubDate>Fri, 30 Sep 2022 15:00:00 +0000</pubDate><guid>/blog/2022-9/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
+本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
+進捗報告 YAMATO コア開発 1社目の監査レポートのファイナライズが完了しました。
+リポジトリ公開とともに発行される予定です。
+2社目の依頼については、1社目の監査でYamato固有のCriticalなIssueが発見されなかったことから一時保留としました。
+バージョンアップやローンチ後TVL増加などのタイミングで再度選定予定です。
+監査の代替としてImmunefiへバウンティ設置を予定しています。
+こちらもリポジトリ公開とともにバウンティを開始できるよう調整中です。
+メインネットローンチまでの残タスクは
+テストネット（Goerli）およびメインネット向けデプロイスクリプトの作成 マルチシグアップデート手法のテスト 各ネットワークへのsubgraph設置 となっています。
+引き続き慎重に取り組んでいきます。
+その他ロードマップなどについてはこちらをご確認ください。
+Interface開発 以下の対応を行いました。
+metamaskへのトークン追加ボタン設置 app.yamato.fiとicp-app.yamato.fiの立ち上げ 現在開発環境として用意しているdev-app.yamato.fiとは別に、本番環境としてapp.yamato.fiとicp-app.yamato.fiを設置しました。
+dev-app.yamato.fiはメインネットローンチ後、テストネットでの追加機能の検証用インターフェースとして稼働する予定です。
+現時点でV1に必要な機能はすべて実装済みで正常に動作することが確認されています。
+今後はV1.5、V2のための開発を進行する予定ですが、改善要望があれば検討いたします。
+YADORI コア開発 SIWE（Sign In With Ethereum）し、そのEOAが保有するNFT内のポイントの転送を行うWebアプリのプロトタイプが稼働しています。
+ログイン後にNFTを他EOAに転送することで他EOAでも２重ログインできるといった非アトミック性を抱えているため、オフチェーンでの対応を検討しています。
+PoCの次の段階としてNFT内のポイントとギフトを交換するカタログアプリの構築を想定しています。
+NFTイメージ開発 DFGCから発行するNFTイメージの制作を進めています。
+2D画像または3DCG動画の提供を予定しており、枠の形や質感、主題のバリエーションを策定中です。
+ロゴコンペティション ネーミングコンペティションに続いてロゴコンペティションを開催します。
+デザイン部主導でロゴを完成させる方向で動く予定ですが、ラフやモチーフの提案・議論の参加は歓迎いたします。
+YADORIロゴマークコンペティションにてご意見お待ちしております。
+YASHIRO(WalletアバターNFT) YASHIROとは、EOAの状態（ETH保有数、トランザクション発行数など）によって図柄が変化する、EOAのアイデンティティを示すNFTです。
+またアーティスト・クリエイターによるアバターが集うプラットフォームでもあります。
+コア開発 コントラクト、画像選択エンジン、ランディングページの実装を進めています。
+またプロジェクトの持続・発展性を向上させるためのトケノミクスも検討中です。
+上記の仕様をドキュメントにまとめつつ、内容が確定し次第ランディングページを立ち上げます。
+NFTイメージ開発 現在はデザイン部メンバー主導で開発を行っています。
+V1で提供するモデルは
+和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。
+ブラッシュアップを重ねて、オープンチャンネルでお披露目する予定です。
+楽しみにお待ちください。
+モデルは複数のクリエイターの方から提供してもらうことによって表現の幅を広げる予定ですので、モデル・キャラクター等をWalletアバターNFTに組み込んでいただける・概要について詳しく知りたいデザイナーの方はコミュニティDiscordのNFT部にてご連絡ください。
+ネーミングコンペティション ネーミングコンペティションの決選投票が終了し、過半数の得票によりWalletアバターNFTの正式名称はYASHIROに決定しました。
+今回は26件の応募がありました。
+応募してくださった皆様、ありがとうございました。</description></item><item><title>2022年8月度開発活動報告</title><link>/blog/2022-8/</link><pubDate>Wed, 31 Aug 2022 15:00:00 +0000</pubDate><guid>/blog/2022-8/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 Yamato Protocol Yamato Core V1の動作確認が完了したため、外部チームによる監査へと進みました。
