@@ -106,7 +106,7 @@ Themes of avatar model in V1 are followings
 
 We continue to refine designs and will share them on Discord.
 
-We plan to expand the range of expression by having multiple avator models from various designers. If you are a designer please reach out [NFT Deparment](https://discord.com/channels/705052448418693180/897682225913528420) to learn how to contribute your model/character into the Wallet Avatar NFT.
+We plan to expand the range of expression by having multiple avator models from various designers. If you are a designer please reach out [NFT Department](https://discord.com/channels/705052448418693180/897682225913528420) to learn how to contribute your model/character into the Wallet Avatar NFT.
 
 ### Naming Competition
 
