@@ -1,12 +1,11 @@
 +++
 author = ""
 date = 2022-09-30T15:00:00Z
-draft = true
 excerpt = ""
 image = "/images/blog/DFGC_logo_banner.webp"
 image_alt = ""
 layout = "post"
-subtitle = "Yamatoのローンチ準備、WalletアバターNFTの名称決定"
+subtitle = "Yamato prepares for launch, names Wallet Avatar NFT project as YASHIRO"
 tags = "オフィシャルアナウンス"
 thumb_image = "/images/blog/DFGC_logo_banner.webp"
 thumb_image_alt = ""
@@ -20,188 +19,161 @@ name = "og:image"
 value = "https://defigeek.xyz/images/DFGC_logo_banner.webp"
 
 +++
-# はじめに
+# Introduction
 
-DFGCでは複数のプロジェクトを進行させています。
+DFGC has been developing several DeFi & NFT projects. They are ongoing in an undisclosed manner in order to protect our ideas & codes from being stolen.
 
-これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
+The purpose of publishing this report is to secure transparency of our development activity to some extent & increase public awareness of our activity to attract people to join & be contributors to our community.
 
-本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
-
-# 進捗報告
+# Progress Report
 
 ## YAMATO
 
-### コア開発
+### Core Development
 
-1社目の監査レポートのファイナライズが完了しました。  
-リポジトリ公開とともに発行される予定です。
+The first audit report has been finalized. It will be published with a repository release.
 
-2社目の依頼については、1社目の監査でYamato固有のCriticalなIssueが発見されなかったことから一時保留としました。  
-バージョンアップやローンチ後TVL増加などのタイミングで再度選定予定です。
+The second audit has been temporarily put on hold as no critical Yamato-specific issues were found during the first audit.  
+We will proceed with a second audit at the time of version upgrade or post-launch significant TVL increases.
 
-監査の代替としてImmunefiへバウンティ設置を予定しています。  
-こちらもリポジトリ公開とともにバウンティを開始できるよう調整中です。
+Meanwhile, we are in process setting up a bounty on Immunefi as an alternative to a second audit. Scheduling listing on Immunefi once the repository is released.
 
-メインネットローンチまでの残タスクは
+Remaining tasks by the main net launch are;
 
-* テストネット（Goerli）およびメインネット向けデプロイスクリプトの作成
-* マルチシグアップデート手法のテスト
-* 各ネットワークへのsubgraph設置
+* Setting up a test net (Goerli) & coding deployment scripts
+* Testing multisig update methodology
+* Deploying subgraphs on each network
 
-となっています。
+For more information on the roadmap, please refer [here](https://defigeek.xyz/blog/yamato-protocol-10/).
 
-引き続き慎重に取り組んでいきます。
+### Interface Development
 
-その他ロードマップなどについては[こちら](https://defigeek.xyz/blog/yamato-protocol-10/)をご確認ください。
+The following tasks completed
 
-### Interface開発
+* [Added “add tokens to metamask” button](https://github.com/DeFiGeek-Community/yamato-interface/pull/169)
+* Deployed [app.yamato.fi](https://app.yamato.fi/) and [icp-app.yamato.fi](https://icp-app.yamato.fi/) for production environments.
 
-以下の対応を行いました。
+Current development environment, [dev-app.yamato.fi](https://dev-app.yamato.fi/)will be used as an interface to verify additional functions on the test net after the main net launch.
 
-* [metamaskへのトークン追加ボタン設置](https://github.com/DeFiGeek-Community/yamato-interface/pull/169)
-* app.yamato.fiとicp-app.yamato.fiの立ち上げ
+All required functions for V1 have already been implemented and are confirmed to work properly.
 
-現在開発環境として用意している[dev-app.yamato.fi](https://dev-app.yamato.fi/)とは別に、本番環境として[app.yamato.fi](https://app.yamato.fi/)と[icp-app.yamato.fi](https://icp-app.yamato.fi/)を設置しました。
-
-[dev-app.yamato.fi](https://dev-app.yamato.fi/)はメインネットローンチ後、テストネットでの追加機能の検証用インターフェースとして稼働する予定です。
-
-現時点でV1に必要な機能はすべて実装済みで正常に動作することが確認されています。
-
-今後はV1.5、V2のための開発を進行する予定ですが、改善要望があれば検討いたします。
+We plan to proceed with developments for V1.5 and V2, while any requests for improvement from users to be assessed & reflected through developments.
 
 ## YADORI
 
-### コア開発
+### Core Development
 
-SIWE（Sign In With Ethereum）し、そのEOAが保有するNFT内のポイントの転送を行うWebアプリのプロトタイプが稼働しています。
+Our PoC is a catalog application to exchange reward points and gifts in the NFT.
 
-ログイン後にNFTを他EOAに転送することで他EOAでも２重ログインできるといった非アトミック性を抱えているため、オフチェーンでの対応を検討しています。
+A prototype of the web application is on live. It performs SIWE (Sign In With Ethereum) and transfers points in the NFT held by the EOA to other NFT.
 
-PoCの次の段階としてNFT内のポイントとギフトを交換するカタログアプリの構築を想定しています。
+Due to non-atomic nature (possible transfer of the NFT to another EOA after login & double login at the other EOA) we are considering implementing an off-chain solution.
 
-### NFTイメージ開発
+### NFT Image Development
 
-DFGCから発行するNFTイメージの制作を進めています。
+We are in the process of designing NFT images to be issued by DFGC.
 
-2D画像または3DCG動画の提供を予定しており、枠の形や質感、主題のバリエーションを策定中です。
+Our plan is to issue 2D images or 3DCG videos. Setting up a variety of frame shapes, texture, and themes are in the development plan.
 
-### ロゴコンペティション
+### Logo Competition
 
-ネーミングコンペティションに続いてロゴコンペティションを開催します。
+The logo competition initiative is led by the Design Department. Meanwhile we are open to receive any drafts or design motif proposals to have further discussion.
 
-デザイン部主導でロゴを完成させる方向で動く予定ですが、ラフやモチーフの提案・議論の参加は歓迎いたします。
+lease join the [YADORI Logo Competition thread](https://discord.com/channels/705052448418693180/974927414088056882).
 
-[YADORIロゴマークコンペティション](https://discord.com/channels/705052448418693180/974927414088056882)にてご意見お待ちしております。
+## YASHIRO (Wallet Avatar NFT)
 
-## YASHIRO(WalletアバターNFT)
+YASHIRO is an NFT that evolves its design based on the status of EOA (number of ETH holdings, number of transactions, etc.) and it represents the identity of EOA.  
+It is also a platform for Avatar's illustration by designers.
 
-YASHIROとは、EOAの状態（ETH保有数、トランザクション発行数など）によって図柄が変化する、EOAのアイデンティティを示すNFTです。
+### Core Development
 
-またアーティスト・クリエイターによるアバターが集うプラットフォームでもあります。
+The implementation of contracts, image selection engine, and landing page is ongoing.
 
-### コア開発
+Tokenomics draft is in discussion. This is to ensure project stability & sustainable future development through introducing a utility token.
 
-コントラクト、画像選択エンジン、ランディングページの実装を進めています。
+The landing page will be published once all specifications document is prepared.
 
-またプロジェクトの持続・発展性を向上させるためのトケノミクスも検討中です。
+### NFT Image Development
 
-上記の仕様をドキュメントにまとめつつ、内容が確定し次第ランディングページを立ち上げます。
+Development is currently led by the Design Department.
 
-### NFTイメージ開発
+Themes of avatar model in V1 are followings
 
-現在はデザイン部メンバー主導で開発を行っています。
+* Modest representation of “Wa” (Japanese cultural concept)
+* Crypto and sense of festivity
+* Ennui emotional expression that owners feel an affinity
 
-V1で提供するモデルは
+We continue to refine designs and will share them on Discord.
 
-* 和（日本からのプロジェクト）を慎ましく主張
-* クリプト=お祭り感を演出
-* 所有者に寄り添うアンニュイな感情表現
+We plan to expand the range of expression by having multiple avator models from various designers. If you are a designer please reach out [NFT Deparment](https://discord.com/channels/705052448418693180/897682225913528420) to learn how to contribute your model/character into the Wallet Avatar NFT.
 
-をテーマに作成しています。
+### Naming Competition
 
-ブラッシュアップを重ねて、オープンチャンネルでお披露目する予定です。  
-楽しみにお待ちください。
+The [final voting](https://snapshot.org/#/defigeek.eth/proposal/0x1ce57dfaffac4b24c1d00021abaf084f953792b14a05aee7673eafc6bf4f1d4a) has closed, and the official name of the Wallet Avatar NFT has been decided as **YASHIRO**.
 
-モデルは複数のクリエイターの方から提供してもらうことによって表現の幅を広げる予定ですので、モデル・キャラクター等をWalletアバターNFTに組み込んでいただける・概要について詳しく知りたいデザイナーの方はコミュニティDiscordの[NFT部](https://discord.com/channels/705052448418693180/897682225913528420)にてご連絡ください。
+Appreciated all 26 entries and participation in voting.
 
-### ネーミングコンペティション
+### Logo Competition
 
-ネーミングコンペティションの[決選投票](https://snapshot.org/#/defigeek.eth/proposal/0x1ce57dfaffac4b24c1d00021abaf084f953792b14a05aee7673eafc6bf4f1d4a)が終了し、過半数の得票によりWalletアバターNFTの正式名称は**YASHIRO**に決定しました。
+Following the naming competition, we will hold a logo competition to be led by the Development Department.  
+Please check the Discord forum for details.
 
-今回は26件の応募がありました。  
-応募してくださった皆様、ありがとうございました。
+## TXJP Analytics Site
 
-### ロゴコンペティション
+As a first step of building a community dashboard, we have started to assess, design, and implement an analytics site that allows users to check statistics such as TXJP holders trend.
 
-ネーミングコンペティションに続いてロゴコンペティションを開催します。
+The site facilitates community members and others to assess risks such as large TXJP token holders, and contributes to maintaining the health of the community.
 
-開発部主導で案内を進めていきます。
+For new community members the dashboard makes it easier to instantly understand and catch up with overall community status.
 
-進捗・募集状況の詳細については[Discordのフォーラム]()をご確認ください。
+A prototype can be found [here](http://txjp.s3-website-ap-northeast-1.amazonaws.com/).
 
-## TXJPアナリティクスサイト
+Currently, we are developing and checking the operation in a private repository, but as soon as we confirm stable operation and license of the source code, it will be released as OSS, and to be open for your Commit.
 
-コミュニティダッシュボード構築の第一弾として、TXJPホルダー推移等の統計情報を確認できるアナリティクスサイトの検討・設計・実装を開始しました。
+This is not a DApp however it has a significant impact on further development of the community.
 
-メンバー及び第三者によるガバナンストークンTXJPの大きな偏りなどのリスク確認を容易にし、コミュニティの健全性維持に寄与します。
+Community dashboard roadmap is [here](https://github.com/haruketh/DFGC/blob/main/after_v1.md).
 
-保有率が可視化されることで新規参加者でもキャッチアップが容易になります。
-
-プロトタイプは[こちら](http://txjp.s3-website-ap-northeast-1.amazonaws.com/)から確認できます。
-
-現在はプライベートリポジトリにて開発・動作確認を行っていますが、動作確認とソースコードのライセンスの確認が取れ次第OSSとして公開され、コミットが可能になります。
-
-これはDappではありませんがコミュニティの発展に大きな影響を与えるものになりますので、開発・利用ともに注視していただければと思います。
-
-コミュニティダッシュボードの詳細な構想は[こちら](https://github.com/haruketh/DFGC/blob/main/after_v1.md)を参照ください。
-
-# 求人情報
+# Vacant Positions
 
 ## YAMATO
 
 ### Interface
 
-Yamato Interface（[GitHub](https://github.com/DeFiGeek-Community/yamato-interface)） はOSSです。どなたでもIssueを立てることができますし、Issueの対応をすることができます。
-
-Yamato Interface をより良いものとするために、皆様のコミットをお待ちしております。
-
-UI/UX改善についてご意見ありましたら[こちら](https://discord.com/channels/705052448418693180/899916069161041931)に書き込みください。
+Yamato Interface ([GitHub](https://github.com/DeFiGeek-Community/yamato-interface)) is OSS.Anyone can submit and respond to issues.  
+We are looking forward to having your Commit to make the Yamato Interface even better.  
+If you have any suggestions for UI/UX improvements, please post [here](https://discord.com/channels/705052448418693180/899916069161041931).
 
 ## YADORI
 
-### コア開発
+### Core Development
 
-* ランディングページ（フロント・デザイン）開発
-* ポイント交換・付与サーバー開発
+* Landing page (front and design) developer
+* Server developer for exchange, redeem or grant points.
 
-のポジションが空いています
+In the future it will be on-chain (using ERC3525) however current PoC aims to build on the Web2 tech stack. If you are interested, please join our [Discord](http://discord.gg/b4KGAVUb "http://discord.gg/b4KGAVUb") and reach out us.
 
-将来的にはオンチェーン（ERC3525の利用）運用となりますが、PoCはWeb2技術スタックでの構築を目標としています。
+### NFT Image Development
 
-### NFTイメージ開発
+We are looking for illustrators and designers to design NFT images and models. If you are interested, please join [NFT Department](https://discord.com/channels/705052448418693180/897682225913528420)our Discord.
 
-NFT画像・モデルを制作していただけるイラストレーター・デザイナーを募集しています。
+## Other
 
-興味を持っていただけましたらコミュニティDiscordの[NFT部](https://discord.com/channels/705052448418693180/897682225913528420)にて参加表明をお願いします。
+Spot tasks are posted on [Dework](https://app.dework.xyz/defigeek-community-39407).
 
-## その他
-
-[Dework](https://app.dework.xyz/defigeek-community-39407)にてスポットタスクを掲示しています。
-
-興味のあるタスクがありましたらDiscordの[タスク応募部屋](https://discord.com/channels/705052448418693180/873581005603217468)に書き込みください。  
-タスクの要件定義・条件交渉から始めていきます。
+If you are interested in a task, please post your interest in the task [application thread](https://discord.com/channels/705052448418693180/873581005603217468) on our Discord.Let’s start from defining the requirements and negotiating compensation of each task.
 
 ***
 
-#### 関連リンク
+#### Related Links
 
-コミュニティガイド: [https://docs.defigeek.xyz/](https://docs.defigeek.xyz/ "https://docs.defigeek.xyz/")
+Community Guidelines: [https://docs.defigeek.xyz/v/english-1/](https://docs.defigeek.xyz/v/english-1/ "https://docs.defigeek.xyz/v/english-1/")
 
-Discord: [http://discord.gg/FQYXqVBEnh](http://discord.gg/FQYXqVBEnh "http://discord.gg/FQYXqVBEnh")
+Discord: [http://discord.gg/b4KGAVUb](http://discord.gg/b4KGAVUb "http://discord.gg/b4KGAVUb")
 
-Twitter: [https://twitter.com/DeFiGeekJapan](https://twitter.com/DeFiGeekJapan "https://twitter.com/DeFiGeekJapan")
+Twitter: [https://twitter.com/DeFiGeekJapanEN](https://twitter.com/DeFiGeekJapanEN "https://twitter.com/DeFiGeekJapanEN")
 
 ***
 
-本記事に関するご意見・質問は上記DiscordからDeFiGeek Communityの広報部までご連絡ください。
+If you have any comments or questions regarding this article, please contact DeFiGeek Community's Public Relations Department via the Discord above.
