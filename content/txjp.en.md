@@ -36,6 +36,7 @@ layout: page
 - TXJP is the DeFiGeek Community native token.
 - DeFiGeek Community runs own treasury fund. We consider treasury strategies and TXJP holders can vote to adopt or reject its strategies using TXJP.
 - The TXJP fund is a seed investor that invests in new Dapp and tools developed by DFGC.
+- For the latest allocation, please refer to "Token holders" section on monthly financial reports at [https://defigeek.xyz/en/blog/](https://defigeek.xyz/en/blog/) 
 
 ### Benefit of TXJP holder
 

@@ -36,6 +36,7 @@ layout: page
 - TXJPトークンとは、DeFiGeek Community (DFGC)のガバナンストークンです。
 - TXJPファンドという名称で運用を行っています。
 - TXJPファンドは、DFGCで開発するDappとツールのシード投資家です。
+- 直近のアロケーションは月次財務レポート[https://defigeek.xyz/blog/](https://defigeek.xyz/blog/)をご参照ください。
 
 ### TXJPホルダー特典
 
