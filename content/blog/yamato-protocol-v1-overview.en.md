@@ -1,7 +1,6 @@
 +++
 author = ""
 date = 2022-07-19T15:00:00Z
-draft = true
 excerpt = ""
 image = "/images/blog/yamto_ogp.png"
 image_alt = ""
@@ -24,7 +23,7 @@ value = "https://defigeek.xyz/images/DFGC_logo_banner.webp"
 
 Yamato Protocol is a crypto-asset overcollateralized stable coin issuance protocol.
 
-V1 allows the issuance of CJPY (_"Convertible JPY", a_ Japanese Yen equivalent coin) using ETH as collateral.
+V1 allows the issuance of CJPY ("Convertible JPY", a Japanese Yen equivalent coin) using ETH as collateral.
 
 It has the following features
 
@@ -33,7 +32,7 @@ It has the following features
 * No interest rates (Fee collected at the time of borrowing)
 * Low secured rates (minimum 130%)
 
-_Additional features, Governance token, vote-escrowed mechanism and Pledge for CUSD & CEUR are to come in V1.5 and V2._
+Additional features, Governance token, vote-escrowed mechanism and Pledge for CUSD & CEUR are to come in V1.5 and V2.
 
 # Functional Description
 
@@ -118,25 +117,25 @@ Subrogation is performed by CJPY accumulated in Yamato.
 
 The triggering user will get 1% of the repaid amount in CJPY.
 
-# _What comes next?_
+# What comes next?
 
-## _V1.5_
+## V1.5
 
-_Introduce governance token YMT(Yamato DAO token) & veYMT(Vote-escrowed YMT) mechanism._
+Introduce governance token YMT(Yamato DAO token) & veYMT(Vote-escrowed YMT) mechanism.
 
-_veYMT holders will be entitled to participate in gauge weight voting, to claim redeemed collateral (collaterals redeemed by protocol to be distributed to veYMT holders), to boost YMT farming, etc. Details will be announced in due course._
+veYMT holders will be entitled to participate in gauge weight voting, to claim redeemed collateral (collaterals redeemed by protocol to be distributed to veYMT holders), to boost YMT farming, etc. Details will be announced in due course.
 
-## _V2_
+## V2
 
-_Introduce new Pledge to borrow CUSD (“Convertible” USD) and CEUR(“Convertible EUR”)._
+Introduce new Pledge to borrow CUSD (“Convertible” USD) and CEUR(“Convertible EUR”).
 
 #### Related Links
 
-Community Guide: [https://docs.defigeek.xyz/](https://docs.defigeek.xyz/ "https://docs.defigeek.xyz/")
+Community Guide: [https://docs.defigeek.xyz/v/english-1/](https://docs.defigeek.xyz/v/english-1/)
 
-Discord: [http://discord.gg/FQYXqVBEnh](http://discord.gg/FQYXqVBEnh "http://discord.gg/FQYXqVBEnh")
+Discord: [http://discord.gg/b4KGAVUb](http://discord.gg/b4KGAVUb)
 
-Twitter: [https://twitter.com/DeFiGeekJapan](https://twitter.com/DeFiGeekJapan "https://twitter.com/DeFiGeekJapan")
+Twitter: [https://twitter.com/DeFiGeekJapanEN](https://twitter.com/DeFiGeekJapanEN)
 
 ***
 
