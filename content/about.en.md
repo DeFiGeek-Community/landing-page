@@ -46,9 +46,7 @@ sections:
     title: Mission
     subtitle: 
     content: >-
-      - Providing DeFi Dapp and middlewares that connect the web and the real world.
-      - Creating a self-sustaining ecosystem and providing greater freedom for individual economic activity.
-      - Eliminating or decentralizing authority, rights, and privileges to become an iconic DAO.
+      We will keep developing and providing DeFi Dapp and middlewares that connect the web and the real world, creating a self-sustaining ecosystem & providing greater freedom for individual economic activity, eliminating or decentralizing authority, rights, and privileges to become an iconic DAO.
       
   - section_id: coc
     type: section_coc
@@ -66,7 +64,7 @@ sections:
         content: All stakeholders have the right to speak and make decisions impartially.There may be differences in roles, but there is no hierarchy or superiority of position. There are no physical or geographical limitations on community activities, and no restrictions based on nationality, gender, or age.
       - number: 
         title: Profit
-        content: Our community, DeFi Dapp and middleware are intended to be public goods. We seek only the minimum profit necessary for sustainability.
+        content: Our community, DeFi Dapp and middleware are intended to be public goods. We seek only the minimum profit necessary to sustain our activities.
 
   - section_id: team
     type: section_team
