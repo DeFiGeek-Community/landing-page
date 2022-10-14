@@ -38,6 +38,36 @@ sections:
 
       In addition to developing products, we are also working on the rules and governance flow that are necessary to grow a community.
 
+  - section_id: mission
+    type: section_content
+    background: white
+    image: 
+    image_alt: 
+    title: Mission
+    subtitle: 
+    content: >-
+      - Providing DeFi Dapp and middlewares that connect the web and the real world.
+      - Creating a self-sustaining ecosystem and providing greater freedom for individual economic activity.
+      - Eliminating or decentralizing authority, rights, and privileges to become an iconic DAO.
+      
+  - section_id: coc
+    type: section_coc
+    background: white
+    subtitle: 
+    coc:
+      - number: 
+        title: Sustainability
+        content: Sustainability of our activities is the top priority. Community members will operate anonymously and privately.
+      - number: 
+        title: Initiative
+        content: We welcome initiative and leadership. Participation in our activities is voluntary, not mandatory. Performance will be the sole basis for evaluation.
+      - number: 
+        title: Fairness
+        content: All stakeholders have the right to speak and make decisions impartially.There may be differences in roles, but there is no hierarchy or superiority of position. There are no physical or geographical limitations on community activities, and no restrictions based on nationality, gender, or age.
+      - number: 
+        title: Profit
+        content: Our community, DeFi Dapp and middleware are intended to be public goods. We seek only the minimum profit necessary for sustainability.
+
   - section_id: team
     type: section_team
     background: white
