@@ -1,12 +1,12 @@
 +++
 author = ""
-date = 2022-09-30T15:00:00Z
+date = 2022-10-28T15:00:00Z
 draft = true
 excerpt = ""
 image = ""
 image_alt = ""
 layout = "post"
-subtitle = "July to Sept＝1st July 2022 - 31st Sept 2022（JST）"
+subtitle = "Oct＝1st Oct 2022 - 31st Oct 2022（JST）"
 tags = "財務レポート"
 thumb_image = "/images/blog/ogp-zaimu-report.webp"
 thumb_image_alt = ""
@@ -113,10 +113,10 @@ $TXJP(TenX Community JAPAN Token): [0x961dd84059505d59f82ce4fb87d3c09bec65301d](
 
 Twitter: [https://twitter.com/DeFiGeekJapan](https://twitter.com/DeFiGeekJapan "https://twitter.com/DeFiGeekJapan")
 
-Discord: [http://discord.gg/FQYXqVBEnh](http://discord.gg/FQYXqVBEnh "http://discord.gg/FQYXqVBEnh")
+Discord: [http://discord.gg/FQYXqVBEnh](http://discord.gg/vyEQ43m6gB "http://discord.gg/vyEQ43m6gB")
 
 GitHub: [https://github.com/DeFiGeek-Community](https://github.com/DeFiGeek-Community "https://github.com/DeFiGeek-Community")
 
 ***
 
-Please direct any comments or questions regarding this report to [English channel](https://discord.gg/CkM2cyTz8N) at DeFiGeek community discord.
+Please direct any comments or questions regarding this report to [English channel](https://discord.gg/vyEQ43m6gB) at DeFiGeek community discord.
