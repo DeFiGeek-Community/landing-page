@@ -58,7 +58,7 @@ The following assumptions has be used from the July-September FS in 2022
 
 # Income statement
 
-![](/images/blog/22105e-1.PNG)
+![](/images/blog/22105e-2.PNG)
 
 ・Gas cost in JPY is used the figures displayed in Zerion.  
 ・Other income (Others) consists mostly of LPs ETH increase and revenue recognition of TXJP expenses (both excluding fx gain/loss)  
