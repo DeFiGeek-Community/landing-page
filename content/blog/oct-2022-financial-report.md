@@ -24,7 +24,6 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 ![](/images/blog/2291e.PNG)
 
-・Due to recent (Sept 2022) change in personnel in charge of Finance Department, there are disconnects of data, accounting treatment and accounting assumption between this report and report published in previous months. No retrospective application has been applied due to limitation of available data.  
 ・Gross Burn Rate: Total cash outflow (expense items: interest expense, relayers fee, labor cost, gas cost, incentives, etc.)  
 ・Net Burn Rate: Total Cash Flow (Gross Burn Rate + Rewards Claimed, interest earned and Airdrop received)  
 ・Implied Cash Runway：Total Equity / Net Burn Rate ・Liquidating value: Total Equity minus Liabilities & DFGC's TXJP holdings (including TXJP in LPs).  
