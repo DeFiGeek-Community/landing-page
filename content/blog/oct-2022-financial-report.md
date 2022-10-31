@@ -22,7 +22,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 +++
 # Key highlights
 
-![](/images/blog/2291e.PNG)
+![](/images/blog/22101e.PNG)
 
 ・Gross Burn Rate: Total cash outflow (expense items: interest expense, relayers fee, labor cost, gas cost, incentives, etc.)  
 ・Net Burn Rate: Total Cash Flow (Gross Burn Rate + Rewards Claimed, interest earned and Airdrop received)  
@@ -35,7 +35,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Balance sheet
 
-![](/images/blog/2293e.PNG)
+![](/images/blog/22104e.PNG)
 
 The following assumptions has be used from the July-September FS in 2022
 
@@ -53,19 +53,25 @@ The following assumptions has be used from the July-September FS in 2022
 
 #### **Compound.finance**
 
-![](/images/blog/2294e.PNG)
+![](/images/blog/22102e.PNG)
 
 # 
 
 # Income statement
 
-Due to incomplete data available for month-end balances of June 2022, income statements for July-September cannot be prepared. Income statements will be published from October 2022.
+![](/images/blog/22105e-1.PNG)
+
+・Gas cost in JPY is used the figures displayed in Zerion.  
+・Other income (Others) consists mostly of LPs ETH increase and revenue recognition of TXJP expenses (both excluding fx gain/loss)  
+・Other expenses (Others) consists mostly of LPs ETH decrease and ETH decrase due to TXJP buy&pool (both excluding fx gain/loss)
 
 # 
 
 # Token holders
 
-![](/images/blog/2295e.PNG)
+![](/images/blog/22106-1e.PNG)
+
+![](/images/blog/22106-2e.PNG)
 
 Balancer V1: 0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f  
 Balancer V2: 0xba12222222228d8ba445958a75a0704d566bf2c8  
