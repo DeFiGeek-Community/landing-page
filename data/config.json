@@ -19,6 +19,11 @@
                 "url": "/blog"
             },
             {
+                "label": "プロダクト",
+                "label_en": "Product",
+                "url": "/product"
+            },
+            {
                 "label": "ドキュメント",
                 "label_en": "Docs",
                 "url": "https://docs.defigeek.xyz/"
