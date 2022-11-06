@@ -154,7 +154,7 @@ If you have any suggestions for UI/UX improvements, please post [here](https://d
 * Landing page (front and design) developer
 * Server developer for exchange, redeem or grant points.
 
-In the future it will be on-chain (using ERC3525) however current PoC aims to build on the Web2 tech stack. If you are interested, please join our [Discord](http://discord.gg/b4KGAVUb "http://discord.gg/b4KGAVUb") and reach out us.
+In the future it will be on-chain (using ERC3525) however current PoC aims to build on the Web2 tech stack. If you are interested, please join our [Discord](discord.gg/vyEQ43m6gB) and reach out us.
 
 ### NFT Image Development
 
