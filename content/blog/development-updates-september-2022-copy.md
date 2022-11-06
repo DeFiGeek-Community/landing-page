@@ -1,16 +1,16 @@
 +++
 author = ""
-date = 2022-09-30T15:00:00Z
+date = 2022-10-31T15:00:00Z
 draft = true
 excerpt = ""
 image = "/images/blog/DFGC_logo_banner.webp"
 image_alt = ""
 layout = "post"
-subtitle = "Yamato prepares for launch, names Wallet Avatar NFT project as YASHIRO"
+subtitle = "Yamato prepares for launch, Yashiro logo to be finalized"
 tags = "オフィシャルアナウンス"
 thumb_image = "/images/blog/DFGC_logo_banner.webp"
 thumb_image_alt = ""
-title = "Development Updates September 2022-(copy)"
+title = "Development Updates Oct 2022"
 [seo]
 description = ""
 title = ""
@@ -28,7 +28,7 @@ The purpose of publishing this report is to secure transparency of our developme
 
 # Progress Report
 
-## YAMATO
+## ーYAMATOー
 
 ### Core Development
 
@@ -45,22 +45,23 @@ Remaining tasks by the main net launch are;
 * Testing multisig update methodology
 * Deploying subgraphs on each network
 
+We plan to deploy contracts in the Goerli network & support front and subgraph by end of November.
+
 For more information on the roadmap, please refer [here](https://defigeek.xyz/blog/yamato-protocol-10/).
 
 ### Interface Development
 
-The following tasks completed
-
-* [Added “add tokens to metamask” button](https://github.com/DeFiGeek-Community/yamato-interface/pull/169)
-* Deployed [app.yamato.fi](https://app.yamato.fi/) and [icp-app.yamato.fi](https://icp-app.yamato.fi/) for production environments.
-
-Current development environment, [dev-app.yamato.fi](https://dev-app.yamato.fi/)will be used as an interface to verify additional functions on the test net after the main net launch.
+[app.yamato.fi](https://app.yamato.fi/) and [icp-app.yamato.fi](https://icp-app.yamato.fi/) has been deployed for production environments. Current development environment, [dev-app.yamato.fi](https://dev-app.yamato.fi/) will be used as an interface to verify additional functions on the test net after the main net launch.
 
 All required functions for V1 have already been implemented and are confirmed to work properly.
 
 We plan to proceed with developments for V1.5 and V2, while any requests for improvement from users to be assessed & reflected through developments.
 
-## YADORI
+### Documentation
+
+The draft docs are tentatively published in [Gitbook](https://defigeek.gitbook.io/yamato-protocol-dokyumento/4zgf5zCGE21eAieiUqMz/). If there are any typos or unclear points, please advise us in [Discord](https://discord.com/channels/705052448418693180/899916069161041931).
+
+## ーYADORIー
 
 ### Core Development
 
@@ -80,9 +81,9 @@ Our plan is to issue 2D images or 3DCG videos. Setting up a variety of frame sha
 
 The logo competition initiative is led by the Design Department. Meanwhile we are open to receive any drafts or design motif proposals to have further discussion.
 
-lease join the [YADORI Logo Competition thread](https://discord.com/channels/705052448418693180/974927414088056882).
+Please join the [YADORI Logo Competition thread](https://discord.com/channels/705052448418693180/974927414088056882).
 
-## YASHIRO (Wallet Avatar NFT)
+## ーYASHIROー
 
 YASHIRO is an NFT that evolves its design based on the status of EOA (number of ETH holdings, number of transactions, etc.) and it represents the identity of EOA.  
 It is also a platform for Avatar's illustration by designers.
@@ -109,18 +110,13 @@ We continue to refine designs and will share them on Discord.
 
 We plan to expand the range of expression by having multiple avator models from various designers. If you are a designer please reach out [NFT Department](https://discord.com/channels/705052448418693180/897682225913528420) to learn how to contribute your model/character into the Wallet Avatar NFT.
 
-### Naming Competition
-
-The [final voting](https://snapshot.org/#/defigeek.eth/proposal/0x1ce57dfaffac4b24c1d00021abaf084f953792b14a05aee7673eafc6bf4f1d4a) has closed, and the official name of the Wallet Avatar NFT has been decided as **YASHIRO**.
-
-Appreciated all 26 entries and participation in voting.
-
 ### Logo Competition
 
-Following the naming competition, we will hold a logo competition to be led by the Development Department.  
-Please check the Discord forum for details.
+Following the naming competition, we hold a logo competition to be led by the Development Department. 
 
-## TXJP Analytics Site
+One logo design has been nominated and a rough draft of the logo & a concept sheet are being prepared by the development department.  As soon as the content is finalized, the logo will be presented for approval by voting. Please check the [Discord forum](https://dfgc-preview.netlify.app/blog/2022-10-1/) for details.
+
+## ーTXJP Analytics Siteー
 
 As a first step of building a community dashboard, we have started to assess, design, and implement an analytics site that allows users to check statistics such as TXJP holders trend.
 
@@ -136,9 +132,15 @@ This is not a DApp however it has a significant impact on further development of
 
 Community dashboard roadmap is [here](https://github.com/haruketh/DFGC/blob/main/after_v1.md).
 
+### ーMultisig Treasury Managementー
+
+The voting to introduce multisig ([snapshot](https://snapshot.org/#/defigeek.eth/proposal/0x35c85393ef84fed22f80e21caf17b8f03a69cc4433cf7f2cae0a0e0402c71e2a)) & the voting to approve signer candidates ([snapshot](https://snapshot.org/#/defigeek.eth/proposal/0xc7849d561352a795c6fb685deee7d9398bd709c5a29860bd65e3233b241f1ee4)) have approved. 
+
+Officially multisig (safe) has been implemented with 10 signers (7 role members & 3 TXJP holders). The configuration of co-signing is 6-of-10. We will announce any changes in the operational structure of funds tranfers going forward.
+
 # Vacant Positions
 
-## YAMATO
+## -YAMATO-
 
 ### Interface
 
@@ -146,7 +148,7 @@ Yamato Interface ([GitHub](https://github.com/DeFiGeek-Community/yamato-interfac
 We are looking forward to having your Commit to make the Yamato Interface even better.  
 If you have any suggestions for UI/UX improvements, please post [here](https://discord.com/channels/705052448418693180/899916069161041931).
 
-## YADORI
+## -YADORI-
 
 ### Core Development
 
@@ -159,7 +161,7 @@ In the future it will be on-chain (using ERC3525) however current PoC aims to bu
 
 We are looking for illustrators and designers to design NFT images and models. If you are interested, please join [NFT Department](https://discord.com/channels/705052448418693180/897682225913528420)our Discord.
 
-## Other
+## -Other-
 
 Spot tasks are posted on [Dework](https://app.dework.xyz/defigeek-community-39407).
 
