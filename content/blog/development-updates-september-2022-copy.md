@@ -10,7 +10,7 @@ subtitle = "Yamato prepares for launch, Yashiro logo to be finalized"
 tags = "オフィシャルアナウンス"
 thumb_image = "/images/blog/DFGC_logo_banner.webp"
 thumb_image_alt = ""
-title = "Development Updates Oct 2022"
+title = "Development Report Oct 2022"
 [seo]
 description = ""
 title = ""
