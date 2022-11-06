@@ -113,7 +113,7 @@ We plan to expand the range of expression by having multiple avator models from 
 
 Following the naming competition, we hold a logo competition led by the Development Department.
 
-One logo design has been nominated and a rough draft of the logo & a concept sheet are being prepared. As soon as the content is finalized, the logo will be presented for approval by voting. Please check the [Discord forum](https://dfgc-preview.netlify.app/blog/2022-10-1/) for details.
+One logo design has been nominated and a rough draft of the logo & a concept sheet are being prepared. As soon as the content is finalized, the logo will be presented for approval by voting. Please check the [Discord forum](https://discord.com/channels/705052448418693180/1023758137192349796) for details.
 
 ## ーTXJP Analytics Siteー
 
