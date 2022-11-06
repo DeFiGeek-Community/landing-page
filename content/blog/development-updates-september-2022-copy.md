@@ -112,9 +112,9 @@ We plan to expand the range of expression by having multiple avator models from 
 
 ### Logo Competition
 
-Following the naming competition, we hold a logo competition to be led by the Development Department. 
+Following the naming competition, we hold a logo competition led by the Development Department.
 
-One logo design has been nominated and a rough draft of the logo & a concept sheet are being prepared by the development department.  As soon as the content is finalized, the logo will be presented for approval by voting. Please check the [Discord forum](https://dfgc-preview.netlify.app/blog/2022-10-1/) for details.
+One logo design has been nominated and a rough draft of the logo & a concept sheet are being prepared. As soon as the content is finalized, the logo will be presented for approval by voting. Please check the [Discord forum](https://dfgc-preview.netlify.app/blog/2022-10-1/) for details.
 
 ## ーTXJP Analytics Siteー
 
@@ -134,9 +134,9 @@ Community dashboard roadmap is [here](https://github.com/haruketh/DFGC/blob/main
 
 ### ーMultisig Treasury Managementー
 
-The voting to introduce multisig ([snapshot](https://snapshot.org/#/defigeek.eth/proposal/0x35c85393ef84fed22f80e21caf17b8f03a69cc4433cf7f2cae0a0e0402c71e2a)) & the voting to approve signer candidates ([snapshot](https://snapshot.org/#/defigeek.eth/proposal/0xc7849d561352a795c6fb685deee7d9398bd709c5a29860bd65e3233b241f1ee4)) have approved. 
+The voting to introduce multisig ([snapshot](https://snapshot.org/#/defigeek.eth/proposal/0x35c85393ef84fed22f80e21caf17b8f03a69cc4433cf7f2cae0a0e0402c71e2a)) & the voting to approve signer candidates ([snapshot](https://snapshot.org/#/defigeek.eth/proposal/0xc7849d561352a795c6fb685deee7d9398bd709c5a29860bd65e3233b241f1ee4)) have approved.
 
-Officially multisig (safe) has been implemented with 10 signers (7 role members & 3 TXJP holders). The configuration of co-signing is 6-of-10. We will announce any changes in the operational structure of funds tranfers going forward.
+Multisig (safe) has been officially implemented with 10 signers (7 role members & 3 TXJP holders). The configuration of co-signing is 6-of-10. We will announce any changes in the operational structure of funds tranfers going forward.
 
 # Vacant Positions
 
@@ -159,7 +159,7 @@ In the future it will be on-chain (using ERC3525) however current PoC aims to bu
 
 ### NFT Image Development
 
-We are looking for illustrators and designers to design NFT images and models. If you are interested, please join [NFT Department](https://discord.com/channels/705052448418693180/897682225913528420)our Discord.
+We are looking for illustrators and designers to design NFT images and models. If you are interested, please check [NFT Department](https://discord.com/channels/705052448418693180/897682225913528420) in Discord.
 
 ## -Other-
 
@@ -171,11 +171,11 @@ If you are interested in a task, please post your interest in the task [applicat
 
 #### Related Links
 
-Community Guidelines: [https://docs.defigeek.xyz/v/english-1/](https://docs.defigeek.xyz/v/english-1/ "https://docs.defigeek.xyz/v/english-1/")
+Community Guidelines: [https://docs.defigeek.xyz/v/english-1/](https://docs.defigeek.xyz/v/english-1/)
 
-Discord: [http://discord.gg/b4KGAVUb](http://discord.gg/b4KGAVUb "http://discord.gg/b4KGAVUb")
+Discord: [http://discord.gg/vyEQ43m6gB](http://discord.gg/vyEQ43m6gB)
 
-Twitter: [https://twitter.com/DeFiGeekJapanEN](https://twitter.com/DeFiGeekJapanEN "https://twitter.com/DeFiGeekJapanEN")
+Twitter: [https://twitter.com/DeFiGeekJapanEN](https://twitter.com/DeFiGeekJapanEN)
 
 ***
 
