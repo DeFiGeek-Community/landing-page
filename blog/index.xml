@@ -67,7 +67,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 （注）
 ・Balancer V1, V2 および Uniswap V3 のLPはコミュニティトレジャリー (defigeek.eth)が保有。
 ・総発行枚数21万枚TXJPは固定。
-・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でdefigeek.ethウォレットで保有。
+・将来の資金調達（シリーズA～C）に係る割当分TXJP計31,500は発行済でdefigeek.ethウォレットで保有。
 ・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
 財務活動 10月2日 DFGC Pool TXJPリワード　ETH供給へのリワードスピード変更</description></item><item><title>2022年7-9月度 四半期財務報告</title><link>/blog/2022-7-9/</link><pubDate>Fri, 30 Sep 2022 15:00:00 +0000</pubDate><guid>/blog/2022-7-9/</guid><description>重要指標 キャッシュフロー （注）
 ・財務部門担当者の交代により、本2022年9月版レポートとそれ以前に発行された月次レポートとの間に、データ、会計処理、会計上の前提条件の相違があります。なお、入手可能な情報に限りがあるため、遡及適用は行っていませんので、連続性の観点から前月データ、グラフ類の表示を一旦中断します。
@@ -94,7 +94,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 注：
 ・Balancer V1, V2 および Uniswap V3 のLPはコミュニティトレジャリー (defigeek.eth)が保有。
 ・総発行枚数21万枚TXJPは固定。
-・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でdefigeek.ethウォレットで保有。
+・将来の資金調達（シリーズA～C）に係る割当分TXJP計31,500は発行済でdefigeek.ethウォレットで保有。
 ・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
 財務活動 7月1日 defigeek.eth votiumのCVXをclaim
 7月1日 defigeek.eth convexのtricrypto2LPリワードをclaim</description></item><item><title>2022年9月度開発活動報告</title><link>/blog/2022-9/</link><pubDate>Fri, 30 Sep 2022 15:00:00 +0000</pubDate><guid>/blog/2022-9/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
