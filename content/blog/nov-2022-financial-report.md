@@ -1,12 +1,12 @@
 +++
 author = ""
-date = 2022-10-31T09:00:00Z
+date = 2022-11-30T15:00:00Z
 draft = true
 excerpt = ""
 image = ""
 image_alt = ""
 layout = "post"
-subtitle = "Oct＝1st Oct 2022 - 31st Oct 2022（JST）"
+subtitle = "Nov＝1st Nov 2022 - 30st Nov 2022（JST）"
 tags = "財務レポート"
 thumb_image = "/images/blog/ogp-zaimu-report.webp"
 thumb_image_alt = ""
@@ -36,8 +36,6 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 # Balance sheet
 
 ![](/images/blog/22104e.PNG)
-
-The following assumptions has be used from the July-September FS in 2022
 
 ・Fair value of assets and liabilities: Japanese yen equivalents displayed on Zerion, DeBank, and Zapper  
 ・Accrued interest account on liabilities is no longer in use but is included in the short-term debt borrowing amount  
@@ -81,7 +79,7 @@ Note:
 
 ・Balancer V1, V2 and Uniswap V3 LP positions are owned by DAO Treasury  (defigeek.eth).  
 ・Total supply is fixed at 210,000 TXJP.  
-・Allotment for future prospective Series A, B and C (total 31,500 TXJP) have issued and been held at DAO Treasury (defigeek.eth).  
+・Allotment for future prospective Series A, B and C (total 31,500 TXJP) have issued and been held at Multisig Safe (safe.defigeek.eth).  
 ・TXJP held at contract (0x0028a459d6705b30333e98d5bcb34dd1b21e2a89) is user’s fund in Rari’s Fuse. No Treasury fund is deposited in the pool.  
 ・dev.defigeek.eth & cofounder.defigeek.eth hold TXJP at differnt wallet from DAO Treasury solely for a governance purpose and are included in BS as long-term deposit TXJP.
 
@@ -105,6 +103,8 @@ Please refer to Japanese version of financial report to see all transactions dat
 ### Addresses
 
 defigeek.eth: [0x24dd242c3c4061b1fcaa5119af608b56afbaea95](https://etherscan.io/address/0x24dd242c3c4061b1fcaa5119af608b56afbaea95)
+
+safe.defigeek.eth: [0x153d9dd730083e53615610a0d2f6f95ab5a0bc01](https://etherscan.io/address/0x153d9dd730083e53615610a0d2f6f95ab5a0bc01)
 
 dev.defigeek.eth: [0xdc94eeeb3260d0b9bf22849e8f5d236d286cdba1](https://etherscan.io/address/0xdc94eeeb3260d0b9bf22849e8f5d236d286cdba1)
 
