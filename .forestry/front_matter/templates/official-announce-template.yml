@@ -75,6 +75,7 @@ fields:
   default: post
 pages:
 - content/blog/2022-10-1.md
+- content/blog/2022-11-1.md
 - content/blog/2022-3.md
 - content/blog/2022-4.md
 - content/blog/2022-5.md
