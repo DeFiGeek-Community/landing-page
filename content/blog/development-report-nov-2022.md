@@ -1,12 +1,11 @@
 +++
 author = ""
-date = 2022-10-31T15:00:00Z
-draft = true
+date = 2022-11-30T15:00:00Z
 excerpt = ""
 image = "/images/blog/DFGC_logo_banner.webp"
 image_alt = ""
 layout = "post"
-subtitle = "Yamato prepares for launch, Yashiro logo to be finalized"
+subtitle = "Yamato prepares for launch, Yashiro logo competition"
 tags = "オフィシャルアナウンス"
 thumb_image = "/images/blog/DFGC_logo_banner.webp"
 thumb_image_alt = ""
@@ -32,22 +31,20 @@ The purpose of publishing this report is to secure transparency of our developme
 
 ### Core Development
 
-The first audit report has been finalized. It will be published with a repository release.
+The first audit report has been finalized. Soon the report will be published ahead of the repository release.
 
 The second audit has been temporarily put on hold as no critical Yamato-specific issues were found during the first audit.  
 We will proceed with a second audit at the time of version upgrade or post-launch significant TVL increases.
 
 Meanwhile, we are in process setting up a bounty on Immunefi as an alternative to a second audit. Scheduling listing on Immunefi once the repository is released.
 
-Remaining tasks by the main net launch are;
+In November, we conducted an exhaustive verification of state change patterns using the Fuzz test & currently working on the following:
 
-* Setting up a test net (Goerli) & coding deployment scripts
-* Testing multisig update methodology
-* Deploying subgraphs on each network
+\* Check how to manage contracts deployment & upgrades by multi-sig  
+\* Fork main-net environment  
+\* Confirm test sequences
 
-We plan to deploy contracts in the Goerli network & support front and subgraph by end of November.
-
-For more information on the roadmap, please refer [here](https://defigeek.xyz/blog/yamato-protocol-10/).
+Once they are completed we will deploy contracts in the Goerli network & support front and subgraph.
 
 ### Interface Development
 
@@ -114,7 +111,9 @@ We plan to expand the range of expression by having multiple avator models from 
 
 Following the naming competition, we hold a logo competition led by the Development Department.
 
-One logo design has been nominated and a rough draft of the logo & a concept sheet are being prepared. As soon as the content is finalized, the logo will be presented for approval by voting. Please check the [Discord forum](https://discord.com/channels/705052448418693180/1023758137192349796) for details.
+A concept sheet of logo desgins is being published on [Discord Forum](https://discord.com/channels/705052448418693180/1048464443740262470). Snapshot voting to select one logo will start soon.
+
+Please check this [Discord forum](https://discord.com/channels/705052448418693180/1023758137192349796) for details.
 
 ## ーTXJP Analytics Siteー
 
@@ -124,7 +123,7 @@ The site facilitates community members and others to assess risks such as large 
 
 For new community members the dashboard makes it easier to instantly understand and catch up with overall community status.
 
-A prototype can be found [here](http://txjp.s3-website-ap-northeast-1.amazonaws.com/).
+A prototype can be found here [http://dashboard.defigeek.xyz/](http://dashboard.defigeek.xyz/ "http://dashboard.defigeek.xyz/").
 
 Currently, we are developing and checking the operation in a private repository, but as soon as we confirm stable operation and license of the source code, it will be released as OSS, and to be open for your Commit.
 
