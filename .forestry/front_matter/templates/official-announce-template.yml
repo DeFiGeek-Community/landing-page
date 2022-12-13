@@ -75,6 +75,7 @@ fields:
   default: post
 pages:
 - content/blog/2022-10-1.md
+- content/blog/2022-11-1.md
 - content/blog/2022-3.md
 - content/blog/2022-4.md
 - content/blog/2022-5.md
@@ -82,6 +83,7 @@ pages:
 - content/blog/2022-7-1.md
 - content/blog/2022-8.md
 - content/blog/2022-9.md
+- content/blog/development-report-nov-2022.en.md
 - content/blog/development-report-oct-2022.en.md
 - content/blog/development-updates-september-2022.en.md
 - content/blog/dfgc-fuse-pool.md
