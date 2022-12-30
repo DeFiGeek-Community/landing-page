@@ -1,12 +1,12 @@
 +++
 author = ""
-date = 2022-11-30T13:00:00Z
+date = 2022-12-31T13:00:00Z
 draft = true
 excerpt = ""
 image = ""
 image_alt = ""
 layout = "post"
-subtitle = "Nov＝1st Nov 2022 - 30st Nov 2022（JST）"
+subtitle = "Nov＝1st Dec 2022 - 31st Dec 2022（JST）"
 tags = "財務レポート"
 thumb_image = "/images/blog/ogp-zaimu-report.webp"
 thumb_image_alt = ""
