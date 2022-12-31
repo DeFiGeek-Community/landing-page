@@ -1,12 +1,11 @@
 +++
 author = ""
 date = 2022-12-31T13:00:00Z
-draft = true
 excerpt = ""
 image = ""
 image_alt = ""
 layout = "post"
-subtitle = "Nov＝1st Dec 2022 - 31st Dec 2022（JST）"
+subtitle = "Dec＝1st Dec 2022 - 31st Dec 2022（JST）"
 tags = "財務レポート"
 thumb_image = "/images/blog/ogp-zaimu-report.webp"
 thumb_image_alt = ""
@@ -22,7 +21,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 +++
 # Key highlights
 
-![](/images/blog/22111e.PNG)
+![](/images/blog/22121e.PNG)
 
 ・Gross Burn Rate: Total cash outflow (expense items: interest expense, relayers fee, labor cost, gas cost, incentives, etc.)  
 ・Net Burn Rate: Total Cash Flow (Gross Burn Rate + Rewards Claimed, interest earned and Airdrop received)  
@@ -35,7 +34,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Balance sheet
 
-![](/images/blog/22114e.PNG)
+![](/images/blog/22124e.PNG)
 
 ・Fair value of assets and liabilities: Japanese yen equivalents displayed on Zerion, DeBank, and Zapper  
 ・Accrued interest account on liabilities is no longer in use but is included in the short-term debt borrowing amount  
@@ -51,13 +50,13 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 #### **Compound.finance**
 
-![](/images/blog/22112e.PNG)
+![](/images/blog/22122e.PNG)
 
 # 
 
 # Income statement
 
-![](/images/blog/22115e-1.PNG)
+![](/images/blog/22125e.PNG)
 
 ・Gas cost in JPY is used the figures displayed in Zerion.  
 ・Other income (Others) consists mostly of LPs ETH increase and revenue recognition of TXJP expenses (both excluding fx gain/loss)  
@@ -67,7 +66,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Token holders
 
-![](/images/blog/22116e.PNG)
+![](/images/blog/22126e.PNG)
 
 Balancer V1: 0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f  
 Balancer V2: 0xba12222222228d8ba445958a75a0704d566bf2c8  
