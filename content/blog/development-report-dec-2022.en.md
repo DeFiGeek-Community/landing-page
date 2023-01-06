@@ -137,11 +137,11 @@ Payroll-NFT is a token transfer platform based on SNS account authentication. Us
 
 This is how it works in specific:
 
-    1. A receiver mints NFT using SNS Auth (SNS account and tokenID has linked)
+1\. A receiver mints NFT using SNS Auth (SNS account and tokenID has linked)
 
-    2. A sender select the receiver's SNS account & token amount to transfer
+2\. A sender select the receiver's SNS account & token amount to transfer
 
-    3. Payroll-NFT resolves linkage among SNS account, tokenID and owner/address.
+3\. Payroll-NFT resolves linkage among SNS account, tokenID and owner/address.
 
 This eliminates communication between sender and receivers about wallet addresses.
 
