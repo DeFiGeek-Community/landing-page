@@ -1,12 +1,11 @@
 +++
 author = ""
-date = 2022-11-30T15:00:00Z
-draft = true
+date = 2022-12-31T15:00:00Z
 excerpt = ""
 image = "/images/blog/DFGC_logo_banner.webp"
 image_alt = ""
 layout = "post"
-subtitle = "Yamato prepares for launch, Yashiro logo competition"
+subtitle = "YASHIRO logo competition, NFT Payroll project launched"
 tags = "オフィシャルアナウンス"
 thumb_image = "/images/blog/DFGC_logo_banner.webp"
 thumb_image_alt = ""
@@ -112,7 +111,7 @@ We plan to expand the range of expression by having multiple avator models from 
 
 Following the naming competition, we hold a logo competition led by the Development Department.
 
-A concept sheet of logo desgins is being published on [Discord Forum](https://discord.com/channels/705052448418693180/1048464443740262470). Snapshot voting to select one logo will start soon.
+A concept sheet of logo desgins has published on [Discord Forum](https://discord.com/channels/705052448418693180/1048464443740262470) & [Snapshot](https://vote.defigeek.xyz/#/proposal/0x9018168a19316a94ee74dae81fe7095cdf2890deda9fba963c67da74af4cf37e) voting is ongoing.
 
 Please check this [Discord forum](https://discord.com/channels/705052448418693180/1023758137192349796) for details.
 
@@ -132,11 +131,23 @@ This is not a DApp however it has a significant impact on further development of
 
 Community dashboard roadmap is [here](https://github.com/haruketh/DFGC/blob/main/after_v1.md).
 
-### ーMultisig Treasury Managementー
+## ーPayroll-NFTー
 
-The voting to introduce multisig ([snapshot](https://snapshot.org/#/defigeek.eth/proposal/0x35c85393ef84fed22f80e21caf17b8f03a69cc4433cf7f2cae0a0e0402c71e2a)) & the voting to approve signer candidates ([snapshot](https://snapshot.org/#/defigeek.eth/proposal/0xc7849d561352a795c6fb685deee7d9398bd709c5a29860bd65e3233b241f1ee4)) have approved.
+Payroll-NFT is a token transfer platform based on SNS account authentication. Usual token transfers addresses a receiver’s address however Payroll-NFT address the NFT holding address authenticated by SNS Auth for token transfers.
 
-Multisig (safe) has been officially implemented with 10 signers (7 role members & 3 TXJP holders). The configuration of co-signing is 6-of-10. We will announce any changes in the operational structure of funds tranfers going forward.
+This is how it works in specific:
+
+    1. A receiver mints NFT using SNS Auth (SNS account and tokenID has linked)
+
+    2. A sender select the receiver's SNS account & token amount to transfer
+
+    3. Payroll-NFT resolves linkage among SNS account, tokenID and owner/address.
+
+This eliminates communication between sender and receivers about wallet addresses.
+
+The PoC targets DFGC contributors & allow them to mint NFTs using Discord authentication and receive payroll & rewards.
+
+NFT contracts, NFT mint page for receiver, and management site for senders are in development. The contracts coding has completed and the NFT mint page is currently under development.
 
 # Vacant Positions
 
