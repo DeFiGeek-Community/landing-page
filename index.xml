@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on DeFiGeek Community</title><link>/</link><description>Recent content in Home on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Sat, 31 Dec 2022 13:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年12月度 月次財務報告</title><link>/blog/2022-12/</link><pubDate>Sat, 31 Dec 2022 13:00:00 +0000</pubDate><guid>/blog/2022-12/</guid><description>重要指標 キャッシュフロー （注）
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on DeFiGeek Community</title><link>/</link><description>Recent content in Home on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Sat, 31 Dec 2022 15:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年12月度開発活動報告</title><link>/blog/2022-12-1/</link><pubDate>Sat, 31 Dec 2022 15:00:00 +0000</pubDate><guid>/blog/2022-12-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
+本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
+進捗報告 ーYAMATOー コア開発 1社目の監査レポートのファイナライズが完了しました。
+リポジトリ公開から先行して近日発行予定です。
+2社目の依頼については、1社目の監査でYamato固有のCriticalなIssueが発見されなかったことから一時保留としました。
+バージョンアップやローンチ後TVL増加などのタイミングで再度選定予定です。
+監査の代替としてImmunefiへバウンティ設置を予定しています。
+こちらはリポジトリ公開とともにバウンティを開始できるよう調整中です。
+メインネットローンチまでの残タスクは
+テストネット（Goerli）およびメインネット向けデプロイスクリプトの作成 マルチシグアップデート手法のテスト 各ネットワークへのsubgraph設置 となっています。
+11月から
+デプロイおよびアップグレードについてマルチシグを用いた管理手法の調査 メインネットフォーク環境の作成とテストシーケンスの調査 Fuzzテストによる状態遷移パターンの網羅的なテスト を行っています。
+上記の調査が完了し次第コントラクトのGoerliネットワークローンチおよびフロント・subgraphの対応を行う予定です。
+その他ロードマップなどについてはこちらの記事をご確認ください。
+Interface開発 現在開発環境として用意しているdev-app.yamato.fiとは別に、本番環境としてapp.yamato.fiとicp-app.yamato.fiを設置しました。
+dev-app.yamato.fiはメインネットローンチ後、テストネットでの追加機能の検証用インターフェースとして稼働する予定です。
+現時点でV1に必要な機能はすべて実装済みで正常に動作することが確認されています。
+今後はV1.5、V2のための開発を進行する予定ですが、改善要望があれば検討いたします。
+ドキュメント 現在GitBookドキュメントを執筆・仮公開中です。
+誤字・脱字や不明点があれば改善いたしますのでこちらに書き込みください。
+ーYADORIー コア開発 SIWE（Sign In With Ethereum）し、そのEOAが保有するNFT内のポイントの転送を行うWebアプリのプロトタイプが稼働しています。
+ログイン後にNFTを他EOAに転送することで他EOAでも２重ログインできるといった非アトミック性を抱えているため、オフチェーンでの対応を検討しています。
+PoCの次の段階としてNFT内のポイントとギフトを交換するカタログアプリの構築を想定しています。
+NFTイメージ開発 DFGCから発行するNFTイメージの制作を進めています。
+2D画像または3DCG動画の提供を予定しており、枠の形や質感、主題のバリエーションを策定中です。
+ロゴコンペティション ネーミングコンペティションに続いてロゴコンペティションを開催します。
+デザイン部主導でロゴを完成させる方向で動く予定ですが、ラフやモチーフの提案・議論の参加は歓迎いたします。
+YADORIロゴマークコンペティションにてご意見お待ちしております。
+ーYASHIROー YASHIROとは、EOAの状態（ETH保有数、トランザクション発行数など）によって図柄が変化する、EOAのアイデンティティを示すNFTです。
+またアーティスト・クリエイターによるアバターが集うプラットフォームでもあります。
+コア開発 コントラクト、画像選択エンジン、ランディングページの実装を進めています。
+またプロジェクトの持続・発展性を向上させるためのトケノミクスも検討中です。
+上記の仕様をドキュメントにまとめつつ、内容が確定し次第ランディングページを立ち上げます。
+NFTイメージ開発 現在はデザイン部メンバー主導で開発を行っています。
+V1で提供するモデルは
+和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。
+ブラッシュアップを重ねて、オープンチャンネルでお披露目する予定です。
+楽しみにお待ちください。</description></item><item><title>2022年12月度 月次財務報告</title><link>/blog/2022-12/</link><pubDate>Sat, 31 Dec 2022 13:00:00 +0000</pubDate><guid>/blog/2022-12/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
