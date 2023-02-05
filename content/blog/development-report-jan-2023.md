@@ -1,12 +1,11 @@
 +++
 author = ""
-date = 2022-12-31T15:00:00Z
-draft = true
+date = 2023-01-31T15:00:00Z
 excerpt = ""
 image = "/images/blog/DFGC_logo_banner.webp"
 image_alt = ""
 layout = "post"
-subtitle = "YASHIRO logo competition, NFT Payroll project launched"
+subtitle = "YASHIRO Logo finalized, NFT Payroll project progress"
 tags = "オフィシャルアナウンス"
 thumb_image = "/images/blog/DFGC_logo_banner.webp"
 thumb_image_alt = ""
@@ -48,6 +47,10 @@ In November, we conducted an exhaustive verification of state change patterns us
 Once they are completed we will deploy contracts in the Goerli network & support front and subgraph.
 
 ### Interface Development
+
+Changes in January
+
+ * UI: [Language Button change](https://github.com/DeFiGeek-Community/yamato-interface/pull/171)
 
 [app.yamato.fi](https://app.yamato.fi/) and [icp-app.yamato.fi](https://icp-app.yamato.fi/) has been deployed for production environments. Current development environment, [dev-app.yamato.fi](https://dev-app.yamato.fi/) will be used as an interface to verify additional functions on the test net after the main net launch.
 
@@ -110,11 +113,11 @@ We plan to expand the range of expression by having multiple avator models from 
 
 ### Logo Competition
 
-Following the naming competition, we hold a logo competition led by the Development Department.
+[Snapshot](https://vote.defigeek.xyz/#/proposal/0x9018168a19316a94ee74dae81fe7095cdf2890deda9fba963c67da74af4cf37e) voting for YASHIRO Avatar NFT Logo went to Proposal B, which received the most votes. 
 
-A concept sheet of logo desgins has published on [Discord Forum](https://discord.com/channels/705052448418693180/1048464443740262470) & [Snapshot](https://vote.defigeek.xyz/#/proposal/0x9018168a19316a94ee74dae81fe7095cdf2890deda9fba963c67da74af4cf37e) voting is ongoing.
+Going forward the official logo will be used in all materials including landing pages. Thanks to all $TXJP holders who voted.
 
-Please check this [Discord forum](https://discord.com/channels/705052448418693180/1023758137192349796) for details.
+![](/images/blog/bafkreidgyfizfshzlulos25xxkcxuy6zmpyy3bf4xdrjtarxpfrn3pbyii.webp)
 
 ## ーTXJP Analytics Siteー
 
@@ -139,9 +142,7 @@ Payroll-NFT is a token transfer platform based on SNS account authentication. Us
 This is how it works in specific:
 
 1. A receiver mints NFT using SNS Auth (SNS account and tokenID has linked)
-
 2. A sender select the receiver's SNS account & token amount to transfer
-
 3. Payroll-NFT resolves linkage among SNS account, tokenID and owner/address.
 
 This eliminates communication between sender and receivers about wallet addresses.
