@@ -149,7 +149,7 @@ This eliminates communication between sender and receivers about wallet addresse
 
 The PoC targets DFGC contributors & allow them to mint NFTs using Discord authentication and receive payroll & rewards.
 
-NFT contracts, NFT mint page for receiver, and management site for senders are in development. The contracts coding has completed and the NFT mint page is currently under development.
+NFT contracts, NFT mint page for receiver, and management site for senders are in development. The contracts coding has completed and the NFT mint page is currently under development & to be on testnet soon.
 
 # Vacant Positions
 
