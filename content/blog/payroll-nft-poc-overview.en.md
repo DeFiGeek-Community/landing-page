@@ -42,7 +42,7 @@ The testing has been ongoing.
 
 Contracts have been deployed on Goerli test network.
 
-UI is accessible from following URL: [http://dev-payroll-nft.defigeek.xyz/http://dev-payroll-nft.defigeek.xyz/](http://dev-payroll-nft.defigeek.xyz/ "http://dev-payroll-nft.defigeek.xyz/")
+UI is accessible from following URL: [http://dev-payroll-nft.defigeek.xyz/](http://dev-payroll-nft.defigeek.xyz/ "http://dev-payroll-nft.defigeek.xyz/")
 
 Contract Address (Goerli): [0x8c0801cD33EF1B6e45De72A136FeCD4AD44DA770](https://goerli.etherscan.io/address/0x8c0801cD33EF1B6e45De72A136FeCD4AD44DA770)
 
@@ -56,7 +56,7 @@ Please raise if you have any UI/UX issues/suggestions to our Discord's [payroll-
 * Wallet connection
 * Join [DFGC's Discord Server](https://discord.com/invite/FQYXqVBEnh)
 
-By fulfilling the above 3 conditions, you can perform NFT minting. 
+By fulfilling the above 3 conditions, you can perform NFT minting.
 
 Discord’s account-specific avatar icon and nickname will be used(instead of the server nickname) in NFT.
 
@@ -66,13 +66,13 @@ Once original NFT has been burned, it can be re-minted by following the initial 
 
 ## List of NFTs
 
-You can check the list of minted NFTs. 
+You can check the list of minted NFTs.
 
 By clicking the icon you can go the remittance screen.
 
 ## Token Transfer
 
 \-You can send tokens to NFT holders.  
-\-Once you select a token, entere amount and press “confirm” button, a confirmation screen would pop up.   
-   
- If the information is correct, click the Send button to submit the transaction.
+\-Once you select a token, entere amount and press “confirm” button, a confirmation screen would pop up.
+
+If the information is correct, click the Send button to submit the transaction.
