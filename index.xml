@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on DeFiGeek Community</title><link>/</link><description>Recent content in Home on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Tue, 31 Jan 2023 15:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>2023年1月度開発活動報告</title><link>/blog/2023-1-1/</link><pubDate>Tue, 31 Jan 2023 15:00:00 +0000</pubDate><guid>/blog/2023-1-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on DeFiGeek Community</title><link>/</link><description>Recent content in Home on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Tue, 21 Feb 2023 15:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Payroll-NFT PoC 概要</title><link>/blog/payroll-nft-poc/</link><pubDate>Tue, 21 Feb 2023 15:00:00 +0000</pubDate><guid>/blog/payroll-nft-poc/</guid><description>概要 Payroll-NFTとは、SNSアカウント証明によるトークン送信プラットフォームです。
+通常の送金は宛先のアドレスを指定しますが、Payroll-NFTではSNS認証されたNFTの保有アドレスを宛先として指定します。
+具体的には
+受け取り手がSNS認証と共にNFTをMint（SNSアカウントとtokenIDが紐づく） 送り手がSNSアカウントと金額を指定して送金 Payroll-NFTがSNSアカウント→tokenID→Ownerとアドレスを解決 という処理が行われます。
+送り手は宛先を指定する際にMint済リストからSNSアカウントを指定するためアドレスを認識する必要がありません。
+受け取り手はNFTを任意のアドレスに転送するだけで支払いの受取先を変更できます。
+このように、送り手・受け取り手ともに送金先に関するコミュニケーションを省くことができます。
+PoCでは認証アカウントとしてDiscordを利用します。
+テスト概要 GoerliテストネットワークへのコントラクトデプロイとUIの検証環境立ち上げでテストを行います。
+テスト環境には以下のURLでアクセスできます。
+UI：http://dev-payroll-nft.defigeek.xyz/
+コントラクト(Goerli)：0x8c0801cD33EF1B6e45De72A136FeCD4AD44DA770
+PoCでは以下の機能を実装しています。
+UI・UXの改善案はDFGCサーバーのpayroll-nftチャンネルに書き込みください。
+機能説明 NFT Mint Discord認証 Wallet接続 DFGCのDiscordサーバーへ参加 を満たすことでNFTをMintすることができます。
+このとき、アイコンとニックネームはサーバーニックネームではなくアカウント固有のものが利用されます。
+Mint済みのNFTは最初にMintしたアドレスまたは現在保有するアドレスがBurnできます。
+これは秘密鍵流出やハッキングによる窃盗などの救済措置です。
+Burnした場合は最初の手順で再Mintすることができます。
+NFT一覧 MintされたNFTの一覧が確認できます。
+リストのアイコンをクリックすることで送金画面に遷移します。
+送金 NFT保有者に対してトークンを送金できます。
+銘柄を選択すると保有量が表示されます。
+数量を入力（Decimalの考慮は不要）して確認ボタンを押下すると確認モーダルが現れます。
+内容が正しいことを確認したら送信ボタン押下でトランザクションが発行されます。</description></item><item><title>2023年1月度開発活動報告</title><link>/blog/2023-1-1/</link><pubDate>Tue, 31 Jan 2023 15:00:00 +0000</pubDate><guid>/blog/2023-1-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ーYAMATOー コア開発 1社目の監査レポートのファイナライズが完了しました。
