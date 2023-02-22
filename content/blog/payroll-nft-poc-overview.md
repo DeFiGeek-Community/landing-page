@@ -1,7 +1,6 @@
 +++
 author = ""
 date = 2023-02-21T15:00:00Z
-draft = true
 excerpt = ""
 image = "/images/blog/DFGC_logo_banner_black.webp"
 image_alt = ""
@@ -17,72 +16,63 @@ extra = []
 title = ""
 
 +++
-# 概要
+# Overview
 
-Payroll-NFTとは、SNSアカウント証明によるトークン送信プラットフォームです。
+Payroll-NFT is a token transfer platform based on SNS account verification.
 
-通常の送金は宛先のアドレスを指定しますが、Payroll-NFTではSNS認証されたNFTの保有アドレスを宛先として指定します。
+While normal token transfers specify destination address, Payroll-NFT specifies the NFT holding address authenticated by SNS as the destination address.
 
-具体的には
+The mechanism is as follows;
 
-1. 受け取り手がSNS認証と共にNFTをMint（SNSアカウントとtokenIDが紐づく）
-2. 送り手がSNSアカウントと金額を指定して送金
-3. Payroll-NFTがSNSアカウント→tokenID→Ownerとアドレスを解決
+1. The Receiver mints the NFT by SNS authentication (SNS account and tokenID to be linked)
+2. The Sender specifies the SNS account and token amount for transfer.
+3. Payroll-NFT resolves linkage among the SNS account → tokenID → Owner address.
 
-という処理が行われます。
+Senders specify an SNS account from the NFT minted list when specifying the recipient, and there is no need to know his/her addresses.
 
-送り手は宛先を指定する際にMint済リストからSNSアカウントを指定するためアドレスを認識する必要がありません。
+Recipients can change the recipient of the payment by simply forwarding the NFT to another address.
 
-受け取り手はNFTを任意のアドレスに転送するだけで支払いの受取先を変更できます。
+In this way, both the sender and receiver can eliminate communication regarding the payee.
 
-このように、送り手・受け取り手ともに送金先に関するコミュニケーションを省くことができます。
+This PoC utilizes Discord authentication.
 
-PoCでは認証アカウントとしてDiscordを利用します。
+# Test Overview
 
-# テスト概要
+The testing has been ongoing.
 
-GoerliテストネットワークへのコントラクトデプロイとUIの検証環境立ち上げでテストを行います。
+Contracts have been deployed on Goerli test network.
 
-テスト環境には以下のURLでアクセスできます。
+UI is accessible from following URL: [http://dev-payroll-nft.defigeek.xyz/http://dev-payroll-nft.defigeek.xyz/](http://dev-payroll-nft.defigeek.xyz/ "http://dev-payroll-nft.defigeek.xyz/")
 
-UI：[http://dev-payroll-nft.defigeek.xyz/](http://dev-payroll-nft.defigeek.xyz/ "http://dev-payroll-nft.defigeek.xyz/")
+Contract Address (Goerli): [0x8c0801cD33EF1B6e45De72A136FeCD4AD44DA770](https://goerli.etherscan.io/address/0x8c0801cD33EF1B6e45De72A136FeCD4AD44DA770)
 
-コントラクト(Goerli)：[0x8c0801cD33EF1B6e45De72A136FeCD4AD44DA770](https://goerli.etherscan.io/address/0x8c0801cD33EF1B6e45De72A136FeCD4AD44DA770)
+Please raise if you have any UI/UX issues/suggestions to our Discord's [payroll-nft channel](https://discord.com/channels/705052448418693180/1075601594827149383)
 
-PoCでは以下の機能を実装しています。
-
-UI・UXの改善案はDFGCサーバーの[payroll-nftチャンネル](https://discord.com/channels/705052448418693180/1075601594827149383)に書き込みください。
-
-# 機能説明
+# Features
 
 ## NFT Mint
 
-* Discord認証
-* Wallet接続
-* [DFGCのDiscordサーバー](https://discord.com/invite/FQYXqVBEnh)へ参加
+* Discord Authentication
+* Wallet connection
+* Join [DFGC's Discord Server](https://discord.com/invite/FQYXqVBEnh)
 
-を満たすことでNFTをMintすることができます。
+By fulfilling the above 3 conditions, you can perform NFT minting. 
 
-このとき、アイコンとニックネームはサーバーニックネームではなくアカウント固有のものが利用されます。
+Discord’s account-specific avatar icon and nickname will be used(instead of the server nickname) in NFT.
 
-Mint済みのNFTは最初にMintしたアドレスまたは現在保有するアドレスがBurnできます。
+Minted NFTs can be burned from address where they were first minted or the address where they are currently held. This is a remedy for private key leakage or theft due to hacking.
 
-これは秘密鍵流出やハッキングによる窃盗などの救済措置です。
+Once original NFT has been burned, it can be re-minted by following the initial procedure.
 
-Burnした場合は最初の手順で再Mintすることができます。
+## List of NFTs
 
-## NFT一覧
+You can check the list of minted NFTs. 
 
-MintされたNFTの一覧が確認できます。
+By clicking the icon you can go the remittance screen.
 
-リストのアイコンをクリックすることで送金画面に遷移します。
+## Token Transfer
 
-## 送金
-
-NFT保有者に対してトークンを送金できます。
-
-銘柄を選択すると保有量が表示されます。
-
-数量を入力（Decimalの考慮は不要）して確認ボタンを押下すると確認モーダルが現れます。
-
-内容が正しいことを確認したら送信ボタン押下でトランザクションが発行されます。
+\-You can send tokens to NFT holders.  
+\-Once you select a token, entere amount and press “confirm” button, a confirmation screen would pop up.   
+   
+ If the information is correct, click the Send button to submit the transaction.
