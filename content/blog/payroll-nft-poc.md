@@ -44,9 +44,9 @@ GoerliテストネットワークへのコントラクトデプロイとUIの検
 
 テスト環境には以下のURLでアクセスできます。
 
-UI：
+UI：[http://dev-payroll-nft.defigeek.xyz/](http://dev-payroll-nft.defigeek.xyz/ "http://dev-payroll-nft.defigeek.xyz/")
 
-コントラクト：
+コントラクト(Goerli)：[0x8c0801cD33EF1B6e45De72A136FeCD4AD44DA770](https://goerli.etherscan.io/address/0x8c0801cD33EF1B6e45De72A136FeCD4AD44DA770)
 
 PoCでは以下の機能を実装しています。
 
