@@ -86,7 +86,7 @@ fields:
 pages:
 - content/blog/_index.en.md
 - content/blog/defigeek-community.md
-- content/blog/payroll-nft-poc-overview.md
+- content/blog/payroll-nft-poc-overview.en.md
 - content/blog/payroll-nft-poc.md
 - content/blog/yamato-protocol-1.md
 - content/blog/yamato-protocol-10.md
