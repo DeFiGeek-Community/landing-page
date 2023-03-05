@@ -1,12 +1,11 @@
 +++
 author = ""
-date = 2023-01-31T15:00:00Z
-draft = true
+date = 2023-02-28T15:00:00Z
 excerpt = ""
 image = "/images/blog/DFGC_logo_banner.webp"
 image_alt = ""
 layout = "post"
-subtitle = "YASHIRO Logo finalized, NFT Payroll project progress"
+subtitle = "Payroll-NFT PoC Testing & Naming competition."
 tags = "オフィシャルアナウンス"
 thumb_image = "/images/blog/DFGC_logo_banner.webp"
 thumb_image_alt = ""
@@ -48,10 +47,6 @@ In November, we conducted an exhaustive verification of state change patterns us
 Once they are completed we will deploy contracts in the Goerli network & support front and subgraph.
 
 ### Interface Development
-
-Changes in January
-
- * UI: [Language Button change](https://github.com/DeFiGeek-Community/yamato-interface/pull/171)
 
 [app.yamato.fi](https://app.yamato.fi/) and [icp-app.yamato.fi](https://icp-app.yamato.fi/) has been deployed for production environments. Current development environment, [dev-app.yamato.fi](https://dev-app.yamato.fi/) will be used as an interface to verify additional functions on the test net after the main net launch.
 
@@ -114,7 +109,7 @@ We plan to expand the range of expression by having multiple avator models from 
 
 ### Logo Competition
 
-[Snapshot](https://vote.defigeek.xyz/#/proposal/0x9018168a19316a94ee74dae81fe7095cdf2890deda9fba963c67da74af4cf37e) voting for YASHIRO Avatar NFT Logo went to Proposal B, which received the most votes. 
+[Snapshot](https://vote.defigeek.xyz/#/proposal/0x9018168a19316a94ee74dae81fe7095cdf2890deda9fba963c67da74af4cf37e) voting for YASHIRO Avatar NFT Logo went to Proposal B, which received the most votes.
 
 Going forward the official logo will be used in all materials including landing pages. Thanks to all $TXJP holders who voted.
 
@@ -150,7 +145,34 @@ This eliminates communication between sender and receivers about wallet addresse
 
 The PoC targets DFGC contributors & allow them to mint NFTs using Discord authentication and receive payroll & rewards.
 
-NFT contracts, NFT mint page for receiver, and management site for senders are in development. The contracts coding has completed and the NFT mint page is currently under development & to be on testnet soon.
+### PoC Testing
+
+Contracts including core functionalities of Payroll-NFT, namely Minting and token transfer, has been deployed on the Goerli testnet.  
+  
+ URLs:  
+ - [PoC test overview article](https://defigeek.xyz/en/blog/payroll-nft-poc-overview/)  
+ - [PoC test interface](https://dfgc-preview.netlify.app/blog/2023-2-1/)
+
+  
+Several issues has been found during the testing and teams has working on bug fixes, adding new features and improving security. Here is the Discord’s channel [payroll-nft-ama](https://discord.com/channels/705052448418693180/1075601594827149383) to report issues or suggestions from those who has participated in the testing.
+
+### Naming Competition
+
+We are holding a competition to decide the name of Payroll-NFT project. 
+
+The call for porposals has been closed and we are in the preliminary selection stage. Voting has started in the General Channel in Discord. (end by 10th March). The first round is a reaction voting in Discord and you can vote for as many proposals as you want.
+
+## -Airdrop Tool-
+
+We are developing a airdrop tool using Merkle-tree.
+
+  
+Workflow specification:  
+ #1. the Distributor decides on eligible address & quantity in the UI.   
+ #2. compress the information of #1 into a Merkle-tree, register it in the contract, and deposit a token  
+ #3. the owners of eligible address claim tokens from the UI and tokens are transferred.
+
+This tool is enable distributor to determine amount of token to be distributed based on ownership of specific token in a designated block height. It is planned to be used in our airdrops to TXJP holders going forward. The contract has been developed and the UI is under development.
 
 # Vacant Positions
 
