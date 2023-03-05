@@ -164,7 +164,7 @@ The call for porposals has been closed and we are in the preliminary selection s
 
 ## -Airdrop Tool-
 
-We are developing a airdrop tool using Merkle-tree.
+We are developing a airdrop tool using Merkle-tree. The contract has been developed and the UI is under development.
 
   
 Workflow specification:  
@@ -172,7 +172,7 @@ Workflow specification:
  #2. compress the information of #1 into a Merkle-tree, register it in the contract, and deposit a token  
  #3. the owners of eligible address claim tokens from the UI and tokens are transferred.
 
-This tool is enable distributor to determine amount of token to be distributed based on ownership of specific token in a designated block height. It is planned to be used in our airdrops to TXJP holders going forward. The contract has been developed and the UI is under development.
+This tool is enable distributor to determine amount of token to be distributed based on ownership of specific token in a designated block height. It is planned to be used in our airdrops to TXJP holders going forward. 
 
 # Vacant Positions
 
