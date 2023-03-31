@@ -1,12 +1,12 @@
 +++
 author = ""
-date = 2023-02-28T14:00:00Z
+date = 2023-03-31T14:00:00Z
 draft = true
 excerpt = ""
 image = ""
 image_alt = ""
 layout = "post"
-subtitle = "Feb＝1st Feb 2023 - 28th Feb 2023（JST）"
+subtitle = "March 2023"
 tags = "財務レポート"
 thumb_image = "/images/blog/ogp-zaimu-report.webp"
 thumb_image_alt = ""
