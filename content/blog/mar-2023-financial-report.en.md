@@ -1,6 +1,6 @@
 +++
 author = ""
-date = 2023-03-31T14:00:00Z
+date = 2023-03-31T15:00:00Z
 draft = true
 excerpt = ""
 image = ""
@@ -22,7 +22,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 +++
 # Key highlights
 
-![](/images/blog/23021e.PNG)
+![](/images/blog/23031e.PNG)
 
 ・Gross Burn Rate: Total cash outflow (expense items: interest expense, relayers fee, labor cost, gas cost, incentives, etc.)  
 ・Net Burn Rate: Total Cash Flow (Gross Burn Rate + Rewards Claimed, interest earned and Airdrop received)  
@@ -35,7 +35,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Balance sheet
 
-![](/images/blog/23024e.PNG)
+![](/images/blog/23034e.PNG)
 
 ・Fair value of assets and liabilities: Japanese yen equivalents displayed on Zerion, DeBank, and Zapper  
 ・Accrued interest account on liabilities is no longer in use but is included in the short-term debt borrowing amount  
@@ -51,13 +51,13 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 #### **Compound.finance**
 
-![](/images/blog/23022e.PNG)
+![](/images/blog/23032e.PNG)
 
 # 
 
 # Income statement
 
-![](/images/blog/23025e.PNG)
+![](/images/blog/23035e.PNG)
 
 ・Gas cost in JPY is used the figures displayed in Zerion.  
 ・Other income (Others) consists mostly of LPs ETH increase and revenue recognition of TXJP expenses (both excluding fx gain/loss)  
@@ -67,7 +67,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Token holders
 
-![](/images/blog/23026e.PNG)
+![](/images/blog/23036e.PNG)
 
 Balancer V1: 0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f  
 Balancer V2: 0xba12222222228d8ba445958a75a0704d566bf2c8  
@@ -110,7 +110,7 @@ pr.defigeek.eth: [0x893e8ddef046f42df15541009a2ef885f542024c](https://etherscan.
 
 cofounder.defigeek.eth: [0x4534f4968006ca9eca3bac922022c7ecba066e9e](https://etherscan.io/address/0x4534f4968006ca9eca3bac922022c7ecba066e9e)
 
-$TXJP(TenX Community JAPAN Token): [0x961dd84059505d59f82ce4fb87d3c09bec65301d](https://etherscan.io/token/0x961dd84059505d59f82ce4fb87d3c09bec65301d)
+$TXJP: [0x961dd84059505d59f82ce4fb87d3c09bec65301d](https://etherscan.io/token/0x961dd84059505d59f82ce4fb87d3c09bec65301d)
 
 ### Commuity URLs
 
