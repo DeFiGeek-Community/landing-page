@@ -1,7 +1,6 @@
 +++
 author = ""
 date = 2023-03-31T15:00:00Z
-draft = true
 excerpt = ""
 image = ""
 image_alt = ""
