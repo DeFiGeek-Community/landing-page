@@ -44,7 +44,7 @@ In November, we conducted an exhaustive verification of state change patterns us
 \* Fork main-net environment  
 \* Confirm test sequences
 
-We are on track to address the multi-sig management practices for deployments and upgrades hence we have tested contracts deployment & upgrade on Goerli network in March. 
+We are on track to address the multi-sig management practices for deployments and upgrades hence we have tested contracts deployment & upgrade on Goerli network in March.
 
 After confirming the differences between the test net and the main net, we proceeded to the mainnet launch.
 
@@ -156,13 +156,13 @@ Contracts including core functionalities of Payroll-NFT, namely Minting and toke
 URLs:
 
 * [PoC test overview article](https://defigeek.xyz/en/blog/payroll-nft-poc-overview/)
-* [PoC test interface](https://dfgc-preview.netlify.app/blog/2023-2-1/)
+* [PoC test interface](http://dev-payroll-nft.defigeek.xyz/)
 
 Several issues has been found during the testing and teams has working on bug fixes, adding new features and improving security. Here is the Discord’s channel [payroll-nft-ama](https://discord.com/channels/705052448418693180/1075601594827149383) to report issues or suggestions from those who has participated in the testing.
 
 ### Naming Competition
 
-The final Snapshot Voting for the naming competition has ended, and the official name of Payroll-NFT has been decided as Yabumi by the highest number of votes. 
+The final Snapshot Voting for the naming competition has ended, and the official name of Payroll-NFT has been decided as Yabumi by the highest number of votes.
 
 Through the competition 24 entries were submitted. We thank everyone for their participation.
 
