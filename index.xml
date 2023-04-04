@@ -26,7 +26,47 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・総発行枚数21万枚TXJPは固定。
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
 ・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
-財務活動 3月12日 safe.defigeek.eth Github有料アカウント＆リレーヤー報酬を送りました。</description></item><item><title>2023年2月度開発活動報告</title><link>/blog/2023-2-1/</link><pubDate>Tue, 28 Feb 2023 15:00:00 +0000</pubDate><guid>/blog/2023-2-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+財務活動 3月12日 safe.defigeek.eth Github有料アカウント＆リレーヤー報酬を送りました。</description></item><item><title>2023年3月度開発活動報告</title><link>/blog/2023-3-1/</link><pubDate>Fri, 31 Mar 2023 15:00:00 +0000</pubDate><guid>/blog/2023-3-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
+本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
+進捗報告 ーYAMATOー コア開発 1社目の監査レポートのファイナライズが完了しました。
+リポジトリ公開から先行して近日発行予定です。
+2社目の依頼については、1社目の監査でYamato固有のCriticalなIssueが発見されなかったことから一時保留としました。
+バージョンアップやローンチ後TVL増加などのタイミングで再度選定予定です。
+監査の代替としてImmunefiへバウンティ設置を予定しています。
+こちらはリポジトリ公開とともにバウンティを開始できるよう調整中です。
+メインネットローンチまでの残タスクは
+テストネット（Goerli）およびメインネット向けデプロイスクリプトの作成 マルチシグアップデート手法のテスト 各ネットワークへのsubgraph設置 となっています。
+11月から
+デプロイおよびアップグレードについてマルチシグを用いた管理手法の調査 メインネットフォーク環境の作成とテストシーケンスの調査 Fuzzテストによる状態遷移パターンの網羅的なテスト を行っています。
+「デプロイおよびアップグレードについてマルチシグを用いた管理手法の調査」については対応の目途が立ったため、Goerliネットワークにてデプロイとアップグレードのテストを行いました。
+テストネットとメインネットの差分について確認したのちメインネットローンチへと進みます。
+その他ロードマップなどについてはこちらの記事をご確認ください。
+Interface開発 現在開発環境として用意しているdev-app.yamato.fiとは別に、本番環境としてapp.yamato.fiとicp-app.yamato.fiを設置しました。
+dev-app.yamato.fiはメインネットローンチ後、テストネットでの追加機能の検証用インターフェースとして稼働する予定です。
+Goerliローンチに伴ってRinkeby向け設定をGoerli向け設定に変更しました。
+現時点でV1に必要な機能はすべて実装済みで正常に動作することが確認されています。
+今後はV1.5、V2のための開発を進行する予定ですが、改善要望があれば検討いたします。
+ドキュメント 現在GitBookドキュメントを執筆・仮公開中です。
+誤字・脱字や不明点があれば改善いたしますのでこちらに書き込みください。
+ーYADORIー コア開発 SIWE（Sign In With Ethereum）し、そのEOAが保有するNFT内のポイントの転送を行うWebアプリのプロトタイプが稼働しています。
+ログイン後にNFTを他EOAに転送することで他EOAでも２重ログインできるといった非アトミック性を抱えているため、オフチェーンでの対応を検討しています。
+PoCの次の段階としてNFT内のポイントとギフトを交換するカタログアプリの構築を想定しています。
+NFTイメージ開発 DFGCから発行するNFTイメージの制作を進めています。
+2D画像または3DCG動画の提供を予定しており、枠の形や質感、主題のバリエーションを策定中です。
+ロゴコンペティション ネーミングコンペティションに続いてロゴコンペティションを開催します。
+デザイン部主導でロゴを完成させる方向で動く予定ですが、ラフやモチーフの提案・議論の参加は歓迎いたします。
+YADORIロゴマークコンペティションにてご意見お待ちしております。
+ーYASHIROー YASHIROとは、EOAの状態（ETH保有数、トランザクション発行数など）によって図柄が変化する、EOAのアイデンティティを示すNFTです。
+またアーティスト・クリエイターによるアバターが集うプラットフォームでもあります。
+コア開発 コントラクト、画像選択エンジン、ランディングページの実装を進めています。
+またプロジェクトの持続・発展性を向上させるためのトケノミクスも検討中です。
+上記の仕様をドキュメントにまとめつつ、内容が確定し次第ランディングページを立ち上げます。
+NFTイメージ開発 現在はデザイン部メンバー主導で開発を行っています。
+V1で提供するモデルは
+和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。</description></item><item><title>Development Report Mar 2023</title><link>/blog/development-report-mar-2023/</link><pubDate>Fri, 31 Mar 2023 15:00:00 +0000</pubDate><guid>/blog/development-report-mar-2023/</guid><description>Introduction DFGC has been developing several DeFi &amp;amp; NFT projects. They are ongoing in an undisclosed manner in order to protect our ideas &amp;amp; codes from being stolen.
+The purpose of publishing this report is to secure transparency of our development activity to some extent &amp;amp; increase public awareness of our activity to attract people to join &amp;amp; be contributors to our community.
+Progress Report ーYAMATOー Core Development The first audit report has been finalized.</description></item><item><title>2023年2月度開発活動報告</title><link>/blog/2023-2-1/</link><pubDate>Tue, 28 Feb 2023 15:00:00 +0000</pubDate><guid>/blog/2023-2-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ーYAMATOー コア開発 1社目の監査レポートのファイナライズが完了しました。
