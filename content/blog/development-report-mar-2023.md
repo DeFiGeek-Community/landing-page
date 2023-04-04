@@ -1,12 +1,11 @@
 +++
 author = ""
-date = 2023-02-28T15:00:00Z
-draft = true
+date = 2023-03-31T15:00:00Z
 excerpt = ""
 image = "/images/blog/DFGC_logo_banner.webp"
 image_alt = ""
 layout = "post"
-subtitle = "Payroll-NFT PoC Testing & Naming competition."
+subtitle = "Concluded Payroll-NFT naming competition & Launched Yamato on Goerli"
 tags = "オフィシャルアナウンス"
 thumb_image = "/images/blog/DFGC_logo_banner.webp"
 thumb_image_alt = ""
@@ -45,11 +44,15 @@ In November, we conducted an exhaustive verification of state change patterns us
 \* Fork main-net environment  
 \* Confirm test sequences
 
-Once they are completed we will deploy contracts in the Goerli network & support front and subgraph.
+We are on track to address the multi-sig management practices for deployments and upgrades hence we have tested contracts deployment & upgrade on Goerli network in March. 
+
+After confirming the differences between the test net and the main net, we proceeded to the mainnet launch.
 
 ### Interface Development
 
 [app.yamato.fi](https://app.yamato.fi/) and [icp-app.yamato.fi](https://icp-app.yamato.fi/) has been deployed for production environments. Current development environment, [dev-app.yamato.fi](https://dev-app.yamato.fi/) will be used as an interface to verify additional functions on the test net after the main net launch.
+
+With the deployment on Goerli, all settings for Rinkeby have changed to those for Goerli.
 
 All required functions for V1 have already been implemented and are confirmed to work properly.
 
@@ -132,9 +135,9 @@ This is not a DApp however it has a significant impact on further development of
 
 Community dashboard roadmap is [here](https://github.com/haruketh/DFGC/blob/main/after_v1.md).
 
-## ーPayroll-NFTー
+## ーYabumi (formerly known as Payroll-NFT)ー
 
-Payroll-NFT is a token transfer platform based on SNS account authentication. Usual token transfers addresses a receiver’s address however Payroll-NFT address the NFT holding address authenticated by SNS Auth for token transfers.
+Yabumi is a token transfer platform based on SNS account authentication. Usual token transfers addresses a receiver’s address however Payroll-NFT address the NFT holding address authenticated by SNS Auth for token transfers.
 
 This is how it works in specific:
 
@@ -148,32 +151,31 @@ The PoC targets DFGC contributors & allow them to mint NFTs using Discord authen
 
 ### PoC Testing
 
-Contracts including core functionalities of Payroll-NFT, namely Minting and token transfer, has been deployed on the Goerli testnet.  
-  
- URLs:  
- - [PoC test overview article](https://defigeek.xyz/en/blog/payroll-nft-poc-overview/)  
- - [PoC test interface](https://dfgc-preview.netlify.app/blog/2023-2-1/)
+Contracts including core functionalities of Payroll-NFT, namely Minting and token transfer, has been deployed on the Goerli testnet.
 
-  
+URLs:
+
+* [PoC test overview article](https://defigeek.xyz/en/blog/payroll-nft-poc-overview/)
+* [PoC test interface](https://dfgc-preview.netlify.app/blog/2023-2-1/)
+
 Several issues has been found during the testing and teams has working on bug fixes, adding new features and improving security. Here is the Discord’s channel [payroll-nft-ama](https://discord.com/channels/705052448418693180/1075601594827149383) to report issues or suggestions from those who has participated in the testing.
 
 ### Naming Competition
 
-We are holding a competition to decide the name of Payroll-NFT project. 
+The final Snapshot Voting for the naming competition has ended, and the official name of Payroll-NFT has been decided as Yabumi by the highest number of votes. 
 
-The call for porposals has been closed and we are in the preliminary selection stage. Voting has started in the General Channel in Discord. (end by 10th March). The first round is a reaction voting in Discord and you can vote for as many proposals as you want.
+Through the competition 24 entries were submitted. We thank everyone for their participation.
 
 ## -Airdrop Tool-
 
 We are developing a airdrop tool using Merkle-tree. The contract has been developed and the UI is under development.
 
-  
 Workflow specification:  
- #1. the Distributor decides on eligible address & quantity in the UI.   
- #2. compress the information of #1 into a Merkle-tree, register it in the contract, and deposit a token  
- #3. the owners of eligible address claim tokens from the UI and tokens are transferred.
+\#1. the Distributor decides on eligible address & quantity in the UI.  
+\#2. compress the information of #1 into a Merkle-tree, register it in the contract, and deposit a token  
+\#3. the owners of eligible address claim tokens from the UI and tokens are transferred.
 
-This tool is enable distributor to determine amount of token to be distributed based on ownership of specific token in a designated block height. It is planned to be used in our airdrops to TXJP holders going forward. 
+This tool is enable distributor to determine amount of token to be distributed based on ownership of specific token in a designated block height. It is planned to be used in our airdrops to TXJP holders going forward.
 
 # Vacant Positions
 
