@@ -1,27 +1,24 @@
-
 +++
 author = ""
-date = 2023-04-1T15:00:00Z
+date = 2023-04-01T15:00:00Z
 excerpt = ""
 image = ""
-image\_alt = ""
+image_alt = ""
 layout = "post"
 subtitle = "April 2023"
 tags = "財務レポート"
-thumb\_image = "/images/blog/ogp-zaimu-report.webp"
-thumb\_image\_alt = ""
+thumb_image = "/images/blog/ogp-zaimu-report.webp"
+thumb_image_alt = ""
 title = "Apr 2023 financial report"
-\[seo]
+[seo]
 description = ""
 title = ""
-\[\[seo.extra]]
+[[seo.extra]]
 keyName = "property"
 name = "og:image"
 value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 +++
-
-TEST
 
 # Key highlights
 
@@ -78,7 +75,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 
 Note:
 
-・Balancer V1, V2 and Uniswap V3 LP positions are owned by DAO Treasury  (defigeek.eth).\
+・Balancer V1, V2 and Uniswap V3 LP positions are owned by DAO Treasury (defigeek.eth).\
 ・Total supply is fixed at 210,000 TXJP.\
 ・Allotment for future prospective Series A, B and C (total 31,500 TXJP) have issued and been held at Multisig Safe (safe.defigeek.eth).\
 ・TXJP held at contract (0x0028a459d6705b30333e98d5bcb34dd1b21e2a89) is user’s fund in Rari’s Fuse. No Treasury fund is deposited in the pool.\
@@ -99,7 +96,7 @@ Please refer to Japanese version of financial report to see all transactions dat
 ・The information in this article has been obtained from reliable sources, but we do not guarantee or promise its completeness, accuracy, or appropriateness. The community is not liable for any damages incurred by users of this article due to data, expressions, errors, etc. used in this article.\
 ・The financial statements and key ratios used in this article have been specially prepared by the Finance Department of the community to conform to the community's financial reporting and have not been audited by a certified public accountant or auditing firm.
 
-***
+---
 
 ### Addresses
 
@@ -123,6 +120,6 @@ Discord: [http://discord.gg/FQYXqVBEnh](http://discord.gg/vyEQ43m6gB "http://di
 
 GitHub: [https://github.com/DeFiGeek-Community](https://github.com/DeFiGeek-Community "https://github.com/DeFiGeek-Community")
 
-***
+---
 
 Please direct any comments or questions regarding this report to [English channel](https://discord.gg/vyEQ43m6gB) at DeFiGeek community discord.
