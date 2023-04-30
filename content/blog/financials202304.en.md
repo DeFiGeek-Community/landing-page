@@ -1,19 +1,20 @@
+
 +++
 author = ""
-date = 2023-04-01T15:00:00Z
+date = 2023-04-30T15:00:00Z
 excerpt = ""
 image = ""
-image_alt = ""
+image\_alt = ""
 layout = "post"
 subtitle = "April 2023"
 tags = "財務レポート"
-thumb_image = "/images/blog/ogp-zaimu-report.webp"
-thumb_image_alt = ""
+thumb\_image = "/images/blog/ogp-zaimu-report.webp"
+thumb\_image\_alt = ""
 title = "Apr 2023 financial report"
-[seo]
+\[seo]
 description = ""
 title = ""
-[[seo.extra]]
+\[\[seo.extra]]
 keyName = "property"
 name = "og:image"
 value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
@@ -22,7 +23,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Key highlights
 
-![](/images/blog/23031e.PNG)
+![](https://assets.tina.io/6ef504c9-e387-422e-9477-709e34b8e475/23041xe.PNG)
 
 ・Gross Burn Rate: Total cash outflow (expense items: interest expense, relayers fee, labor cost, gas cost, incentives, etc.)\
 ・Net Burn Rate: Total Cash Flow (Gross Burn Rate + Rewards Claimed, interest earned and Airdrop received)\
@@ -35,7 +36,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Balance sheet
 
-![](/images/blog/23034e.PNG)
+![](https://assets.tina.io/6ef504c9-e387-422e-9477-709e34b8e475/23042e.PNG)
 
 ・Fair value of assets and liabilities: Japanese yen equivalents displayed on Zerion, DeBank, and Zapper\
 ・Accrued interest account on liabilities is no longer in use but is included in the short-term debt borrowing amount\
@@ -51,13 +52,13 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 #### **Compound.finance**
 
-![](/images/blog/23032e.PNG)
+![](https://assets.tina.io/6ef504c9-e387-422e-9477-709e34b8e475/23041e.PNG)
 
 #
 
 # Income statement
 
-![](/images/blog/23035e.PNG)
+![](https://assets.tina.io/6ef504c9-e387-422e-9477-709e34b8e475/23044e.PNG)
 
 ・Gas cost in JPY is used the figures displayed in Zerion.\
 ・Other income (Others) consists mostly of LPs ETH increase and revenue recognition of TXJP expenses (both excluding fx gain/loss)\
@@ -67,7 +68,9 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Token holders
 
-![](/images/blog/23036e.PNG)
+![](https://assets.tina.io/6ef504c9-e387-422e-9477-709e34b8e475/23045e.PNG)
+
+![](https://assets.tina.io/6ef504c9-e387-422e-9477-709e34b8e475/23046e.PNG)
 
 Balancer V1: 0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f\
 Balancer V2: 0xba12222222228d8ba445958a75a0704d566bf2c8\
@@ -96,7 +99,7 @@ Please refer to Japanese version of financial report to see all transactions dat
 ・The information in this article has been obtained from reliable sources, but we do not guarantee or promise its completeness, accuracy, or appropriateness. The community is not liable for any damages incurred by users of this article due to data, expressions, errors, etc. used in this article.\
 ・The financial statements and key ratios used in this article have been specially prepared by the Finance Department of the community to conform to the community's financial reporting and have not been audited by a certified public accountant or auditing firm.
 
----
+***
 
 ### Addresses
 
@@ -120,6 +123,6 @@ Discord: [http://discord.gg/FQYXqVBEnh](http://discord.gg/vyEQ43m6gB "http://di
 
 GitHub: [https://github.com/DeFiGeek-Community](https://github.com/DeFiGeek-Community "https://github.com/DeFiGeek-Community")
 
----
+***
 
 Please direct any comments or questions regarding this report to [English channel](https://discord.gg/vyEQ43m6gB) at DeFiGeek community discord.
