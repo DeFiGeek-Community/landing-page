@@ -3,12 +3,12 @@
 author = ""
 date = 2023-04-30T15:00:00Z
 excerpt = ""
-image = "/images/blog/DFGC\_logo\_banner.webp"
+image = "/images/blog/DFGC_logo_banner.webp"
 image_alt = ""
 layout = "post"
 subtitle = "Launching naming competition for Merkle Distributors. Prepare for launch of Yabumi."
 tags = "オフィシャルアナウンス"
-thumb_image = "/images/blog/DFGC\_logo\_banner.webp"
+thumb_image = "/images/blog/DFGC_logo_banner.webp"
 thumb_image_alt = ""
 title = "Development Report Apr 2023"
 [seo]
@@ -17,7 +17,7 @@ title = ""
 [[seo.extra]]
 keyName = "property"
 name = "og:image"
-value = "https://defigeek.xyz/images/DFGC\_logo\_banner.webp"
+value = "https://defigeek.xyz/images/DFGC_logo_banner.webp"
 
 +++
 
