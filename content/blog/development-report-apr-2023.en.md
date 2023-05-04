@@ -6,11 +6,11 @@ excerpt = ""
 image = "/images/blog/DFGC\_logo\_banner.webp"
 image\_alt = ""
 layout = "post"
-subtitle = "マークルディストリビューターのネーミングコンペ開催、Yabumiのローンチ準備"
+subtitle = "Launching naming competition for Merkle Distributors. Prepare for launch of Yabumi."
 tags = "オフィシャルアナウンス"
 thumb\_image = "/images/blog/DFGC\_logo\_banner.webp"
 thumb\_image\_alt = ""
-title = "2023年4月度開発活動報告"
+title = "Development Report Apr 2023"
 \[seo]
 description = ""
 title = ""
@@ -18,261 +18,214 @@ title = ""
 keyName = "property"
 name = "og:image"
 value = "https://defigeek.xyz/images/DFGC\_logo\_banner.webp"
+
 +++
 
-# はじめに
+# Introduction
 
-DFGC では複数のプロジェクトを進行させています。
+DFGC has been developing several DeFi & NFT projects. They are ongoing in an undisclosed manner in order to protect our ideas & codes from being stolen.
 
-これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
+The purpose of publishing this report is to secure transparency of our development activity to some extent & increase public awareness of our activity to attract people to join & be contributors to our community.
 
-本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
+# Progress Report
 
-# 進捗報告
+## ーYAMATOー
 
-## ー YAMATO ー
+### Core Development
 
-### コア開発
+The first audit report has been finalized. Soon the report will be published ahead of the repository release.
 
-1 社目の監査レポートのファイナライズが完了しました。\
-リポジトリ公開から先行して近日発行予定です。
+The second audit has been temporarily put on hold as no critical Yamato-specific issues were found during the first audit.\
+We will proceed with a second audit at the time of version upgrade or post-launch significant TVL increases.
 
-2 社目の依頼については、1 社目の監査で Yamato 固有の Critical な Issue が発見されなかったことから一時保留としました。\
-バージョンアップやローンチ後 TVL 増加などのタイミングで再度選定予定です。
+Meanwhile, we are in process setting up a bounty on Immunefi as an alternative to a second audit. Scheduling listing on Immunefi once the repository is released.
 
-監査の代替として Immunefi へバウンティ設置を予定しています。\
-こちらはリポジトリ公開とともにバウンティを開始できるよう調整中です。
+In November, we conducted an exhaustive verification of state change patterns using the Fuzz test & currently working on the following:
 
-メインネットローンチまでの残タスクは
+* Check how to manage contracts deployment & upgrades by multi-sig
+* Fork main-net environment
+* Confirm test sequences
 
-* テストネット（Goerli）およびメインネット向けデプロイスクリプトの作成
-* マルチシグアップデート手法のテスト
-* 各ネットワークへの subgraph 設置
+We are on track to address the multi-sig management practices for deployments and upgrades hence we have tested contracts deployment & upgrade on Goerli network in March.
 
-となっています。
+After confirming the differences between the test net and the main net, we proceeded to the mainnet launch.
 
-11 月から
+### Interface Development
 
-* デプロイおよびアップグレードについてマルチシグを用いた管理手法の調査
-* メインネットフォーク環境の作成とテストシーケンスの調査
-* Fuzz テストによる状態遷移パターンの網羅的なテスト
+[app.yamato.fi](https://app.yamato.fi/) and [icp-app.yamato.fi](https://icp-app.yamato.fi/) has been deployed for production environments. Current development environment, [dev-app.yamato.fi](https://dev-app.yamato.fi/) will be used as an interface to verify additional functions on the test net after the main net launch.
 
-を行っています。
+With the deployment on Goerli, all settings for Rinkeby have changed to those for Goerli.
 
-「デプロイおよびアップグレードについてマルチシグを用いた管理手法の調査」については対応の目途が立ったため、Goerli ネットワークにてデプロイとアップグレードのテストを行いました。
+All required functions for V1 have already been implemented and are confirmed to work properly.
 
-テストネットとメインネットの差分について確認したのちメインネットローンチへと進みます。
+We plan to proceed with developments for V1.5 and V2, while any requests for improvement from users to be assessed & reflected through developments.
 
-その他ロードマップなどについては[こちらの記事](https://defigeek.xyz/blog/yamato-protocol-10/)をご確認ください。
+### Documentation
 
-### Interface 開発
+The draft docs are tentatively published in [Gitbook](https://defigeek.gitbook.io/yamato-protocol-dokyumento/4zgf5zCGE21eAieiUqMz/). If there are any typos or unclear points, please advise us in [Discord](https://discord.com/channels/705052448418693180/899916069161041931).
 
-現在開発環境として用意している[dev-app.yamato.fi](https://dev-app.yamato.fi/)とは別に、本番環境として[app.yamato.fi](https://app.yamato.fi/)と[icp-app.yamato.fi](https://icp-app.yamato.fi/)を設置しました。
+## ーYADORIー
 
-[dev-app.yamato.fi](https://dev-app.yamato.fi/)はメインネットローンチ後、テストネットでの追加機能の検証用インターフェースとして稼働する予定です。
+### Core Development
 
-Goerli ローンチに伴って Rinkeby 向け設定を Goerli 向け設定に変更しました。
+Our PoC is a catalog application to exchange reward points and gifts in the NFT.
 
-現時点で V1 に必要な機能はすべて実装済みで正常に動作することが確認されています。
+A prototype of the web application is on live. It performs SIWE (Sign In With Ethereum) and transfers points in the NFT held by the EOA to other NFT.
 
-今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
+Due to non-atomic nature (possible transfer of the NFT to another EOA after login & double login at the other EOA) we are considering implementing an off-chain solution.
 
-### ドキュメント
+### NFT Image Development
 
-現在[GitBook ドキュメント](https://defigeek.gitbook.io/yamato-protocol-dokyumento/4zgf5zCGE21eAieiUqMz/)を執筆・仮公開中です。
+We are in the process of designing NFT images to be issued by DFGC.
 
-誤字・脱字や不明点があれば改善いたしますので[こちら](https://discord.com/channels/705052448418693180/899916069161041931)に書き込みください。
+Our plan is to issue 2D images or 3DCG videos. Setting up a variety of frame shapes, texture, and themes are in the development plan.
 
-## ー YADORI ー
+### Logo Competition
 
-### コア開発
+The logo competition initiative is led by the Design Department. Meanwhile we are open to receive any drafts or design motif proposals to have further discussion.
 
-SIWE（Sign In With Ethereum）し、その EOA が保有する NFT 内のポイントの転送を行う Web アプリのプロトタイプが稼働しています。
+Please join the [YADORI Logo Competition thread](https://discord.com/channels/705052448418693180/974927414088056882).
 
-ログイン後に NFT を他 EOA に転送することで他 EOA でも２重ログインできるといった非アトミック性を抱えているため、オフチェーンでの対応を検討しています。
+## ーYASHIROー
 
-PoC の次の段階として NFT 内のポイントとギフトを交換するカタログアプリの構築を想定しています。
+YASHIRO is an NFT that evolves its design based on the status of EOA (number of ETH holdings, number of transactions, etc.) and it represents the identity of EOA.\
+It is also a platform for Avatar's illustration by designers.
 
-### NFT イメージ開発
+### Core Development
 
-DFGC から発行する NFT イメージの制作を進めています。
+The implementation of contracts, image selection engine, and landing page is ongoing.
 
-2D 画像または 3DCG 動画の提供を予定しており、枠の形や質感、主題のバリエーションを策定中です。
+Tokenomics draft is in discussion. This is to ensure project stability & sustainable future development through introducing a utility token.
 
-### ロゴコンペティション
+The landing page will be published once all specifications document is prepared.
 
-ネーミングコンペティションに続いてロゴコンペティションを開催します。
+### NFT Image Development
 
-デザイン部主導でロゴを完成させる方向で動く予定ですが、ラフやモチーフの提案・議論の参加は歓迎いたします。
+Development is currently led by the Design Department.
 
-[YADORI ロゴマークコンペティション](https://discord.com/channels/705052448418693180/974927414088056882)にてご意見お待ちしております。
+Themes of avatar model in V1 are followings
 
-## ー YASHIRO ー
+* Modest representation of “Wa” (Japanese cultural concept)
+* Crypto and sense of festivity
+* Ennui emotional expression that owners feel an affinity
 
-YASHIRO とは、EOA の状態（ETH 保有数、トランザクション発行数など）によって図柄が変化する、EOA のアイデンティティを示す NFT です。
+We continue to refine designs and will share them on Discord.
 
-またアーティスト・クリエイターによるアバターが集うプラットフォームでもあります。
+We plan to expand the range of expression by having multiple avator models from various designers. If you are a designer please reach out [NFT Department](https://discord.com/channels/705052448418693180/897682225913528420) to learn how to contribute your model/character into the Wallet Avatar NFT.
 
-### コア開発
+### Logo Competition
 
-コントラクト、画像選択エンジン、ランディングページの実装を進めています。
+[Snapshot](https://vote.defigeek.xyz/#/proposal/0x9018168a19316a94ee74dae81fe7095cdf2890deda9fba963c67da74af4cf37e) voting for YASHIRO Avatar NFT Logo went to Proposal B, which received the most votes.
 
-またプロジェクトの持続・発展性を向上させるためのトケノミクスも検討中です。
-
-上記の仕様をドキュメントにまとめつつ、内容が確定し次第ランディングページを立ち上げます。
-
-### NFT イメージ開発
-
-現在はデザイン部メンバー主導で開発を行っています。
-
-V1 で提供するモデルは
-
-* 和（日本からのプロジェクト）を慎ましく主張
-* クリプト=お祭り感を演出
-* 所有者に寄り添うアンニュイな感情表現
-
-をテーマに作成しています。
-
-変化するパラメータの確定とそれに沿ったデザインを作成中です。
-
-パラメータの指定とそれに沿った画像を出力するモックサイトを開発しています。\
-準備が整い次第オープンチャンネルで公開予定です。
-
-モデルは複数のクリエイターの方から提供してもらうことによって表現の幅を広げる予定です。
-
-モデル・キャラクター等を Wallet アバター NFT に組み込んでいただける・概要について詳しく知りたいデザイナーの方はコミュニティ Discord の[NFT 部](https://discord.com/channels/705052448418693180/897682225913528420)にてご連絡ください。
-
-### ロゴコンペティション
-
-ネーミングコンペティションに続いてロゴコンペティションを開催しました。
-
-[決選投票](https://snapshot.org/#/defigeek.eth/proposal/0x9018168a19316a94ee74dae81fe7095cdf2890deda9fba963c67da74af4cf37e)によって 3 案のうち 1 案に決定しました。
+Going forward the official logo will be used in all materials including landing pages. Thanks to all $TXJP holders who voted.
 
 ![](/images/blog/bafkreidgyfizfshzlulos25xxkcxuy6zmpyy3bf4xdrjtarxpfrn3pbyii.webp)
 
-今後はこちらのロゴマークをランディングページ等で利用していきます。
+## ーTXJP Analytics Siteー
 
-投票に参加してくださった皆様、ありがとうございました。
+As a first step of building a community dashboard, we have started to assess, design, and implement an analytics site that allows users to check statistics such as TXJP holders trend.
 
-## ー TXJP アナリティクスサイトー
+The site facilitates community members and others to assess risks such as large TXJP token holders, and contributes to maintaining the health of the community.
 
-コミュニティダッシュボード構築の第一弾として、TXJP ホルダー推移等の統計情報を確認できるアナリティクスサイトの検討・設計・実装を開始しました。
+For new community members the dashboard makes it easier to instantly understand and catch up with overall community status.
 
-メンバー及び第三者によるガバナンストークン TXJP の大きな偏りなどのリスク確認を容易にし、コミュニティの健全性維持に寄与します。
+A prototype can be found here [http://dashboard.defigeek.xyz/](http://dashboard.defigeek.xyz/ "http://dashboard.defigeek.xyz/").
 
-保有率が可視化されることで新規参加者でもキャッチアップが容易になります。
+Currently, we are developing and checking the operation in a private repository, but as soon as we confirm stable operation and license of the source code, it will be released as OSS, and to be open for your Commit.
 
-プロトタイプは[http://dashboard.defigeek.xyz/](http://dashboard.defigeek.xyz/ "http://dashboard.defigeek.xyz/")から確認できます。
+This is not a DApp however it has a significant impact on further development of the community.
 
-現在はプライベートリポジトリにて開発・動作確認を行っていますが、動作確認とソースコードのライセンスの確認が取れ次第 OSS として公開され、コミットが可能になります。
+Community dashboard roadmap is [here](https://github.com/haruketh/DFGC/blob/main/after_v1.md).
 
-これは Dapp ではありませんがコミュニティの発展に大きな影響を与えるものになりますので、開発・利用ともに注視していただければと思います。
+## ーYabumiー
 
-コミュニティダッシュボードの詳細な構想は[こちら](https://github.com/haruketh/DFGC/blob/main/after_v1.md)を参照ください。
+Yabumi is a token transfer platform based on SNS account authentication. Usual token transfers addresses a receiver’s address however Payroll-NFT address the NFT holding address authenticated by SNS Auth for token transfers.
 
-## ー Yabumi ー
+This is how it works in specific:
 
-Yabumi とは、SNS アカウント証明によるトークン送信プラットフォームです。
+1. A receiver mints NFT using SNS Auth (SNS account and tokenID has linked)
+2. A sender select the receiver's SNS account & token amount to transfer
+3. Payroll-NFT resolves linkage among SNS account, tokenID and owner/address.
 
-通常の送金は宛先のアドレスを指定しますが、Yabumi では SNS 認証された NFT の保有アドレスを宛先として指定します。
+This eliminates communication between sender and receivers about wallet addresses.
 
-具体的には
+The PoC targets DFGC contributors & allow them to mint NFTs using Discord authentication and receive payroll & rewards.
 
-1. 受け取り手が SNS 認証による NFT を Mint（SNS アカウントと tokenID が紐づく）
-2. 送り手が SNS アカウントと金額を指定して送金
-3. Yabumi が SNS アカウント →tokenID→Owner とアドレスを解決
+### PoC Testing
 
-という処理が行われます。
+Contracts including core functionalities of Payroll-NFT, namely Minting and token transfer, has been deployed on the Goerli testnet.
 
-送り手・受け取り手ともに送金先に関するコミュニケーションを省くことができます。
+We are tweaking settings and dependencies for the mainnet launch.
 
-メインネットローンチに向けてサーバー設定・依存関係の調整をおこなっています。
+URLs:
 
-### PoC テスト
+* [PoC test overview article](https://defigeek.xyz/en/blog/payroll-nft-poc-overview/)
+* [PoC test interface](http://dev-payroll-nft.defigeek.xyz/)
 
-基本機能である Mint や送金機能を実装し、Goerli テストネットにデプロイしました。
+Several issues has been found during the testing and teams has working on bug fixes, adding new features and improving security. Here is the Discord’s channel [payroll-nft-ama](https://discord.com/channels/705052448418693180/1075601594827149383) to report issues or suggestions from those who has participated in the testing.
 
-リンクは以下です
+### Naming Competition
 
-* [PoC テスト概要説明記事](https://preview-dfgc.netlify.app/blog/payroll-nft-poc/)
-* [PoC テストインターフェース](http://dev-payroll-nft.defigeek.xyz/)
+The final Snapshot Voting for the naming competition has ended, and the official name of Payroll-NFT has been decided as Yabumi by the highest number of votes.
 
-テスト中に見つかった不具合の解消と新規機能の追加、セキュリティの向上などに取り組んでいます。
+Through the competition 24 entries were submitted. We thank everyone for their participation.
 
-不具合・改善案の報告は[yabumi-ama チャンネル](https://discord.com/channels/705052448418693180/1075601594827149383)に書き込みお願いします。
+## -Merkle Distributors-
 
-## ーマークルディストリビューターー
+We are developing a airdrop tool using Merkle-tree. The contract has been developed and the UI is under development.
 
-Merkle-tree を用いた Claim 型エアドロップツールを開発しています。
+Workflow specification:\
+\#1. the Distributor decides on eligible address & quantity in the UI.\
+\#2. compress the information of #1 into a Merkle-tree, register it in the contract, and deposit a token\
+\#3. the owners of eligible address claim tokens from the UI and tokens are transferred.
 
-以下のフローでの利用を想定しています。
+This tool is enable distributor to determine amount of token to be distributed based on ownership of specific token in a designated block height. It is planned to be used in our airdrops to TXJP holders going forward.
 
-1. Distributor が UI で付与アドレスと数量を決定
-2. 1 の情報を Merkle-tree に圧縮してコントラクトに登録・トークンを Deposit
-3. Claimer が UI からトークンを請求、対象の場合トークンが転送される
+PoC test will be conducted in coming weeks.
 
-特に 1 について、「指定トークン・ブロックにおける保有割合を基に分配量を決定する」機能を搭載しており、DFGC からのエアドロップでの利用を想定した仕様になっています。
+### Naming Competition
 
-コントラクトは開発完了、UI は開発中です。
+Similar to previous projects, naming competition to select official name for the product package has begun.  It is open for anyone to submit applications(as many as you like) at discord General Forum.
 
-近日中の PoC テスト公開を予定しています。
-
-### ネーミングコンペティション
-
-マークルディストリビューターをパッケージ化する際の名称を決めるコンペティションを開催しています。
-
-現在名称の公募を行っています。
-
-総合フォーラムのネーミングコンペティションにて応募を受け付けています。
-
-どなたでも、いくつでも応募できますのでぜひご参加ください。
-
-# 求人情報
+# Vacant Positions
 
 ## -YAMATO-
 
 ### Interface
 
-Yamato Interface（[GitHub](https://github.com/DeFiGeek-Community/yamato-interface)） は OSS です。どなたでも Issue を立てることができますし、Issue の対応をすることができます。
-
-Yamato Interface をより良いものとするために、皆様のコミットをお待ちしております。
-
-UI/UX 改善についてご意見ありましたら[こちら](https://discord.com/channels/705052448418693180/899916069161041931)に書き込みください。
+Yamato Interface ([GitHub](https://github.com/DeFiGeek-Community/yamato-interface)) is OSS.Anyone can submit and respond to issues.\
+We are looking forward to having your Commit to make the Yamato Interface even better.\
+If you have any suggestions for UI/UX improvements, please post [here](https://discord.com/channels/705052448418693180/899916069161041931).
 
 ## -YADORI-
 
-### コア開発
+### Core Development
 
-* ランディングページ（フロント・デザイン）開発
-* ポイント交換・付与サーバー開発
+* Landing page (front and design) developer
+* Server developer for exchange, redeem or grant points.
 
-のポジションが空いています
+In the future it will be on-chain (using ERC3525) however current PoC aims to build on the Web2 tech stack. If you are interested, please join our [Discord](discord.gg/vyEQ43m6gB) and reach out us.
 
-将来的にはオンチェーン（ERC3525 の利用）運用となりますが、PoC は Web2 技術スタックでの構築を目標としています。
+### NFT Image Development
 
-### NFT イメージ開発
+We are looking for illustrators and designers to design NFT images and models. If you are interested, please check [NFT Department](https://discord.com/channels/705052448418693180/897682225913528420) in Discord.
 
-NFT 画像・モデルを制作していただけるイラストレーター・デザイナーを募集しています。
+## -Other-
 
-興味を持っていただけましたらコミュニティ Discord の[NFT 部](https://discord.com/channels/705052448418693180/897682225913528420)にて参加表明をお願いします。
+Spot tasks are posted on [Dework](https://app.dework.xyz/defigeek-community-39407).
 
-## -その他-
-
-[Dework](https://app.dework.xyz/defigeek-community-39407)にてスポットタスクを掲示しています。
-
-興味のあるタスクがありましたら Discord の[タスク応募部屋](https://discord.com/channels/705052448418693180/873581005603217468)に書き込みください。\
-タスクの要件定義・条件交渉から始めていきます。
+If you are interested in a task, please post your interest in the task [application thread](https://discord.com/channels/705052448418693180/873581005603217468) on our Discord.Let’s start from defining the requirements and negotiating compensation of each task.
 
 ***
 
-#### 関連リンク
+#### Related Links
 
-コミュニティガイド: [https://docs.defigeek.xyz/](https://docs.defigeek.xyz/ "https://docs.defigeek.xyz/")
+Community Guidelines: [https://docs.defigeek.xyz/v/english-1/](https://docs.defigeek.xyz/v/english-1/)
 
-Discord: [http://discord.gg/FQYXqVBEnh](http://discord.gg/FQYXqVBEnh "http://discord.gg/FQYXqVBEnh")
+Discord: [http://discord.gg/vyEQ43m6gB](http://discord.gg/vyEQ43m6gB)
 
-Twitter: [https://twitter.com/DeFiGeekJapan](https://twitter.com/DeFiGeekJapan "https://twitter.com/DeFiGeekJapan")
+Twitter: [https://twitter.com/DeFiGeekJapanEN](https://twitter.com/DeFiGeekJapanEN)
 
 ***
 
-本記事に関するご意見・質問は上記 Discord から DeFiGeek Community の広報部までご連絡ください。
+If you have any comments or questions regarding this article, please contact DeFiGeek Community's Public Relations Department via the Discord above.
