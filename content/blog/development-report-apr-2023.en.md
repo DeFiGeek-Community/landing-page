@@ -4,17 +4,17 @@ author = ""
 date = 2023-04-30T15:00:00Z
 excerpt = ""
 image = "/images/blog/DFGC\_logo\_banner.webp"
-image\_alt = ""
+image_alt = ""
 layout = "post"
 subtitle = "Launching naming competition for Merkle Distributors. Prepare for launch of Yabumi."
 tags = "オフィシャルアナウンス"
-thumb\_image = "/images/blog/DFGC\_logo\_banner.webp"
-thumb\_image\_alt = ""
+thumb_image = "/images/blog/DFGC\_logo\_banner.webp"
+thumb_image_alt = ""
 title = "Development Report Apr 2023"
-\[seo]
+[seo]
 description = ""
 title = ""
-\[\[seo.extra]]
+[[seo.extra]]
 keyName = "property"
 name = "og:image"
 value = "https://defigeek.xyz/images/DFGC\_logo\_banner.webp"
@@ -174,10 +174,10 @@ Through the competition 24 entries were submitted. We thank everyone for their p
 
 We are developing a airdrop tool using Merkle-tree. The contract has been developed and the UI is under development.
 
-Workflow specification:\
-\#1. the Distributor decides on eligible address & quantity in the UI.\
-\#2. compress the information of #1 into a Merkle-tree, register it in the contract, and deposit a token\
-\#3. the owners of eligible address claim tokens from the UI and tokens are transferred.
+Workflow specification:  
+#1. the Distributor decides on eligible address & quantity in the UI.  
+#2. compress the information of #1 into a Merkle-tree, register it in the contract, and deposit a token  
+#3. the owners of eligible address claim tokens from the UI and tokens are transferred.  
 
 This tool is enable distributor to determine amount of token to be distributed based on ownership of specific token in a designated block height. It is planned to be used in our airdrops to TXJP holders going forward.
 
@@ -216,7 +216,7 @@ Spot tasks are posted on [Dework](https://app.dework.xyz/defigeek-community-3940
 
 If you are interested in a task, please post your interest in the task [application thread](https://discord.com/channels/705052448418693180/873581005603217468) on our Discord.Let’s start from defining the requirements and negotiating compensation of each task.
 
-***
+---
 
 #### Related Links
 
@@ -226,6 +226,6 @@ Discord: [http://discord.gg/vyEQ43m6gB](http://discord.gg/vyEQ43m6gB)
 
 Twitter: [https://twitter.com/DeFiGeekJapanEN](https://twitter.com/DeFiGeekJapanEN)
 
-***
+---
 
 If you have any comments or questions regarding this article, please contact DeFiGeek Community's Public Relations Department via the Discord above.
