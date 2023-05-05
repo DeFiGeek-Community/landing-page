@@ -1,0 +1,26 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "DeFiGeek Community(DFGC)とは、2021年2月に発足したWeb3.0時代に資するDeFi Dappとミドルウェアを開発するオープンコミュニティです。 DFGCは開発者のみのコミュニティではありません。DeFier向けに業界の正しい認識の共有をする集会所のように育っていきたく、これらに関心があるメンバーも歓迎しています。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tinacms dev -c \"hugo server -D\"",
+    "build": "tinacms build && hugo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeFiGeek-Community/landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeFiGeek-Community/landing-page/issues"
+  },
+  "homepage": "https://github.com/DeFiGeek-Community/landing-page#readme",
+  "dependencies": {
+    "@tinacms/cli": "1.5.8",
+    "tinacms": "1.5.2"
+  }
+}
