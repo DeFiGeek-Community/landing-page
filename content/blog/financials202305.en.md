@@ -4,17 +4,17 @@ author = ""
 date = 2023-05-31T15:00:00Z
 excerpt = ""
 image = ""
-image\_alt = ""
+image_alt = ""
 layout = "post"
 subtitle = "May 2023"
 tags = "財務レポート"
-thumb\_image = "/images/blog/ogp-zaimu-report.webp"
-thumb\_image\_alt = ""
+thumb_image = "/images/blog/ogp-zaimu-report.webp"
+thumb_image_alt = ""
 title = "May 2023 financial report"
-\[seo]
+[seo]
 description = ""
 title = ""
-\[\[seo.extra]]
+[[seo.extra]]
 keyName = "property"
 name = "og:image"
 value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
@@ -99,7 +99,7 @@ Please refer to Japanese version of financial report to see all transactions dat
 ・The information in this article has been obtained from reliable sources, but we do not guarantee or promise its completeness, accuracy, or appropriateness. The community is not liable for any damages incurred by users of this article due to data, expressions, errors, etc. used in this article.\
 ・The financial statements and key ratios used in this article have been specially prepared by the Finance Department of the community to conform to the community's financial reporting and have not been audited by a certified public accountant or auditing firm.
 
-***
+---
 
 ### Addresses
 
@@ -123,6 +123,6 @@ Discord: [http://discord.gg/FQYXqVBEnh](http://discord.gg/vyEQ43m6gB "http://di
 
 GitHub: [https://github.com/DeFiGeek-Community](https://github.com/DeFiGeek-Community "https://github.com/DeFiGeek-Community")
 
-***
+---
 
 Please direct any comments or questions regarding this report to [English channel](https://discord.gg/vyEQ43m6gB) at DeFiGeek community discord.
