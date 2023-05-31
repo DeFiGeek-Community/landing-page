@@ -4,7 +4,7 @@ import { official_announce_templateFields } from "./templates";
 import { zaimu_templateFields } from "./templates";
 
 // Your hosting provider likely exposes this as an environment variable
-const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
+const branch = "tina";
 
 export default defineConfig({
   branch,
