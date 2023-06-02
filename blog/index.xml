@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ニュースリリース on DeFiGeek Community</title><link>/blog/</link><description>Recent content in ニュースリリース on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Sun, 30 Apr 2023 15:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>2023年4月度 月次財務報告</title><link>/blog/2023-4/</link><pubDate>Sun, 30 Apr 2023 15:00:00 +0000</pubDate><guid>/blog/2023-4/</guid><description>重要指標 キャッシュフロー （注）
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ニュースリリース on DeFiGeek Community</title><link>/blog/</link><description>Recent content in ニュースリリース on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Wed, 31 May 2023 13:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>2023年5月度 月次財務報告</title><link>/blog/2023-5/</link><pubDate>Wed, 31 May 2023 13:00:00 +0000</pubDate><guid>/blog/2023-5/</guid><description>重要指標 キャッシュフロー （注）
+・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
+・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
+・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
+・BPS：解散価値÷ユーザー保有トークン数
+・PBR：トークン価格解散価値倍率
+・キャッシュフロー：Tx発生時の時価で算出
+・各種データはzapper, zerion, DeBank, Etherscan, Dextool, 三菱UFJリサーチ＆コンサルティングより。
+貸借対照表 （注）
+・資産・負債時価評価： Zerion, DeBank, Zapper表示の日本円換算値を使用
+・負債、未払利息科目の利用を停止し直接借入金金額に算入
+・資本金、2018年寄付は2018～2020年に受け取った寄付金払込時の時価に2018~2020年の三年間平均為替レート（$1＝¥108.76）を乗じて換算
+・資本金、2021年寄付は2021年7月中平均為替レート（$1＝110.31）で換算
+・資本金、2022年寄付は払込日のドル仲値で換算
+・評価差額金はDFGC保有のTXJP（含むLP内のTXJP額）
+・金額的重要性の低いものは時価評価せず流動資産「その他」、未収収益「その他」に継続的に計上
+コミュニティファンド Compound利用状況 損益計算書 （注）
+・ガス代はZerion円貨換算値を利用
+・営業外収益その他は主に保有中のLiquidity Pool内ETH増額及びTXJP支出によるTXJP収益認識（共に除く為替・仮想通貨影響額）
+・営業外費用その他は主に保有中のLiquidity Pool内ETH減少額及びTXJP Buy&amp;amp;PoolによるETH減少額（共に除く為替・仮想通貨影響額）
+アロケーション Balancer V1: 0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f
+Balancer V2: 0xba12222222228d8ba445958a75a0704d566bf2c8
+Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
+（注）
+・Balancer V1, V2 および Uniswap V3 のLPはコミュニティトレジャリー (defigeek.eth)が保有。
+・総発行枚数21万枚TXJPは固定。
+・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
+・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
+財務活動 5月8日 defigeek.eth coredev.</description></item><item><title>マークルディストリビューター PoC 概要</title><link>/blog/merkle-distributor-poc/</link><pubDate>Mon, 01 May 2023 15:00:00 +0000</pubDate><guid>/blog/merkle-distributor-poc/</guid><description>概要 マークルディストリビューターとは、Merkle-tree を用いた Claim 型エアドロッププラットフォームです。
+マークルツリーファイル（エアドロ情報を格納）の作成、エアドロ情報のオンチェーン登録、対象ユーザーの請求をすべてこのサイトで行うことができます。
+テスト概要 Goerli テストネットワークへのコントラクトデプロイと UI の検証環境立ち上げでテストを行います。
+テスト環境には以下の URL でアクセスできます。
+UI：https://merkle-airdrop-tool.vercel.app/
+コントラクト(Goerli)：0xF2c88E73659dE5545d03E6025526360650F0F19c
+PoC では以下の機能を実装しています。
+UI・UX の改善案は DFGC サーバーのマークルディストリビューター ama チャンネルに書き込みください。
+機能説明 マークルツリーファイルの作成 マークルツリーファイルは 2 通りの方法で作成できます。
+作成したマークルツリーファイルはエアドロップ情報の登録とユーザーの請求に利用されます。
+このサイトでは作成されたマークルツリーファイルを保存しないので、各自が保存し、紛失しないようにしてください。
+マニュアル 1 つめの方法はマニュアルです。
+エアドロップ対象のアドレスと数量をカンマ区切りで入力できます。
+入力した内容でマークルツリーファイルが作成されます。
+スナップショット 2 つめの方法はスナップショットです。
+特定のブロックナンバーにおける任意のトークンの保有割合を基に、配布予定のトークン数量が対象者に割り当てられます。
+除外アドレスを入力することが可能です。
+エアドロップ情報の登録 作成したマークルツリーファイルをもとにエアドロップ情報をオンチェーンに登録します。
+エアドロップは名称によって一意になることが要求されます（登録時にチェックされます）。
+登録手数料 名称のむやみな取得を防ぐために、エアドロップ情報の登録時に 0.01ETH が徴収されます。
+高く見えるかもしれませんが、これを回収する方法があります。
+エアドロ請求者はエアドロを請求する際にエアドロ登録者に手数料として 0.0001ETH を支払います。
+つまり、100 人以上にエアドロを請求してもらえば手数料は実質無料になり、それ以降の手数料は収益となります。
+たくさんの人に配布し、請求してもらいましょう！
+Permit2 による送金 入金額が 0 より大きい場合、登録と同時にエアドロトークンが転送されます。
+この転送は Uniswap の Permit2 を使用しています。初めて Permit2 を使用する場合、Approve トランザクションが発行されます。
+その後、送金の署名とトランザクション発行が求められます。
+入金額を 0 にした場合、エアドロップ情報のみ登録されます。後で入金することも可能です（同様に Permit2 を利用）。</description></item><item><title>2023年4月度 月次財務報告</title><link>/blog/2023-4/</link><pubDate>Sun, 30 Apr 2023 15:00:00 +0000</pubDate><guid>/blog/2023-4/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの

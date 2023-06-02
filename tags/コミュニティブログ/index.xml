@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>コミュニティブログ on DeFiGeek Community</title><link>/tags/%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%96%E3%83%AD%E3%82%B0/</link><description>Recent content in コミュニティブログ on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Tue, 21 Feb 2023 15:00:00 +0000</lastBuildDate><atom:link href="/tags/%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>Payroll-NFT PoC 概要</title><link>/blog/payroll-nft-poc/</link><pubDate>Tue, 21 Feb 2023 15:00:00 +0000</pubDate><guid>/blog/payroll-nft-poc/</guid><description>概要 Payroll-NFTとは、SNSアカウント証明によるトークン送信プラットフォームです。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>コミュニティブログ on DeFiGeek Community</title><link>/tags/%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%96%E3%83%AD%E3%82%B0/</link><description>Recent content in コミュニティブログ on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Mon, 01 May 2023 15:00:00 +0000</lastBuildDate><atom:link href="/tags/%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>マークルディストリビューター PoC 概要</title><link>/blog/merkle-distributor-poc/</link><pubDate>Mon, 01 May 2023 15:00:00 +0000</pubDate><guid>/blog/merkle-distributor-poc/</guid><description>概要 マークルディストリビューターとは、Merkle-tree を用いた Claim 型エアドロッププラットフォームです。
+マークルツリーファイル（エアドロ情報を格納）の作成、エアドロ情報のオンチェーン登録、対象ユーザーの請求をすべてこのサイトで行うことができます。
+テスト概要 Goerli テストネットワークへのコントラクトデプロイと UI の検証環境立ち上げでテストを行います。
+テスト環境には以下の URL でアクセスできます。
+UI：https://merkle-airdrop-tool.vercel.app/
+コントラクト(Goerli)：0xF2c88E73659dE5545d03E6025526360650F0F19c
+PoC では以下の機能を実装しています。
+UI・UX の改善案は DFGC サーバーのマークルディストリビューター ama チャンネルに書き込みください。
+機能説明 マークルツリーファイルの作成 マークルツリーファイルは 2 通りの方法で作成できます。
+作成したマークルツリーファイルはエアドロップ情報の登録とユーザーの請求に利用されます。
+このサイトでは作成されたマークルツリーファイルを保存しないので、各自が保存し、紛失しないようにしてください。
+マニュアル 1 つめの方法はマニュアルです。
+エアドロップ対象のアドレスと数量をカンマ区切りで入力できます。
+入力した内容でマークルツリーファイルが作成されます。
+スナップショット 2 つめの方法はスナップショットです。
+特定のブロックナンバーにおける任意のトークンの保有割合を基に、配布予定のトークン数量が対象者に割り当てられます。
+除外アドレスを入力することが可能です。
+エアドロップ情報の登録 作成したマークルツリーファイルをもとにエアドロップ情報をオンチェーンに登録します。
+エアドロップは名称によって一意になることが要求されます（登録時にチェックされます）。
+登録手数料 名称のむやみな取得を防ぐために、エアドロップ情報の登録時に 0.01ETH が徴収されます。
+高く見えるかもしれませんが、これを回収する方法があります。
+エアドロ請求者はエアドロを請求する際にエアドロ登録者に手数料として 0.0001ETH を支払います。
+つまり、100 人以上にエアドロを請求してもらえば手数料は実質無料になり、それ以降の手数料は収益となります。
+たくさんの人に配布し、請求してもらいましょう！
+Permit2 による送金 入金額が 0 より大きい場合、登録と同時にエアドロトークンが転送されます。
+この転送は Uniswap の Permit2 を使用しています。初めて Permit2 を使用する場合、Approve トランザクションが発行されます。
+その後、送金の署名とトランザクション発行が求められます。
+入金額を 0 にした場合、エアドロップ情報のみ登録されます。後で入金することも可能です（同様に Permit2 を利用）。</description></item><item><title>Payroll-NFT PoC 概要</title><link>/blog/payroll-nft-poc/</link><pubDate>Tue, 21 Feb 2023 15:00:00 +0000</pubDate><guid>/blog/payroll-nft-poc/</guid><description>概要 Payroll-NFTとは、SNSアカウント証明によるトークン送信プラットフォームです。
 通常の送金は宛先のアドレスを指定しますが、Payroll-NFTではSNS認証されたNFTの保有アドレスを宛先として指定します。
 具体的には
 受け取り手がSNS認証と共にNFTをMint（SNSアカウントとtokenIDが紐づく） 送り手がSNSアカウントと金額を指定して送金 Payroll-NFTがSNSアカウント→tokenID→Ownerとアドレスを解決 という処理が行われます。
