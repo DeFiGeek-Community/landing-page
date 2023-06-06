@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on DeFiGeek Community</title><link>/</link><description>Recent content in Home on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Wed, 31 May 2023 13:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>2023年5月度 月次財務報告</title><link>/blog/2023-5/</link><pubDate>Wed, 31 May 2023 13:00:00 +0000</pubDate><guid>/blog/2023-5/</guid><description>重要指標 キャッシュフロー （注）
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on DeFiGeek Community</title><link>/</link><description>Recent content in Home on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Wed, 31 May 2023 15:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>2023年5月度開発活動報告</title><link>/blog/2023-5-1/</link><pubDate>Wed, 31 May 2023 15:00:00 +0000</pubDate><guid>/blog/2023-5-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
+本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
+進捗報告 ー YAMATO ー コア開発 1 社目の監査レポートのファイナライズが完了しました。
+リポジトリ公開から先行して近日発行予定です。
+2 社目の依頼については、1 社目の監査で Yamato 固有の Critical な Issue が発見されなかったことから一時保留としました。
+バージョンアップやローンチ後 TVL 増加などのタイミングで再度選定予定です。
+監査の代替として Immunefi へバウンティ設置を予定しています。
+こちらはリポジトリ公開とともにバウンティを開始できるよう調整中です。
+メインネットローンチまでの残タスクは
+テストネット（Goerli）およびメインネット向けデプロイスクリプトの作成 マルチシグアップデート手法のテスト 各ネットワークへの subgraph 設置 となっています。
+11 月から
+デプロイおよびアップグレードについてマルチシグを用いた管理手法の調査 メインネットフォーク環境の作成とテストシーケンスの調査 Fuzz テストによる状態遷移パターンの網羅的なテスト を行っています。
+「デプロイおよびアップグレードについてマルチシグを用いた管理手法の調査」については対応の目途が立ったため、Goerli ネットワークにてデプロイとアップグレードのテストを行いました。
+メインネットデプロイに向けて ETH-JPY の価格フィードオラクルの選定・ロジックの調整を行っています。
+その他ロードマップなどについてはこちらの記事をご確認ください。
+Interface 開発 現在開発環境として用意しているdev-app.yamato.fiとは別に、本番環境としてapp.yamato.fiとicp-app.yamato.fiを設置しました。
+dev-app.yamato.fiはメインネットローンチ後、テストネットでの追加機能の検証用インターフェースとして稼働する予定です。
+Goerli および Sepolia ネットワークへ展開済みです。
+現時点で V1 に必要な機能はすべて実装済みで正常に動作することが確認されています。
+今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
+ドキュメント 現在GitBook ドキュメントを執筆・仮公開中です。</description></item><item><title>2023年5月度 月次財務報告</title><link>/blog/2023-5/</link><pubDate>Wed, 31 May 2023 13:00:00 +0000</pubDate><guid>/blog/2023-5/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
