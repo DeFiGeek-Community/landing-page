@@ -19,9 +19,9 @@ name = "og:image"
 value = "https://defigeek.xyz/images/DFGC_logo_banner.webp"
 +++
 
-### コミュニティリブランド
-
 TLDR: TenX Community Japanは、DeFiGeek Community Japanにリブランディング致しました。DeFiGeek Community JapanのユーティリティトークンはTXJPトークンで運営されます。トークンのアドレスは引き続き0x961dd84059505d59f82ce4fb87d3c09bec65301dであり、新トークンの導入は行いません。
+
+### コミュニティリブランド
 
 2021年1月吉日 - TenX Community Japanは、DeFiGeek Community JapanとしてDeFiの分野での展開に向けた開発に特化したコミュニティとしてのリブランディン致しました。2017年当初はTenXプロジェクトのサポーターたちが集まる場として始まりましたが、過去4年間で仮想通貨市場は驚異的な成長を遂げ、その成長を受けて私たちは私たちの目的を再定義し、新たなDeFiのイノベーションの時代を切り拓くべくここにDeFiGeek Community Japan発足を発表致します。
 
