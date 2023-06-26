@@ -19,7 +19,7 @@ name = "og:image"
 value = "https://defigeek.xyz/images/DFGC_logo_banner.webp"
 +++
 
-TLDR: TenX Community Japan has rebranded into DeFiGeek Community(DFGC) Japan. The DFGC Japan will be powered by the TXJP token, and no token migration will be required as the token address remains [0x961dd84059505d59f82ce4fb87d3c09bec65301d](https://etherscan.io/token/0x961dd84059505d59f82ce4fb87d3c09bec65301d).
+TLDR: TenX Community Japan has rebranded into DeFiGeek Community Japan. The DeFiGeek Community Japan will be powered by the TXJP token, and no token migration will be required as the token address remains [0x961dd84059505d59f82ce4fb87d3c09bec65301d](https://etherscan.io/token/0x961dd84059505d59f82ce4fb87d3c09bec65301d).
 
 ### Community Rebranding
 
