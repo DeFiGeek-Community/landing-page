@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on DeFiGeek Community</title><link>/</link><description>Recent content in Home on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Wed, 31 May 2023 15:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>2023年5月度開発活動報告</title><link>/blog/2023-5-1/</link><pubDate>Wed, 31 May 2023 15:00:00 +0000</pubDate><guid>/blog/2023-5-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on DeFiGeek Community</title><link>/</link><description>Recent content in Home on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Tue, 27 Jun 2023 13:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>2023年6月度 月次財務報告</title><link>/blog/2023-6/</link><pubDate>Tue, 27 Jun 2023 13:00:00 +0000</pubDate><guid>/blog/2023-6/</guid><description>重要指標 キャッシュフロー （注）
+・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
+・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
+・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
+・BPS：解散価値÷ユーザー保有トークン数
+・PBR：トークン価格解散価値倍率
+・キャッシュフロー：Tx発生時の時価で算出
+・各種データはzapper, zerion, DeBank, Etherscan, Dextool, 三菱UFJリサーチ＆コンサルティングより。
+貸借対照表 （注）
+・資産・負債時価評価： Zerion, DeBank, Zapper表示の日本円換算値を使用
+・負債、未払利息科目の利用を停止し直接借入金金額に算入
+・資本金、2018年寄付は2018～2020年に受け取った寄付金払込時の時価に2018~2020年の三年間平均為替レート（$1＝¥108.76）を乗じて換算
+・資本金、2021年寄付は2021年7月中平均為替レート（$1＝110.31）で換算
+・資本金、2022年寄付は払込日のドル仲値で換算
+・評価差額金はDFGC保有のTXJP（含むLP内のTXJP額）
+・金額的重要性の低いものは時価評価せず流動資産「その他」、未収収益「その他」に継続的に計上
+コミュニティファンド CurveUSD利用状況 損益計算書 （注）
+・ガス代はZerion円貨換算値を利用
+・営業外収益その他は主に保有中のLiquidity Pool内ETH増額及びTXJP支出によるTXJP収益認識（共に除く為替・仮想通貨影響額）
+・営業外費用その他は主に保有中のLiquidity Pool内ETH減少額及びTXJP Buy&amp;amp;PoolによるETH減少額（共に除く為替・仮想通貨影響額）
+TXJPトークンアロケーション＆ホルダー分布 Balancer V1: 0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f
+Balancer V2: 0xba12222222228d8ba445958a75a0704d566bf2c8
+Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
+（注）
+・Balancer V1, V2 および Uniswap V3 のLPはコミュニティトレジャリー (defigeek.eth)が保有。
+・総発行枚数21万枚TXJPは固定。
+・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
+・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
+財務活動 6月8日 defigeek.eth Compoundから1ETHを引き出しました。</description></item><item><title>2023年5月度開発活動報告</title><link>/blog/2023-5-1/</link><pubDate>Wed, 31 May 2023 15:00:00 +0000</pubDate><guid>/blog/2023-5-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー コア開発 1 社目の監査レポートのファイナライズが完了しました。
@@ -1511,7 +1539,18 @@ TXJP請求期限は8月15日23:59までとなります。（約一か月間で�
 スキルを活かす場は無限にあります。そこから何かを得る機会も無限にあります。
 業界屈指の知見と視座の高いメンバー、専門知識とスキルを持つメンバー、DeFi成金なメンバー（苦笑）、様々な個性豊かで見どころのあるメンバーが集っています。
 活かすことができるかどうかは、あなた次第です。
-DeFiGeek Community JAPANの次の時代の１ページを共に紡ぎましょう☆</description></item><item><title>About Us</title><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description/></item><item><title>FAQ</title><link>/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/faq/</guid><description/></item><item><title>TXJP</title><link>/txjp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/txjp/</guid><description>TXJPトークン 総発行数　210,000TXJP　小数点以下8桁 コントラクトアドレス　0x961dd84059505d59f82ce4fb87d3c09bec65301d TXJPトークンとは、DeFiGeek Community (DFGC)のガバナンストークンです。 TXJPファンドという名称で運用を行っています。 TXJPファンドは、DFGCで開発するDappとツールのシード投資家です。 直近のアロケーションは月次財務レポートhttps://defigeek.xyz/blog/をご参照ください。 TXJPホルダー特典 コミュニティが開発したDappのトークンについて、その一部が初期支援者であるTXJPホルダーに割当てられます。
+DeFiGeek Community JAPANの次の時代の１ページを共に紡ぎましょう☆</description></item><item><title>DeFiGeek Community Japanの発足</title><link>/blog/txjp-rebranding/</link><pubDate>Fri, 01 Jan 2021 15:00:00 +0000</pubDate><guid>/blog/txjp-rebranding/</guid><description>TLDR: TenX Community Japanは、DeFiGeek Community Japanにリブランディング致しました。DeFiGeek Community JapanのユーティリティトークンはTXJPトークンで運営されます。トークンのアドレスは引き続き0x961dd84059505d59f82ce4fb87d3c09bec65301dであり、新トークンの導入は行いません。
+コミュニティリブランド 2021年1月吉日 - TenX Community Japanは、DeFiGeek Community JapanとしてDeFiの分野での展開に向けた開発に特化したコミュニティへリブランディング致しました。2017年当初はTenXプロジェクトのサポーターたちが集まる場として始まりましたが、過去4年間で仮想通貨市場は驚異的な成長を遂げ、その成長を受けて私たちは私たちの目的を再定義し、新たなDeFiのイノベーションの時代を切り拓くべくここにDeFiGeek Community Japan発足を発表致します。
+DFGCはこの変革期を受け入れ、分散型自治組織（DAO）への移行を目指す使命に取り組んでいきます。私たちの目標は、中央集権的な権限を避け、メンバーそれぞれが貢献し、リードし、コミュニティの未来を共に形作るための平等かつ持続可能な組織構造を構築することです。
+リブランディングにより、DeFiGeek Community Japanは、Web3の発展に貢献するDeFi Dappsやツールの開発に専念する分散型コミュニティへと進化します。私たちのビジョンは、DeFierそれぞれが思考を共有し、お互いから学び合い、共にDeFiのイノベーションの限界に挑戦できるオープンなプラットフォームを創り出すことです。私たちの最終目標は分散型自治組織（DAO）への進化です。中央集権的な権限の制約をなくし、メンバー各々が貢献し、リードし、コミュニティの未来を共に形成することをコミットしています。
+皆様のDeFiGeekコミュニティ・ジャパンへのご参加を心よりお待ちしております。一緒にDeFi
+コミュニティトークン TXJPトークンはDeFiGeek Community Japanのユーティリティトークンとの位置付けとなります。トークンアドレスとロゴに変更はありません。0x961dd84059505d59f82ce4fb87d3c09bec65301d
+各種アドレス defigeek.eth: 0x24dd242c3c4061b1fcaa5119af608b56afbaea95
+$TXJP(DeFiGeek Community Japan):0x961dd84059505d59f82ce4fb87d3c09bec65301d
+公式コミュニティ Twitter: https://twitter.com/DeFiGeekJapan
+Discord: http://discord.gg/FQYXqVBEnh
+GitHub: https://github.com/DeFiGeek-Community
+当記事に関するご意見、質問等に関しましてはDeFiGeek communityの財務部までお願い致します。</description></item><item><title>About Us</title><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description/></item><item><title>FAQ</title><link>/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/faq/</guid><description/></item><item><title>TXJP</title><link>/txjp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/txjp/</guid><description>TXJPトークン 総発行数　210,000TXJP　小数点以下8桁 コントラクトアドレス　0x961dd84059505d59f82ce4fb87d3c09bec65301d TXJPトークンとは、DeFiGeek Community (DFGC)のガバナンストークンです。 TXJPファンドという名称で運用を行っています。 TXJPファンドは、DFGCで開発するDappとツールのシード投資家です。 直近のアロケーションは月次財務レポートhttps://defigeek.xyz/blog/をご参照ください。 TXJPホルダー特典 コミュニティが開発したDappのトークンについて、その一部が初期支援者であるTXJPホルダーに割当てられます。
 例えば、開発中である第一弾のDappは、暗号担保型ステーブルコイン Yamato Protocol です。このDappには、YMT というユーティリティトークンがあります。TXJPホルダーには、このYMTが付与される計画です。 Yamato Protocol だけでなく、コミュニティではいくつかのDappとツールについて構想があり開発中です。今後開発されるDappも同様のスキームを計画しています。 Dappやツールからの利用料及び寄付等もTXJPファンドへ加算され運用されます。
 TXJPはコミュニティファンドの運用方法等に関する議決権を表します。
 運用方針や方策等、重要な決定事項はTXJPトークンによる投票にて決定されます。 例えば、DeFiプロジェクトのシード投資等へ参加します。個人では参加できない投資分野へ露出できます。 ファンド運用と還元について 四半期ごとにファンド運用資金の３％（変更可能）を用いて、公開市場でTXJPのBuy＆Pooling（Balancer LP）を行います。
