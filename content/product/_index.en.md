@@ -22,3 +22,15 @@ seo:
       value: summary
 layout: page
 ---
+
+# Yamato Protocol
+
+![](/images/blog/yamato_ogp.png)
+
+[Yamato Protocol](https://app.yamato.fi/#/)
+
+# Yabumi
+
+![](/images/blog/yabumibanner.png)
+
+[Yabumi](https://www.yabumi.defigeek.xyz/)
