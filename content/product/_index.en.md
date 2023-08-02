@@ -26,4 +26,4 @@ layout: page
 [![Yamato Protocol](/images/blog/yamto_ogp.png)](https://app.yamato.fi/#/)
 
 
-[![Yabumi](/images/blog/yabumibanner.png)](https://www.yabumi.defigeek.xyz/en#)
+[![Yabumi](/images/blog/yabumibanner.png)](https://www.yabumi.xyz/en#)
