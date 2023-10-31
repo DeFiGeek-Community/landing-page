@@ -49,7 +49,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 #
 
-#　Protocol Owned Liquidity
+# Protocol Owned Liquidity
 
 ![](/images/blog/23109.png)
 
