@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ニュースリリース on DeFiGeek Community</title><link>/blog/</link><description>Recent content in ニュースリリース on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Sun, 31 Dec 2023 10:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>2023年12月度 月次財務報告</title><link>/blog/2023-12/</link><pubDate>Sun, 31 Dec 2023 10:00:00 +0000</pubDate><guid>/blog/2023-12/</guid><description>重要指標 キャッシュフロー （注）
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ニュースリリース on DeFiGeek Community</title><link>/blog/</link><description>Recent content in ニュースリリース on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Sun, 31 Dec 2023 15:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>2023年12月度開発活動報告</title><link>/blog/2023-12-1/</link><pubDate>Sun, 31 Dec 2023 15:00:00 +0000</pubDate><guid>/blog/2023-12-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
+本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
+進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
+コア開発 Immunefi へのバウンティ設置を行いました。
+Critical, High の脆弱性について報酬を用意しています。
+https://immunefi.com/bounty/yamatoprotocol/
+各種リソースへのリンクは以下です。
+UI: https://app.yamato.fi/
+DOC: https://docs.yamato.fi/
+Dune: https://dune.com/dfgc/yamato
+Uniswap:(ETH/CJPY) https://app.uniswap.org/#/tokens/ethereum/0x1cfa5641c01406ab8ac350ded7d735ec41298372
+現在 V1.5 の YMT、veYMT 発行に向けた調査・開発を行ってます。
+その他ロードマップなどについてはこちらの記事をご確認ください。
+Interface 開発 以下のような接続環境を用意しています
+app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi テストネットでの追加機能の検証 Goerli および Sepolia ネットワークへ展開済みです。
+今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
+ドキュメント https://docs.yamato.fi/ にてドキュメントを掲載しています。
+誤字・脱字や不明点があれば改善いたしますのでこちらに書き込みください。
+ー Punodwoɔ ー Punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年12月度 月次財務報告</title><link>/blog/2023-12/</link><pubDate>Sun, 31 Dec 2023 10:00:00 +0000</pubDate><guid>/blog/2023-12/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出
