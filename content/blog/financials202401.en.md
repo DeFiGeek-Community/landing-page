@@ -63,7 +63,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Income statement
 
-![](/images/blog/24012e.png)
+![](/images/blog/2401re.png)
 
 ・Gas cost in JPY is used the figures displayed in Zerion.\
 ・Other income (Others) consists mostly of LPs ETH increase and revenue recognition of TXJP expenses (both excluding fx gain/loss)\
