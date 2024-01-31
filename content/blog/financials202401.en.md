@@ -57,18 +57,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # DAO Treasury health rate
 
-#### **CurveUSD**
-
-![](/images/blog/24016e.png)
-
-#### **Yamato**
-
-![](/images/blog/24017e.png)
-
-#### **Punodwoɔ**
-
-![](/images/blog/24018e.png)
-
+![](/images/blog/2401pose.png)
 
 #
 
