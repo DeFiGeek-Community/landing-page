@@ -9,7 +9,7 @@ subtitle = "Yamato prepares for launch, names Wallet Avatar NFT project as YASHI
 tags = "オフィシャルアナウンス"
 thumb_image = "/images/blog/DFGC_logo_banner.webp"
 thumb_image_alt = ""
-title = "Development Updates September 2022"
+title = "Development Report Sept 2022"
 [seo]
 description = ""
 title = ""
@@ -19,6 +19,7 @@ name = "og:image"
 value = "https://defigeek.xyz/images/DFGC_logo_banner.webp"
 
 +++
+
 # Introduction
 
 DFGC has been developing several DeFi & NFT projects. They are ongoing in an undisclosed manner in order to protect our ideas & codes from being stolen.
@@ -40,9 +41,9 @@ Meanwhile, we are in process setting up a bounty on Immunefi as an alternative t
 
 Remaining tasks by the main net launch are;
 
-* Setting up a test net (Goerli) & coding deployment scripts
-* Testing multisig update methodology
-* Deploying subgraphs on each network
+- Setting up a test net (Goerli) & coding deployment scripts
+- Testing multisig update methodology
+- Deploying subgraphs on each network
 
 For more information on the roadmap, please refer [here](https://defigeek.xyz/blog/yamato-protocol-10/).
 
@@ -50,8 +51,8 @@ For more information on the roadmap, please refer [here](https://defigeek.xyz/bl
 
 The following tasks completed
 
-* [Added “add tokens to metamask” button](https://github.com/DeFiGeek-Community/yamato-interface/pull/169)
-* Deployed [app.yamato.fi](https://app.yamato.fi/) and [icp-app.yamato.fi](https://icp-app.yamato.fi/) for production environments.
+- [Added “add tokens to metamask” button](https://github.com/DeFiGeek-Community/yamato-interface/pull/169)
+- Deployed [app.yamato.fi](https://app.yamato.fi/) and [icp-app.yamato.fi](https://icp-app.yamato.fi/) for production environments.
 
 Current development environment, [dev-app.yamato.fi](https://dev-app.yamato.fi/)will be used as an interface to verify additional functions on the test net after the main net launch.
 
@@ -100,9 +101,9 @@ Development is currently led by the Design Department.
 
 Themes of avatar model in V1 are followings
 
-* Modest representation of “Wa” (Japanese cultural concept)
-* Crypto and sense of festivity
-* Ennui emotional expression that owners feel an affinity
+- Modest representation of “Wa” (Japanese cultural concept)
+- Crypto and sense of festivity
+- Ennui emotional expression that owners feel an affinity
 
 We continue to refine designs and will share them on Discord.
 
@@ -149,8 +150,8 @@ If you have any suggestions for UI/UX improvements, please post [here](https://d
 
 ### Core Development
 
-* Landing page (front and design) developer
-* Server developer for exchange, redeem or grant points.
+- Landing page (front and design) developer
+- Server developer for exchange, redeem or grant points.
 
 In the future it will be on-chain (using ERC3525) however current PoC aims to build on the Web2 tech stack. If you are interested, please join our [Discord](http://discord.gg/b4KGAVUb "http://discord.gg/b4KGAVUb") and reach out us.
 
@@ -164,7 +165,7 @@ Spot tasks are posted on [Dework](https://app.dework.xyz/defigeek-community-3940
 
 If you are interested in a task, please post your interest in the task [application thread](https://discord.com/channels/705052448418693180/873581005603217468) on our Discord.Let’s start from defining the requirements and negotiating compensation of each task.
 
-***
+---
 
 #### Related Links
 
@@ -174,6 +175,6 @@ Discord: [http://discord.gg/b4KGAVUb](http://discord.gg/b4KGAVUb "http://discord
 
 Twitter: [https://twitter.com/DeFiGeekJapanEN](https://twitter.com/DeFiGeekJapanEN "https://twitter.com/DeFiGeekJapanEN")
 
-***
+---
 
 If you have any comments or questions regarding this article, please contact DeFiGeek Community's Public Relations Department via the Discord above.
