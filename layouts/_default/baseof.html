@@ -39,7 +39,8 @@
         {{ if .Site.Data.config.favicon }}
         <link rel="icon" href="{{ $.Site.Data.config.favicon | relURL }}">
         {{ end }}
-        
+        <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
     </head>
     <body class="palette-{{ .Site.Data.config.palette }} font-{{ .Site.Data.config.base_font }}">
         
