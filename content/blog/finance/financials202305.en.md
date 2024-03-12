@@ -23,7 +23,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Key highlights
 
-![](/23055e.png)
+![](/images/blog/23055e.png)
 
 ・Gross Burn Rate: Total cash outflow (expense items: interest expense, relayers fee, labor cost, gas cost, incentives, etc.)\
 ・Net Burn Rate: Total Cash Flow (Gross Burn Rate + Rewards Claimed, interest earned and Airdrop received)\
@@ -36,7 +36,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Balance sheet
 
-![](/23052e.png)
+![](/images/blog/23052e.png)
 
 ・Fair value of assets and liabilities: Japanese yen equivalents displayed on Zerion, DeBank, and Zapper\
 ・Accrued interest account on liabilities is no longer in use but is included in the short-term debt borrowing amount\
@@ -52,13 +52,13 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 #### **Compound.finance**
 
-![](/23051e.png)
+![](/images/blog/23051e.png)
 
 #
 
 # Income statement
 
-![](/23053e.png)
+![](/images/blog/23053e.png)
 
 ・Gas cost in JPY is used the figures displayed in Zerion.\
 ・Other income (Others) consists mostly of LPs ETH increase and revenue recognition of TXJP expenses (both excluding fx gain/loss)\
@@ -68,9 +68,9 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Token holders
 
-![](/23054e.png)
+![](/images/blog/23054e.png)
 
-![](/23056e.png)
+![](/images/blog/23056e.png)
 
 Balancer V1: 0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f\
 Balancer V2: 0xba12222222228d8ba445958a75a0704d566bf2c8\
