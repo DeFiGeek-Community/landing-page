@@ -1,4 +1,100 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ニュースリリース on DeFiGeek Community</title><link>/blog/</link><description>Recent content in ニュースリリース on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Wed, 31 Jan 2024 15:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>2024年1月度開発活動報告</title><link>/blog/2024-1-1/</link><pubDate>Wed, 31 Jan 2024 15:00:00 +0000</pubDate><guid>/blog/2024-1-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ニュースリリース on DeFiGeek Community</title><link>/blog/</link><description>Recent content in ニュースリリース on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Fri, 08 Mar 2024 15:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Yamawake V1 概要</title><link>/blog/yamawake-v1/</link><pubDate>Fri, 08 Mar 2024 15:00:00 +0000</pubDate><guid>/blog/yamawake-v1/</guid><description>概要 Yamawake とはパーミッションレスにバルクオークションの開催、参加が行えるプラットフォームです。
+バルクオークションとは、入札額に応じて入札者全員でオークションへの出品物を分け合う方式のオークションです。
+オークション開催者は、設定項目を入力するだけで、任意のトークンを販売できるノーコードツールとして使用できます。
+オークション入札者は、開催中の任意のオークションに入札ができ、オークション終了後に割合に応じてトークンを取得できます。
+V1 では ERC20 のトークン販売に対して ETH で入札するオークションを開催することができます。
+各種リンクは以下です。
+App https://yamawake.xyz/ Docs https://docs.yamawake.xyz/ GitHub https://github.com/DeFiGeek-Community/yamawake 機能説明 オークション開催 SIWE（Sign In With Ethereum）することでオークションの管理・開催をすることができます。
+以下のパラメータを入力してオークションを開催できます。
+トークンアドレス 販売したいトークンのアドレス 開催日時 終了日時 割当量 販売したいトークンの数量 最低調達額 未達の場合販売がキャンセルされる その他 プロジェクト概要などオークションに必要な情報 最低調達額を満たした場合 入札された ETH を請求することができ、1%が手数料としてプロトコルに徴収され、残りを主催者が取得します。
+最低調達額を満たさなかった場合 割り当てたトークンを回収することができます。
+オークション入札 開催中のオークションに入札することができます。
+入札したオークションの終了時、最低調達額を満たしたかどうかによって請求処理が変わります。</description></item><item><title>Yamato Protocol V1.5 概要</title><link>/blog/yamato-protocol-v1.5/</link><pubDate>Fri, 01 Mar 2024 15:00:00 +0000</pubDate><guid>/blog/yamato-protocol-v1.5/</guid><description>概要 Yamato Protocol は暗号資産過剰担保型ステーブルコイン発行プロトコルです。
+V1.5 では Yamato Protocol のガバナンストークンである Yamato DAO Token（$YMT）の発行および関連するトークン排出・収益分配システムが稼働します。
+更新説明 $YMT 発行 事前に定められたアロケーションに従って $YMT が発行されます。
+アロケーション 総発行数 10 億 YMT（1B YMT）
+5% 5000 万 YMT コミュニティトレジャリー Yamato Protocol に関わる全員が、その発展のために活用することができる準備資金です。
+safe.defigeek.eth にて保管されます。
+5% 5000 万 YMT 初期インベスター（TXJP ホルダー） LP/予備/コミュニティアカウントを除外した TXJP ホルダーへの割当
+指定ブロック時点の保有量割合にて按分して配布されます。
+5% 5000 万 YMT 開発者報酬 ローンチ達成報酬です。
+開発部内で調整して配布されます。
+5% 5000 万 YMT DEX LP（Uniswap v3 YMT-ETH Pool $0.1~$1) 初期流動性をリードします。配置は時勢に応じて臨機応変です。
+5% 5000 万 YMT v1 遡及配布リワード v1 ローンチ時点からの CJPY 生成者に対するリワードです。</description></item><item><title>2024年2月度開発活動報告</title><link>/blog/development/2024-2/</link><pubDate>Thu, 29 Feb 2024 15:00:00 +0000</pubDate><guid>/blog/development/2024-2/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
+本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
+進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
+コア開発 Immunefi へのバウンティ設置を行いました。
+Critical, High の脆弱性について報酬を用意しています。
+https://immunefi.com/bounty/yamatoprotocol/
+各種リソースへのリンクは以下です。
+UI: https://app.yamato.fi/
+DOC: https://docs.yamato.fi/
+Dune: https://dune.com/dfgc/yamato
+Uniswap:(ETH/CJPY) https://app.uniswap.org/#/tokens/ethereum/0x1cfa5641c01406ab8ac350ded7d735ec41298372
+現在 V1.5 の YMT、veYMT 発行に向けた開発を行っています。
+コントラクトの開発は完了したため、ドキュメントをそろえて監査に進みます。
+その他ロードマップなどについてはこちらの記事をご確認ください。
+Interface 開発 以下のような接続環境を用意しています
+app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi テストネットでの追加機能の検証 テストネットは Sepolia ネットワークへ展開済みです。
+今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
+また、フロント構築の技術スタックの変遷に対応するためにリファクタリングを行っています。
+リファクタリング後は WalletConnect v2 の対応やスマホのレスポンシブ表示が可能になる見込みです。
+ドキュメント https://docs.yamato.fi/ にてドキュメントを掲載しています。</description></item><item><title>2024年2月度 月次財務報告</title><link>/blog/finance/2024-2/</link><pubDate>Thu, 29 Feb 2024 10:00:00 +0000</pubDate><guid>/blog/finance/2024-2/</guid><description>重要指標 キャッシュフロー （注）
+・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
+・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
+・予測ランウェイ：総純資産÷ネットバーンレートで算出
+・解散価値：純資産からDFGC保有TXJP額（含むLP内）を控除したもの
+・BPS：解散価値÷ユーザー保有トークン数
+・PBR：トークン価格解散価値倍率
+・ランウェイ（解散価値）：解散価値÷ネットバーンレート
+・キャッシュフロー：Tx発生時の時価で算出
+・各種データはzapper, zerion, DeBank, Etherscan, Dextool, 三菱UFJリサーチ＆コンサルティングより。
+貸借対照表 （注）
+・資産・負債時価評価： Zerion, DeBank, Zapper表示の日本円換算値を使用
+・資本金、2018年寄付は2018～2020年に受け取った寄付金払込時の時価に2018~2020年の三年間平均為替レート（$1＝¥108.76）を乗じて換算
+・資本金、2021年寄付は2021年7月中平均為替レート（$1＝110.31）で換算
+・資本金、2022年寄付は払込日のドル仲値で換算
+・評価差額金はDFGC保有のTXJP（含むLP内のTXJP額）
+自己保有流動性内訳 コミュニティファンド 損益計算書 （注）
+・ガス代はZerion円貨換算値を利用
+・営業外収益その他は主に保有中のLiquidity Pool内ETH増額及びTXJP支出によるTXJP収益認識（共に除く為替・仮想通貨影響額）
+・営業外費用その他は主に保有中のLiquidity Pool内ETH減少額及びTXJP Buy&amp;amp;PoolによるETH減少額（共に除く為替・仮想通貨影響額）
+TXJPトークンアロケーション＆ホルダー分布 Balancer V1: 0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f
+Balancer V2: 0xba12222222228d8ba445958a75a0704d566bf2c8
+Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
+（注）
+・Balancer V1, V2 および Uniswap V3 のLPはコミュニティトレジャリー (defigeek.eth)が保有。
+・総発行枚数21万枚TXJPは固定。
+・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
+財務活動 02/03 fuse USDC admin feeの回収</description></item><item><title>2024年2月度 月次財務報告</title><link>/blog/finance/2024-3/</link><pubDate>Thu, 29 Feb 2024 10:00:00 +0000</pubDate><guid>/blog/finance/2024-3/</guid><description>重要指標 キャッシュフロー （注）
+・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
+・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
+・予測ランウェイ：総純資産÷ネットバーンレートで算出
+・解散価値：純資産からDFGC保有TXJP額（含むLP内）を控除したもの
+・BPS：解散価値÷ユーザー保有トークン数
+・PBR：トークン価格解散価値倍率
+・ランウェイ（解散価値）：解散価値÷ネットバーンレート
+・キャッシュフロー：Tx発生時の時価で算出
+・各種データはzapper, zerion, DeBank, Etherscan, Dextool, 三菱UFJリサーチ＆コンサルティングより。
+貸借対照表 （注）
+・資産・負債時価評価： Zerion, DeBank, Zapper表示の日本円換算値を使用
+・資本金、2018年寄付は2018～2020年に受け取った寄付金払込時の時価に2018~2020年の三年間平均為替レート（$1＝¥108.76）を乗じて換算
+・資本金、2021年寄付は2021年7月中平均為替レート（$1＝110.31）で換算
+・資本金、2022年寄付は払込日のドル仲値で換算
+・評価差額金はDFGC保有のTXJP（含むLP内のTXJP額）
+自己保有流動性内訳 コミュニティファンド 損益計算書 （注）
+・ガス代はZerion円貨換算値を利用
+・営業外収益その他は主に保有中のLiquidity Pool内ETH増額及びTXJP支出によるTXJP収益認識（共に除く為替・仮想通貨影響額）
+・営業外費用その他は主に保有中のLiquidity Pool内ETH減少額及びTXJP Buy&amp;amp;PoolによるETH減少額（共に除く為替・仮想通貨影響額）
+TXJPトークンアロケーション＆ホルダー分布 Balancer V1: 0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f
+Balancer V2: 0xba12222222228d8ba445958a75a0704d566bf2c8
+Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
+（注）
+・Balancer V1, V2 および Uniswap V3 のLPはコミュニティトレジャリー (defigeek.eth)が保有。
+・総発行枚数21万枚TXJPは固定。
+・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
+財務活動 02/03 fuse USDC admin feeの回収</description></item><item><title>2024年1月度開発活動報告</title><link>/blog/development/2024-1/</link><pubDate>Wed, 31 Jan 2024 15:00:00 +0000</pubDate><guid>/blog/development/2024-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
@@ -18,7 +114,7 @@ app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi �
 今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
 ドキュメント https://docs.yamato.fi/ にてドキュメントを掲載しています。
 誤字・脱字や不明点があれば改善いたしますのでこちらに書き込みください。
-ー Punodwoɔ ー Punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2024年1月度 月次財務報告</title><link>/blog/2024-1/</link><pubDate>Wed, 31 Jan 2024 10:00:00 +0000</pubDate><guid>/blog/2024-1/</guid><description>重要指標 キャッシュフロー （注）
+ー Punodwoɔ ー Punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2024年1月度 月次財務報告</title><link>/blog/finance/2024-1/</link><pubDate>Wed, 31 Jan 2024 10:00:00 +0000</pubDate><guid>/blog/finance/2024-1/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出
@@ -49,7 +145,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
 ・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
 ・コントラクト(0xaa59f501c92092e624d30cff77eaff5ea4e7bfa2)が保有するTXJPはpunodwoɔ利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
-財務活動 01/04 fETH-102供給キャップの変更（失敗）</description></item><item><title>2023年12月度開発活動報告</title><link>/blog/2023-12-1/</link><pubDate>Sun, 31 Dec 2023 15:00:00 +0000</pubDate><guid>/blog/2023-12-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+財務活動 01/04 fETH-102供給キャップの変更（失敗）</description></item><item><title>2023年12月度開発活動報告</title><link>/blog/development/2023-12/</link><pubDate>Sun, 31 Dec 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-12/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
@@ -68,7 +164,7 @@ app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi �
 今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
 ドキュメント https://docs.yamato.fi/ にてドキュメントを掲載しています。
 誤字・脱字や不明点があれば改善いたしますのでこちらに書き込みください。
-ー Punodwoɔ ー Punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年12月度 月次財務報告</title><link>/blog/2023-12/</link><pubDate>Sun, 31 Dec 2023 10:00:00 +0000</pubDate><guid>/blog/2023-12/</guid><description>重要指標 キャッシュフロー （注）
+ー Punodwoɔ ー Punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年12月度 月次財務報告</title><link>/blog/finance/2023-12/</link><pubDate>Sun, 31 Dec 2023 10:00:00 +0000</pubDate><guid>/blog/finance/2023-12/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出
@@ -97,7 +193,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・Balancer V1, V2 および Uniswap V3 のLPはコミュニティトレジャリー (defigeek.eth)が保有。
 ・総発行枚数21万枚TXJPは固定。
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
-・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。</description></item><item><title>2023年11月度開発活動報告</title><link>/blog/2023-11-1/</link><pubDate>Thu, 30 Nov 2023 15:00:00 +0000</pubDate><guid>/blog/2023-11-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。</description></item><item><title>2023年11月度開発活動報告</title><link>/blog/development/2023-11/</link><pubDate>Thu, 30 Nov 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-11/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
@@ -116,7 +212,7 @@ app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi �
 今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
 ドキュメント https://docs.yamato.fi/ にてドキュメントを掲載しています。
 誤字・脱字や不明点があれば改善いたしますのでこちらに書き込みください。
-ー Punodwoɔ ー Punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年11月度 月次財務報告</title><link>/blog/2023-11/</link><pubDate>Thu, 30 Nov 2023 10:00:00 +0000</pubDate><guid>/blog/2023-11/</guid><description>重要指標 キャッシュフロー （注）
+ー Punodwoɔ ー Punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年11月度 月次財務報告</title><link>/blog/finance/2023-11/</link><pubDate>Thu, 30 Nov 2023 10:00:00 +0000</pubDate><guid>/blog/finance/2023-11/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出
@@ -145,7 +241,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・Balancer V1, V2 および Uniswap V3 のLPはコミュニティトレジャリー (defigeek.eth)が保有。
 ・総発行枚数21万枚TXJPは固定。
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
-・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。</description></item><item><title>2023年10月度開発活動報告</title><link>/blog/2023-10-1/</link><pubDate>Tue, 31 Oct 2023 15:00:00 +0000</pubDate><guid>/blog/2023-10-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。</description></item><item><title>2023年10月度開発活動報告</title><link>/blog/development/2023-10/</link><pubDate>Tue, 31 Oct 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-10/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
@@ -164,7 +260,7 @@ app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi �
 今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
 ドキュメント https://docs.yamato.fi/ にてドキュメントを掲載しています。
 誤字・脱字や不明点があれば改善いたしますのでこちらに書き込みください。
-punodwoɔ（CompoundV3） punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年10月度 月次財務報告</title><link>/blog/2023-10/</link><pubDate>Tue, 31 Oct 2023 10:00:00 +0000</pubDate><guid>/blog/2023-10/</guid><description>重要指標 キャッシュフロー （注）
+punodwoɔ（CompoundV3） punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年10月度 月次財務報告</title><link>/blog/finance/2023-10/</link><pubDate>Tue, 31 Oct 2023 10:00:00 +0000</pubDate><guid>/blog/finance/2023-10/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出
@@ -193,7 +289,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・Balancer V1, V2 および Uniswap V3 のLPはコミュニティトレジャリー (defigeek.eth)が保有。
 ・総発行枚数21万枚TXJPは固定。
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
-・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。</description></item><item><title>2023年9月度開発活動報告</title><link>/blog/2023-9-1/</link><pubDate>Sat, 30 Sep 2023 15:00:00 +0000</pubDate><guid>/blog/2023-9-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。</description></item><item><title>2023年9月度開発活動報告</title><link>/blog/development/2023-9/</link><pubDate>Sat, 30 Sep 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-9/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
@@ -212,7 +308,7 @@ app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi �
 今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
 ドキュメント https://docs.yamato.fi/ にてドキュメントを掲載しています。
 誤字・脱字や不明点があれば改善いたしますのでこちらに書き込みください。
-CompoundV3 フォーク CompoundV3 フォークは、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年9月度 月次財務報告</title><link>/blog/2023-9/</link><pubDate>Sat, 30 Sep 2023 10:00:00 +0000</pubDate><guid>/blog/2023-9/</guid><description>重要指標 キャッシュフロー （注）
+CompoundV3 フォーク CompoundV3 フォークは、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年9月度 月次財務報告</title><link>/blog/finance/2023-9/</link><pubDate>Sat, 30 Sep 2023 10:00:00 +0000</pubDate><guid>/blog/finance/2023-9/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
@@ -240,7 +336,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・総発行枚数21万枚TXJPは固定。
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
 ・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
-財務活動 09/01 gas代リベート6-8月分</description></item><item><title>2023年8月度開発活動報告</title><link>/blog/2023-8-1/</link><pubDate>Thu, 31 Aug 2023 15:00:00 +0000</pubDate><guid>/blog/2023-8-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+財務活動 09/01 gas代リベート6-8月分</description></item><item><title>2023年8月度開発活動報告</title><link>/blog/development/2023-8/</link><pubDate>Thu, 31 Aug 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-8/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
@@ -259,7 +355,7 @@ app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi �
 今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
 ドキュメント https://docs.yamato.fi/ にてドキュメントを掲載しています。
 誤字・脱字や不明点があれば改善いたしますのでこちらに書き込みください。
-ー Yabumi ー Yabumi とは、SNS アカウント証明によるトークン送信プラットフォームです。</description></item><item><title>2023年8月度 月次財務報告</title><link>/blog/2023-8/</link><pubDate>Thu, 31 Aug 2023 10:00:00 +0000</pubDate><guid>/blog/2023-8/</guid><description>重要指標 キャッシュフロー （注）
+ー Yabumi ー Yabumi とは、SNS アカウント証明によるトークン送信プラットフォームです。</description></item><item><title>2023年8月度 月次財務報告</title><link>/blog/finance/2023-8/</link><pubDate>Thu, 31 Aug 2023 10:00:00 +0000</pubDate><guid>/blog/finance/2023-8/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
@@ -287,7 +383,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・総発行枚数21万枚TXJPは固定。
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
 ・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
-財務活動 07/31 進捗2Earn給付金</description></item><item><title>2023年7月度開発活動報告</title><link>/blog/2023-7-1/</link><pubDate>Mon, 31 Jul 2023 15:00:00 +0000</pubDate><guid>/blog/2023-7-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+財務活動 07/31 進捗2Earn給付金</description></item><item><title>2023年7月度開発活動報告</title><link>/blog/development/2023-7/</link><pubDate>Mon, 31 Jul 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-7/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー コア開発 1 社目の監査レポートのファイナライズが完了し、公開されました。
@@ -305,7 +401,7 @@ Uniswap:(ETH/CJPY) https://app.uniswap.org/#/tokens/ethereum/0x1cfa5641c01406ab8
 次に V1.5 の YMT、veYMT 発行に向けた調査・開発を行います。
 その他ロードマップなどについてはこちらの記事をご確認ください。
 Interface 開発 以下のような接続環境を用意しています
-app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi テストネットでの追加機能の検証 Goerli および Sepolia ネットワークへ展開済みです。</description></item><item><title>2023年7月度 月次財務報告</title><link>/blog/2023-7/</link><pubDate>Mon, 31 Jul 2023 10:00:00 +0000</pubDate><guid>/blog/2023-7/</guid><description>重要指標 キャッシュフロー （注）
+app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi テストネットでの追加機能の検証 Goerli および Sepolia ネットワークへ展開済みです。</description></item><item><title>2023年7月度 月次財務報告</title><link>/blog/finance/2023-7/</link><pubDate>Mon, 31 Jul 2023 10:00:00 +0000</pubDate><guid>/blog/finance/2023-7/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
@@ -333,7 +429,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・総発行枚数21万枚TXJPは固定。
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
 ・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
-財務活動 06/30 進捗2Earn</description></item><item><title>2023年6月度開発活動報告</title><link>/blog/2023-6-1/</link><pubDate>Fri, 30 Jun 2023 15:00:00 +0000</pubDate><guid>/blog/2023-6-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+財務活動 06/30 進捗2Earn</description></item><item><title>2023年6月度開発活動報告</title><link>/blog/development/2023-6/</link><pubDate>Fri, 30 Jun 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-6/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー コア開発 1 社目の監査レポートのファイナライズが完了しました。
@@ -353,7 +449,7 @@ Interface 開発 現在開発環境として用意しているdev-app.yamato.fi�
 dev-app.yamato.fiはメインネットローンチ後、テストネットでの追加機能の検証用インターフェースとして稼働する予定です。
 Goerli および Sepolia ネットワークへ展開済みです。
 現時点で V1 に必要な機能はすべて実装済みで正常に動作することが確認されています。
-今後は V1.</description></item><item><title>2023年6月度 月次財務報告</title><link>/blog/2023-6/</link><pubDate>Tue, 27 Jun 2023 13:00:00 +0000</pubDate><guid>/blog/2023-6/</guid><description>重要指標 キャッシュフロー （注）
+今後は V1.</description></item><item><title>2023年6月度 月次財務報告</title><link>/blog/finance/2023-6/</link><pubDate>Tue, 27 Jun 2023 13:00:00 +0000</pubDate><guid>/blog/finance/2023-6/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
@@ -381,7 +477,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・総発行枚数21万枚TXJPは固定。
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
 ・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
-財務活動 6月8日 defigeek.eth Compoundから1ETHを引き出しました。</description></item><item><title>2023年5月度開発活動報告</title><link>/blog/2023-5-1/</link><pubDate>Wed, 31 May 2023 15:00:00 +0000</pubDate><guid>/blog/2023-5-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+財務活動 6月8日 defigeek.eth Compoundから1ETHを引き出しました。</description></item><item><title>2023年5月度開発活動報告</title><link>/blog/development/2023-5/</link><pubDate>Wed, 31 May 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-5/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー コア開発 1 社目の監査レポートのファイナライズが完了しました。
@@ -402,7 +498,7 @@ dev-app.yamato.fiはメインネットローンチ後、テストネットでの
 Goerli および Sepolia ネットワークへ展開済みです。
 現時点で V1 に必要な機能はすべて実装済みで正常に動作することが確認されています。
 今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
-ドキュメント 現在GitBook ドキュメントを執筆・仮公開中です。</description></item><item><title>2023年5月度 月次財務報告</title><link>/blog/2023-5/</link><pubDate>Wed, 31 May 2023 13:00:00 +0000</pubDate><guid>/blog/2023-5/</guid><description>重要指標 キャッシュフロー （注）
+ドキュメント 現在GitBook ドキュメントを執筆・仮公開中です。</description></item><item><title>2023年5月度 月次財務報告</title><link>/blog/finance/2023-5/</link><pubDate>Wed, 31 May 2023 13:00:00 +0000</pubDate><guid>/blog/finance/2023-5/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
@@ -457,7 +553,7 @@ UI・UX の改善案は DFGC サーバーのマークルディストリビュー
 Permit2 による送金 入金額が 0 より大きい場合、登録と同時にエアドロトークンが転送されます。
 この転送は Uniswap の Permit2 を使用しています。初めて Permit2 を使用する場合、Approve トランザクションが発行されます。
 その後、送金の署名とトランザクション発行が求められます。
-入金額を 0 にした場合、エアドロップ情報のみ登録されます。後で入金することも可能です（同様に Permit2 を利用）。</description></item><item><title>2023年4月度 月次財務報告</title><link>/blog/2023-4/</link><pubDate>Sun, 30 Apr 2023 15:00:00 +0000</pubDate><guid>/blog/2023-4/</guid><description>重要指標 キャッシュフロー （注）
+入金額を 0 にした場合、エアドロップ情報のみ登録されます。後で入金することも可能です（同様に Permit2 を利用）。</description></item><item><title>2023年4月度 月次財務報告</title><link>/blog/finance/2023-4/</link><pubDate>Sun, 30 Apr 2023 15:00:00 +0000</pubDate><guid>/blog/finance/2023-4/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
@@ -485,7 +581,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・総発行枚数21万枚TXJPは固定。
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
 ・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
-財務活動 4月2日 fuse DFGC pool USDC借入キャップを580000→500000USDCに変更しました。</description></item><item><title>2023年4月度開発活動報告</title><link>/blog/2023-4-1/</link><pubDate>Sun, 30 Apr 2023 15:00:00 +0000</pubDate><guid>/blog/2023-4-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+財務活動 4月2日 fuse DFGC pool USDC借入キャップを580000→500000USDCに変更しました。</description></item><item><title>2023年4月度開発活動報告</title><link>/blog/development/2023-4/</link><pubDate>Sun, 30 Apr 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-4/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー コア開発 1 社目の監査レポートのファイナライズが完了しました。
@@ -506,7 +602,7 @@ dev-app.yamato.fiはメインネットローンチ後、テストネットでの
 Goerli ローンチに伴って Rinkeby 向け設定を Goerli 向け設定に変更しました。
 現時点で V1 に必要な機能はすべて実装済みで正常に動作することが確認されています。
 今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
-ドキュメント 現在GitBook ドキュメントを執筆・仮公開中です。</description></item><item><title>2023年3月度 月次財務報告</title><link>/blog/2023-3/</link><pubDate>Fri, 31 Mar 2023 15:00:00 +0000</pubDate><guid>/blog/2023-3/</guid><description>重要指標 キャッシュフロー （注）
+ドキュメント 現在GitBook ドキュメントを執筆・仮公開中です。</description></item><item><title>2023年3月度 月次財務報告</title><link>/blog/finance/2023-3/</link><pubDate>Fri, 31 Mar 2023 15:00:00 +0000</pubDate><guid>/blog/finance/2023-3/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
@@ -534,7 +630,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・総発行枚数21万枚TXJPは固定。
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
 ・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
-財務活動 3月12日 safe.defigeek.eth Github有料アカウント＆リレーヤー報酬を送りました。</description></item><item><title>2023年3月度開発活動報告</title><link>/blog/2023-3-1/</link><pubDate>Fri, 31 Mar 2023 15:00:00 +0000</pubDate><guid>/blog/2023-3-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+財務活動 3月12日 safe.defigeek.eth Github有料アカウント＆リレーヤー報酬を送りました。</description></item><item><title>2023年3月度開発活動報告</title><link>/blog/development/2023-3/</link><pubDate>Fri, 31 Mar 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-3/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ーYAMATOー コア開発 1社目の監査レポートのファイナライズが完了しました。
@@ -572,7 +668,7 @@ YADORIロゴマークコンペティションにてご意見お待ちしてお�
 上記の仕様をドキュメントにまとめつつ、内容が確定し次第ランディングページを立ち上げます。
 NFTイメージ開発 現在はデザイン部メンバー主導で開発を行っています。
 V1で提供するモデルは
-和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。</description></item><item><title>2023年2月度開発活動報告</title><link>/blog/2023-2-1/</link><pubDate>Tue, 28 Feb 2023 15:00:00 +0000</pubDate><guid>/blog/2023-2-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。</description></item><item><title>2023年2月度開発活動報告</title><link>/blog/development/2023-2/</link><pubDate>Tue, 28 Feb 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-2/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ーYAMATOー コア開発 1社目の監査レポートのファイナライズが完了しました。
@@ -610,7 +706,7 @@ NFTイメージ開発 現在はデザイン部メンバー主導で開発を行�
 V1で提供するモデルは
 和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。
 変化するパラメータの確定とそれに沿ったデザインを作成中です。
-パラメータの指定とそれに沿った画像を出力するモックサイトを開発しています。</description></item><item><title>2023年2月度 月次財務報告</title><link>/blog/2023-2/</link><pubDate>Tue, 28 Feb 2023 14:00:00 +0000</pubDate><guid>/blog/2023-2/</guid><description>重要指標 キャッシュフロー （注）
+パラメータの指定とそれに沿った画像を出力するモックサイトを開発しています。</description></item><item><title>2023年2月度 月次財務報告</title><link>/blog/finance/2023-2/</link><pubDate>Tue, 28 Feb 2023 14:00:00 +0000</pubDate><guid>/blog/finance/2023-2/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
@@ -662,7 +758,7 @@ NFT一覧 MintされたNFTの一覧が確認できます。
 送金 NFT保有者に対してトークンを送金できます。
 銘柄を選択すると保有量が表示されます。
 数量を入力（Decimalの考慮は不要）して確認ボタンを押下すると確認モーダルが現れます。
-内容が正しいことを確認したら送信ボタン押下でトランザクションが発行されます。</description></item><item><title>2023年1月度開発活動報告</title><link>/blog/2023-1-1/</link><pubDate>Tue, 31 Jan 2023 15:00:00 +0000</pubDate><guid>/blog/2023-1-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+内容が正しいことを確認したら送信ボタン押下でトランザクションが発行されます。</description></item><item><title>2023年1月度開発活動報告</title><link>/blog/development/2023-1/</link><pubDate>Tue, 31 Jan 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ーYAMATOー コア開発 1社目の監査レポートのファイナライズが完了しました。
@@ -699,7 +795,7 @@ YADORIロゴマークコンペティションにてご意見お待ちしてお�
 上記の仕様をドキュメントにまとめつつ、内容が確定し次第ランディングページを立ち上げます。
 NFTイメージ開発 現在はデザイン部メンバー主導で開発を行っています。
 V1で提供するモデルは
-和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。</description></item><item><title>2023年1月度 月次財務報告</title><link>/blog/2023-1/</link><pubDate>Tue, 31 Jan 2023 14:00:00 +0000</pubDate><guid>/blog/2023-1/</guid><description>重要指標 キャッシュフロー （注）
+和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。</description></item><item><title>2023年1月度 月次財務報告</title><link>/blog/finance/2023-1/</link><pubDate>Tue, 31 Jan 2023 14:00:00 +0000</pubDate><guid>/blog/finance/2023-1/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
@@ -727,7 +823,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・総発行枚数21万枚TXJPは固定。
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
 ・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
-財務活動 1月3日 fuse pool 23Q1のTXJPリワードを補充しました。（300TXJP） 1月7日 fuse USDC poolの借入キャップを+200000USDCしました。 1月8日 Github有料アカウント＆リレーヤー報酬を送りました。 1月22日 defigeek.</description></item><item><title>2022年12月度開発活動報告</title><link>/blog/2022-12-1/</link><pubDate>Sat, 31 Dec 2022 15:00:00 +0000</pubDate><guid>/blog/2022-12-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+財務活動 1月3日 fuse pool 23Q1のTXJPリワードを補充しました。（300TXJP） 1月7日 fuse USDC poolの借入キャップを+200000USDCしました。 1月8日 Github有料アカウント＆リレーヤー報酬を送りました。 1月22日 defigeek.</description></item><item><title>2022年12月度開発活動報告</title><link>/blog/development/2022-12/</link><pubDate>Sat, 31 Dec 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-12/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ーYAMATOー コア開発 1社目の監査レポートのファイナライズが完了しました。
@@ -765,7 +861,7 @@ NFTイメージ開発 現在はデザイン部メンバー主導で開発を行�
 V1で提供するモデルは
 和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。
 ブラッシュアップを重ねて、オープンチャンネルでお披露目する予定です。
-楽しみにお待ちください。</description></item><item><title>2022年12月度 月次財務報告</title><link>/blog/2022-12/</link><pubDate>Sat, 31 Dec 2022 13:00:00 +0000</pubDate><guid>/blog/2022-12/</guid><description>重要指標 キャッシュフロー （注）
+楽しみにお待ちください。</description></item><item><title>2022年12月度 月次財務報告</title><link>/blog/finance/2022-12/</link><pubDate>Sat, 31 Dec 2022 13:00:00 +0000</pubDate><guid>/blog/finance/2022-12/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
@@ -793,7 +889,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・総発行枚数21万枚TXJPは固定。
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
 ・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
-財務活動 12月11日 Github有料アカウント＆リレーヤー報酬を送りました。</description></item><item><title>2022年11月度開発活動報告</title><link>/blog/2022-11-1/</link><pubDate>Wed, 30 Nov 2022 15:00:00 +0000</pubDate><guid>/blog/2022-11-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+財務活動 12月11日 Github有料アカウント＆リレーヤー報酬を送りました。</description></item><item><title>2022年11月度開発活動報告</title><link>/blog/development/2022-11/</link><pubDate>Wed, 30 Nov 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-11/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ーYAMATOー コア開発 1社目の監査レポートのファイナライズが完了しました。
@@ -831,7 +927,7 @@ NFTイメージ開発 現在はデザイン部メンバー主導で開発を行�
 V1で提供するモデルは
 和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。
 ブラッシュアップを重ねて、オープンチャンネルでお披露目する予定です。
-楽しみにお待ちください。</description></item><item><title>2022年11月度 月次財務報告</title><link>/blog/2022-11/</link><pubDate>Wed, 30 Nov 2022 13:00:00 +0000</pubDate><guid>/blog/2022-11/</guid><description>重要指標 キャッシュフロー （注）
+楽しみにお待ちください。</description></item><item><title>2022年11月度 月次財務報告</title><link>/blog/finance/2022-11/</link><pubDate>Wed, 30 Nov 2022 13:00:00 +0000</pubDate><guid>/blog/finance/2022-11/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
@@ -859,7 +955,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・総発行枚数21万枚TXJPは固定。
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
 ・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
-財務活動 11月6日 「DeFiGeekMultisig」（safe）を10サイナー、6of10で作成しました。</description></item><item><title>2022年10月度開発活動報告</title><link>/blog/2022-10-1/</link><pubDate>Mon, 31 Oct 2022 15:00:00 +0000</pubDate><guid>/blog/2022-10-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+財務活動 11月6日 「DeFiGeekMultisig」（safe）を10サイナー、6of10で作成しました。</description></item><item><title>2022年10月度開発活動報告</title><link>/blog/development/2022-10/</link><pubDate>Mon, 31 Oct 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-10/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ーYAMATOー コア開発 1社目の監査レポートのファイナライズが完了しました。
@@ -901,7 +997,7 @@ V1で提供するモデルは
 ロゴコンペティション ネーミングコンペティションに続いてロゴコンペティションを開催します。
 現在1名のデザイナーの方が立候補してくださっており、開発部でロゴとコンセプトシートの素案を練っている段階です。
 公開して内容に合意が取れ次第コンペティションの終了と採用となります。
-進捗・募集状況の詳細についてはDiscordのフォーラムをご確認ください。</description></item><item><title>2022年10月度 月次財務報告</title><link>/blog/2022-10/</link><pubDate>Mon, 31 Oct 2022 09:00:00 +0000</pubDate><guid>/blog/2022-10/</guid><description>重要指標 キャッシュフロー （注）
+進捗・募集状況の詳細についてはDiscordのフォーラムをご確認ください。</description></item><item><title>2022年10月度 月次財務報告</title><link>/blog/finance/2022-10/</link><pubDate>Mon, 31 Oct 2022 09:00:00 +0000</pubDate><guid>/blog/finance/2022-10/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産/ネットバーンレートで算出 ・解散価値：純資産から負債とDFGC保有TXJP額（含むLP内）を控除したもの
@@ -930,7 +1026,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・総発行枚数21万枚TXJPは固定。
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計31,500は発行済でdefigeek.ethウォレットで保有。
 ・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
-財務活動 10月2日 DFGC Pool TXJPリワード　ETH供給へのリワードスピード変更</description></item><item><title>2022年7-9月度 四半期財務報告</title><link>/blog/2022-7-9/</link><pubDate>Fri, 30 Sep 2022 15:00:00 +0000</pubDate><guid>/blog/2022-7-9/</guid><description>重要指標 キャッシュフロー （注）
+財務活動 10月2日 DFGC Pool TXJPリワード　ETH供給へのリワードスピード変更</description></item><item><title>2022年7-9月度 四半期財務報告</title><link>/blog/finance/2022-7-9/</link><pubDate>Fri, 30 Sep 2022 15:00:00 +0000</pubDate><guid>/blog/finance/2022-7-9/</guid><description>重要指標 キャッシュフロー （注）
 ・財務部門担当者の交代により、本2022年9月版レポートとそれ以前に発行された月次レポートとの間に、データ、会計処理、会計上の前提条件の相違があります。なお、入手可能な情報に限りがあるため、遡及適用は行っていませんので、連続性の観点から前月データ、グラフ類の表示を一旦中断します。
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
@@ -958,7 +1054,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計31,500は発行済でdefigeek.ethウォレットで保有。
 ・コントラクト(0x0028a459d6705b30333e98d5bcb34dd1b21e2a89)が保有するTXJPはRariのFuse利用中の一般ユーザー保有分、コミュニティトレジャリーは当該プールを未使用。
 財務活動 7月1日 defigeek.eth votiumのCVXをclaim
-7月1日 defigeek.eth convexのtricrypto2LPリワードをclaim</description></item><item><title>2022年9月度開発活動報告</title><link>/blog/2022-9/</link><pubDate>Fri, 30 Sep 2022 15:00:00 +0000</pubDate><guid>/blog/2022-9/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+7月1日 defigeek.eth convexのtricrypto2LPリワードをclaim</description></item><item><title>2022年9月度開発活動報告</title><link>/blog/development/2022-9/</link><pubDate>Fri, 30 Sep 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-9/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 YAMATO コア開発 1社目の監査レポートのファイナライズが完了しました。
@@ -997,7 +1093,7 @@ V1で提供するモデルは
 モデルは複数のクリエイターの方から提供してもらうことによって表現の幅を広げる予定ですので、モデル・キャラクター等をWalletアバターNFTに組み込んでいただける・概要について詳しく知りたいデザイナーの方はコミュニティDiscordのNFT部にてご連絡ください。
 ネーミングコンペティション ネーミングコンペティションの決選投票が終了し、過半数の得票によりWalletアバターNFTの正式名称はYASHIROに決定しました。
 今回は26件の応募がありました。
-応募してくださった皆様、ありがとうございました。</description></item><item><title>2022年8月度開発活動報告</title><link>/blog/2022-8/</link><pubDate>Wed, 31 Aug 2022 15:00:00 +0000</pubDate><guid>/blog/2022-8/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+応募してくださった皆様、ありがとうございました。</description></item><item><title>2022年8月度開発活動報告</title><link>/blog/development/2022-8/</link><pubDate>Wed, 31 Aug 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-8/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 Yamato Protocol Yamato Core V1の動作確認が完了したため、外部チームによる監査へと進みました。
@@ -1036,7 +1132,7 @@ NFT画像・モデルを制作していただけるイラストレーター・�
 ロゴコンペティション ネーミングコンペティションに続いてロゴコンペティションを開催します。
 デザイン部主導でロゴを完成させる方向で動く予定ですが、ラフやモチーフの提案・議論の参加は歓迎いたします。
 YADORIロゴマークコンペティションにてご意見お待ちしております。
-WalletアバターNFT WalletアバターNFTとは、EOAの状態（ETH保有数、トランザクション発行数など）によって図柄が変化する、EOAのアイデンティティを示すNFTです。</description></item><item><title>2022年7月度開発活動報告</title><link>/blog/2022-7-1/</link><pubDate>Sun, 31 Jul 2022 15:00:00 +0000</pubDate><guid>/blog/2022-7-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+WalletアバターNFT WalletアバターNFTとは、EOAの状態（ETH保有数、トランザクション発行数など）によって図柄が変化する、EOAのアイデンティティを示すNFTです。</description></item><item><title>2022年7月度開発活動報告</title><link>/blog/development/2022-7/</link><pubDate>Sun, 31 Jul 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-7/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 Yamato Protocol Yamato Core V1の動作確認が完了したため、外部チームによる監査へと進みました。
@@ -1097,7 +1193,7 @@ PledgeとはYamato Protocol における口座のことで、アドレス毎の�
 つまり、手取り量 = 借入量 * (1 - 手数料率) となります。
 満額返済するためには外部からCJPYを調達する必要があります。
 手数料率は以下の通りです
-借入後担保率(%) 手数料率(%) 130 4 150 2 200 1 250 0.85 300 0.</description></item><item><title>2022年6月度 月次財務報告</title><link>/blog/2022-6/</link><pubDate>Fri, 01 Jul 2022 15:39:00 +0000</pubDate><guid>/blog/2022-6/</guid><description>重要指標 （注）
+借入後担保率(%) 手数料率(%) 130 4 150 2 200 1 250 0.85 300 0.</description></item><item><title>2022年6月度 月次財務報告</title><link>/blog/finance/2022-6/</link><pubDate>Fri, 01 Jul 2022 15:39:00 +0000</pubDate><guid>/blog/finance/2022-6/</guid><description>重要指標 （注）
 ・純資産：月末日為替レート（$1＝¥136.68）で換算。
 ・グロスバーンレート：キャッシュアウト合計（資産運用に係る収支については一時的な支出であるため除外して計算している）
 ・ネットバーンレート：キャッシュフロー合計（資産運用に係る収支については一時的な支出であるため除外して計算している）
@@ -1123,7 +1219,7 @@ PledgeとはYamato Protocol における口座のことで、アドレス毎の�
 アロケーション 財務活動 ※以下、本文下線部は該当するTxのURLを埋め込み済。
 ・6/4 defigeek.ethにてL1 0.2ETHをL2 optimismへブリッジ（Tx1, Tx2）し、defigeek.ethからdev.defigeek.eth及びcofounder.defigeek.ethへと0.01ETHずつ送金。
 〃　Airdrop分の681.2601OP（defigeek.eth）、271.8338OP（dev.defigeek.eth）、271.8338OP（cofounder.defigeek.eth）を請求し、dev.defigeek.eth及びcofounder.ethの受け取り分はdefigeek.ethへガバナンスを委任（Tx1, Tx2）し、それぞれ271.8338OPをdefigeeek.ethへと送金（Tx1, Tx2）。
-〃　Airdrop分の3,000VELO（defigeek.</description></item><item><title>2022年6月度開発活動報告</title><link>/blog/2022-6-1/</link><pubDate>Thu, 30 Jun 2022 15:00:00 +0000</pubDate><guid>/blog/2022-6-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+〃　Airdrop分の3,000VELO（defigeek.</description></item><item><title>2022年6月度開発活動報告</title><link>/blog/development/2022-6/</link><pubDate>Thu, 30 Jun 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-6/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 Yamato Protocol Yamato Core V1の動作確認が完了したため、外部チームによる監査へと進みました。
@@ -1201,7 +1297,7 @@ https://defigeek.xyz/blog/yamato-protocol-9/
 招待リンクです↓
 https://discord.gg/FQYXqVBEnh
 2022.06.17
-DeFiGeek Community　開発部一同</description></item><item><title>2022年5月度 月次財務報告</title><link>/blog/2022-5-1/</link><pubDate>Sun, 05 Jun 2022 15:39:00 +0000</pubDate><guid>/blog/2022-5-1/</guid><description>重要指標 （注）
+DeFiGeek Community　開発部一同</description></item><item><title>2022年5月度 月次財務報告</title><link>/blog/finance/2022-5-1/</link><pubDate>Sun, 05 Jun 2022 15:39:00 +0000</pubDate><guid>/blog/finance/2022-5-1/</guid><description>重要指標 （注）
 ・純資産：月末日為替レート（$1＝¥128.21）で換算。
 ・グロスバーンレート：キャッシュアウト合計（資産運用に係る収支については一時的な支出であるため除外して計算している）
 ・ネットバーンレート：キャッシュフロー合計（資産運用に係る収支については一時的な支出であるため除外して計算している）
@@ -1229,7 +1325,7 @@ DeFiGeek Community　開発部一同</description></item><item><title>2022年5�
 ・5/8 開発部Github有料アカウントリレーヤーへ0.0146ETHの支払い。
 ・5/12 defigeek.ethからdev.defigeek.ethへ6,658.3580DAIを送金。
 ・5/27 defigeek.ethからdev.defigeek.ethへ20,000USDTを送金。
-・5/29 0xd17&amp;hellip;68aへ開発部及び開発リーダー報酬として6,500USDCの支払い。</description></item><item><title>2022年5月度開発活動報告</title><link>/blog/2022-5/</link><pubDate>Tue, 31 May 2022 15:00:00 +0000</pubDate><guid>/blog/2022-5/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+・5/29 0xd17&amp;hellip;68aへ開発部及び開発リーダー報酬として6,500USDCの支払い。</description></item><item><title>2022年5月度開発活動報告</title><link>/blog/development/2022-5/</link><pubDate>Tue, 31 May 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-5/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 Yamato Protocol Yamato Core 以下の修正をテストネットコントラクトに反映しました。
@@ -1259,7 +1355,7 @@ NFTイメージ開発 DFGCから発行するNFTイメージの制作を進めて
 NFT画像・モデルを制作していただけるイラストレーター・デザイナーを募集しています。
 現在2名の方に参画していただいており、デザイン部ロールも付与されました。
 興味を持っていただけましたらコミュニティDiscordのNFT部にて参加表明をお願いします。
-ネーミングコンペティション LoyaltyNFTをパッケージ化する際の名称を決めるコンペティションを開催しました。</description></item><item><title>2022年4月度 月次財務報告</title><link>/blog/2022-4-1/</link><pubDate>Sat, 30 Apr 2022 15:39:00 +0000</pubDate><guid>/blog/2022-4-1/</guid><description>重要指標 （注）
+ネーミングコンペティション LoyaltyNFTをパッケージ化する際の名称を決めるコンペティションを開催しました。</description></item><item><title>2022年4月度 月次財務報告</title><link>/blog/finance/2022-4-1/</link><pubDate>Sat, 30 Apr 2022 15:39:00 +0000</pubDate><guid>/blog/finance/2022-4-1/</guid><description>重要指標 （注）
 ・純資産：月末日為替レート（$1＝¥128.86）で換算。
 ・グロスバーンレート：キャッシュアウト合計（資産運用に係る収支については一時的な支出であるため除外して計算している）
 ・ネットバーンレート：キャッシュフロー合計（資産運用に係る収支については一時的な支出であるため除外して計算している）
@@ -1286,7 +1382,7 @@ NFT画像・モデルを制作していただけるイラストレーター・�
 アロケーション 財務活動 ※以下、本文下線部は該当するTxのURLを埋め込み済。
 ・4/10 開発部Github有料アカウントリレーヤーへ0.011ETHの支払い。
 ・4/17 四半期末のTXJP buy＆poolによって13.4ETHをTXJPへと交換し、Balancer v2 98:2プールへ259.3747TXJPの流動性提供。
-・4/24 0xd17&amp;hellip;68aへ開発部及び開発リーダー報酬として6,500USDCの支払い。</description></item><item><title>2022年4月度開発活動報告</title><link>/blog/2022-4/</link><pubDate>Sat, 30 Apr 2022 15:00:00 +0000</pubDate><guid>/blog/2022-4/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+・4/24 0xd17&amp;hellip;68aへ開発部及び開発リーダー報酬として6,500USDCの支払い。</description></item><item><title>2022年4月度開発活動報告</title><link>/blog/development/2022-4/</link><pubDate>Sat, 30 Apr 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-4/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 Yamato Protocol Yamato Core 以下の修正をテストネットコントラクトに反映しました。
@@ -1313,7 +1409,7 @@ PoCの次の段階としてNFT内のポイントとギフトを交換するカ�
 NFTイメージ開発 DFGCから発行するNFTイメージの制作を進めています。
 2D画像ではなく3DCG動画の提供を予定しており、枠の形や質感、主題のバリエーションを策定中です。
 ある程度方向性が固まったら公開チャンネルでお披露目する予定ですので、楽しみにお待ちください。
-NFT画像・モデルを制作していただけるイラストレーター・デザイナーを募集しています。</description></item><item><title>2022年3月度 月次財務報告</title><link>/blog/2022-3-1/</link><pubDate>Fri, 01 Apr 2022 15:39:00 +0000</pubDate><guid>/blog/2022-3-1/</guid><description>重要指標 （注）
+NFT画像・モデルを制作していただけるイラストレーター・デザイナーを募集しています。</description></item><item><title>2022年3月度 月次財務報告</title><link>/blog/finance/2022-3-1/</link><pubDate>Fri, 01 Apr 2022 15:39:00 +0000</pubDate><guid>/blog/finance/2022-3-1/</guid><description>重要指標 （注）
 ・純資産：月末日為替レート（$1＝¥122.39）で換算。
 ・グロスバーンレート：キャッシュアウト合計（資産運用に係る収支については一時的な支出であるため除外して計算している）
 ・ネットバーンレート：キャッシュフロー合計（資産運用に係る収支については一時的な支出であるため除外して計算している）
@@ -1341,7 +1437,7 @@ NFT画像・モデルを制作していただけるイラストレーター・�
 ・3/13 開発部Github有料アカウントリレーヤーへ0.0149ETHの支払い。
 ・3/26 RariDFGCpoolへリワード用の300TXJPを送金。
 ・3/27 0xd17&amp;hellip;68aへ開発部及び開発リーダー報酬として6,500USDC、四半期ロール報酬として6TXJPの支払い。
-〃　0x4f9&amp;hellip;1dfへ開発部及び開発リーダー報酬として0.7937ETH、四半期ロール報酬として6TXJPの支払い。</description></item><item><title>2022年3月度開発活動報告</title><link>/blog/2022-3/</link><pubDate>Sun, 27 Mar 2022 15:00:00 +0000</pubDate><guid>/blog/2022-3/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+〃　0x4f9&amp;hellip;1dfへ開発部及び開発リーダー報酬として0.7937ETH、四半期ロール報酬として6TXJPの支払い。</description></item><item><title>2022年3月度開発活動報告</title><link>/blog/development/2022-3/</link><pubDate>Sun, 27 Mar 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-3/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 Yamato Protocol 仕様変更 最小担保量を0.1ETHに設定 預け入れ後または引き出し後の担保量が0.1ETH以上であることが要求されます。
@@ -1375,7 +1471,7 @@ NFT画像を制作していただけるイラストレーター・デザイナ�
 関連リンク コミュニティガイド: https://docs.defigeek.xyz/
 Discord: http://discord.gg/FQYXqVBEnh
 Twitter: https://twitter.com/DeFiGeekJapan
-本記事に関するご意見、質問は、上記DiscordからDeFiGeek Communityの広報部までご連絡ください。</description></item><item><title>2022年2月度 月次財務報告</title><link>/blog/2022-2/</link><pubDate>Sat, 12 Mar 2022 15:39:00 +0000</pubDate><guid>/blog/2022-2/</guid><description>重要指標 （注）
+本記事に関するご意見、質問は、上記DiscordからDeFiGeek Communityの広報部までご連絡ください。</description></item><item><title>2022年2月度 月次財務報告</title><link>/blog/finance/2022-2/</link><pubDate>Sat, 12 Mar 2022 15:39:00 +0000</pubDate><guid>/blog/finance/2022-2/</guid><description>重要指標 （注）
 ・純資産：月末日為替レート（$1＝¥115.55）で換算。
 ・グロスバーンレート：キャッシュアウト合計（資産運用に係る収支については一時的な支出であるため除外して計算している）
 ・ネットバーンレート：キャッシュフロー合計（資産運用に係る収支については一時的な支出であるため除外して計算している）
@@ -1402,7 +1498,7 @@ Twitter: https://twitter.com/DeFiGeekJapan
 アロケーション 財務活動 ※以下、本文下線部は該当するTxのURLを埋め込み済。
 ・2/1 RariDFGCpoolへリワード用の50TXJPを送金。
 ・2/13 開発部Github有料アカウントリレーヤーへ0.0132ETHの支払い。
-〃　RariDFGCpoolの担保掛目変更（Tx1, Tx2, Tx3, Tx4）。</description></item><item><title>2022年1月度 月次財務報告</title><link>/blog/2022-1/</link><pubDate>Tue, 01 Feb 2022 15:39:00 +0000</pubDate><guid>/blog/2022-1/</guid><description>重要指標 （注）
+〃　RariDFGCpoolの担保掛目変更（Tx1, Tx2, Tx3, Tx4）。</description></item><item><title>2022年1月度 月次財務報告</title><link>/blog/finance/2022-1/</link><pubDate>Tue, 01 Feb 2022 15:39:00 +0000</pubDate><guid>/blog/finance/2022-1/</guid><description>重要指標 （注）
 ・純資産：月末日為替レート（$1＝¥115.44）で換算。
 ・グロスバーンレート：キャッシュアウト合計（資産運用に係る収支については一時的な支出であるため除外して計算している）
 ・ネットバーンレート：キャッシュフロー合計（資産運用に係る収支については一時的な支出であるため除外して計算している）
@@ -1429,7 +1525,7 @@ Twitter: https://twitter.com/DeFiGeekJapan
 アロケーション 財務活動 ※以下、本文下線部は該当するTxのURLを埋め込み済。
 ・1/9 RariDFGCpoolへリワード用の300TXJPを送金し、ETH supplyにリワードの設定。
 〃　開発部Github有料アカウントリレーヤーへ0.0201ETHの支払い。
-・1/16 四半期末のTXJP buy＆poolによって14ETHをTXJPへと交換し、Balancer v2 98:2プールへ282.</description></item><item><title>2021年12月度 月次財務報告</title><link>/blog/2021-12/</link><pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate><guid>/blog/2021-12/</guid><description>重要指標 （注）
+・1/16 四半期末のTXJP buy＆poolによって14ETHをTXJPへと交換し、Balancer v2 98:2プールへ282.</description></item><item><title>2021年12月度 月次財務報告</title><link>/blog/finance/2021-12/</link><pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate><guid>/blog/finance/2021-12/</guid><description>重要指標 （注）
 ・純資産：月末日為替レート（$1＝¥115.02）で換算。
 ・グロスバーンレート：キャッシュアウト合計
 ・ネットバーンレート：キャッシュフロー合計
@@ -1479,7 +1575,7 @@ Issues · DeFiGeek-Community/yamato-interface
 2022.04～ メインネットベータ（Yamato v1） リリース
 2022.08～ Yamato v1.5 リリース（YMT遡及割当とveYMTの稼働）
 2023.Q1～ Yamato v2 リリース（CUSD,CEURの実装）
-※2022年3月時点で上記予定より四半期程度の遅れが生じています。</description></item><item><title>2021年11月度 月次財務報告</title><link>/blog/2021-11/</link><pubDate>Wed, 01 Dec 2021 08:00:00 +0000</pubDate><guid>/blog/2021-11/</guid><description>重要指標 （注）
+※2022年3月時点で上記予定より四半期程度の遅れが生じています。</description></item><item><title>2021年11月度 月次財務報告</title><link>/blog/finance/2021-11/</link><pubDate>Wed, 01 Dec 2021 08:00:00 +0000</pubDate><guid>/blog/finance/2021-11/</guid><description>重要指標 （注）
 ・純資産：月末日為替レート（$1＝¥113.77）で換算。
 ・バーンレート：Airdropの請求による収入は一時的な収入であるため便宜上バーンレートの計算から除外している。
 ・BPS：１トークン当たり純資産（解散価値）
@@ -1530,7 +1626,7 @@ UIデザイン（フロント設計）、基本動作（担保入、借入、返
 適宜改修を行いながら本番仕様のベータテストに移ります。
 アルファテストは最小限の稼働仕様のため、コミュニティメンバー向けのテストです。
 不具合や動作不良、表示不良などコミュニティチャット (仮設：yamatoバグバウンティ会場)にて報告をお願い致します。
-テストとコード改修を進め、続報をお届けします。</description></item><item><title>2021年10月度 月次財務報告</title><link>/blog/2021-10/</link><pubDate>Tue, 02 Nov 2021 06:00:00 +0000</pubDate><guid>/blog/2021-10/</guid><description>重要指標 （注）
+テストとコード改修を進め、続報をお届けします。</description></item><item><title>2021年10月度 月次財務報告</title><link>/blog/finance/2021-10/</link><pubDate>Tue, 02 Nov 2021 06:00:00 +0000</pubDate><guid>/blog/finance/2021-10/</guid><description>重要指標 （注）
 ・純資産：月末日為替レート（$1＝¥113.67）で換算。
 ・バーンレート：資産運用に係るCompound、Aaveでの借り貸しの収支については便宜上バーンレートの計算から除外している。
 ・BPT：１トークン当たり純資産（解散価値）
@@ -1654,7 +1750,7 @@ Q6 YamatoProtocolによって、何が変わりますか？私達にとって良
 ユーザーもしくはプロトコルによって償還されることにより、担保はその時点の時価でCJPYと引き換えられ債務を相殺します。（担保率の低い金庫が優先的に資産償還の対象になります。償還は担保が基準値以下の場合のみ可能です。）
 最終的に担保を全て償還しきったPledgeには”未払いの債務”が残りますが、担保が０になったPledgeはシステムによって残債務が免除されます。これはプロトコルが徴収した手数料の一部（20%に設定）を割り当てて動作します。
 Q8 「償還」とは？ A Yamato Protocolの健全性を保つために重要なシステムです。
-担保基準値を割り込んだPledgeの担保資産のみを対象とし、CJPYを1円の保証価格で担保資産と引き換えることができます。</description></item><item><title>2021年9月度 月次財務報告</title><link>/blog/monthly-2021-09/</link><pubDate>Fri, 01 Oct 2021 03:00:00 +0000</pubDate><guid>/blog/monthly-2021-09/</guid><description>重要指標 （注）
+担保基準値を割り込んだPledgeの担保資産のみを対象とし、CJPYを1円の保証価格で担保資産と引き換えることができます。</description></item><item><title>2021年9月度 月次財務報告</title><link>/blog/finance/finanials202109/</link><pubDate>Fri, 01 Oct 2021 03:00:00 +0000</pubDate><guid>/blog/finance/finanials202109/</guid><description>重要指標 （注）
 純資産：月末日為替レート（$1＝¥111.92）で換算。 キャッシュフロー：Tx発生時の時価でドルへ換算し、それらを月中平均為替レート（$1＝¥110.17)で換算。 各種データはzapper, zerion, 三菱UFJリサーチ＆コンサルティングより。 貸借対照表 （注）
 資産負債：月末日為替レート（$1＝¥111.92）を乗じて換算。 資本金：寄付イベントフェーズ１で得られた寄付金のみ2021年7月中平均為替レート（$1＝110.31）で換算し、これ以外の2018～2020年に受け取った寄付金については各寄付時の時価に2018~2020年の三年間平均為替レート（$1＝¥108.76）を乗じて換算、2021年9月以降に受け取った寄付金については各寄付時の時価に月中平均為替レートを乗じて換算している。 評価差額金：2017年の$PAY, $ETHでの寄付イベントにて受け取った$9444.91の対価として3080.45TXJPを配布したことから1TXJP=$2.43とし、これを2017年10月から翌年5月の平均為替レート（$1=¥110.10）で換算したものを取得原価換算レート（1TXJP=¥267.54）とみなし、これと当月末時点のレート（1TXJP=¥18107.54）で換算したものの差額を全部純資産直入法で計上。税効果会計は適用しない。 稼働・遊休 資産割合 （注）
 稼働資産：貸借対照表の流動資産にあるLPを合算し算出。 遊休資産：流動資産にあるLPを除く全てを合算したうえで流動負債の総額を差し引き算出。 毎週日曜夜、月末23:59に集計し、集計時為替レートで換算。 初期アロケーション 財務活動 ※以下、本文下線部は該当するTxのURLを埋め込み済。
@@ -1713,7 +1809,7 @@ v1ローンチ時点からのCJPY生成者に対するリワードです。v1.5�
 10% 1億YMT CurveLP用リワード（年次2%ベスティング5年間） CJPYのDEX流動性提供者に対するリワード予算です。配置は時勢に応じて臨機応変です。
 55% 5億5000万YMT 初年度5.5%スタート 年次10%逓減リワード（235年間） メインのユーザーリワードです。CJPY生成者に継続的に割り当てられます。
 10％ 1億YMT フェーズ２以降の投資家用(クリフ2年、3年目解放) シリーズA以降参入の投資家用です。追加の資金調達と生態系の拡大予算となります。
-年次アロケーション 年次10%逓減リワード25年目まで</description></item><item><title>2021年8月度 月次財務報告</title><link>/blog/2021-8/</link><pubDate>Wed, 01 Sep 2021 15:39:00 +0000</pubDate><guid>/blog/2021-8/</guid><description>重要指標 （注）
+年次アロケーション 年次10%逓減リワード25年目まで</description></item><item><title>2021年8月度 月次財務報告</title><link>/blog/finance/2021-8/</link><pubDate>Wed, 01 Sep 2021 15:39:00 +0000</pubDate><guid>/blog/finance/2021-8/</guid><description>重要指標 （注）
 ・純資産：月末日為替レート（$1＝¥109.90）で換算。
 ・グロスバーンレート：キャッシュアウト合計（利息の回収を除く資産運用に係る収支については一時的な収支であるため除外して計算している）
 ・ネットバーンレート：キャッシュフロー合計（利息の回収を除く資産運用に係る収支については一時的な収支であるため除外して計算している）
@@ -1774,7 +1870,7 @@ A ≧ CJPY借入額 → +1.5倍
 合わせて最大6.25倍のブーストとなります。
 Yamato v1では担保率ブーストのみ実装、v1.5にてveYMTブーストが実装されYMTの分配が開始されます。
 veYMTの用途 Yamato v2ではCUSDやCEUR等、CJPY以外のステーブルトークンが生成可能になります。
-それぞれのPledgeは別々に用意され、生成トークン種毎にYMTのファーミング割当の比重を決めるためのveYMT投票が実装されます。</description></item><item><title>2021年7月度 月次財務報告</title><link>/blog/2021-7/</link><pubDate>Sat, 31 Jul 2021 15:39:00 +0000</pubDate><guid>/blog/2021-7/</guid><description>重要指標 （注）
+それぞれのPledgeは別々に用意され、生成トークン種毎にYMTのファーミング割当の比重を決めるためのveYMT投票が実装されます。</description></item><item><title>2021年7月度 月次財務報告</title><link>/blog/finance/2021-7/</link><pubDate>Sat, 31 Jul 2021 15:39:00 +0000</pubDate><guid>/blog/finance/2021-7/</guid><description>重要指標 （注）
 ・純資産：月末日為替レート（$1＝¥109.49）で換算。
 ・グロスバーンレート：キャッシュアウト合計（利息の回収を除く資産運用に係る収支については一時的な収支であるため除外して計算している）
 ・ネットバーンレート：キャッシュフロー合計（利息の回収を除く資産運用及び7月14日の寄付イベントに係る収支については一時的な収支であるため除外して計算している）

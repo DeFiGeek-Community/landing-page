@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>オフィシャルアナウンス on DeFiGeek Community</title><link>/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/</link><description>Recent content in オフィシャルアナウンス on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Wed, 31 Jan 2024 15:00:00 +0000</lastBuildDate><atom:link href="/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>2024年1月度開発活動報告</title><link>/blog/2024-1-1/</link><pubDate>Wed, 31 Jan 2024 15:00:00 +0000</pubDate><guid>/blog/2024-1-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>オフィシャルアナウンス on DeFiGeek Community</title><link>/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/</link><description>Recent content in オフィシャルアナウンス on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Fri, 08 Mar 2024 15:00:00 +0000</lastBuildDate><atom:link href="/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>Yamawake V1 概要</title><link>/blog/yamawake-v1/</link><pubDate>Fri, 08 Mar 2024 15:00:00 +0000</pubDate><guid>/blog/yamawake-v1/</guid><description>概要 Yamawake とはパーミッションレスにバルクオークションの開催、参加が行えるプラットフォームです。
+バルクオークションとは、入札額に応じて入札者全員でオークションへの出品物を分け合う方式のオークションです。
+オークション開催者は、設定項目を入力するだけで、任意のトークンを販売できるノーコードツールとして使用できます。
+オークション入札者は、開催中の任意のオークションに入札ができ、オークション終了後に割合に応じてトークンを取得できます。
+V1 では ERC20 のトークン販売に対して ETH で入札するオークションを開催することができます。
+各種リンクは以下です。
+App https://yamawake.xyz/ Docs https://docs.yamawake.xyz/ GitHub https://github.com/DeFiGeek-Community/yamawake 機能説明 オークション開催 SIWE（Sign In With Ethereum）することでオークションの管理・開催をすることができます。
+以下のパラメータを入力してオークションを開催できます。
+トークンアドレス 販売したいトークンのアドレス 開催日時 終了日時 割当量 販売したいトークンの数量 最低調達額 未達の場合販売がキャンセルされる その他 プロジェクト概要などオークションに必要な情報 最低調達額を満たした場合 入札された ETH を請求することができ、1%が手数料としてプロトコルに徴収され、残りを主催者が取得します。
+最低調達額を満たさなかった場合 割り当てたトークンを回収することができます。
+オークション入札 開催中のオークションに入札することができます。
+入札したオークションの終了時、最低調達額を満たしたかどうかによって請求処理が変わります。</description></item><item><title>Yamato Protocol V1.5 概要</title><link>/blog/yamato-protocol-v1.5/</link><pubDate>Fri, 01 Mar 2024 15:00:00 +0000</pubDate><guid>/blog/yamato-protocol-v1.5/</guid><description>概要 Yamato Protocol は暗号資産過剰担保型ステーブルコイン発行プロトコルです。
+V1.5 では Yamato Protocol のガバナンストークンである Yamato DAO Token（$YMT）の発行および関連するトークン排出・収益分配システムが稼働します。
+更新説明 $YMT 発行 事前に定められたアロケーションに従って $YMT が発行されます。
+アロケーション 総発行数 10 億 YMT（1B YMT）
+5% 5000 万 YMT コミュニティトレジャリー Yamato Protocol に関わる全員が、その発展のために活用することができる準備資金です。
+safe.defigeek.eth にて保管されます。
+5% 5000 万 YMT 初期インベスター（TXJP ホルダー） LP/予備/コミュニティアカウントを除外した TXJP ホルダーへの割当
+指定ブロック時点の保有量割合にて按分して配布されます。
+5% 5000 万 YMT 開発者報酬 ローンチ達成報酬です。
+開発部内で調整して配布されます。
+5% 5000 万 YMT DEX LP（Uniswap v3 YMT-ETH Pool $0.1~$1) 初期流動性をリードします。配置は時勢に応じて臨機応変です。
+5% 5000 万 YMT v1 遡及配布リワード v1 ローンチ時点からの CJPY 生成者に対するリワードです。</description></item><item><title>2024年2月度開発活動報告</title><link>/blog/development/2024-2/</link><pubDate>Thu, 29 Feb 2024 15:00:00 +0000</pubDate><guid>/blog/development/2024-2/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
+本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
+進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
+コア開発 Immunefi へのバウンティ設置を行いました。
+Critical, High の脆弱性について報酬を用意しています。
+https://immunefi.com/bounty/yamatoprotocol/
+各種リソースへのリンクは以下です。
+UI: https://app.yamato.fi/
+DOC: https://docs.yamato.fi/
+Dune: https://dune.com/dfgc/yamato
+Uniswap:(ETH/CJPY) https://app.uniswap.org/#/tokens/ethereum/0x1cfa5641c01406ab8ac350ded7d735ec41298372
+現在 V1.5 の YMT、veYMT 発行に向けた開発を行っています。
+コントラクトの開発は完了したため、ドキュメントをそろえて監査に進みます。
+その他ロードマップなどについてはこちらの記事をご確認ください。
+Interface 開発 以下のような接続環境を用意しています
+app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi テストネットでの追加機能の検証 テストネットは Sepolia ネットワークへ展開済みです。
+今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
+また、フロント構築の技術スタックの変遷に対応するためにリファクタリングを行っています。
+リファクタリング後は WalletConnect v2 の対応やスマホのレスポンシブ表示が可能になる見込みです。
+ドキュメント https://docs.yamato.fi/ にてドキュメントを掲載しています。</description></item><item><title>2024年1月度開発活動報告</title><link>/blog/development/2024-1/</link><pubDate>Wed, 31 Jan 2024 15:00:00 +0000</pubDate><guid>/blog/development/2024-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
@@ -18,7 +60,7 @@ app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi �
 今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
 ドキュメント https://docs.yamato.fi/ にてドキュメントを掲載しています。
 誤字・脱字や不明点があれば改善いたしますのでこちらに書き込みください。
-ー Punodwoɔ ー Punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年12月度開発活動報告</title><link>/blog/2023-12-1/</link><pubDate>Sun, 31 Dec 2023 15:00:00 +0000</pubDate><guid>/blog/2023-12-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+ー Punodwoɔ ー Punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年12月度開発活動報告</title><link>/blog/development/2023-12/</link><pubDate>Sun, 31 Dec 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-12/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
@@ -37,7 +79,7 @@ app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi �
 今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
 ドキュメント https://docs.yamato.fi/ にてドキュメントを掲載しています。
 誤字・脱字や不明点があれば改善いたしますのでこちらに書き込みください。
-ー Punodwoɔ ー Punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年11月度開発活動報告</title><link>/blog/2023-11-1/</link><pubDate>Thu, 30 Nov 2023 15:00:00 +0000</pubDate><guid>/blog/2023-11-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+ー Punodwoɔ ー Punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年11月度開発活動報告</title><link>/blog/development/2023-11/</link><pubDate>Thu, 30 Nov 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-11/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
@@ -56,7 +98,7 @@ app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi �
 今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
 ドキュメント https://docs.yamato.fi/ にてドキュメントを掲載しています。
 誤字・脱字や不明点があれば改善いたしますのでこちらに書き込みください。
-ー Punodwoɔ ー Punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年10月度開発活動報告</title><link>/blog/2023-10-1/</link><pubDate>Tue, 31 Oct 2023 15:00:00 +0000</pubDate><guid>/blog/2023-10-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+ー Punodwoɔ ー Punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年10月度開発活動報告</title><link>/blog/development/2023-10/</link><pubDate>Tue, 31 Oct 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-10/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
@@ -75,7 +117,7 @@ app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi �
 今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
 ドキュメント https://docs.yamato.fi/ にてドキュメントを掲載しています。
 誤字・脱字や不明点があれば改善いたしますのでこちらに書き込みください。
-punodwoɔ（CompoundV3） punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年9月度開発活動報告</title><link>/blog/2023-9-1/</link><pubDate>Sat, 30 Sep 2023 15:00:00 +0000</pubDate><guid>/blog/2023-9-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+punodwoɔ（CompoundV3） punodwoɔ は、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年9月度開発活動報告</title><link>/blog/development/2023-9/</link><pubDate>Sat, 30 Sep 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-9/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
@@ -94,7 +136,7 @@ app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi �
 今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
 ドキュメント https://docs.yamato.fi/ にてドキュメントを掲載しています。
 誤字・脱字や不明点があれば改善いたしますのでこちらに書き込みください。
-CompoundV3 フォーク CompoundV3 フォークは、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年8月度開発活動報告</title><link>/blog/2023-8-1/</link><pubDate>Thu, 31 Aug 2023 15:00:00 +0000</pubDate><guid>/blog/2023-8-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+CompoundV3 フォーク CompoundV3 フォークは、現在コミュニティプールとして利用している Fuse の移行先として CompoundV3 を用いるものです。</description></item><item><title>2023年8月度開発活動報告</title><link>/blog/development/2023-8/</link><pubDate>Thu, 31 Aug 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-8/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
@@ -113,7 +155,7 @@ app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi �
 今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
 ドキュメント https://docs.yamato.fi/ にてドキュメントを掲載しています。
 誤字・脱字や不明点があれば改善いたしますのでこちらに書き込みください。
-ー Yabumi ー Yabumi とは、SNS アカウント証明によるトークン送信プラットフォームです。</description></item><item><title>2023年7月度開発活動報告</title><link>/blog/2023-7-1/</link><pubDate>Mon, 31 Jul 2023 15:00:00 +0000</pubDate><guid>/blog/2023-7-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+ー Yabumi ー Yabumi とは、SNS アカウント証明によるトークン送信プラットフォームです。</description></item><item><title>2023年7月度開発活動報告</title><link>/blog/development/2023-7/</link><pubDate>Mon, 31 Jul 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-7/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー コア開発 1 社目の監査レポートのファイナライズが完了し、公開されました。
@@ -131,7 +173,7 @@ Uniswap:(ETH/CJPY) https://app.uniswap.org/#/tokens/ethereum/0x1cfa5641c01406ab8
 次に V1.5 の YMT、veYMT 発行に向けた調査・開発を行います。
 その他ロードマップなどについてはこちらの記事をご確認ください。
 Interface 開発 以下のような接続環境を用意しています
-app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi テストネットでの追加機能の検証 Goerli および Sepolia ネットワークへ展開済みです。</description></item><item><title>2023年6月度開発活動報告</title><link>/blog/2023-6-1/</link><pubDate>Fri, 30 Jun 2023 15:00:00 +0000</pubDate><guid>/blog/2023-6-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi テストネットでの追加機能の検証 Goerli および Sepolia ネットワークへ展開済みです。</description></item><item><title>2023年6月度開発活動報告</title><link>/blog/development/2023-6/</link><pubDate>Fri, 30 Jun 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-6/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー コア開発 1 社目の監査レポートのファイナライズが完了しました。
@@ -151,7 +193,7 @@ Interface 開発 現在開発環境として用意しているdev-app.yamato.fi�
 dev-app.yamato.fiはメインネットローンチ後、テストネットでの追加機能の検証用インターフェースとして稼働する予定です。
 Goerli および Sepolia ネットワークへ展開済みです。
 現時点で V1 に必要な機能はすべて実装済みで正常に動作することが確認されています。
-今後は V1.</description></item><item><title>2023年5月度開発活動報告</title><link>/blog/2023-5-1/</link><pubDate>Wed, 31 May 2023 15:00:00 +0000</pubDate><guid>/blog/2023-5-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+今後は V1.</description></item><item><title>2023年5月度開発活動報告</title><link>/blog/development/2023-5/</link><pubDate>Wed, 31 May 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-5/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー コア開発 1 社目の監査レポートのファイナライズが完了しました。
@@ -172,7 +214,7 @@ dev-app.yamato.fiはメインネットローンチ後、テストネットでの
 Goerli および Sepolia ネットワークへ展開済みです。
 現時点で V1 に必要な機能はすべて実装済みで正常に動作することが確認されています。
 今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
-ドキュメント 現在GitBook ドキュメントを執筆・仮公開中です。</description></item><item><title>2023年4月度開発活動報告</title><link>/blog/2023-4-1/</link><pubDate>Sun, 30 Apr 2023 15:00:00 +0000</pubDate><guid>/blog/2023-4-1/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+ドキュメント 現在GitBook ドキュメントを執筆・仮公開中です。</description></item><item><title>2023年4月度開発活動報告</title><link>/blog/development/2023-4/</link><pubDate>Sun, 30 Apr 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-4/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー コア開発 1 社目の監査レポートのファイナライズが完了しました。
@@ -193,7 +235,7 @@ dev-app.yamato.fiはメインネットローンチ後、テストネットでの
 Goerli ローンチに伴って Rinkeby 向け設定を Goerli 向け設定に変更しました。
 現時点で V1 に必要な機能はすべて実装済みで正常に動作することが確認されています。
 今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
-ドキュメント 現在GitBook ドキュメントを執筆・仮公開中です。</description></item><item><title>2023年3月度開発活動報告</title><link>/blog/2023-3-1/</link><pubDate>Fri, 31 Mar 2023 15:00:00 +0000</pubDate><guid>/blog/2023-3-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+ドキュメント 現在GitBook ドキュメントを執筆・仮公開中です。</description></item><item><title>2023年3月度開発活動報告</title><link>/blog/development/2023-3/</link><pubDate>Fri, 31 Mar 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-3/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ーYAMATOー コア開発 1社目の監査レポートのファイナライズが完了しました。
@@ -231,7 +273,7 @@ YADORIロゴマークコンペティションにてご意見お待ちしてお�
 上記の仕様をドキュメントにまとめつつ、内容が確定し次第ランディングページを立ち上げます。
 NFTイメージ開発 現在はデザイン部メンバー主導で開発を行っています。
 V1で提供するモデルは
-和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。</description></item><item><title>2023年2月度開発活動報告</title><link>/blog/2023-2-1/</link><pubDate>Tue, 28 Feb 2023 15:00:00 +0000</pubDate><guid>/blog/2023-2-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。</description></item><item><title>2023年2月度開発活動報告</title><link>/blog/development/2023-2/</link><pubDate>Tue, 28 Feb 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-2/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ーYAMATOー コア開発 1社目の監査レポートのファイナライズが完了しました。
@@ -269,7 +311,7 @@ NFTイメージ開発 現在はデザイン部メンバー主導で開発を行�
 V1で提供するモデルは
 和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。
 変化するパラメータの確定とそれに沿ったデザインを作成中です。
-パラメータの指定とそれに沿った画像を出力するモックサイトを開発しています。</description></item><item><title>2023年1月度開発活動報告</title><link>/blog/2023-1-1/</link><pubDate>Tue, 31 Jan 2023 15:00:00 +0000</pubDate><guid>/blog/2023-1-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+パラメータの指定とそれに沿った画像を出力するモックサイトを開発しています。</description></item><item><title>2023年1月度開発活動報告</title><link>/blog/development/2023-1/</link><pubDate>Tue, 31 Jan 2023 15:00:00 +0000</pubDate><guid>/blog/development/2023-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ーYAMATOー コア開発 1社目の監査レポートのファイナライズが完了しました。
@@ -306,7 +348,7 @@ YADORIロゴマークコンペティションにてご意見お待ちしてお�
 上記の仕様をドキュメントにまとめつつ、内容が確定し次第ランディングページを立ち上げます。
 NFTイメージ開発 現在はデザイン部メンバー主導で開発を行っています。
 V1で提供するモデルは
-和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。</description></item><item><title>2022年12月度開発活動報告</title><link>/blog/2022-12-1/</link><pubDate>Sat, 31 Dec 2022 15:00:00 +0000</pubDate><guid>/blog/2022-12-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。</description></item><item><title>2022年12月度開発活動報告</title><link>/blog/development/2022-12/</link><pubDate>Sat, 31 Dec 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-12/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ーYAMATOー コア開発 1社目の監査レポートのファイナライズが完了しました。
@@ -344,7 +386,7 @@ NFTイメージ開発 現在はデザイン部メンバー主導で開発を行�
 V1で提供するモデルは
 和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。
 ブラッシュアップを重ねて、オープンチャンネルでお披露目する予定です。
-楽しみにお待ちください。</description></item><item><title>2022年11月度開発活動報告</title><link>/blog/2022-11-1/</link><pubDate>Wed, 30 Nov 2022 15:00:00 +0000</pubDate><guid>/blog/2022-11-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+楽しみにお待ちください。</description></item><item><title>2022年11月度開発活動報告</title><link>/blog/development/2022-11/</link><pubDate>Wed, 30 Nov 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-11/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ーYAMATOー コア開発 1社目の監査レポートのファイナライズが完了しました。
@@ -382,7 +424,7 @@ NFTイメージ開発 現在はデザイン部メンバー主導で開発を行�
 V1で提供するモデルは
 和（日本からのプロジェクト）を慎ましく主張 クリプト=お祭り感を演出 所有者に寄り添うアンニュイな感情表現 をテーマに作成しています。
 ブラッシュアップを重ねて、オープンチャンネルでお披露目する予定です。
-楽しみにお待ちください。</description></item><item><title>2022年10月度開発活動報告</title><link>/blog/2022-10-1/</link><pubDate>Mon, 31 Oct 2022 15:00:00 +0000</pubDate><guid>/blog/2022-10-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+楽しみにお待ちください。</description></item><item><title>2022年10月度開発活動報告</title><link>/blog/development/2022-10/</link><pubDate>Mon, 31 Oct 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-10/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ーYAMATOー コア開発 1社目の監査レポートのファイナライズが完了しました。
@@ -424,7 +466,7 @@ V1で提供するモデルは
 ロゴコンペティション ネーミングコンペティションに続いてロゴコンペティションを開催します。
 現在1名のデザイナーの方が立候補してくださっており、開発部でロゴとコンセプトシートの素案を練っている段階です。
 公開して内容に合意が取れ次第コンペティションの終了と採用となります。
-進捗・募集状況の詳細についてはDiscordのフォーラムをご確認ください。</description></item><item><title>2022年9月度開発活動報告</title><link>/blog/2022-9/</link><pubDate>Fri, 30 Sep 2022 15:00:00 +0000</pubDate><guid>/blog/2022-9/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+進捗・募集状況の詳細についてはDiscordのフォーラムをご確認ください。</description></item><item><title>2022年9月度開発活動報告</title><link>/blog/development/2022-9/</link><pubDate>Fri, 30 Sep 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-9/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 YAMATO コア開発 1社目の監査レポートのファイナライズが完了しました。
@@ -463,7 +505,7 @@ V1で提供するモデルは
 モデルは複数のクリエイターの方から提供してもらうことによって表現の幅を広げる予定ですので、モデル・キャラクター等をWalletアバターNFTに組み込んでいただける・概要について詳しく知りたいデザイナーの方はコミュニティDiscordのNFT部にてご連絡ください。
 ネーミングコンペティション ネーミングコンペティションの決選投票が終了し、過半数の得票によりWalletアバターNFTの正式名称はYASHIROに決定しました。
 今回は26件の応募がありました。
-応募してくださった皆様、ありがとうございました。</description></item><item><title>2022年8月度開発活動報告</title><link>/blog/2022-8/</link><pubDate>Wed, 31 Aug 2022 15:00:00 +0000</pubDate><guid>/blog/2022-8/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+応募してくださった皆様、ありがとうございました。</description></item><item><title>2022年8月度開発活動報告</title><link>/blog/development/2022-8/</link><pubDate>Wed, 31 Aug 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-8/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 Yamato Protocol Yamato Core V1の動作確認が完了したため、外部チームによる監査へと進みました。
@@ -502,7 +544,7 @@ NFT画像・モデルを制作していただけるイラストレーター・�
 ロゴコンペティション ネーミングコンペティションに続いてロゴコンペティションを開催します。
 デザイン部主導でロゴを完成させる方向で動く予定ですが、ラフやモチーフの提案・議論の参加は歓迎いたします。
 YADORIロゴマークコンペティションにてご意見お待ちしております。
-WalletアバターNFT WalletアバターNFTとは、EOAの状態（ETH保有数、トランザクション発行数など）によって図柄が変化する、EOAのアイデンティティを示すNFTです。</description></item><item><title>2022年7月度開発活動報告</title><link>/blog/2022-7-1/</link><pubDate>Sun, 31 Jul 2022 15:00:00 +0000</pubDate><guid>/blog/2022-7-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+WalletアバターNFT WalletアバターNFTとは、EOAの状態（ETH保有数、トランザクション発行数など）によって図柄が変化する、EOAのアイデンティティを示すNFTです。</description></item><item><title>2022年7月度開発活動報告</title><link>/blog/development/2022-7/</link><pubDate>Sun, 31 Jul 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-7/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 Yamato Protocol Yamato Core V1の動作確認が完了したため、外部チームによる監査へと進みました。
@@ -563,7 +605,7 @@ PledgeとはYamato Protocol における口座のことで、アドレス毎の�
 つまり、手取り量 = 借入量 * (1 - 手数料率) となります。
 満額返済するためには外部からCJPYを調達する必要があります。
 手数料率は以下の通りです
-借入後担保率(%) 手数料率(%) 130 4 150 2 200 1 250 0.85 300 0.</description></item><item><title>2022年6月度開発活動報告</title><link>/blog/2022-6-1/</link><pubDate>Thu, 30 Jun 2022 15:00:00 +0000</pubDate><guid>/blog/2022-6-1/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+借入後担保率(%) 手数料率(%) 130 4 150 2 200 1 250 0.85 300 0.</description></item><item><title>2022年6月度開発活動報告</title><link>/blog/development/2022-6/</link><pubDate>Thu, 30 Jun 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-6/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 Yamato Protocol Yamato Core V1の動作確認が完了したため、外部チームによる監査へと進みました。
@@ -605,7 +647,7 @@ NFTイメージ開発 現在はデザイン部メンバー主導で開発を行�
 ネーミングコンペティション WalletアバターNFTをパッケージ化する際の名称を決めるコンペティションを開催しています。
 現在名称の公募を行っています。
 名称の投稿だけでなく、すでに投稿された名称に対する支持や解釈の提示など各種議論も歓迎いたします。
-こちらからご参加ください。</description></item><item><title>2022年5月度開発活動報告</title><link>/blog/2022-5/</link><pubDate>Tue, 31 May 2022 15:00:00 +0000</pubDate><guid>/blog/2022-5/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+こちらからご参加ください。</description></item><item><title>2022年5月度開発活動報告</title><link>/blog/development/2022-5/</link><pubDate>Tue, 31 May 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-5/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 Yamato Protocol Yamato Core 以下の修正をテストネットコントラクトに反映しました。
@@ -635,7 +677,7 @@ NFTイメージ開発 DFGCから発行するNFTイメージの制作を進めて
 NFT画像・モデルを制作していただけるイラストレーター・デザイナーを募集しています。
 現在2名の方に参画していただいており、デザイン部ロールも付与されました。
 興味を持っていただけましたらコミュニティDiscordのNFT部にて参加表明をお願いします。
-ネーミングコンペティション LoyaltyNFTをパッケージ化する際の名称を決めるコンペティションを開催しました。</description></item><item><title>2022年4月度開発活動報告</title><link>/blog/2022-4/</link><pubDate>Sat, 30 Apr 2022 15:00:00 +0000</pubDate><guid>/blog/2022-4/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+ネーミングコンペティション LoyaltyNFTをパッケージ化する際の名称を決めるコンペティションを開催しました。</description></item><item><title>2022年4月度開発活動報告</title><link>/blog/development/2022-4/</link><pubDate>Sat, 30 Apr 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-4/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 Yamato Protocol Yamato Core 以下の修正をテストネットコントラクトに反映しました。
@@ -662,7 +704,7 @@ PoCの次の段階としてNFT内のポイントとギフトを交換するカ�
 NFTイメージ開発 DFGCから発行するNFTイメージの制作を進めています。
 2D画像ではなく3DCG動画の提供を予定しており、枠の形や質感、主題のバリエーションを策定中です。
 ある程度方向性が固まったら公開チャンネルでお披露目する予定ですので、楽しみにお待ちください。
-NFT画像・モデルを制作していただけるイラストレーター・デザイナーを募集しています。</description></item><item><title>2022年3月度開発活動報告</title><link>/blog/2022-3/</link><pubDate>Sun, 27 Mar 2022 15:00:00 +0000</pubDate><guid>/blog/2022-3/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
+NFT画像・モデルを制作していただけるイラストレーター・デザイナーを募集しています。</description></item><item><title>2022年3月度開発活動報告</title><link>/blog/development/2022-3/</link><pubDate>Sun, 27 Mar 2022 15:00:00 +0000</pubDate><guid>/blog/development/2022-3/</guid><description>はじめに DFGCでは複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 Yamato Protocol 仕様変更 最小担保量を0.1ETHに設定 預け入れ後または引き出し後の担保量が0.1ETH以上であることが要求されます。
