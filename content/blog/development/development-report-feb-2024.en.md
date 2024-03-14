@@ -95,9 +95,7 @@ Yamawake is a no-code platform for fair launch token auctions.
 
 Mainnet launched in Feb 2024.
 
-For more information see the following articles.
-
-[Yamawake V1 overview] (/blog/yamawake-v1)
+For more information see the following article: [Yamawake V1 overview](/blog/yamawake-v1)
 
 Development is underway for V1.5 ve token issuance.
 
