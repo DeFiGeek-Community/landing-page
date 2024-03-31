@@ -1,16 +1,16 @@
 
 +++
 author = ""
-date = 2024-02-29T10:00:00Z
+date = 2024-03-31T10:00:00Z
 excerpt = ""
 image = ""
 image_alt = ""
 layout = "post"
-subtitle = "Feb 2024"
+subtitle = "Mar 2024"
 tags = "財務レポート"
 thumb_image = "/images/blog/ogp-zaimu-report.webp"
 thumb_image_alt = ""
-title = "Feb 2024 financial report"
+title = "Mar 2024 financial report"
 [seo]
 description = ""
 title = ""
@@ -23,7 +23,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Key highlights
 
-![](/images/blog/24024e.png)
+![](/images/blog/24034e.png)
 
 ・Gross Burn Rate: Total cash outflow (expense items: interest expense, relayers fee, labor cost, gas cost, incentives, etc.)\
 ・Net Burn Rate: Total Cash Flow (Gross Burn Rate + Rewards Claimed, interest earned and Airdrop received)\
@@ -37,7 +37,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Balance sheet
 
-![](/images/blog/24021e.png)
+![](/images/blog/24031e.png)
 
 ・Fair value of assets and liabilities: Japanese yen equivalents displayed on Zerion, DeBank, and Zapper\
 ・Paid-in capital 2018, market value of donations received in 2018-2020 are calculated in USD market value at the time of payment & applied average USD/JPY exchange rate for the three years 2018-2020 ($1=108.76Yen).\
@@ -49,19 +49,19 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Protocol Owned Liquidity
 
-![](/images/blog/24026.png)
+![](/images/blog/24037.png)
 
 #
 
 # DAO Treasury health rate
 
-![](/images/blog/24026e.png)
+![](/images/blog/24036e.png)
 
 #
 
 # Income statement
 
-![](/images/blog/24022e.png)
+![](/images/blog/24032e.png)
 
 ・Gas cost in JPY is used the figures displayed in Zerion.\
 ・Other income (Others) consists mostly of LPs ETH increase and revenue recognition of TXJP expenses (both excluding fx gain/loss)\
@@ -71,9 +71,9 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Token holders
 
-![](/images/blog/24023e.png)
+![](/images/blog/24033e.png)
 
-![](/images/blog/24025e.png)
+![](/images/blog/24035e.png)
 
 Balancer V1: 0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f\
 Balancer V2: 0xba12222222228d8ba445958a75a0704d566bf2c8\
