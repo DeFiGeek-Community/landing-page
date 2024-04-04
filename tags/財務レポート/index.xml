@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>財務レポート on DeFiGeek Community</title><link>/tags/%E8%B2%A1%E5%8B%99%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88/</link><description>Recent content in 財務レポート on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Thu, 29 Feb 2024 10:00:00 +0000</lastBuildDate><atom:link href="/tags/%E8%B2%A1%E5%8B%99%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88/index.xml" rel="self" type="application/rss+xml"/><item><title>2024年2月度 月次財務報告</title><link>/blog/finance/2024-2/</link><pubDate>Thu, 29 Feb 2024 10:00:00 +0000</pubDate><guid>/blog/finance/2024-2/</guid><description>重要指標 キャッシュフロー （注）
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>財務レポート on DeFiGeek Community</title><link>/tags/%E8%B2%A1%E5%8B%99%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88/</link><description>Recent content in 財務レポート on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Sun, 31 Mar 2024 10:00:00 +0000</lastBuildDate><atom:link href="/tags/%E8%B2%A1%E5%8B%99%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88/index.xml" rel="self" type="application/rss+xml"/><item><title>2024年3月度 月次財務報告</title><link>/blog/finance/2024-3/</link><pubDate>Sun, 31 Mar 2024 10:00:00 +0000</pubDate><guid>/blog/finance/2024-3/</guid><description>重要指標 キャッシュフロー ※ UniV3 ETH/CJPYのCJPY回収量内訳(元本・手数料)が不明な為キャッシュフローには含めていません。
+（注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産÷ネットバーンレートで算出
@@ -6,7 +7,7 @@
 ・BPS：解散価値÷ユーザー保有トークン数
 ・PBR：トークン価格解散価値倍率
 ・ランウェイ（解散価値）：解散価値÷ネットバーンレート
-・キャッシュフロー：Tx発生時の時価で算出
+・キャッシュフロー：Tx発生時の時価で算出(価格不明のcjpyは1円とする)
 ・各種データはzapper, zerion, DeBank, Etherscan, Dextool, 三菱UFJリサーチ＆コンサルティングより。
 貸借対照表 （注）
 ・資産・負債時価評価： Zerion, DeBank, Zapper表示の日本円換算値を使用
@@ -25,7 +26,7 @@ Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
 ・Balancer V1, V2 および Uniswap V3 のLPはコミュニティトレジャリー (defigeek.eth)が保有。
 ・総発行枚数21万枚TXJPは固定。
 ・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
-財務活動 02/03 fuse USDC admin feeの回収</description></item><item><title>2024年2月度 月次財務報告</title><link>/blog/finance/2024-3/</link><pubDate>Thu, 29 Feb 2024 10:00:00 +0000</pubDate><guid>/blog/finance/2024-3/</guid><description>重要指標 キャッシュフロー （注）
+財務活動 03/01 defigeek→safe.</description></item><item><title>2024年2月度 月次財務報告</title><link>/blog/finance/2024-2/</link><pubDate>Thu, 29 Feb 2024 10:00:00 +0000</pubDate><guid>/blog/finance/2024-2/</guid><description>重要指標 キャッシュフロー （注）
 ・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
 ・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
 ・予測ランウェイ：総純資産÷ネットバーンレートで算出
