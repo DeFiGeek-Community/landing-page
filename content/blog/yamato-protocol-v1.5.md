@@ -103,7 +103,7 @@ CJPY 借入量を基本として、担保率と veYMT 保有割合に応じた�
 以下の比率でブーストされます。
 
 $$
-\text{workingSupply} = \min\left( \text{自債務}, \left( \text{自債務} \times 0.4 \right) + \left( 0.6 \times \frac{\text{総債務} \times \text{自veYMT}}{\text{総veYMT}} \right) \right)
+\text{score} = \min\left( \text{自債務}, \left( \text{自債務} \times 0.4 \right) + \left( 0.6 \times \frac{\text{総債務} \times \text{自veYMT}}{\text{総veYMT}} \right) \right)
 $$
 
 ここで、
@@ -127,6 +127,18 @@ YMT トークンをロックすることで veYMT トークンを保有できま
 
 Yamato 償還によってユーザーから徴収された ETH は veYMT ホルダーに分配されます。\
 分配がトリガーされた時点の veYMT 保有量割合で按分されます。
+
+## アップグレード後のユーザーアクション
+
+アップグレードが完了した後、ユーザーは以下のアクションを行うことが推奨されます。
+
+### ユーザーチェックポイントの実行
+
+v1.5 アップグレード以前に CJPY 借り入れのあるユーザーは ve-interface においてチェックポイントを実行してください。
+
+これは借入額をスコアリング用のコントラクトに記録するもので、ユーザーリワードの計算に利用されます。
+
+それ以外にも、預入・借り入れなど Yamato におけるアクションを実行することでもチェックポイントは実行されます。
 
 ---
 
