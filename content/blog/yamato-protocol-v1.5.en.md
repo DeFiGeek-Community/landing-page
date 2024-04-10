@@ -20,7 +20,6 @@ value = "https://defigeek.xyz/images/blog/yamto_ogp.png"
 
 +++
 
-
 ## Yamato Protocol Upgrades
 
 V1.5 introduces YMT token farming, veYMT and protocol revenue distribution to veYMT holders.
@@ -31,29 +30,28 @@ YMT distribution amount is determined by each user's score. It is calculated by 
 
 #### Collateral ratio
 
-| Ratio(%) |  Factor |
-| --------- | ---- |
-| 250~      | x2.5  |
-| 150~249   | x2.0  |
-| 131~149   | x1.5  |
-| 130       | x1.0  |
-| ~129      | x0.0  |
+| Ratio(%) | Factor |
+| -------- | ------ |
+| 250~     | x2.5   |
+| 150~249  | x2.0   |
+| 131~149  | x1.5   |
+| 130      | x1.0   |
+| ~129     | x0.0   |
 
 #### veYMT
 
-The boost mechanism calculates the earning weight by taking the smaller of two values.  
+The boost mechanism calculates the earning weight by taking the smaller of two values.
 
 Formula:
 
 $$
-\text{workingSupply} = \min\left( \text{Your Debt}, \left( \text{Your Debt} \times 0.4 \right) + \left( 0.6 \times \frac{\text{Total Debt} \times \text{Your veYMT}}{\text{Total veYMT}} \right) \right)
+\text{score} = \min\left( \text{Your Debt}, \left( \text{Your Debt} \times 0.4 \right) + \left( 0.6 \times \frac{\text{Total Debt} \times \text{Your veYMT}}{\text{Total veYMT}} \right) \right)
 $$
 
 - Your Debt: A user's outstanding CJPY borrowing
 - Total Debt: Total outstanding CJPY borrowing
 - Your veYMT: A user's veYMT amount
 - Total veYMT: Total veYMT amount
-
 
 ### YMT token emission
 
@@ -65,7 +63,7 @@ veYMT is issued to those who locked YMT token.
 
 ### ETH distribution
 
-ETH collected from users through Yamato redemptions is distributed to veYMT holders. 
+ETH collected from users through Yamato redemptions is distributed to veYMT holders.
 
 The distribution is made in proportion to the percentage of VEYMT shares held at the time the distribution is triggered.
 
@@ -138,3 +136,15 @@ Year 1\~ Year 25
 Below table shows Users Rewards until 25th year for an illustration purpose. Total Users Rewards will be distributed by the 235th year.
 
 ![](/images/blog/usersrewards.PNG)
+
+### User Action after Upgrade
+
+After the upgrade is completed, users are recommended to take the following actions:
+
+#### Execution of User Checkpoints
+
+Users who have borrowed CJPY prior to the v1.5 upgrade should execute the checkpoint on the ve-interface.
+
+This records the borrowing amount in the scoring contract, which is used for calculating user rewards.
+
+In addition, executing actions such as depositing or borrowing in Yamato will also trigger the checkpoint.
