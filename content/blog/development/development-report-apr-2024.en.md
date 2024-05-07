@@ -73,7 +73,9 @@ Links to resources are below.
 UI: https://app.yamato.fi/  
 DOC: https://docs.yamato.fi/  
 Dune: https://dune.com/dfgc/yamato  
-Uniswap:(ETH/CJPY) https://app.uniswap.org/#/tokens/ethereum/0x1cfa5641c01406ab8ac350ded7d735ec41298372  
+CoinGecko (CJPY): https://www.coingecko.com/en/coins/convertible-jpy-token  
+Curve pool:  https://curve.fi/#/ethereum/pools?search=CJPY  
+Immunefi: https://immunefi.com/bounty/yamatoprotocol/
 
 ## ー Punodwoɔ ー
 
