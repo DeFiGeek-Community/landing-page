@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>オフィシャルアナウンス on DeFiGeek Community</title><link>/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/</link><description>Recent content in オフィシャルアナウンス on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Fri, 31 May 2024 15:00:00 +0000</lastBuildDate><atom:link href="/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>2024年5月度開発活動報告</title><link>/blog/development/2024-5/</link><pubDate>Fri, 31 May 2024 15:00:00 +0000</pubDate><guid>/blog/development/2024-5/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>オフィシャルアナウンス on DeFiGeek Community</title><link>/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/</link><description>Recent content in オフィシャルアナウンス on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Sun, 30 Jun 2024 15:00:00 +0000</lastBuildDate><atom:link href="/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>2024年6月度開発活動報告</title><link>/blog/development/2024-6/</link><pubDate>Sun, 30 Jun 2024 15:00:00 +0000</pubDate><guid>/blog/development/2024-6/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
+本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
+進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
+コア開発 監査について、依頼に関する投票について合意されたため、業者と進行しています。 監査完了後、開発部にて打ち合わせをした後アップグレードを行います。
+開発が完了した V1.5 の YMT、veYMT について、Sepolia テストネットへ展開しました。 app.yamato.fiにてネットワークを切り替えることで利用することができます。
+veYMT の発行やユーザーリワード YMT の請求についてve-interfaceで行うことができます。
+アップグレード前の動作確認にご利用ください。
+v1.5 アップグレード内容についてはこちらの記事をご確認ください。
+その他ロードマップなどについてはこちらの記事をご確認ください。
+Interface 開発 以下のような接続環境を用意しています
+app.yamato.fi 本番メイン icp-app.yamato.fi 本番サブ dev-app.yamato.fi テストネットでの追加機能の検証 テストネットは Sepolia ネットワークへ展開済みです。
+今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
+また、フロント構築の技術スタックの変遷に対応するためにリファクタリングを行っています。
+リファクタリング後は WalletConnect v2 の対応やスマホのレスポンシブ表示が可能になる見込みです。
+ドキュメント https://docs.yamato.fi/ にてドキュメントを掲載しています。
+誤字・脱字や不明点があれば改善いたしますのでこちらに書き込みください。
+リソースリンク UI: https://app.yamato.fi/</description></item><item><title>2024年5月度開発活動報告</title><link>/blog/development/2024-5/</link><pubDate>Fri, 31 May 2024 15:00:00 +0000</pubDate><guid>/blog/development/2024-5/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
