@@ -37,7 +37,7 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Balance sheet
 
-![](/images/blog/24082e.png)
+![](/images/blog/24081e.png)
 
 ・Fair value of assets and liabilities: Japanese yen equivalents displayed on Zerion, DeBank, and Zapper\
 ・Paid-in capital 2018, market value of donations received in 2018-2020 are calculated in USD market value at the time of payment & applied average USD/JPY exchange rate for the three years 2018-2020 ($1=108.76Yen).\
