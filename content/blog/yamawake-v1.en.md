@@ -2,12 +2,12 @@
 author = ""
 date = 2024-03-01T15:00:00Z
 excerpt = ""
-image = "/images/blog/DFGC_logo_banner_black.webp"
+image = "/images/blog/yamawake-lockup-white.png"
 image_alt = ""
 layout = "post"
 subtitle = ""
 tags = "オフィシャルアナウンス"
-thumb_image = "/images/blog/DFGC_logo_banner_black.webp"
+thumb_image = "/images/blog/yamawake-lockup-white.png"
 thumb_image_alt = ""
 title = "Yamawake V1 Overview"
 [seo]
@@ -16,13 +16,13 @@ title = ""
 [[seo.extra]]
 keyName = "property"
 name = "og:image"
-value = "https://defigeek.xyz/images/DFGC_logo_banner.webp"
+value = "https://defigeek.xyz/images/yamawake-lockup-white.png"
 
 +++
 
 # Overview
 
-Yamawake is a permissionless fair auction token launchpad. 
+Yamawake is a permissionless fair auction token launchpad.
 
 Fair auctions are auctions where all bidders share the tokens up for auction according to their bids, so everyone gets the same price. A minimum total raise amount can be set by the seller to secure the outcome and protect against auction failures.
 
@@ -97,4 +97,3 @@ Discord: [http://discord.gg/FQYXqVBEnh](https://docs.defigeek.xyz/ "https://doc
 Twitter: [https://twitter.com/DeFiGeekJapan](https://docs.defigeek.xyz/ "https://docs.defigeek.xyz/")
 
 ---
-

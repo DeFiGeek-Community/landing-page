@@ -2,12 +2,12 @@
 author = ""
 date = 2024-03-08T15:00:00Z
 excerpt = ""
-image = "/images/blog/DFGC_logo_banner_black.webp"
+image = "/images/blog/yamawake-lockup-white.png"
 image_alt = ""
 layout = "post"
 subtitle = ""
 tags = "オフィシャルアナウンス"
-thumb_image = "/images/blog/DFGC_logo_banner_black.webp"
+thumb_image = "/images/blog/yamawake-lockup-white.png"
 thumb_image_alt = ""
 title = "Yamawake V1 概要"
 [seo]
@@ -16,7 +16,7 @@ title = ""
 [[seo.extra]]
 keyName = "property"
 name = "og:image"
-value = "https://defigeek.xyz/images/DFGC_logo_banner.webp"
+value = "https://defigeek.xyz/images/yamawake-lockup-white.png"
 
 +++
 
