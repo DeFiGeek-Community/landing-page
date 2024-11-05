@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on DeFiGeek Community</title><link>/</link><description>Recent content in Home on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Mon, 30 Sep 2024 15:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>2024年9月度開発活動報告</title><link>/blog/development/2024-9/</link><pubDate>Mon, 30 Sep 2024 15:00:00 +0000</pubDate><guid>/blog/development/2024-9/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on DeFiGeek Community</title><link>/</link><description>Recent content in Home on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>2024年10月度 月次財務報告</title><link>/blog/finance/2024-10/</link><pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate><guid>/blog/finance/2024-10/</guid><description>重要指標 キャッシュフロー （注）
+・グロスバーンレート：キャッシュアウト合計（費用科目のみ：リレーヤー費、人件費、ガス代、インセンティブなど）
+・ネットバーンレート：キャッシュフロー合計 （グロスにReward ClaimやAirdropを算入）
+・予測ランウェイ：総純資産÷ネットバーンレートで算出
+・解散価値：純資産からDFGC保有TXJP額（含むLP内）を控除したもの
+・BPS：解散価値÷ユーザー保有トークン数
+・PBR：トークン価格解散価値倍率
+・ランウェイ（解散価値）：解散価値÷ネットバーンレート
+・キャッシュフロー：Tx発生時の時価で算出(価格不明のcjpyは1円とする)
+・各種データはzapper, zerion, DeBank, Etherscan, Dextool, 三菱UFJリサーチ＆コンサルティングより。
+貸借対照表 （注）
+・資産・負債時価評価： Zerion, DeBank, Zapper表示の日本円換算値を使用
+・資本金、2018年寄付は2018～2020年に受け取った寄付金払込時の時価に2018~2020年の三年間平均為替レート（$1＝¥108.76）を乗じて換算
+・資本金、2021年寄付は2021年7月中平均為替レート（$1＝110.31）で換算
+・資本金、2022年寄付は払込日のドル仲値で換算
+・資本金、2024年寄付は払込日の円価で換算
+・評価差額金はDFGC保有のTXJP（含むLP内のTXJP額）及びEcdysis株式（TXJP交換分）
+自己保有流動性内訳 コミュニティファンド 損益計算書 （注）
+・ガス代はZerion円貨換算値を利用
+・営業外収益その他は主に保有中のLiquidity Pool内ETH増額及びTXJP支出によるTXJP収益認識（共に除く為替・仮想通貨影響額）
+・営業外費用その他は主に保有中のLiquidity Pool内ETH減少額及びTXJP Buy&amp;amp;PoolによるETH減少額（共に除く為替・仮想通貨影響額）
+TXJPトークンアロケーション＆ホルダー分布 Balancer V1: 0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f
+Balancer V2: 0xba12222222228d8ba445958a75a0704d566bf2c8
+Uniswap V3: 0xa9166690c35d900a57d2ec132c58291bc0678944
+（注）
+・Balancer V1, V2 および Uniswap V3 のLPはコミュニティトレジャリー (defigeek.eth)が保有。
+・総発行枚数21万枚TXJPは固定。
+・将来の資金調達（シリーズA～C）に係る割当分TXJP計29,500は発行済でsafe.defigeek.ethウォレットで保有中。
+PNDトークンアロケーション＆ホルダー分布 財務活動 10/04 buy&amp;amp;pool原資引き出し</description></item><item><title>2024年9月度開発活動報告</title><link>/blog/development/2024-9/</link><pubDate>Mon, 30 Sep 2024 15:00:00 +0000</pubDate><guid>/blog/development/2024-9/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
