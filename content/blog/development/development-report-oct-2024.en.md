@@ -126,9 +126,11 @@ Development is underway for V1.5 ve token issuance.
 
 Multi-chain support is planned and currently under development. Testing completed for reward sending and receiving using CCIP on the testnet. Once the frontend implementation is finished, it will be deployed to subchains.
 
-### Logo competition
+### Logo
 
-The reaction voting on Discord has been held on [Yamawake Threads](https://discord.com/channels/705052448418693180/1142774753447383101) to decide the official logo.
+After a community vote, the following logo was chosen;
+
+![](/images/blog/yamawake-lockup-white.png)
 
 ## ーYabumiー
 
