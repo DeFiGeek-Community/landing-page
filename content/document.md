@@ -38,7 +38,7 @@ DFGCコミュニティに関する公式ドキュメントです。
 DeFiGeek Communityが開発したDappの公式ドキュメントです。
 | 名称 　| サイトURL | ドキュメントURL |
 |-----------|-----------|-----------|
-| Yamato protocol| https://dev-app.yamato.fi/#/   | https://docs.yamato.fi/|
+| Yamato protocol| https://app.yamato.fi/#/   | https://docs.yamato.fi/|
 | Yabumi   | https://www.yabumi.xyz/ | https://doc.yabumi.xyz/   |
 | punodwoɔ   | https://pnd.defigeek.xyz/ | https://defigeek.gitbook.io/punodwo-document   |
 | Yamawake   | https://yamawake.xyz/ | https://docs.yamawake.xyz/   |
