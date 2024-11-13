@@ -23,25 +23,25 @@ sections:
         image_alt: dapps
         content: >-
           DFGCは複数のDappを開発・構想しています。 第一弾はJPYにペッグした暗号資産担保型ステーブルコイン生成Dappの Yamato Protocol です。
-#        actions:
-#          - label: Learn More
-#            url: /features
-#            style: secondary
-#            has_icon: true
-#            icon: arrow-right
-#            icon_position: right
+        actions:
+          - label: Learn More
+            url: /product
+            style: secondary
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
       - title: DAO：自律分散型コミュニティ
         image: images/feature-dao.webp
         image_alt: dao
         content: >-
           DFGCはDAO （自律分散型組織）を目指しています。フラットで持続可能な集団となるべく、役割分担とその流動性を高め、権限の排除に努めており、各メンバーの主体性とリーダーシップを歓迎しています。例えば、コミュニティの合意形成の確認として投票を日頃から行っています。
-#        actions:
-#          - label: Learn More
-#            url: /features
-#            style: secondary
-#            has_icon: true
-#            icon: arrow-right
-#            icon_position: right
+        actions:
+          - label: Learn More
+            url: https://docs.defigeek.xyz/
+            style: secondary
+            has_icon: ture
+            icon: arrow-right
+            icon_position: right
       - title: DeFiサポート
         image: images/feature-defi-support.png
         image_alt: support

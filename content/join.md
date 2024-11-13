@@ -31,13 +31,17 @@ seo:
       value: summary
 layout: page
 ---
+## DFGCコミュニティについて
+- DFGC概要はこちら　 [DFGCコミュニティ](https://docs.defigeek.xyz/)
+- DFGCのガバナンストークン「TXJP」の詳細はこちら　[TXJP](/txjp)
 
+## 募集
 DeFiGeek Communityでは様々な分野でのコントリビュータを求めています。  
 以下は一例でこれに限りません。 DeFi Dapp開発と成功には多様なスキルと人材が必要です。
 
 ### 開発者
 - スマートコントラクト開発
-  - Solidyエンジニア - https://gov.defigeek.xyz/t/topic/98
+  - Solidyエンジニア
   - ATPなど形式手法を用いたプログラムの検証
 - Web3フロントエンド開発
   - Cypressなどを用いたE2Eテスト
