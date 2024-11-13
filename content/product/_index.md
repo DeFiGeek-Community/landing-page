@@ -29,7 +29,7 @@ ETHを担保にしてCJPY（日本円等価コイン）を借りることがで�
 2024.11.12時点では、CJPYのみ借りることができますが、順次他のステーブルコイン（CUSD,CEURなど）も発行予定です。
 #### URL
   - Yamato Protocolサービスサイトはこちら　 [Yamato Protocol](https://app.yamato.fi/#/)
-  - Yamato Protocolの公式ドキュメントはこちら　[Yamato Prtocol公式ドキュメント](/https://docs.yamato.fi/)
+  - Yamato Protocolの公式ドキュメントはこちら　[Yamato Prtocol公式ドキュメント](https://docs.yamato.fi/)
 #### ユーティリティトークン
 [YMT（Yamato DAO Token）](https://doc.yabumi.xyz/readme/yabumi-dao-token)：未発行
 
