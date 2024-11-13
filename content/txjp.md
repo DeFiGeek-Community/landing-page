@@ -49,6 +49,9 @@ layout: page
 3. TXJPはコミュニティファンドの運用方法等に関する議決権を表します。
     - 運用方針や方策等、重要な決定事項はTXJPトークンによる投票にて決定されます。
     - 例えば、DeFiプロジェクトのシード投資等へ参加します。個人では参加できない投資分野へ露出できます。
+4. TXJPの保有者統計はこちらから  
+http://dashboard.defigeek.xyz/
+
 
 
 ### ファンド運用と還元について
@@ -78,12 +81,14 @@ layout: page
 
 また、以下の公開市場でも入手することができます。
 
- - [Uniswap](https://app.uniswap.org/#/)
- - [Balancer](https://app.balancer.fi/#/)
- - [1inchExchange](https://app.1inch.io/#/)
+ - [Uniswap](https://app.uniswap.org/#/)から購入
 
-トークン選択画面でTXJPコントラクトアドレス（0x961dd84059505d59f82ce4fb87d3c09bec65301d）を入力することで表示されます。
+トークン選択画面で「TXJP」と入力するか、  
+TXJPコントラクトアドレス（[0x961dd84059505d59f82ce4fb87d3c09bec65301d](https://etherscan.io/token/0x961dd84059505d59f82ce4fb87d3c09bec65301d)
+）を入力することで表示されます。  
 
+### 2021年7月14日に終了したTXJPのIAO結果（525.99ETHの寄付）
 
+![](https://cdn.discordapp.com/attachments/846536335993208882/864853722973732944/ebca61e3a113ab43.png?ex=67354b8b&is=6733fa0b&hm=7a5bd5ca2fb2e8687ff902a023f47fd700cb63d123099101f7b817bfbf6d7169& "TXJPIAO結果")
 
-Latest Update 2021.11.06
+Latest Update 2024.11.12
