@@ -14,7 +14,7 @@
                 "url": "/about"
             },
             {
-                "label": "ブログ",
+                "label": "ニュースリリース",
                 "label_en": "Blog",
                 "url": "/blog"
             },
@@ -26,7 +26,7 @@
             {
                 "label": "ドキュメント",
                 "label_en": "Docs",
-                "url": "https://docs.defigeek.xyz/"
+                "url": "/document"
             },
             {
                 "label": "参加する",
@@ -72,7 +72,7 @@
                     {
                         "label": "ドキュメント",
                         "label_en": "Docs",
-                        "url": "https://docs.defigeek.xyz/"
+                        "url": "/document"
                     },
                     {
                         "label": "メディアキット",
@@ -131,14 +131,9 @@
                         "url": "https://snapshot.org/#/defigeek.eth",
                         "has_icon": false
                     },
+
                     {
-                        "label": "フォーラム",
-                        "label_en": "Discussion",
-                        "url": "https://gov.defigeek.xyz/#/",
-                        "has_icon": false
-                    },
-                    {
-                        "label": "TXJP",
+                        "label": "TXJPについて",
                         "label_en": "TXJP",
                         "url": "/txjp",
                         "has_icon": false
