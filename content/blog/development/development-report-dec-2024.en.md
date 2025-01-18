@@ -121,11 +121,9 @@ Mainnet launched in Feb 2024.
 
 For more information see the following article: [Yamawake V1 overview](/en/blog/yamawake-v1)
 
-We deployed Yamawake on the Base chain and conducting the IAO (Initial Asset Offering) of $DFGC in compliance with the Token Launch Standard on the Base chain.
+We deployed Yamawake on the Base chain and conducted the IAO (Initial Asset Offering) of $DFGC in compliance with the Token Launch Standard on the Base chain. Thank you to everyone who participated in the first auction, which was successfully completed and raised ETH1,756 from 25 participants.
 
 Development is underway for V1.5 ve token issuance.
-
-Multi-chain support is planned and currently under development. Testing completed for reward sending and receiving using CCIP on the testnet. Once the frontend implementation is finished, it will be deployed to subchains.
 
 ### Logo
 
