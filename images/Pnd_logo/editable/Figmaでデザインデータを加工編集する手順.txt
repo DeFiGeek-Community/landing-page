@@ -1,0 +1,10 @@
+
+【Figmaでデザインデータを加工編集する手順】
+
+・.figファイルをFigmaにインポートします
+　インポートする方法は以下のリンクを参考にしてください
+　https://wentz-design.com/post/figma-how-to-save-local-file/
+
+・加工したいデザインのグループ化を解除する
+
+・デザインを編集します

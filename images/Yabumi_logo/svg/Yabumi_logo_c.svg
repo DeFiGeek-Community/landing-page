@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient gradientTransform="matrix(12.4896 0 0 12.4896 -5196.85 -1467.35)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="470.351" x2="452.21" y1="143.864" y2="163.724">
+<stop offset="0" stop-color="#ffc9c9"/>
+<stop offset="1" stop-color="#f05054"/>
+</linearGradient>
+</defs>
+<g id="レイヤー-1" vectornator:layerName="レイヤー 1">
+<path d="M912 512C912 732.914 732.914 912 512 912C291.086 912 112 732.914 112 512C112 291.086 291.086 112 512 112C732.914 112 912 291.086 912 512Z" fill="#ffa7aa" fill-rule="nonzero" opacity="1" stroke="none" vectornator:layerName="circle"/>
+<path d="M862.099 475.833C862.099 649.847 721.033 790.913 547.02 790.913C373.006 790.913 231.94 649.847 231.94 475.833C231.94 301.819 373.006 160.754 547.02 160.754C721.033 160.754 862.099 301.819 862.099 475.833Z" fill="#ffebeb" fill-rule="nonzero" opacity="1" stroke="none" vectornator:layerName="circle"/>
+<path d="M810.352 439.666C810.352 565.76 708.133 667.979 582.039 667.979C455.945 667.979 353.726 565.76 353.726 439.666C353.726 313.573 455.945 211.354 582.039 211.354C708.133 211.354 810.352 313.573 810.352 439.666Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="none" vectornator:layerName="circle"/>
+<path d="M678.658 328.604L596.205 354.36L447.509 400.809L483.377 505.4L318.951 544.083L462.143 569.702L508.12 703.551L524.675 540.226L636.621 560.23L678.658 328.604Z" fill="url(#LinearGradient)" fill-rule="nonzero" opacity="1" stroke="none"/>
+</g>
+</svg>
