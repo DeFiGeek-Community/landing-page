@@ -5,7 +5,7 @@
       {{ if $section.image }}
       <div class="cell block-preview">
         <!-- Remove the image and replace it with the CoWSwap widget -->
-        <div id="cow-widget"></div>
+        <div id="cow-widget" class="block-widget"></div>
       </div>
       {{ end }}
       <div class="cell block-content">
@@ -29,73 +29,56 @@
 <!-- Add the CoWSwap Widget Script -->
 <script src="https://cdn.jsdelivr.net/npm/@cowprotocol/widget-lib@latest/index.iife.js"></script>
 <script>
-  
-  function deepFreeze(obj) {
-    const propNames = Object.getOwnPropertyNames(obj);
-    for (const name of propNames) {
-      const value = obj[name];
-      if (value && typeof value === "object" && !Object.isFrozen(value)) {
-        deepFreeze(value);
-      }
-    }
-    return Object.freeze(obj);
-  }
-  
-  const params = deepFreeze({
-    "appCode": "Cow Widget",
-    "width": "100%",
-    "height": "640px",
-    "chainId": 1,
-    "tradeType": "swap",
-    "sell": {
-      "asset": "CJPY",
-      "amount": "10000"
-    },
-    "buy": {
-      "asset": "TXJP",
-      "amount": "0"
-    },
-    "enabledTradeTypes": ["swap", "limit"],
-    "theme": "dark",
-    "standaloneMode": true,
-    "disableToastMessages": true,
-    "disableProgressBar": true,
-    "hideBridgeInfo": true,
-    "hideOrdersTable": true,
-    "customTokens": [
-      {
-        "chainId": 1,
-        "address": "0x961dd84059505d59f82ce4fb87d3c09bec65301d",
-        "name": "TXJP",
-        "decimals": 8,
-        "symbol": "TXJP",
-        "logoURI": "https://defigeek.xyz/images/txjp_logo200.png"
+  const params = {
+      "appCode": "Cow Widget",
+      "width": "100%",
+      "height": "640px",
+      "chainId": 1,
+      "tradeType": "swap",
+      "sell": {
+          "asset": "CJPY",
+          "amount": "10000"
       },
-      {
-        "chainId": 1,
-        "address": "0x1cfa5641c01406ab8ac350ded7d735ec41298372",
-        "name": "Convertible JPY Token",
-        "decimals": 18,
-        "symbol": "CJPY",
-        "logoURI": "https://assets.coingecko.com/coins/images/31356/standard/CJPY_logo.png"
+      "buy": {
+          "asset": "TXJP",
+          "amount": "0"
       },
-      {
-        "chainId": 1,
-        "address": "0x5FFF1443Cb859E17e9a6786f7e24c369F22FD002",
-        "name": "pnd DAO Token",
-        "decimals": 18,
-        "symbol": "PND",
-        "logoURI": "https://raw.githubusercontent.com/DeFiGeek-Community/landing-page/refs/heads/main/static/images/Pnd_logo/punodwo%C9%94-App-icon/png/punodwo%C9%94-App-icon-64%C3%9764.png"
-      }
-    ],
-    "partnerFee": {
-      "bps": 10,
-      "recipient": "0x153d9dd730083e53615610a0d2f6f95ab5a0bc01"
-    }
-  });
+      "enabledTradeTypes": ["swap", "limit"],
+      "theme": "dark",
+      "standaloneMode": true,
+      "disableToastMessages": true,
+      "disableProgressBar": true,
+      "hideBridgeInfo": true,
+      "hideOrdersTable": true,
+      "customTokens": [
+          {
+              "chainId": 1,
+              "address": "0x961dd84059505d59f82ce4fb87d3c09bec65301d",
+              "name": "TXJP",
+              "decimals": 8,
+              "symbol": "TXJP",
+              "logoURI": "https://defigeek.xyz/images/txjp_logo200.png"
+          },
+          {
+              "chainId": 1,
+              "address": "0x1cfa5641c01406ab8ac350ded7d735ec41298372",
+              "name": "Convertible JPY Token",
+              "decimals": 18,
+              "symbol": "CJPY",
+              "logoURI": "https://assets.coingecko.com/coins/images/31356/standard/CJPY_logo.png"
+          },
+          {
+              "chainId": 1,
+              "address": "0x5FFF1443Cb859E17e9a6786f7e24c369F22FD002",
+              "name": "pnd DAO Token",
+              "decimals": 18,
+              "symbol": "PND",
+              "logoURI": "https://raw.githubusercontent.com/DeFiGeek-Community/landing-page/refs/heads/main/static/images/Pnd_logo/punodwo%C9%94-App-icon/png/punodwo%C9%94-App-icon-64%C3%9764.png"
+          }
+      ]
+  };
 
-  document.addEventListener("DOMContentLoaded", function () {
-    console.log("params:", JSON.stringify(params));
-    cowSwapWidget.createCowSwapWidget(document.getElementById("cow-widget"), { params });
+  document.addEventListener("DOMContentLoaded", function() {
+      cowSwapWidget.createCowSwapWidget(document.getElementById("cow-widget"), { params });
   });
 </script>
