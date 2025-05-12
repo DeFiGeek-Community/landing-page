@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>オフィシャルアナウンス on DeFiGeek Community</title><link>/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/</link><description>Recent content in オフィシャルアナウンス on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Mon, 31 Mar 2025 15:00:00 +0000</lastBuildDate><atom:link href="/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年3月度開発活動報告</title><link>/blog/development/2025-3/</link><pubDate>Mon, 31 Mar 2025 15:00:00 +0000</pubDate><guid>/blog/development/2025-3/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>オフィシャルアナウンス on DeFiGeek Community</title><link>/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/</link><description>Recent content in オフィシャルアナウンス on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Wed, 30 Apr 2025 15:00:00 +0000</lastBuildDate><atom:link href="/tags/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年4月度開発活動報告</title><link>/blog/development/2025-4/</link><pubDate>Wed, 30 Apr 2025 15:00:00 +0000</pubDate><guid>/blog/development/2025-4/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
+本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
+進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
+コア開発 開発が完了した V1.5 の YMT、veYMT について、メインネットへ展開の準備が完了しました。
+初期リワード割当などの準備が整い次第ユーザー向けにインターフェースが展開されます。
+v1.5 アップグレード内容についてはこちらの記事をご確認ください。
+その他ロードマップなどについてはこちらの記事をご確認ください。
+初期リワード Yamato 運用開始時からブロック 22301335 までを初期リワード対象とし、借入量・担保率に基づいたスコアから各ユーザーごとの割当量を計算しています。
+リワード対象者の皆様におかれましては
+https://github.com/DeFiGeek-Community/yamato/blob/v1.5/scripts/events/extractedEvents.json 自身のアドレスを検索し、抽出されたイベントに過不足がないか https://github.com/DeFiGeek-Community/yamato/blob/v1.5/scripts/events/Yamato_v1_distributions.csv スコアを基にした割当量に問題がないか をご確認ください。
+上記の割当について問題がないことを確認したのち、ve インターフェースを展開します。
+初期リワードは一年間線形べスティングとなります。
+請求は任意のタイミングで行うことができます。
+Interface 開発 以下の接続環境を用意しています
+app.yamato.fi 本番メイン dev-app.yamato.fi テストネットでの追加機能の検証 テストネットは Sepolia ネットワークへ展開済みです。
+今後は V1.5、V2 のための開発を進行する予定ですが、改善要望があれば検討いたします。
+また、フロント構築の技術スタックの変遷に対応するためにリファクタリングを行っています。
+リファクタリング後は WalletConnect v2 の対応やスマホのレスポンシブ表示が可能になる見込みです。</description></item><item><title>2025年3月度開発活動報告</title><link>/blog/development/2025-3/</link><pubDate>Mon, 31 Mar 2025 15:00:00 +0000</pubDate><guid>/blog/development/2025-3/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
 これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
 本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
 進捗報告 ー 全般 ー ホスティング Yamato, Punodwoɔ に利用していたホスティングサイトの仕様変更に伴い、Yabumi 等で利用している AWS にホスティングを移管しました。
