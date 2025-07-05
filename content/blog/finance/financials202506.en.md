@@ -23,7 +23,13 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 
 # Key highlights
 
-![](/images/blog/25061e.png)
+| CCE                | Borrowing capacity   | Liquidation Value | Spark liquidation price |
+|--------------------|----------------------|-------------------|-------------------------|
+|         ¥9,396,399 |          ¥45,509,342 |       ¥72,924,291 |                   $1121 |
+
+| Circulating Supply | Circulating Supply % | BPS(liq value)    | PBR(liq value)          |
+|--------------------|----------------------|-------------------|-------------------------|
+|         57,215TXJP |               27.25% |            ¥1,275 |                  x 3.31 |
 
 ・Liquidating value: Total Equity minus DFGC's TXJP holdings (including TXJP in LPs).\
 ・BPS: Liquidating Value divided by the number of tokens held by users(circulating supply).\
