@@ -31,6 +31,11 @@ value = "https://defigeek.xyz/images/blog/ogp-zaimu-report.webp"
 |--------------------|----------------------|-------------------|-------------------------|
 |         57,215TXJP |               27.25% |            ¥1,275 |                  x 3.31 |
 
+
+### Expense  
+ETH gas refund　¥11,057  
+Monthly Payroll ¥2,940,911
+
 ・Liquidating value: Total Equity minus DFGC's TXJP holdings (including TXJP in LPs).\
 ・BPS: Liquidating Value divided by the number of tokens held by users(circulating supply).\
 ・PBR：Multiple of token price to BPS(liq value)\
