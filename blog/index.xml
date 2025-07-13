@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ニュースリリース on DeFiGeek Community</title><link>/blog/</link><description>Recent content in ニュースリリース on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年6月度 月次財務報告</title><link>/blog/finance/2025-6/</link><pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate><guid>/blog/finance/2025-6/</guid><description>重要指標 手元流動性資金 Spark借入余力 解散価値 Spark清算価格 ¥9,396,399 ¥45,509,342 ¥72,924,291 $1121 浮動トークン 浮動トークン割合 BPS(解散価値) PBR(解散価値) 57,215TXJP 27.25% ¥1,275 x 3.31 支出 ガスリファンド　¥11,057
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ニュースリリース on DeFiGeek Community</title><link>/blog/</link><description>Recent content in ニュースリリース on DeFiGeek Community</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Mon, 30 Jun 2025 15:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年6月度開発活動報告</title><link>/blog/development/2025-6/</link><pubDate>Mon, 30 Jun 2025 15:00:00 +0000</pubDate><guid>/blog/development/2025-6/</guid><description>はじめに DFGC では複数のプロジェクトを進行させています。
+これらのアイデア・ソースの盗用を防ぐために開発をステルスで行っていますが、進捗が一般のメンバーに共有されづらいという問題があります。
+本活動報告の目的は、このようなクリプトプロジェクト特有の課題について透明性を高めることで、メンバーの参加・貢献に寄与することです。
+進捗報告 ー YAMATO ー Yamato Protocol は ETH を担保に日本円ペグコインを発行できるプロトコルです。
+コア開発 開発が完了した V1.5 の YMT、veYMT について、メインネットへの展開が完了しました。
+初期リワード割当も確定し、V1.5 インターフェースが展開されています。
+v1.5 アップグレード内容についてはこちらの記事をご確認ください。
+その他ロードマップなどについてはこちらの記事をご確認ください。
+初期リワード Yamato 運用開始時からブロック 22301335 までを初期リワード対象とし、借入量・担保率に基づいたスコアから各ユーザーごとの割当量を計算しています。
+https://github.com/DeFiGeek-Community/yamato/blob/v1.5/scripts/events/Yamato_v1_distributions.csv
+上記の値でリワードを確定しました。
+請求はV1.5 インターフェースからおこなうことができます。
+初期リワードは一年間線形べスティングとなります。
+請求は任意のタイミングで行うことができます。
+チェックポイント V1.5 の借入額に応じた$YMT リワード配布の開始は「2025/07/25 12:00」です。
+それ以降のリワードスコアは Yamato コントラクトに対する借入等のアクションによって記録されます。
+それに先んじて、スコア記録専用のチェックポイント関数を用意しています。\
+チェックポイントまたは Yamato に対してのアクションを行わない場合スコアが記録されません。
+チェックポイントは V1.5 インターフェースから行うことができます。
+忘れないうちに行うことを推奨します。
+Interface 開発 以下の接続環境を用意しています
+app.yamato.fi 本番メイン dev-app.yamato.fi テストネットでの追加機能の検証 テストネットは Sepolia ネットワークへ展開済みです。</description></item><item><title>2025年6月度 月次財務報告</title><link>/blog/finance/2025-6/</link><pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate><guid>/blog/finance/2025-6/</guid><description>重要指標 手元流動性資金 Spark借入余力 解散価値 Spark清算価格 ¥9,396,399 ¥45,509,342 ¥72,924,291 $1121 浮動トークン 浮動トークン割合 BPS(解散価値) PBR(解散価値) 57,215TXJP 27.25% ¥1,275 x 3.31 支出 ガスリファンド　¥11,057
 月次報酬 ¥2,940,911
 （注）
 ・手元流動性資金：現金及び預金からその他項目を控除したもの
