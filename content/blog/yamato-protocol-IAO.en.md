@@ -26,8 +26,44 @@ We are pleased to announce the Initial Auction Offering (IAO) of Yamato DAO Toke
 
 🗓 July 25, 2025 (Fri), 8:00 AM – August 23, 2025 (Sat), 8:00 PM (JST)
 
+## Initial Auction Offering (IAO) 
 
-# Overview
+The IAO will be held on the Yamawake auction platform: https://yamawake.xyz/auctions/1/0x32247cf9b61b7f2b68022bfd6f02e2df4afa12c1
+
+* Bid currency: ETH  
+* Minimum bid: 0.001 ETH per bid  
+* Auction target: Minimum 60 ETH and target 500 ETH (No upper cap)  
+
+⚠ Important Notes:
+
+You can place multiple bids, but bids cannot be canceled once submitted.
+
+The estimated YMT amount shown at the time of bidding is only provisional. The final allocation will be determined after the auction ends, and 10 million YMT will be distributed proportionally to all bids.
+
+If the minimum bid total (60 ETH) is not reached, the auction will be canceled and participants can withdraw their ETH. (Gas fees apply when withdrawing.)
+
+
+## Participation Guide
+For detailed information about Yamawake, how to place bids, and how to claim YMWK, please refer to:
+ https://docs.yamawake.xyz/english-3/readme/yzgaido/kushon-1/kushonno/worettono
+
+
+## Use of Funds
+The ETH raised from the auction will be used to bootstrap liquidity on DEXs, and the final auction price will serve as the initial market price.
+
+1/3 of the ETH will be used to purchase TXJP in order to establish a Curve pool either 
+* CJPY / TXJP / YMT or 
+* CUSD / TXJP / YMT
+
+The remaining 2/3 of ETH will be used to:
+
+* Borrow CUSD via Yamato or punodwoɔ
+* Purchase crvUSD
+* Deploy a crvUSD / CUSD liquidity pool
+
+A CEUR pool will be deployed at a later stage.
+
+# Yamato Overview
 
 ## What is Yamato Protocol?
 Yamato Protocol is a permissionless stablecoin CDP that allows anyone to freely issue and borrow CJPY, a Japanese yen-pegged stablecoin, by collateralizing ETH.
@@ -83,66 +119,16 @@ Token Contract: https://etherscan.io/address/0x0f4fc7d24f28c4373097733aae53f0025
 Maxi Supply: 1 billion YMT (1,000,000,000 YMT)
 
 * 5% (50 million YMT): Development team compensation
-
 * 5% (50 million YMT): Allocation to TXJP holders
-
 * 5% (50 million YMT): DEX LP and Yamawake auction allocation
-
 * 5% (50 million YMT): Community treasury (budget for long-term development support)
-
 * 5% (50 million YMT): Initial user rewards (v1 user rewards, 1-year vesting)
-
 * 10% (100 million YMT): Rewards for Curve LPs (both direct and indirect)
-
 * 10% (100 million YMT): Reserved for investors in Phase 2 and beyond
-
 * 55% (550 million YMT): Long-term user rewards
 
 ![](/images/blog/allocation-1.PNG)
 
-## Initial Auction Offering (IAO) 
-The IAO will be held on the Yamawake auction platform.
-
-Period:
-July 25, 2025 (Fri) 8:00 AM – August 23, 2025 (Sat) 8:00 PM (JST)
-
-Auction page: https://yamawake.xyz/auctions/1/0x32247cf9b61b7f2b68022bfd6f02e2df4afa12c1
-
-Bid currency: ETH
-
-Minimum bid: 0.001 ETH per bid
-
-Total bid target: Minimum 60 ETH and Goal 500 ETH (No upper cap)
-
-⚠ Important Notes:
-
-You can place multiple bids, but bids cannot be canceled once submitted.
-
-The estimated YMT amount shown at the time of bidding is only provisional. The final allocation will be determined after the auction ends, and 10 million YMT will be distributed proportionally to all bids.
-
-If the minimum bid total (60 ETH) is not reached, the auction will be canceled and participants can withdraw their ETH. (Gas fees apply when withdrawing.)
-
-
-## Participation Guide
-For detailed information about Yamawake, how to place bids, and how to claim YMWK, please refer to:
- https://docs.yamawake.xyz/english-3/readme/yzgaido/kushon-1/kushonno/worettono
-
-## Use of Funds
-The ETH raised from the auction will be used to bootstrap liquidity on DEXs, and the final auction price will serve as the initial market price.
-
-1/3 of the ETH will be used to purchase TXJP in order to establish a Curve pool either 
-* CJPY / TXJP / YMT or 
-* CUSD / TXJP / YMT
-
-The remaining 2/3 of ETH will be used to:
-
-* Borrow CUSD via Yamato or punodwoɔ
-
-* Purchase crvUSD
-
-* Deploy a crvUSD / CUSD liquidity pool
-
-A CEUR pool will be deployed at a later stage.
 
 ## Disclaimer
 This IAO is a charity-style public auction that distributes 10 million YMT through a shared bidding process. The acquisition price of YMT is not fixed and will depend entirely on the final bidding results.
