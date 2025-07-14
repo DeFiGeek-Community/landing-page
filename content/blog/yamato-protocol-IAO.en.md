@@ -79,7 +79,7 @@ CUSD (pegged to the U.S. dollar)
 CEUR (pegged to the Euro)
 
 Official site:
-👉 https://app.yamato.fi/#/
+👉 https://app.yamato.fi/#/?lang=en
 
 ## Peg Mechanism
 Soft Peg: 1 CJPY = 1 JPY
@@ -95,7 +95,7 @@ When CJPY > 1 JPY:
 Arbitrage opportunities arise as users borrow CJPY at 1 JPY and sell it for a profit.
 
 Full documentation:
-👉 https://docs.yamato.fi/
+👉 https://docs.yamato.fi/en
 
 ## YMT Token
 Yamato DAO Token (ticker: YMT) is a token primarily earned by borrowing CJPY through the Yamato Protocol.
