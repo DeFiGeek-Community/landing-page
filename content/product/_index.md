@@ -67,9 +67,9 @@ DFGCのガバナンストークンである「[TXJP](/txjp)」を担保にETHな
 # 4.Yamawake
 パーミッションレスに（管理者の許可なく）トークンオークションの開催、参加が行えるDappです。  
 V1ではバルクオークション形式に対応しており、今後様々なオークション形式が追加される予定です。  
-DFGCプロダクトの各DappのトークンのIAOは、このYmawakeを使って実施していきます。
+DFGCプロダクトの各DappのトークンのIAOは、このYamawakeを使って実施していきます。
 #### URL
-  - punodwoɔサービスサイトはこちら　 [punodwoɔ](https://pnd.defigeek.xyz/)
-  - punodwoɔの公式ドキュメントはこちら　[punodwoɔ公式ドキュメント](https://defigeek.gitbook.io/punodwo-document)
+  - Yamawakeサービスサイトはこちら　 [Yamawake](https://yamawake.xyz/)
+  - Yamawakeの公式ドキュメントはこちら　[Yamawake公式ドキュメント](https://docs.yamawake.xyz/)
 #### ユーティリティトークン
 [YMWK(Yamawake DAO Token)](https://docs.yamawake.xyz/readme/ymwk-yamawake-dao-token)：未発行
